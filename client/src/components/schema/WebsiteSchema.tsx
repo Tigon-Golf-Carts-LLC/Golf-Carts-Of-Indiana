@@ -23,7 +23,7 @@ export default function WebsiteSchema({
         "name": "Monroe County Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png",
+          "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
           "width": 400,
           "height": 400
         }

@@ -176,7 +176,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
         description={metaDescription}
         keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Monroe County golf cart rental, electric golf cart rental ${municipality.name}`}
         canonicalUrl={`https://monroegolfcarts.com/rentals/${municipality.slug}`}
-        ogImage="https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
+        ogImage="https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}

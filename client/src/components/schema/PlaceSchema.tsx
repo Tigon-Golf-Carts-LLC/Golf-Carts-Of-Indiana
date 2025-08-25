@@ -64,7 +64,7 @@ export default function PlaceSchema({
       }),
       "image": {
         "@type": "ImageObject",
-        "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
+        "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       }
     };
     

@@ -605,7 +605,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Always include main company image */}
       <ImageObjectSchema
-        url="/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
+        url="/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
         name="Monroe County Golf Carts Logo"
         description="Monroe County Golf Carts company logo featuring professional golf cart branding"
         width={400}
@@ -685,7 +685,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             uploadDate="2024-12-01"
             publisher={{
               name: "Lackawanna County Golf Carts",
-              logo: "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
+              logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
             }}
           /> */}
         </>

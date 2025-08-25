@@ -35,7 +35,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="@assets/Monroe County Golf Carts (1)_1756140783974.png" 
+                src="@assets/Monroe County Golf Carts (1)_1756141613254.png" 
                 alt="Monroe County Golf Carts Logo" 
                 className="h-16 w-16"
               />
