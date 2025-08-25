@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import logoImage from "@assets/Monroe County Golf Carts (1)_1756141613254.png";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -35,7 +36,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-4">
             <div className="rounded-lg">
               <img 
-                src="@assets/Monroe County Golf Carts (1)_1756141613254.png" 
+                src={logoImage} 
                 alt="Monroe County Golf Carts Logo" 
                 className="h-20 w-20"
               />
