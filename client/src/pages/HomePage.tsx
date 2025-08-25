@@ -10,7 +10,7 @@ import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES, type Municipality } from "@/data/newLackawannaCountyMunicipalities";
+import { NEW_MONROE_COUNTY_MUNICIPALITIES, type Municipality } from "@/data/newMonroeCountyMunicipalities";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function HomePage() {
@@ -24,31 +24,31 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Lackawanna County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania"
-        description="Discover premium electric golf carts from Denago and Evolution at Lackawanna County Golf Carts. Expert sales, service, rentals, and financing throughout Lackawanna County, PA."
-        keywords="golf carts Lackawanna County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
-        canonicalUrl="https://lackawannagolfcarts.com/"
+        title="Monroe County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania"
+        description="Discover premium electric golf carts from Denago and Evolution at Monroe County Golf Carts. Expert sales, service, rentals, and financing throughout Monroe County, PA."
+        keywords="golf carts Monroe County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
+        canonicalUrl="https://monroegolfcarts.com/"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Lackawanna County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania",
-          description: "Discover premium electric golf carts from Denago and Evolution at Lackawanna County Golf Carts. Expert sales, service, rentals, and financing throughout Lackawanna County, PA.",
-          url: "https://lackawannagolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://lackawannagolfcarts.com/" }],
+          title: "Monroe County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania",
+          description: "Discover premium electric golf carts from Denago and Evolution at Monroe County Golf Carts. Expert sales, service, rentals, and financing throughout Monroe County, PA.",
+          url: "https://monroegolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://monroegolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Lackawanna County Golf Carts helped me find the perfect cart for my needs.",
+              reviewBody: "Excellent service and quality golf carts. The team at Monroe County Golf Carts helped me find the perfect cart for my needs.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
             },
             {
               author: "Maria Garcia",
-              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Lackawanna County.",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Monroe County.",
               reviewRating: 5,
               datePublished: "2025-01-20",
               headline: "Professional and affordable"
@@ -69,11 +69,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Lackawanna County Golf Carts - Premier Pennsylvania Dealership
+                Monroe County Golf Carts - Premier Pennsylvania Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving all 39 Lackawanna County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions. 
-                Serving Lackawanna County, and all surrounding towns, townships, and Pennsylvania communities in Lackawanna County.
+                Serving all 39 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions. 
+                Serving Monroe County, and all surrounding towns, townships, and Pennsylvania communities in Monroe County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -103,7 +103,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Lackawanna County Golf Carts?
+            Why Choose Monroe County Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -158,7 +158,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Lackawanna County Golf Carts - Top Golf Cart and LSV Brands
+            Monroe County Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -338,7 +338,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
-                About Lackawanna County Golf Carts
+                About Monroe County Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
                 With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Luzerne County and surrounding Pennsylvania areas.
@@ -379,18 +379,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Lackawanna County Municipalities Section */}
+      {/* Monroe County Municipalities Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Lackawanna County Municipality
+            Golf Carts for Every Monroe County Municipality
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             Professional golf cart services delivered to your city, borough, or township
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Complete Lackawanna County Municipality List - dynamically generated */}
-            {NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.map((municipality: Municipality) => (
+            {/* Complete Monroe County Municipality List - dynamically generated */}
+            {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality) => (
               <Link 
                 key={municipality.slug} 
                 href={municipality.url} 
@@ -404,7 +404,7 @@ export default function HomePage() {
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all {NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.length} Lackawanna County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
+            Serving all {NEW_MONROE_COUNTY_MUNICIPALITIES.length} Monroe County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
           </p>
         </div>
       </section>
@@ -444,7 +444,7 @@ export default function HomePage() {
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout Lackawanna County</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout Monroe County</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
               <Link href="/contact">

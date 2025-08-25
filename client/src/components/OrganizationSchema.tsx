@@ -9,25 +9,25 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Lackawanna County Golf Carts",
-      "description": "Premier golf cart dealership in Lackawanna County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
-      "url": "https://lackawannagolfcarts.com",
-      "logo": "https://lackawannagolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
-      "image": "https://lackawannagolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+      "name": "Monroe County Golf Carts",
+      "description": "Premier golf cart dealership in Monroe County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+      "url": "https://monroegolfcarts.com",
+      "logo": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
+      "image": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
-      "email": "info@lackawannagolfcarts.com",
+      "email": "info@monroegolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Jim Thorpe",
+        "addressLocality": "Stroudsburg",
         "addressRegion": "PA",
-        "postalCode": "18229",
+        "postalCode": "18360",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "40.8751",
-        "longitude": "-75.7321"
+        "latitude": "41.0548",
+        "longitude": "-75.1932"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "AdministrativeArea",
-        "name": "Lackawanna County, Pennsylvania"
+        "name": "Monroe County, Pennsylvania"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -99,9 +99,9 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "worstRating": "1"
       },
       "sameAs": [
-        "https://www.facebook.com/montcogolfcarts",
-        "https://www.instagram.com/montcogolfcarts",
-        "https://www.linkedin.com/company/montcogolfcarts"
+        "https://www.facebook.com/monroegolfcarts",
+        "https://www.instagram.com/monroegolfcarts",
+        "https://www.linkedin.com/company/monroegolfcarts"
       ]
     };
 
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Lehigh County Golf Carts"
+          "name": "Monroe County Golf Carts"
         }
       } as any;
     }

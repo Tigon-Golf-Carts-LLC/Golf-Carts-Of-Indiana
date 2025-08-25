@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "luc
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES } from "@/data/newLackawannaCountyMunicipalities";
+import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
 
 export default function ShowroomPage() {
   const locations = [
@@ -52,10 +52,10 @@ export default function ShowroomPage() {
   return (
     <>
       <SEOHead 
-        title="Lackawanna County Golf Carts Showrooms | TIGON Golf Cart Sales PA"
-        description="Visit our TIGON Golf Carts showrooms serving Lackawanna County PA. Complete DENAGO and EVOLUTION golf cart lineup with expert service across all 19 municipalities."
-        keywords="Lackawanna County golf carts, TIGON golf carts showroom, golf cart dealership Pennsylvania, DENAGO EVOLUTION Lackawanna County, Scranton golf carts"
-        canonicalUrl="https://lackawannagolfcarts.com/showroom"
+        title="Monroe County Golf Carts Showrooms | TIGON Golf Cart Sales PA"
+        description="Visit our TIGON Golf Carts showrooms serving Monroe County PA. Complete DENAGO and EVOLUTION golf cart lineup with expert service across all 20 municipalities."
+        keywords="Monroe County golf carts, TIGON golf carts showroom, golf cart dealership Pennsylvania, DENAGO EVOLUTION Monroe County"
+        canonicalUrl="https://monroegolfcarts.com/showroom"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
         ogType="website"
       />
@@ -64,11 +64,11 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Lackawanna County Golf Carts LSV Showrooms
+            Monroe County Golf Carts LSV Showrooms
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Pennsylvania. 
-            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Lackawanna County.
+            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -248,11 +248,11 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Areas We Serve</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout all 19 Lackawanna County municipalities and surrounding Pennsylvania areas
+            We proudly serve customers throughout all 19 Monroe County municipalities and surrounding Pennsylvania areas
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-700">
-            {NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.map((municipality, index) => (
+            {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality, index) => (
               <Link key={index} href={municipality.url}>
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-200 hover:border-theme-orange">
                   <div className="font-medium text-theme-primary hover:text-theme-orange transition-colors">

@@ -48,29 +48,29 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://lackawannagolfcarts.com" },
-    { name: "Inventory", url: "https://lackawannagolfcarts.com/inventory" }
+    { name: "Home", url: "https://monroegolfcarts.com" },
+    { name: "Inventory", url: "https://monroegolfcarts.com/inventory" }
   ];
 
   return (
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Golf Cart Inventory - Lackawanna County Golf Carts | New Electric Golf Carts PA"
-        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Lackawanna County, Pennsylvania with expert service."
-        keywords="golf cart inventory Lackawanna County PA, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, new golf carts Pennsylvania"
-        canonicalUrl="https://lackawannagolfcarts.com/inventory"
+        title="Golf Cart Inventory - Monroe County Golf Carts | New Electric Golf Carts PA"
+        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Monroe County, Pennsylvania with expert service."
+        keywords="golf cart inventory Monroe County PA, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, new golf carts Pennsylvania"
+        canonicalUrl="https://monroegolfcarts.com/inventory"
       />
       <AllSchemas 
         pageType="inventory" 
         pageData={{
-          title: "Golf Cart Inventory - Lackawanna County Golf Carts",
-          description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Lackawanna County, Pennsylvania with expert service.",
-          url: "https://lackawannagolfcarts.com/inventory",
+          title: "Golf Cart Inventory - Monroe County Golf Carts",
+          description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Monroe County, Pennsylvania with expert service.",
+          url: "https://monroegolfcarts.com/inventory",
           breadcrumbs: breadcrumbItems,
           collectionItems: vehicles?.map(vehicle => ({
             name: vehicle.name,
-            url: `https://lackawannagolfcarts.com/vehicle/${vehicle.id}`,
+            url: `https://monroegolfcarts.com/vehicle/${vehicle.id}`,
             description: `${vehicle.brand} ${vehicle.name} electric golf cart`,
             image: vehicle.images[0]
           })) || [],

@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES } from "@/data/newLackawannaCountyMunicipalities";
+import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
-              Lackawanna County's premier golf cart dealership serving customers across 
+              Monroe County's premier golf cart dealership serving customers across 
               the region with quality carts and expert service.
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="md:hidden">
             <div className="space-y-2">
               <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-              <p className="text-gray-600 text-sm">Email: info@LackawannaGolfCarts.com</p>
+              <p className="text-gray-600 text-sm">Email: info@MonroeGolfCarts.com</p>
               <div className="text-gray-600 text-sm">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
@@ -126,7 +126,7 @@ export default function Footer() {
               </ul>
               <div className="space-y-2">
                 <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-                <p className="text-gray-600 text-sm">Email: info@LackawannaGolfCarts.com</p>
+                <p className="text-gray-600 text-sm">Email: info@MonroeGolfCarts.com</p>
                 <div className="text-gray-600 text-sm">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
@@ -140,10 +140,10 @@ export default function Footer() {
         {/* Towns Served - Lackawanna County */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Lackawanna County Locations We Serve
+            Monroe County Locations We Serve
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
-            {NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.map((municipality) => (
+            {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality) => (
               <Link 
                 key={municipality.slug}
                 href={municipality.url} 
@@ -159,12 +159,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Lackawanna County Golf Carts. All rights reserved. | 
+              © 2025 Monroe County Golf Carts. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Lackawanna County Golf Carts - Serving Lackawanna County locations with premium golf carts and exceptional service.
+              Monroe County Golf Carts - Serving Monroe County locations with premium golf carts and exceptional service.
             </div>
           </div>
         </div>

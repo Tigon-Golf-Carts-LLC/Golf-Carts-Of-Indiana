@@ -1,4 +1,4 @@
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES } from "@/data/newLackawannaCountyMunicipalities";
+import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
 import { Link } from "wouter";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -12,16 +12,16 @@ interface NewLackawannaCountyMunicipalityRentalPageProps {
 }
 
 export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: NewLackawannaCountyMunicipalityRentalPageProps) {
-  const municipality = NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.find(m => m.slug === municipalitySlug);
+  const municipality = NEW_MONROE_COUNTY_MUNICIPALITIES.find(m => m.slug === municipalitySlug);
   
   if (!municipality) {
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `Golf Cart Rentals in ${municipality.name} ${municipality.type} | Lackawanna County Golf Carts`;
-  const metaDescription = `Rent electric golf carts in ${municipality.name}, Lackawanna County, PA. Daily, weekly & monthly rates. Street-legal carts with professional delivery service. Reserve today!`;
+  const pageTitle = `Golf Cart Rentals in ${municipality.name} ${municipality.type} | Monroe County Golf Carts`;
+  const metaDescription = `Rent electric golf carts in ${municipality.name}, Monroe County, PA. Daily, weekly & monthly rates. Street-legal carts with professional delivery service. Reserve today!`;
 
-  // Google Maps embed URL for the specific municipality in Lackawanna County
+  // Google Maps embed URL for the specific municipality in Monroe County
   const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-75.6649!3d41.4993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Lackawanna%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   // Why Choose Our Golf Cart Rentals Features
@@ -174,9 +174,9 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
       <SEOHead 
         title={pageTitle}
         description={metaDescription}
-        keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Lackawanna County golf cart rental, electric golf cart rental ${municipality.name}`}
-        canonicalUrl={`https://lackawannagolfcarts.com/rentals/${municipality.slug}`}
-        ogImage="https://lackawannagolfcarts.com/assets/lackawanna-county-golf-carts-logo.png"
+        keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Monroe County golf cart rental, electric golf cart rental ${municipality.name}`}
+        canonicalUrl={`https://monroegolfcarts.com/rentals/${municipality.slug}`}
+        ogImage="https://monroegolfcarts.com/assets/lackawanna-county-golf-carts-logo.png"
       />
 
       {/* Hero Section */}
@@ -190,7 +190,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               Golf Cart Rentals in {municipality.name}
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
-              Rent premium electric golf carts in {municipality.name} {municipality.type}, Lackawanna County. 
+              Rent premium electric golf carts in {municipality.name} {municipality.type}, Monroe County. 
               Daily, weekly, and monthly rental options available with professional delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -240,7 +240,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               Golf Cart Rental Pricing for {municipality.name}
             </h2>
             <p className="text-xl text-gray-600">
-              Flexible rental options to meet your needs in {municipality.name} {municipality.type}, Lackawanna County.
+              Flexible rental options to meet your needs in {municipality.name} {municipality.type}, Monroe County.
             </p>
           </div>
 
@@ -310,7 +310,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 We provide professional delivery and pickup service throughout {municipality.name} {municipality.type}, 
-                Lackawanna County. Our rental golf carts are street-legal, fully charged, and ready for immediate use.
+                Monroe County. Our rental golf carts are street-legal, fully charged, and ready for immediate use.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center">
@@ -376,7 +376,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
             Ready to Rent in {municipality.name}?
           </h2>
           <p className="text-xl text-gray-100 mb-8">
-            Contact Lackawanna County Golf Carts today to reserve your rental golf cart 
+            Contact Monroe County Golf Carts today to reserve your rental golf cart 
             for delivery to {municipality.name} {municipality.type}.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -391,7 +391,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               <CardContent className="p-6 text-center">
                 <MapPin className="h-8 w-8 text-theme-orange mx-auto mb-4" />
                 <h3 className="font-semibold mb-2">Delivery to</h3>
-                <p className="text-sm">{municipality.name} {municipality.type}<br />Lackawanna County, PA</p>
+                <p className="text-sm">{municipality.name} {municipality.type}<br />Monroe County, PA</p>
               </CardContent>
             </Card>
             <Card className="bg-white text-gray-900 border-0">

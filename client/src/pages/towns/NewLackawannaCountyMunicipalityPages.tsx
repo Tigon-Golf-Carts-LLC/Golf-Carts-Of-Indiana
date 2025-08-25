@@ -1,4 +1,4 @@
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES } from "@/data/newLackawannaCountyMunicipalities";
+import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
 import { Link } from "wouter";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -14,7 +14,7 @@ interface NewLackawannaCountyMunicipalityPageProps {
 }
 
 export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLackawannaCountyMunicipalityPageProps) {
-  const municipality = NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.find(m => m.slug === municipalitySlug);
+  const municipality = NEW_MONROE_COUNTY_MUNICIPALITIES.find(m => m.slug === municipalitySlug);
   
   // Fetch featured vehicles for the section
   const { data: vehicles = [] } = useQuery({

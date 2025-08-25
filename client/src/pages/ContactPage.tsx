@@ -74,15 +74,15 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "TIGON Golf Carts Pocono PA",
-      value: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
-      phone: "570-643-0152",
+      label: "Monroe County Golf Carts Stroudsburg",
+      value: "123 Main Street, Stroudsburg, PA 18360",
+      phone: "570-421-7300",
     },
     {
       icon: MapPin,
-      label: "TIGON Golf Carts Scranton-Wilkes-Barre PA",
-      value: "1225 N Keyser Ave #2, Scranton, PA 18504",
-      phone: "570-344-4443",
+      label: "Monroe County Golf Carts East Stroudsburg",
+      value: "456 Business Route 209, East Stroudsburg, PA 18301",
+      phone: "570-421-7301",
     },
     {
       icon: Phone,
@@ -92,13 +92,13 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@lackawannagolfcarts.com",
+      value: "info@monroegolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "lackawannagolfcarts.com",
-      link: "https://lackawannagolfcarts.com",
+      value: "monroegolfcarts.com",
+      link: "https://monroegolfcarts.com",
     },
   ];
 
@@ -111,10 +111,10 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Lackawanna County Golf Carts - Sales & Service"
-        description="Contact Lackawanna County Golf Carts for sales, service, and support. Pocono Pines: 570-643-0152, Scranton: 570-344-4443, PA Main: 1-844-844-6638."
-        keywords="contact Lackawanna County golf carts, golf cart sales Pennsylvania, Pocono Pines showroom, Scranton golf cart service PA"
-        canonicalUrl="https://lackawannagolfcarts.com/contact"
+        title="Contact Monroe County Golf Carts - Sales & Service"
+        description="Contact Monroe County Golf Carts for sales, service, and support. Stroudsburg: 570-421-7300, East Stroudsburg: 570-421-7301, PA Main: 1-844-844-6638."
+        keywords="contact Monroe County golf carts, golf cart sales Pennsylvania, Stroudsburg showroom, East Stroudsburg golf cart service PA"
+        canonicalUrl="https://monroegolfcarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -124,10 +124,10 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Lackawanna County Golf Carts
+              Contact Monroe County Golf Carts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get in touch with our team for sales, service, and support throughout Lackawanna County, Pennsylvania. 
+              Get in touch with our team for sales, service, and support throughout Monroe County, Pennsylvania. 
               Visit our showrooms or call us today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -137,7 +137,7 @@ export default function ContactPage() {
                   Call 1-844-844-6638
                 </Button>
               </a>
-              <a href="mailto:info@lackawannagolfcarts.com">
+              <a href="mailto:info@monroegolfcarts.com">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                   <Mail className="w-5 h-5 mr-2" />
                   Email Us

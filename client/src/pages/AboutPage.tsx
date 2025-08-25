@@ -30,11 +30,11 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2008", event: "Lackawanna County Golf Carts founded in Scranton" },
+    { year: "2008", event: "Monroe County Golf Carts founded in Stroudsburg" },
     { year: "2010", event: "Became authorized EVOLUTION dealer" },
-    { year: "2013", event: "Expanded to serve all Lackawanna County municipalities" },
+    { year: "2013", event: "Expanded to serve all Monroe County municipalities" },
     { year: "2016", event: "Added DENAGO to our brand portfolio" },
-    { year: "2019", event: "Opened service center in Dunmore" },
+    { year: "2019", event: "Opened service center in East Stroudsburg" },
     { year: "2024", event: "Reached 750+ satisfied customers across Pennsylvania" }
   ];
 
@@ -42,20 +42,20 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Lackawanna County Golf Carts - Premier Golf Cart Dealership Since 2008"
-        description="Learn about Lackawanna County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Lackawanna County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://lackawannagolfcarts.com/about"
+        title="About Monroe County Golf Carts - Premier Golf Cart Dealership Since 2008"
+        description="Learn about Monroe County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service."
+        keywords="about Monroe County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
+        canonicalUrl="https://monroegolfcarts.com/about"
       />
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Lackawanna County Golf Carts",
-          description: "Learn about Lackawanna County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
-          url: "https://lackawannagolfcarts.com/about",
+          title: "About Monroe County Golf Carts",
+          description: "Learn about Monroe County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
+          url: "https://monroegolfcarts.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://lackawannagolfcarts.com/" },
-            { name: "About", url: "https://lackawannagolfcarts.com/about" }
+            { name: "Home", url: "https://monroegolfcarts.com/" },
+            { name: "About", url: "https://monroegolfcarts.com/about" }
           ],
           people: [
             {
@@ -84,12 +84,12 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Lackawanna County Golf Carts
+            About Monroe County Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Since 2008, we've been Lackawanna County's premier destination for premium golf carts, 
-            exceptional service, and unmatched customer care. Serving all 39 municipalities 
-            across northeastern Pennsylvania with pride and professionalism.
+            Since 2008, we've been Monroe County's premier destination for premium golf carts, 
+            exceptional service, and unmatched customer care. Serving all 20 municipalities 
+            across the Pocono Mountains region of Pennsylvania with pride and professionalism.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -109,22 +109,22 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2008 in Lackawanna County, Pennsylvania, Lackawanna County Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout northeastern Pennsylvania.
+                Founded in 2008 in Monroe County, Pennsylvania, Monroe County Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region of Pennsylvania.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Lackawanna County is home to the vibrant city of Scranton, along with thriving communities like 
-                Dunmore, Carbondale, and Clarks Summit. Our location in the heart of northeastern Pennsylvania drives our commitment to excellence 
+                Monroe County is home to the vibrant boroughs of Stroudsburg and East Stroudsburg, along with thriving communities like 
+                Mount Pocono, Delaware Water Gap, and the scenic Pocono townships. Our location in the heart of the Pocono Mountains drives our commitment to excellence 
                 and serves the outdoor recreation and residential communities throughout the area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our county is known for its rich history and scenic beauty, home to numerous parks and thriving 
+                Our county is known for its breathtaking natural beauty and outdoor recreation, home to numerous resorts, lakes and thriving 
                 business communities. This tradition of excellence continues in our approach to golf cart sales and service, where we 
                 combine cutting-edge technology with personalized customer care.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Today, we're proud to serve the diverse communities across Lackawanna County's 39 municipalities, from Scranton 
-                to Carbondale, from Dunmore to Archbald, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
+                Today, we're proud to serve the diverse communities across Monroe County's 20 municipalities, from Stroudsburg 
+                to East Stroudsburg, from Mount Pocono to Tobyhanna, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services
@@ -142,7 +142,7 @@ export default function AboutPage() {
                     <div className="text-gray-700">Years Experience</div>
                   </div>
                   <div>
-                    <div className="text-4xl font-bold text-theme-orange mb-2">39</div>
+                    <div className="text-4xl font-bold text-theme-orange mb-2">20</div>
                     <div className="text-gray-700">Municipalities Served</div>
                   </div>
                   <div>
@@ -256,24 +256,24 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Luzerne County</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Monroe County</h2>
               <p className="text-lg text-gray-600 mb-6">
-                From our locations serving Luzerne County and beyond, we proudly serve customers throughout 
+                From our locations serving Monroe County and beyond, we proudly serve customers throughout 
                 the Pocono Mountains region. Our commitment to quality service extends across our 
                 entire service area with multiple convenient locations.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Lackawanna County Golf Carts - Jim Thorpe</span>
+                  <span className="text-gray-700 font-medium">Monroe County Golf Carts - Stroudsburg</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Lackawanna County Golf Carts - Lehighton</span>
+                  <span className="text-gray-700 font-medium">Monroe County Golf Carts - East Stroudsburg</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Lackawanna County Golf Carts - Palmerton</span>
+                  <span className="text-gray-700 font-medium">Monroe County Golf Carts - Mount Pocono</span>
                 </div>
               </div>
               <div className="flex items-center gap-4 mb-6">
@@ -294,20 +294,19 @@ export default function AboutPage() {
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Luzerne County, PA Map"
+                title="Monroe County, PA Map"
               />
             </div>
           </div>
 
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Luzerne County Municipalities We Serve</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Monroe County Municipalities We Serve</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
-                "Banks Township", "Beaver Meadows", "Bowmanstown", "East Side", "Hauto", "Jim Thorpe",
-                "Lansford", "Lehighton", "Nesquehoning", "New Ringgold", "Palmerton", "Parryville",
-                "Penn Forest Township", "Summit Hill", "Tresckow", "Weatherly", "Weissport", "Andreas",
-                "Ashfield", "Christmans", "Hickory Run", "Lake Harmony", "Penn Lake Park", "White Haven"
+                "Barrett Township", "Chestnuthill Township", "Coolbaugh Township", "Delaware Water Gap", "East Stroudsburg", "Eldred Township",
+                "Hamilton Township", "Jackson Township", "Middle Smithfield Township", "Mount Pocono", "Paradise Township", "Pocono Township",
+                "Polk Township", "Price Township", "Ross Township", "Smithfield Township", "Stroud Township", "Stroudsburg", "Tobyhanna Township", "Tunkhannock Township"
               ].map((town, index) => (
                 <div key={index} className="py-1">
                   {town}
@@ -325,7 +324,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Lackawanna County Golf Carts difference in the Pocono Mountains
+            Experience the Monroe County Golf Carts difference in the Pocono Mountains
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

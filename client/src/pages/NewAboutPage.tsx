@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES, type Municipality } from "../data/newLackawannaCountyMunicipalities";
+import { NEW_MONROE_COUNTY_MUNICIPALITIES, type Municipality } from "../data/newMonroeCountyMunicipalities";
 import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
@@ -14,7 +14,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing Luzerne County with the best golf cart experience."
+      description: "Passionate about providing Monroe County with the best golf cart experience."
     },
     {
       name: "Sarah Martinez",
@@ -50,7 +50,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve Luzerne County with personalized, community-focused service."
+      description: "Proud to serve Monroe County with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -62,10 +62,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Lackawanna County Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Lackawanna County Golf Carts, Pennsylvania's trusted golf cart dealer serving all municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Luzerne County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
-        canonicalUrl="https://lackawannagolfcarts.com/about"
+        title="About Monroe County Golf Carts - Your Premier Golf Cart Dealer"
+        description="Learn about Monroe County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 20 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Monroe County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
+        canonicalUrl="https://monroegolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -75,12 +75,12 @@ export default function NewAboutPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={getHeroBackgroundStyle("about")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Lackawanna County Golf Carts
+              About Monroe County Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
-              Since 2010, we've been Luzerne County's premier destination for premium golf carts, 
-              exceptional service, and unmatched customer care. Serving all municipalities 
-              across eastern Pennsylvania with pride and professionalism.
+              Since 2010, we've been Monroe County's premier destination for premium golf carts, 
+              exceptional service, and unmatched customer care. Serving all 20 municipalities 
+              across the Pocono Mountains region with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -105,24 +105,24 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010 in Lackawanna County, Pennsylvania, Lackawanna County Golf Carts began with a simple mission: 
-                    to provide high-quality golf carts and exceptional service to customers throughout eastern Pennsylvania's 
-                    most vibrant and historic county.
+                    Founded in 2010 in Monroe County, Pennsylvania, Monroe County Golf Carts began with a simple mission: 
+                    to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region's 
+                    most beautiful and recreational county.
                   </p>
                   <p>
-                    Luzerne County stands as one of Pennsylvania's most dynamic and diverse regions, encompassing 
-                    everything from the bustling city of Allentown to the charming borough of Emmaus, from the 
-                    scenic rolling hills of Upper Macungie to the family-friendly communities of Coopersburg and Macungie.
+                    Monroe County stands as one of Pennsylvania's most scenic and recreational regions, encompassing 
+                    everything from the vibrant borough of Stroudsburg to the charming Delaware Water Gap, from the 
+                    beautiful Pocono Mountains to the family-friendly communities throughout our 20 municipalities.
                   </p>
                   <p>
-                    Our county holds a special place in American history as part of the Pennsylvania Dutch region and 
-                    home to the Lehigh Valley's rich industrial heritage. Today, Luzerne County is equally 
-                    renowned for its championship golf courses, beautiful residential communities, and thriving businesses that appreciate 
+                    Our county holds a special place in American recreation as the heart of the Pocono Mountains region and 
+                    home to some of Pennsylvania's most beautiful natural landscapes. Today, Monroe County is equally 
+                    renowned for its world-class golf courses, resort communities, and outdoor recreation that attracts visitors who appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
-                    With Allentown's revitalized downtown district, proximity to major highways including I-78 and Route 222, 
-                    and some of Eastern Pennsylvania's most beautiful suburban communities, Luzerne County attracts residents who 
+                    With Stroudsburg's historic downtown district, proximity to major highways including I-80 and Route 611, 
+                    and some of Pennsylvania's most beautiful resort communities, Monroe County attracts residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
@@ -277,7 +277,7 @@ export default function NewAboutPage() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-center mb-6">Complete Lackawanna County Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
-                {NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.map((municipality: Municipality, index: number) => (
+                {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality, index: number) => (
                   <div key={index} className="text-center py-2">
                     <Link href={municipality.url}>
                       <span className="text-theme-orange font-medium hover:text-orange-600 cursor-pointer transition-colors">
