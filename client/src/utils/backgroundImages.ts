@@ -1,15 +1,15 @@
-// Background image utility for Lackawanna County Golf Carts
-// Uses the 8 professional showroom images featuring the modern Lackawanna County Golf Carts dealership
+// Background image utility for Monroe County Golf Carts
+// Uses the 8 professional showroom images featuring the modern Monroe County Golf Carts dealership
 
 const BACKGROUND_IMAGES = [
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_4zG-0v0fRsSU5AxGt_cEfA_A0HlJrJtSJOlpyerLK2j5Q_1753965748393.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_2JQB2acORFWnp-bjmYY6KA_A0HlJrJtSJOlpyerLK2j5Q_1753965748394.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_cQsH1m3hS0-MskPK4BH5uA_dd9V3Dg-RV6rpmQtK0Rk9Q_1753965748394.png',
-  '/attached_assets/a-photograph-of-a-bright-modern-golf-car_k6d1akbXTKGGRWNW8z_PMQ_AyrHJH6wRZCkACMihvwG_w_1753965748395.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_LEm17UaYQ7uOREk6gVlJJw_AyrHJH6wRZCkACMihvwG_w_1753965748395.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_3MYLyVtKRoeeHx8zidhSqA_AyrHJH6wRZCkACMihvwG_w_1753965748395.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ilITEs4rRxizuRFcFZ3D6Q_Gx4bPyKKR9SOEEUw1DrCyg_1753965748396.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_KIRVRedJQByy93qCY4cIKg_Gx4bPyKKR9SOEEUw1DrCyg_1753965748396.png'
+  '/attached_assets/a-photograph-of-a-friendly-young-woman-s_vxGUqvxjTKqX67SqAuIYoQ_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
+  '/attached_assets/a-photograph-of-a-bright-and-modern-golf_pF3v8kw8Q_CCFrRRipQyig_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
+  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_gMwZuNW8SpiOsfQ6mcoCCg_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
+  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_fmehWSauQrinHDrywbR60g_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
+  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_kA-1uaPYQxue-dWWF09jAA_ulrDQA1xRFu_IwpRZWDCMA_1756144157632.jpeg',
+  '/attached_assets/a-photograph-of-a-bright-and-modern-golf_TciWfI5yRyKjC7lfTXIFgw_ulrDQA1xRFu_IwpRZWDCMA_1756144157632.jpeg',
+  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_LEr7iX5jS4yIeV5y6WLfOw_ulrDQA1xRFu_IwpRZWDCMA_1756144157632.jpeg',
+  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_IiyNE3PAQS25DrWciibG2g_ulrDQA1xRFu_IwpRZWDCMA_1756144157633.jpeg'
 ];
 
 // Simple hash function to ensure consistent randomization based on seed
