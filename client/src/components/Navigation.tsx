@@ -32,18 +32,18 @@ export default function Navigation() {
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-4">
             <div className="rounded-lg">
               <img 
                 src="@assets/Monroe County Golf Carts (1)_1756141613254.png" 
                 alt="Monroe County Golf Carts Logo" 
-                className="h-16 w-16"
+                className="h-20 w-20"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">MONROE COUNTY</div>
-                <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
+                <div className="text-xl font-bold text-theme-primary">MONROE COUNTY</div>
+                <div className="text-xl font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>
           </div>
