@@ -7,9 +7,9 @@ interface WebsiteSchemaProps {
 }
 
 export default function WebsiteSchema({ 
-  url = "https://lackawannagolfcarts.com",
-  name = "Lackawanna County Golf Carts",
-  description = "Premier golf cart dealership in Lackawanna County, Pennsylvania"
+  url = "https://monroegolfcarts.com",
+  name = "Monroe County Golf Carts",
+  description = "Premier golf cart dealership in Monroe County, Pennsylvania"
 }: WebsiteSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -20,10 +20,10 @@ export default function WebsiteSchema({
       "url": url,
       "publisher": {
         "@type": "Organization",
-        "name": "Lackawanna County Golf Carts",
+        "name": "Monroe County Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://lackawannagolfcarts.com/logo.png",
+          "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png",
           "width": 400,
           "height": 400
         }

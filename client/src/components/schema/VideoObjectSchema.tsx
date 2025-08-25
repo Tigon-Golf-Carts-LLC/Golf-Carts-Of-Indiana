@@ -21,8 +21,8 @@ export default function VideoObjectSchema({
   contentUrl, 
   embedUrl, 
   publisher = {
-    name: "Lackawanna County Golf Carts",
-    logo: "/logo.png"
+    name: "Monroe County Golf Carts",
+    logo: "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
   }
 }: VideoObjectSchemaProps) {
   const videoSchema = {

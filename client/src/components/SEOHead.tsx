@@ -16,7 +16,7 @@ export default function SEOHead({
   keywords = "golf carts, Luzerne County, electric golf carts, golf cart sales, golf cart service", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+  ogImage = "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png",
   ogType = "website"
 }: SEOHeadProps) {
   useEffect(() => {
@@ -61,23 +61,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Lackawanna County Golf Carts_1753809066045.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Lackawanna County Golf Carts_1753809066045.png";
+      favicon.href = "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png";
       document.head.appendChild(favicon);
     }
 
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Lackawanna County Golf Carts_1753809066045.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Lackawanna County Golf Carts_1753809066045.png";
+      appleIcon.href = "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png";
       document.head.appendChild(appleIcon);
     }
 
@@ -97,8 +97,8 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", `https://lackawannagolfcarts.com${ogImage}`);
-    updateOGTag("og:site_name", "Lackawanna County Golf Carts");
+    updateOGTag("og:image", `https://monroegolfcarts.com${ogImage}`);
+    updateOGTag("og:site_name", "Monroe County Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -140,7 +140,7 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@lackawannagolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://lackawannagolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+        "logo": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png",
         "image": `https://lackawannagolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",

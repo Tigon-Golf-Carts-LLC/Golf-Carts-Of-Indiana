@@ -28,18 +28,18 @@ export default function LocalBusinessSchema({
   description = "Premier golf cart dealership in Lackawanna County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
     streetAddress: "123 Golf Cart Lane",
-    addressLocality: "Scranton",
+    addressLocality: "Stroudsburg",
     addressRegion: "PA",
     postalCode: "18229",
     addressCountry: "US"
   },
   geo = {
-    latitude: "41.4084",
-    longitude: "-75.6624"
+    latitude: "41.0534",
+    longitude: "-75.3379"
   },
   telephone = "1-844-844-6638",
-  email = "info@lackawannagolfcarts.com",
-  url = "https://lackawannagolfcarts.com",
+  email = "info@monroegolfcarts.com",
+  url = "https://monroegolfcarts.com",
   openingHours = [
     "Mo-Fr 09:00-18:00",
     "Sa 09:00-17:00",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Lackawanna County, PA"
+  areaServed = "Monroe County, PA"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://lackawannagolfcarts.com/logo.png",
+        "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://lackawannagolfcarts.com/logo.png",
+        "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png",
         "width": 400,
         "height": 400
       },

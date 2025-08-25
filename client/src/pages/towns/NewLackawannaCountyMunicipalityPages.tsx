@@ -42,7 +42,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         description={metaDescription}
         keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} PA, Monroe County golf cart sales, electric golf carts ${municipality.name}`}
         canonicalUrl={`https://monroegolfcarts.com${municipality.url}`}
-        ogImage="https://monroegolfcarts.com/assets/monroe-county-golf-carts-logo.png"
+        ogImage="https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
       />
 
       {/* Hero Section */}

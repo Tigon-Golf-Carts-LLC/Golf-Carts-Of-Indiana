@@ -605,9 +605,9 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Always include main company image */}
       <ImageObjectSchema
-        url="/logo.png"
-        name="Lackawanna County Golf Carts Logo"
-        description="Lackawanna County Golf Carts company logo featuring professional golf cart branding"
+        url="/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
+        name="Monroe County Golf Carts Logo"
+        description="Monroe County Golf Carts company logo featuring professional golf cart branding"
         width={400}
         height={400}
       />
@@ -628,8 +628,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               endDate={event.endDate}
               location={event.location}
               organizer={{
-                name: "Lackawanna County Golf Carts",
-                url: "https://lackawannagolfcarts.com"
+                name: "Monroe County Golf Carts",
+                url: "https://monroegolfcarts.com"
               }}
             />
           ))}
@@ -639,7 +639,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "brand" && brandName && (
         <BrandSchema
           name={brandName}
-          description={brandDescription || `${brandName} electric golf carts available at Lackawanna County Golf Carts`}
+          description={brandDescription || `${brandName} electric golf carts available at Monroe County Golf Carts`}
           url={url}
           logo={brandLogo}
           manufacturer={brandName}
@@ -650,7 +650,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "home" && (
         <>
           <HowToSchema
-            name="How to Buy a Golf Cart from Lackawanna County Golf Carts"
+            name="How to Buy a Golf Cart from Monroe County Golf Carts"
             description="Step-by-step guide to purchasing your perfect electric golf cart"
             steps={[
               {
@@ -685,7 +685,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             uploadDate="2024-12-01"
             publisher={{
               name: "Lackawanna County Golf Carts",
-              logo: "/logo.png"
+              logo: "/attached_assets/Monroe County Golf Carts (1)_1756140783974.png"
             }}
           /> */}
         </>
