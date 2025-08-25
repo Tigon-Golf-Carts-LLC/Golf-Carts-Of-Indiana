@@ -36,13 +36,13 @@ export default function Navigation() {
             <div className="rounded-lg">
               <img 
                 src="/logo.png" 
-                alt="Lackawanna County Golf Carts Logo" 
+                alt="Monroe County Golf Carts Logo" 
                 className="h-16 w-16"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">LACKAWANNA COUNTY</div>
+                <div className="text-lg font-bold text-theme-primary">MONROE COUNTY</div>
                 <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>

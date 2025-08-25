@@ -226,10 +226,10 @@ export default function EvolutionPage() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION Golf Carts Lackawanna County | Premium Electric Vehicles PA"
-        description="Discover EVOLUTION golf carts in Lackawanna County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
-        keywords="EVOLUTION golf carts Lackawanna County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
-        canonicalUrl="https://lackawannagolfcarts.com/evolution"
+        title="EVOLUTION Golf Carts Monroe County | Premium Electric Vehicles PA"
+        description="Discover EVOLUTION golf carts in Monroe County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
+        keywords="EVOLUTION golf carts Monroe County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
+        canonicalUrl="https://monroegolfcarts.com/evolution"
         ogImage="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
         ogType="product.group"
       />
@@ -249,7 +249,7 @@ export default function EvolutionPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver 
-              premium quality, innovative design, and reliable performance for Lackawanna County, Pennsylvania.
+              premium quality, innovative design, and reliable performance for Monroe County, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">

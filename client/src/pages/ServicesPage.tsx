@@ -87,23 +87,23 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Lackawanna County Golf Cart Services - Expert Maintenance & Repair in PA"
-        description="Professional golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania. Certified technicians, quality parts, and comprehensive care."
-        keywords="golf cart service Lackawanna County PA, golf cart repair Pennsylvania, golf cart maintenance, battery service, customization"
-        canonicalUrl="https://lackawannagolfcarts.com/services"
+        title="Monroe County Golf Cart Services - Expert Maintenance & Repair in PA"
+        description="Professional golf cart maintenance, repair, customization, and warranty services in Monroe County, Pennsylvania. Certified technicians, quality parts, and comprehensive care."
+        keywords="golf cart service Monroe County PA, golf cart repair Pennsylvania, golf cart maintenance, battery service, customization"
+        canonicalUrl="https://monroegolfcarts.com/services"
       />
       <AllSchemas 
         pageType="services" 
         pageData={{
-          title: "Lackawanna County Golf Cart Services",
-          description: "Professional golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania. Certified technicians, quality parts, and comprehensive care.",
-          url: "https://lackawannagolfcarts.com/services",
+          title: "Monroe County Golf Cart Services",
+          description: "Professional golf cart maintenance, repair, customization, and warranty services in Monroe County, Pennsylvania. Certified technicians, quality parts, and comprehensive care.",
+          url: "https://monroegolfcarts.com/services",
           breadcrumbs: [
-            { name: "Home", url: "https://lackawannagolfcarts.com/" },
-            { name: "Services", url: "https://lackawannagolfcarts.com/services" }
+            { name: "Home", url: "https://monroegolfcarts.com/" },
+            { name: "Services", url: "https://monroegolfcarts.com/services" }
           ],
           serviceName: "Golf Cart Services",
-          serviceDescription: "Comprehensive golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania",
+          serviceDescription: "Comprehensive golf cart maintenance, repair, customization, and warranty services in Monroe County, Pennsylvania",
           serviceOffers: [
             { price: "Contact for pricing", description: "Maintenance & Repair Services" },
             { price: "Contact for pricing", description: "Battery Service & Replacement" },
@@ -117,10 +117,10 @@ export default function ServicesPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("services")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Services in Lackawanna County
+              Golf Cart Services in Monroe County
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Professional maintenance, repair, and customization services for all golf cart brands throughout Lackawanna County, Pennsylvania.
+              Professional maintenance, repair, and customization services for all golf cart brands throughout Monroe County, Pennsylvania.
             </p>
           <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
             Schedule Service

@@ -9,9 +9,9 @@ export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
-        title="Thank You - Lackawanna County Golf Carts"
-        description="Thank you for contacting Lackawanna County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all Luzerne County municipalities."
-        keywords="thank you, contact confirmation, Lackawanna County Golf Carts, TIGON Golf Carts"
+        title="Thank You - Monroe County Golf Carts"
+        description="Thank you for contacting Monroe County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all 20 Monroe County municipalities."
+        keywords="thank you, contact confirmation, Monroe County Golf Carts, TIGON Golf Carts"
       />
       
       {/* Hero Section */}
@@ -24,7 +24,7 @@ export default function ThankYouPage() {
             Thank You!
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            We've received your message and appreciate your interest in Lackawanna County Golf Carts.
+            We've received your message and appreciate your interest in Monroe County Golf Carts.
             Our team will respond to your inquiry soon.
           </p>
         </div>
@@ -118,11 +118,11 @@ export default function ThankYouPage() {
           <Card className="bg-blue-50 border-blue-200 mb-12">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Serving All of Berks County
+                Serving All of Monroe County
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Professional golf cart sales, rentals, and service delivered to all 72 Berks County municipalities - 
-                from Reading City to the smallest townships throughout Pennsylvania Dutch Country.
+                Professional golf cart sales, rentals, and service delivered to all 20 Monroe County municipalities - 
+                from Stroudsburg Borough to the scenic townships throughout the Pocono Mountains region.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>

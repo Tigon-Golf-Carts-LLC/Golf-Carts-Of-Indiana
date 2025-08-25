@@ -138,10 +138,10 @@ export default function DenagoPage() {
   return (
     <>
       <SEOHead 
-        title="DENAGO Electric Golf Carts Lackawanna County | Premium Off-Road Vehicles PA"
-        description="Discover DENAGO electric golf carts in Lackawanna County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
-        keywords="DENAGO golf carts Lackawanna County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
-        canonicalUrl="https://lackawannagolfcarts.com/denago"
+        title="DENAGO Electric Golf Carts Monroe County | Premium Off-Road Vehicles PA"
+        description="Discover DENAGO electric golf carts in Monroe County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
+        keywords="DENAGO golf carts Monroe County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
+        canonicalUrl="https://monroegolfcarts.com/denago"
         ogImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
         ogType="product.group"
       />
@@ -161,7 +161,7 @@ export default function DenagoPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge 
-              technology with rugged durability for unmatched adventure capability in Lackawanna County, Pennsylvania.
+              technology with rugged durability for unmatched adventure capability in Monroe County, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -191,7 +191,7 @@ export default function DenagoPage() {
                   DENAGO represents the pinnacle of electric vehicle engineering, combining innovative 
                   all-wheel drive technology with premium comfort features. Each DENAGO is built to 
                   exceed expectations on any terrain while delivering exceptional reliability for 
-                  Lackawanna County's diverse mountainous and suburban landscapes.
+                  Monroe County's diverse mountainous and suburban landscapes.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {denagoFeatures.map((feature, index) => (
@@ -225,7 +225,7 @@ export default function DenagoPage() {
                 DENAGO Vehicle Series
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the complete lineup of DENAGO electric vehicles available in Bucks County
+                Discover the complete lineup of DENAGO electric vehicles available in Monroe County
               </p>
             </div>
 

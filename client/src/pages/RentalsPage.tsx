@@ -201,10 +201,10 @@ export default function RentalsPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Rentals - Lackawanna County Golf Carts PA"
-        description="Rent premium golf carts in Lackawanna County, PA. Daily, weekly, and monthly rental options available with full insurance and delivery service."
-        keywords="golf cart rental, Lackawanna County rentals, golf cart hire, Pennsylvania golf cart rental"
-        canonicalUrl="https://lackawannagolfcarts.com/rentals"
+        title="Golf Cart Rentals - Monroe County Golf Carts PA"
+        description="Rent premium golf carts in Monroe County, PA. Daily, weekly, and monthly rental options available with full insurance and delivery service."
+        keywords="golf cart rental, Monroe County rentals, golf cart hire, Pennsylvania golf cart rental"
+        canonicalUrl="https://monroegolfcarts.com/rentals"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -214,10 +214,10 @@ export default function RentalsPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("rentals")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Rentals in Lackawanna County
+              Golf Cart Rentals in Monroe County
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Rent premium electric golf carts throughout Lackawanna County, Pennsylvania. Perfect for events, vacations, and special occasions.
+              Rent premium electric golf carts throughout Monroe County, Pennsylvania. Perfect for events, vacations, and special occasions.
             </p>
             <a href="tel:1-844-844-6638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

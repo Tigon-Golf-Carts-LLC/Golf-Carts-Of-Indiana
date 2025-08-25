@@ -46,10 +46,10 @@ export default function NewInventoryPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Inventory - New & Used | Atlantic County Golf Carts"
-        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Atlantic County, NJ."
-        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Atlantic County golf carts"
-        canonicalUrl="https://lackawannagolfcarts.com/inventory"
+        title="Golf Cart Inventory - New & Used | Monroe County Golf Carts"
+        description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Monroe County, PA."
+        keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Monroe County golf carts"
+        canonicalUrl="https://monroegolfcarts.com/inventory"
         ogImage="/attached_assets/a-photograph-of-a-bright-modern-golf-car_iofSws5mRiCxoMwQwuXw4A_Yv-NWBaTQQ6ofRhClJiiIw_1753454023367.png"
         ogType="website"
       />

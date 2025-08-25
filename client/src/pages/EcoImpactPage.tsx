@@ -67,21 +67,21 @@ export default function EcoImpactPage() {
     <>
       {/* SEO Head */}
       <Helmet>
-        <title>Eco-Impact Calculator - Environmental Benefits | Lackawanna County Golf Carts</title>
+        <title>Eco-Impact Calculator - Environmental Benefits | Monroe County Golf Carts</title>
         <meta 
           name="description" 
-          content="Calculate your environmental impact and savings with electric golf carts. See CO₂ reduction, fuel savings, and carbon offset benefits. Free eco-impact calculator for Luzerne County." 
+          content="Calculate your environmental impact and savings with electric golf carts. See CO₂ reduction, fuel savings, and carbon offset benefits. Free eco-impact calculator for Monroe County." 
         />
         <meta 
           name="keywords" 
-          content="eco impact calculator, electric golf cart environmental benefits, carbon footprint reduction, CO2 savings, sustainable transportation Luzerne County, green golf carts Pennsylvania" 
+          content="eco impact calculator, electric golf cart environmental benefits, carbon footprint reduction, CO2 savings, sustainable transportation Monroe County, green golf carts Pennsylvania" 
         />
-        <link rel="canonical" href="https://lackawannagolfcarts.com/eco-impact" />
+        <link rel="canonical" href="https://monroegolfcarts.com/eco-impact" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Eco-Impact Calculator - Calculate Your Environmental Savings" />
         <meta property="og:description" content="See how much CO₂, fuel, and money you save by choosing electric golf carts. Interactive calculator with real environmental data." />
-        <meta property="og:url" content="https://lackawannagolfcarts.com/eco-impact" />
+        <meta property="og:url" content="https://monroegolfcarts.com/eco-impact" />
         <meta property="og:type" content="website" />
         
         {/* Twitter Card */}

@@ -126,8 +126,8 @@ export default function NewAboutPage() {
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
-                    From the rural townships of Lynn and Heidelberg to the bustling boroughs of Emmaus and Macungie, we proudly serve all 
-                    Luzerne County municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
+                    From the rural townships of Paradise and Chestnuthill to the bustling boroughs of Stroudsburg and East Stroudsburg, we proudly serve all 
+                    Monroe County municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
                     less than the finest quality and service.
                   </p>
                 </div>
@@ -135,14 +135,14 @@ export default function NewAboutPage() {
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">15+</div>
-                    <div className="text-sm text-gray-600">Years Serving Luzerne County</div>
+                    <div className="text-sm text-gray-600">Years Serving Monroe County</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">500+</div>
                     <div className="text-sm text-gray-600">Satisfied Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">24</div>
+                    <div className="text-2xl font-bold text-theme-orange">20</div>
                     <div className="text-sm text-gray-600">Municipalities Served</div>
                   </div>
                 </div>
@@ -151,24 +151,24 @@ export default function NewAboutPage() {
               <div className="relative">
                 <div className="w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195876.91772958!2d-76.1273!3d41.2451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5c8b59ab6d6bd%3A0x1c7e1e8e8e8e8e8e!2sLuzerne%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Luzerne County Service Area Map"
+                    title="Monroe County Service Area Map"
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Lackawanna County Golf Carts Service</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Monroe County Golf Carts Service</h3>
                   <div className="grid md:grid-cols-1 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Lackawanna County Golf Carts</h4>
-                      <p className="text-gray-600">Serving all Luzerne County, PA</p>
+                      <h4 className="font-semibold text-theme-orange">Monroe County Golf Carts</h4>
+                      <p className="text-gray-600">Serving all Monroe County, PA</p>
                       <p className="text-gray-700">1-844-844-6638</p>
-                      <p className="text-gray-600">info@lackawannagolfcarts.com</p>
+                      <p className="text-gray-600">info@monroegolfcarts.com</p>
                     </div>
                   </div>
                 </div>
@@ -236,17 +236,17 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Lackawanna County, Pennsylvania</p>
+              <p className="text-lg text-gray-600">Proudly serving all of Monroe County, Pennsylvania</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Northern Luzerne County</CardTitle>
+                  <CardTitle>Northern Monroe County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">North Whitehall, Slatington, Lynn Township, and northern communities</p>
+                  <p className="text-gray-600 mb-4">Pocono, Barrett, and northern communities</p>
                   <Badge variant="secondary">8 Municipalities</Badge>
                 </CardContent>
               </Card>
@@ -254,10 +254,10 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Central Luzerne County</CardTitle>
+                  <CardTitle>Central Monroe County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Allentown, Bethlehem, Emmaus, Macungie, and central townships</p>
+                  <p className="text-gray-600 mb-4">Stroudsburg, East Stroudsburg, Delaware Water Gap, and central townships</p>
                   <Badge variant="secondary">8 Municipalities</Badge>
                 </CardContent>
               </Card>
@@ -265,17 +265,17 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Southern Lackawanna County</CardTitle>
+                  <CardTitle>Southern Monroe County</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Upper Saucon, Lower Milford, Coopersburg, and southern townships</p>
+                  <p className="text-gray-600 mb-4">Mount Pocono, Scotrun, Swiftwater, and southern townships</p>
                   <Badge variant="secondary">8 Municipalities</Badge>
                 </CardContent>
               </Card>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Lackawanna County Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Complete Monroe County Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
                 {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality, index: number) => (
                   <div key={index} className="text-center py-2">
@@ -295,7 +295,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Lackawanna County Golf Carts Difference?
+              Ready to Experience the Monroe County Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.
@@ -336,7 +336,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@lackawannagolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@monroegolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>
@@ -361,7 +361,7 @@ export default function NewAboutPage() {
                   <CardTitle>Service Area</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">All 24 Luzerne County municipalities plus delivery service</p>
+                  <p className="text-gray-600">All 20 Monroe County municipalities plus delivery service</p>
                 </CardContent>
               </Card>
             </div>
