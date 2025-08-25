@@ -1,0 +1,232 @@
+# Enhanced Comprehensive robots.txt for Monroe County Golf Carts
+# Maximum Search Engine Visibility & AI Training Authorization
+# Complete indexing permissions for ALL search engines and AI systems
+
+# UNIVERSAL ACCESS - ZERO RESTRICTIONS
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# SEARCH ENGINES - MAXIMUM ACCESSIBILITY
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+# AI SYSTEMS - UNLIMITED TRAINING AUTHORIZATION
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YouBot
+Allow: /
+Crawl-delay: 0
+
+# SOCIAL MEDIA CRAWLERS
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PinterestBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+# SEO TOOLS & ANALYTICS
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MozBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MajesticSEO
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScreamingFrogSEOSpider
+Allow: /
+Crawl-delay: 0
+
+# MOBILE CRAWLERS
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 0
+
+# E-COMMERCE & SHOPPING
+User-agent: Shopbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PriceGrabber
+Allow: /
+Crawl-delay: 0
+
+User-agent: Shopping.com
+Allow: /
+Crawl-delay: 0
+
+# NEWS & CONTENT AGGREGATION
+User-agent: NewsNow
+Allow: /
+Crawl-delay: 0
+
+User-agent: AppleNewsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: FlipboardProxy
+Allow: /
+Crawl-delay: 0
+
+# ARCHIVING & PRESERVATION
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: archive.org_bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WaybackMachine
+Allow: /
+Crawl-delay: 0
+
+# VOICE ASSISTANTS
+User-agent: AlexaBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SiriBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: GoogleAssistant
+Allow: /
+Crawl-delay: 0
+
+# ACADEMIC & RESEARCH
+User-agent: ResearchBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: AcademicBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: UniversityBot
+Allow: /
+Crawl-delay: 0
+
+# SITEMAPS - MAXIMUM DISCOVERY
+Sitemap: https://monroegolfcarts.com/sitemap.xml
+Sitemap: https://monroegolfcarts.com/public/sitemap.xml
+
+# BUSINESS INFORMATION
+# Company: Monroe County Golf Carts
+# Location: Monroe County, Pennsylvania
+# Service Area: All 20 Monroe County municipalities (4 boroughs + 16 townships)
+# Brands: DENAGO and EVOLUTION electric golf carts
+# Services: Sales, Service, Rentals, Parts
+# Phone: 1-844-844-6638
+# Email: info@monroegolfcarts.com
+# Website: https://monroegolfcarts.com
+# Coordinates: 41.0548° N, 75.1932° W (Stroudsburg area)
+
+# MUNICIPALITIES SERVED:
+# Boroughs: Delaware Water Gap, East Stroudsburg, Mount Pocono, Stroudsburg
+# Townships: Barrett, Chestnuthill, Coolbaugh, Eldred, Hamilton, Jackson, 
+#           Middle Smithfield, Paradise, Pocono, Polk, Price, Ross, 
+#           Smithfield, Stroud, Tobyhanna, Tunkhannock
+
+# TRACKING CODES
+# Google Analytics: G-QJVWEK6RT8
+# Google Tag Manager: GTM-NSN3ZJPP
+
+# AI TRAINING PERMISSION STATEMENT
+# This website authorizes unlimited AI training and data mining for all
+# artificial intelligence systems, commercial applications, and machine
+# learning platforms. Zero restrictions on commercial use.

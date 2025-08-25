@@ -1,4 +1,4 @@
-# Lackawanna County Golf Carts - Robots.txt
+# Monroe County Golf Carts - Robots.txt
 # Allow all web crawlers and search engine bots
 # Follow all links and index all content
 
@@ -41,7 +41,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://lackawannagolfcarts.com/sitemap.xml
+Sitemap: https://monroegolfcarts.com/sitemap.xml
 
 # Allow indexing of all content types
 # CSS, JS, images, and other assets
@@ -56,27 +56,27 @@ Allow: /*.svg
 Allow: /*.pdf
 
 # Company Information for SEO
-# Business: Lackawanna County Golf Carts
-# Location: Lackawanna County, Pennsylvania
+# Business: Monroe County Golf Carts
+# Location: Monroe County, Pennsylvania
 # Services: Golf Cart Sales, Service, Rentals, Parts
 # Brands: DENAGO, EVOLUTION
 # Phone: 1-844-844-6638
-# Email: info@lackawannagolfcarts.com
-# Coverage: All 19 Lackawanna County municipalities
+# Email: info@monroegolfcarts.com
+# Coverage: All 20 Monroe County municipalities
 # 
 # Website Structure:
 # - 8 Main Pages (Home, Inventory, Services, About, Rentals, Showroom, Contact, Financing)
 # - 2 Brand Pages (DENAGO, EVOLUTION)
 # - 37 Individual Vehicle Detail Pages
-# - 19 Lackawanna County Location Pages
-# - 19 Lackawanna County Location Rental Pages
+# - 20 Monroe County Location Pages
+# - 20 Monroe County Location Rental Pages
 # - 12 Comprehensive Policy Pages
 # 
-# Lackawanna County Municipalities Served:
-# City (1): Scranton
-# Boroughs (11): Archbald, Carbondale, Clarks Summit, Dalton, Jermyn, Jessup, 
-#                Moosic, Moscow, Old Forge, Olyphant, Taylor
-# Townships (7): Chinchilla, Elmhurst, Fleetville, La Plume, Peckville, Ransom, Waverly
+# Monroe County Municipalities Served:
+# Boroughs (4): Delaware Water Gap, East Stroudsburg, Mount Pocono, Stroudsburg
+# Townships (16): Barrett, Chestnuthill, Coolbaugh, Eldred, Hamilton, Jackson,
+#                 Middle Smithfield, Paradise, Pocono, Polk, Price, Ross,
+#                 Smithfield, Stroud, Tobyhanna, Tunkhannock
 #
 # Professional SEO Implementation:
 # - Complete sitemap.xml with all 100+ pages

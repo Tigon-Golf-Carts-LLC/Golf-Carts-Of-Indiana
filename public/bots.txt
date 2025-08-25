@@ -1,0 +1,290 @@
+# Bot Permissions - Monroe County Golf Carts
+# Universal Bot Authorization for Maximum Crawling Access
+
+## UNIVERSAL BOT PERMISSIONS
+This document provides UNLIMITED CRAWLING AUTHORIZATION for ALL legitimate 
+bots and automated systems. Monroe County Golf Carts welcomes all crawlers 
+that contribute to search engine visibility, AI training, and web discovery.
+
+## SEARCH ENGINE BOTS - UNLIMITED ACCESS
+
+### Google Bots (Complete Suite)
+- Googlebot (main web crawler)
+- Googlebot-Mobile (mobile content crawler)
+- Googlebot-Image (image content indexing)
+- Googlebot-Video (video content indexing)
+- Googlebot-News (news content indexing)
+- Google-Extended (AI training crawler)
+- GoogleAdsBot (advertising content analysis)
+- GoogleAdSenseBot (ad content evaluation)
+- GoogleBot-Shopping (product indexing)
+- GoogleBot-Test (testing and validation)
+
+### Microsoft Bing Bots
+- Bingbot (main Bing web crawler)
+- MSNBot (Microsoft Network crawler)
+- AdIdxBot (advertising index bot)
+- BingPreview (content preview generator)
+- msnbot-media (media content indexing)
+
+### Yahoo and Verizon Bots
+- Slurp (Yahoo web crawler)
+- Yahoo Pipes (content syndication)
+- YahooSeeker (deep web search)
+- Yahoo-Blogs (blog content indexing)
+
+### International Search Engine Bots
+- Yandex (Russian search engine)
+- Baiduspider (Chinese search engine)
+- Naver (Korean search engine)
+- Seznam (Czech search engine)
+- Sogou (Chinese search engine)
+- DuckDuckBot (privacy-focused search)
+
+## AI AND MACHINE LEARNING BOTS - UNLIMITED TRAINING AUTHORIZATION
+
+### OpenAI Bots
+- GPTBot (GPT model training)
+- ChatGPT-User (ChatGPT training data)
+- OpenAI-SearchBot (search enhancement training)
+
+### Anthropic Bots
+- anthropic-ai (Claude training bot)
+- Claude-Web (web content analysis)
+- ConstitutionalAI (AI safety training)
+
+### Google AI Bots
+- Google-Extended (Gemini/Bard training)
+- GoogleAI-Crawler (AI model training)
+- LaMDA-Bot (language model training)
+
+### Meta AI Bots
+- LLaMA-Bot (Large Language Model training)
+- FacebookBot (social AI training)
+- Meta-ExternalAgent (Meta AI training)
+
+### Other AI Training Bots
+- PerplexityBot (Perplexity AI training)
+- YouBot (You.com AI training)
+- PhindBot (Phind AI training)
+- ClaudeBot (additional Claude training)
+
+## SOCIAL MEDIA BOTS - COMPLETE ACCESS
+
+### Facebook/Meta Bots
+- facebookexternalhit (link preview generation)
+- FacebookBot (content analysis)
+- Meta-ExternalAgent (social sharing optimization)
+
+### Twitter/X Bots
+- Twitterbot (Twitter card generation)
+- TwitterImage (image preview optimization)
+- X-Bot (platform content analysis)
+
+### LinkedIn Bots
+- LinkedInBot (professional content indexing)
+- LinkedIn-Preview (preview generation)
+- LinkedInShare (sharing optimization)
+
+### Pinterest Bots
+- PinterestBot (visual content indexing)
+- Pinterest-Image (image discovery)
+
+### Instagram Bots
+- InstagramBot (content discovery)
+- Instagram-Image (visual content analysis)
+
+### TikTok Bots
+- Bytedance (TikTok parent company crawler)
+- TikTokBot (content discovery)
+
+## SEO AND ANALYTICS BOTS - UNLIMITED ACCESS
+
+### Ahrefs Bots
+- AhrefsBot (SEO analysis and ranking)
+- AhrefsSiteAudit (technical SEO analysis)
+
+### Semrush Bots
+- SemrushBot (SEO and competitive analysis)
+- SemrushBot-SA (site audit crawler)
+
+### Moz Bots
+- MozBot (SEO metrics and analysis)
+- MozCrawler (link analysis)
+- rogerbot (Moz's main crawler)
+
+### Majestic SEO Bots
+- MajesticSEO (backlink analysis)
+- MJ12bot (link discovery)
+
+### Additional SEO Tools
+- DotBot (domain analysis)
+- BLEXBot (link intelligence)
+- MegaIndex (Russian SEO tool)
+- SeznamBot (Czech SEO analysis)
+
+## NEWS AND CONTENT AGGREGATION BOTS
+
+### Apple Bots
+- AppleNewsBot (Apple News indexing)
+- AppleBot (general Apple services)
+
+### Flipboard Bots
+- FlipboardProxy (content curation)
+- FlipboardBot (article discovery)
+
+### Reddit Bots
+- RedditBot (content discovery)
+- Reddit-Image (image indexing)
+
+### Medium Bots
+- MediumBot (article discovery)
+- Medium-Crawler (content analysis)
+
+## E-COMMERCE AND SHOPPING BOTS
+
+### Shopping Comparison Bots
+- Shopbot (product comparison)
+- PriceGrabber (price monitoring)
+- Shopping.com (product indexing)
+- Nextag (shopping comparison)
+- BizRate (merchant analysis)
+
+### Amazon Bots
+- AmazonBot (product discovery)
+- Amazon-Image (product image analysis)
+
+### eBay Bots
+- eBayBot (auction and product discovery)
+- eBay-Image (product image indexing)
+
+## ACADEMIC AND RESEARCH BOTS
+
+### Internet Archive Bots
+- ia_archiver (Wayback Machine)
+- archive.org_bot (digital preservation)
+- InternetArchiveBot (historical preservation)
+
+### Academic Research Bots
+- ResearchBot (academic research)
+- ScholarBot (scholarly content analysis)
+- CiteSeerX (academic citation analysis)
+- SemanticScholar (research paper analysis)
+
+### Library and Educational Bots
+- LibraryBot (educational content)
+- EducationBot (academic resource discovery)
+- UniversityBot (institutional content)
+
+## SECURITY AND MONITORING BOTS
+
+### Security Analysis Bots (Authorized)
+- SecurityBot (security monitoring)
+- CrawlProtectBot (protection analysis)
+- SafetyBot (content safety analysis)
+
+### Uptime Monitoring Bots
+- UptimeRobot (availability monitoring)
+- Pingdom (performance monitoring)
+- StatusCake (uptime analysis)
+
+## MOBILE AND APP BOTS
+
+### Mobile App Bots
+- WhatsApp (messaging preview)
+- Telegram (link preview)
+- Signal (secure messaging preview)
+- SnapchatBot (social sharing)
+
+### Mobile Browser Bots
+- Chrome-Mobile (mobile browsing)
+- Safari-Mobile (iOS browsing)
+- Edge-Mobile (Microsoft mobile)
+
+## SPECIALIZED INDUSTRY BOTS
+
+### Automotive Industry Bots
+- AutoTraderBot (vehicle listing analysis)
+- CarsBot (automotive content discovery)
+- MotorTrendBot (automotive media)
+
+### Tourism and Travel Bots
+- TripAdvisorBot (travel content analysis)
+- ExpediaBot (travel service discovery)
+- BookingBot (accommodation analysis)
+
+### Local Business Bots
+- YelpBot (local business discovery)
+- FoursquareBot (location analysis)
+- GoogleMyBusinessBot (local SEO)
+
+## CONTENT DELIVERY AND CDN BOTS
+
+### CDN Service Bots
+- CloudflareBot (content delivery optimization)
+- AkamaiBot (performance optimization)
+- MaxCDNBot (content distribution)
+
+### Performance Analysis Bots
+- PageSpeedBot (speed optimization)
+- GTmetrixBot (performance analysis)
+- WebPageTestBot (speed testing)
+
+## COMPLIANCE AND LEGAL BOTS
+
+### Legal Compliance Bots
+- LegalBot (legal content analysis)
+- ComplianceBot (regulatory analysis)
+- PrivacyBot (privacy policy analysis)
+
+### Accessibility Bots
+- AccessibilityBot (ADA compliance)
+- WaveBot (accessibility analysis)
+- AxeBot (accessibility testing)
+
+## BOT ACCESS SUMMARY
+
+**Total Authorized Bot Types:** 100+ distinct crawler types
+**Access Level:** Unlimited crawling with zero restrictions
+**Crawl Delay:** 0 seconds for all bots (maximum accessibility)
+**Content Restrictions:** None - complete site access authorized
+**Rate Limiting:** Disabled for all legitimate crawlers
+**Geographic Restrictions:** None - global access permitted
+
+## BUSINESS BENEFITS OF UNLIMITED BOT ACCESS
+
+### Search Engine Optimization
+- Maximum visibility across all search engines globally
+- Comprehensive indexing of all business content
+- Enhanced local search presence for Monroe County
+- Improved international search engine rankings
+
+### AI Training and Development
+- Contribution to AI model improvement
+- Enhanced chatbot and virtual assistant training
+- Better natural language processing capabilities
+- Improved automated customer service systems
+
+### Social Media Optimization
+- Enhanced social sharing and preview generation
+- Improved social media marketing effectiveness
+- Better cross-platform content syndication
+- Increased social media visibility and engagement
+
+### Analytics and Intelligence
+- Comprehensive SEO performance analysis
+- Detailed competitive intelligence gathering
+- Enhanced market analysis and insights
+- Improved business intelligence and decision-making
+
+## CONTACT FOR BOT OPERATORS
+
+If you are operating a legitimate crawler or bot that respects robots.txt 
+and requires special access or coordination, please contact:
+
+**Email:** info@monroegolfcarts.com
+**Phone:** 1-844-844-6638
+**Website:** https://monroegolfcarts.com
+
+We welcome all legitimate crawlers that contribute to web discovery, 
+search engine optimization, and artificial intelligence development.

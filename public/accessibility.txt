@@ -1,0 +1,251 @@
+# Accessibility Statement - Monroe County Golf Carts
+# Commitment to Digital Accessibility and Inclusive Design
+
+## ACCESSIBILITY COMMITMENT
+Monroe County Golf Carts is committed to ensuring digital accessibility for 
+people with disabilities. We continuously improve the user experience for 
+everyone and apply relevant accessibility standards to achieve this goal.
+
+## CONFORMANCE STATUS
+We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 
+Level AA standards published by the World Wide Web Consortium (W3C). These 
+guidelines help make web content accessible to people with a wide range of 
+disabilities and improve usability for all users.
+
+## ACCESSIBILITY FEATURES
+
+### Visual Accessibility
+**High Contrast and Color**
+- High contrast color schemes for improved readability
+- Color combinations that meet WCAG contrast ratio requirements
+- Important information conveyed through multiple visual cues, not color alone
+- Alternative text descriptions for all golf cart images and product photos
+- Scalable text that can be enlarged up to 200% without loss of functionality
+
+**Typography and Layout**
+- Clear, readable fonts throughout the website
+- Consistent navigation structure across all pages
+- Proper heading hierarchy (H1, H2, H3) for screen reader navigation
+- Adequate white space and visual separation between content sections
+- Responsive design that works on all device sizes and orientations
+
+### Motor and Mobility Accessibility
+**Keyboard Navigation**
+- Full keyboard navigation support for all interactive elements
+- Visible focus indicators for keyboard users
+- Logical tab order through all page content
+- Skip links to main content areas
+- No keyboard traps that prevent navigation
+
+**Mouse and Touch Alternatives**
+- Large click targets for buttons and links (minimum 44x44 pixels)
+- Adequate spacing between interactive elements
+- Support for voice control and assistive technology
+- Touch-friendly interface for mobile and tablet users
+
+### Hearing Accessibility
+**Audio and Video Content**
+- Captions for all video content featuring golf cart demonstrations
+- Transcripts available for audio content and video presentations
+- Visual indicators for important audio alerts or notifications
+- No auto-playing audio that cannot be controlled
+
+### Cognitive Accessibility
+**Clear Communication**
+- Plain language used throughout the website
+- Consistent navigation and page layouts
+- Clear headings and section organization
+- Simple, straightforward forms with helpful instructions
+- Error messages that clearly explain how to fix problems
+
+**User Control**
+- Ability to pause, stop, or control moving content
+- No content that flashes more than three times per second
+- Sufficient time limits with options to extend when needed
+- Clear labeling of all form fields and interactive elements
+
+## PRODUCT AND SERVICE ACCESSIBILITY
+
+### Golf Cart Accessibility Features
+**DENAGO Accessibility Options**
+- Hand controls available for customers with mobility limitations
+- Wheelchair accessible vehicle modifications
+- Easy-entry seating and accessibility adaptations
+- Custom controls for various physical needs
+- Safety equipment designed for all users
+
+**EVOLUTION Accessibility Adaptations**
+- Medical equipment mounting options
+- Accessibility seating modifications
+- Custom control configurations
+- Mobility aid storage solutions
+- Safety harness and support systems
+
+### Service Accessibility
+**Communication Options**
+- Multiple communication channels (phone, email, text)
+- TTY/TDD support available upon request
+- Video calling options for remote consultations
+- Written estimates and documentation provided
+- Interpreter services available when needed
+
+**Physical Location Accessibility**
+- Wheelchair accessible showroom and service areas
+- Accessible parking spaces available
+- Clear pathways and entrance accessibility
+- Accessible restroom facilities
+- Service counters at multiple heights
+
+### Delivery and Support Accessibility
+**Accessible Delivery Services**
+- Home delivery available for all customers
+- Setup assistance for customers with disabilities
+- Training provided for accessible vehicle operation
+- Ongoing support for accessibility modifications
+- Emergency service with accessibility considerations
+
+## ASSISTIVE TECHNOLOGY COMPATIBILITY
+
+### Screen Reader Support
+**Compatible Technologies**
+- JAWS (Job Access With Speech)
+- NVDA (NonVisual Desktop Access)
+- VoiceOver (macOS and iOS)
+- TalkBack (Android)
+- Dragon NaturallySpeaking
+- Other popular screen reading software
+
+**Optimized Content Structure**
+- Proper HTML semantic structure for screen readers
+- ARIA labels and descriptions for complex content
+- Alternative text for all meaningful images
+- Data table headers and captions
+- Form labels and instructions clearly associated
+
+### Voice Control and Navigation
+**Voice Interface Compatibility**
+- Dragon speech recognition software
+- Windows Speech Recognition
+- Voice Control (macOS and iOS)
+- Voice Access (Android)
+- Other voice navigation tools
+
+### Magnification and Zoom Support
+**Visual Enhancement Tools**
+- ZoomText and MAGic screen magnification software
+- Browser zoom up to 400% without horizontal scrolling
+- Windows and macOS built-in magnification tools
+- Mobile accessibility zoom features
+- High contrast mode compatibility
+
+## TESTING AND VALIDATION
+
+### Accessibility Testing Methods
+**Automated Testing**
+- Regular automated accessibility scanning
+- WAVE (Web Accessibility Evaluation Tool) analysis
+- axe DevTools accessibility testing
+- Lighthouse accessibility audits
+- Continuous monitoring for accessibility issues
+
+**Manual Testing**
+- Keyboard-only navigation testing
+- Screen reader testing with multiple tools
+- Voice control navigation verification
+- Color contrast ratio validation
+- Mobile accessibility testing
+
+**User Testing**
+- Feedback from users with disabilities
+- Usability testing with assistive technology users
+- Regular accessibility consultations
+- Community input and suggestions
+- Ongoing user experience improvements
+
+## ACCESSIBILITY RESOURCES
+
+### Getting Help
+**Customer Support**
+- Phone: 1-844-844-6638 (TTY available upon request)
+- Email: info@monroegolfcarts.com
+- Text: Available for accessibility-related inquiries
+- Video Call: Available for visual demonstrations and support
+
+**Accessibility Assistance**
+- Personal shopping assistance available
+- Technology support for website accessibility
+- Product demonstration with accessibility focus
+- Custom accessibility solution consultation
+- Training for accessible golf cart operation
+
+### External Resources
+**Disability Organizations**
+- Links to relevant disability rights organizations
+- Resources for golf cart accessibility modifications
+- Information about mobility aids and equipment
+- Financial assistance programs for accessibility modifications
+- Community support groups and organizations
+
+**Technical Resources**
+- Screen reader user guides and tutorials
+- Voice control setup and training resources
+- Accessibility software recommendations
+- Mobile accessibility feature guides
+- Assistive technology compatibility information
+
+## ONGOING IMPROVEMENTS
+
+### Continuous Enhancement
+**Regular Updates**
+- Monthly accessibility reviews and improvements
+- User feedback integration and response
+- Technology updates for improved compatibility
+- Staff training on accessibility best practices
+- Industry standard compliance monitoring
+
+**Future Enhancements**
+- Advanced voice navigation features
+- Enhanced mobile accessibility options
+- Improved visual design for accessibility
+- Additional assistive technology integrations
+- Community accessibility program expansion
+
+### Feedback and Contact
+
+**Accessibility Feedback**
+We welcome feedback about the accessibility of our website and services. 
+If you encounter any accessibility barriers or have suggestions for improvement:
+
+**Contact Methods:**
+- Email: accessibility@monroegolfcarts.com
+- Phone: 1-844-844-6638
+- Mail: Monroe County Golf Carts, Accessibility Coordinator
+  Monroe County, Pennsylvania
+
+**Response Commitment**
+- We will respond to accessibility feedback within 2 business days
+- Issues will be investigated and addressed promptly
+- Alternative access methods provided while issues are resolved
+- Regular updates provided on improvement progress
+
+## THIRD-PARTY CONTENT
+Some content on our website may be provided by third parties. We work with 
+all content providers to ensure accessibility standards are maintained. If 
+you encounter accessibility issues with third-party content, please contact 
+us and we will work to address the problem.
+
+## LEGAL COMPLIANCE
+Monroe County Golf Carts is committed to complying with applicable disability 
+rights laws, including the Americans with Disabilities Act (ADA) and Section 
+508 of the Rehabilitation Act. This accessibility statement reflects our 
+ongoing efforts to ensure equal access to our digital content and services.
+
+## LAST UPDATED
+This accessibility statement was last updated on January 25, 2025. We review 
+and update this statement regularly to reflect current accessibility features 
+and ongoing improvement efforts.
+
+---
+
+Monroe County Golf Carts - Making golf carts accessible for everyone in 
+Monroe County, Pennsylvania, and beyond.

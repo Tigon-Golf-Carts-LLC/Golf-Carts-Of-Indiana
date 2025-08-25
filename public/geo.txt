@@ -1,0 +1,325 @@
+# Geographic Data - Monroe County Golf Carts
+# Complete Geographic Coverage and Location Intelligence
+
+## MONROE COUNTY GEOGRAPHIC OVERVIEW
+
+### County Statistics
+- Official Name: Monroe County, Pennsylvania
+- County Seat: Stroudsburg Borough
+- Total Area: 608 square miles (1,575 km²)
+- Land Area: 604 square miles (1,564 km²)
+- Water Area: 4 square miles (10 km²)
+- Population: 168,327 (2020 U.S. Census)
+- Population Density: 277 people per square mile
+- Founded: April 1, 1836
+- Named After: James Monroe, 5th President of the United States
+- County Code: FIPS 42089
+
+### Geographic Coordinates
+- Center Point: 41.0548° N, 75.1932° W
+- Northernmost Point: 41.2500° N (Tunkhannock Township)
+- Southernmost Point: 40.8333° N (Middle Smithfield Township)
+- Easternmost Point: 75.0000° W (Pike County border)
+- Westernmost Point: 75.5833° W (Carbon County border)
+
+### Elevation Profile
+- Highest Point: 2,185 feet (666 m) - Pocono Plateau region
+- Lowest Point: 290 feet (88 m) - Delaware River valley
+- Average Elevation: 1,200 feet (366 m)
+- Terrain Type: Appalachian Mountains, Pocono Plateau
+
+## COMPLETE MUNICIPAL COVERAGE
+
+### Boroughs (4 Total)
+
+#### 1. Delaware Water Gap Borough
+- Population: 809 (2020 census)
+- Area: 1.2 square miles
+- Coordinates: 40.9695° N, 75.1396° W
+- Elevation: 350 feet
+- Characteristics: Tourist destination, National Recreation Area gateway
+- Golf Cart Applications: Tourism, recreational properties, river access
+- Notable Features: Delaware Water Gap National Recreation Area, historic downtown
+- ZIP Code: 18327
+
+#### 2. East Stroudsburg Borough
+- Population: 10,006 (2020 census)
+- Area: 4.3 square miles
+- Coordinates: 41.0037° N, 75.1813° W
+- Elevation: 420 feet
+- Characteristics: University town, educational and cultural hub
+- Golf Cart Applications: Campus transportation, residential communities
+- Notable Features: East Stroudsburg University, historic districts
+- ZIP Code: 18301
+
+#### 3. Mount Pocono Borough
+- Population: 3,170 (2020 census)
+- Area: 3.1 square miles
+- Coordinates: 41.1190° N, 75.3629° W
+- Elevation: 1,995 feet
+- Characteristics: Resort community, recreational focus
+- Golf Cart Applications: Resort transportation, guest services, recreational properties
+- Notable Features: Resort facilities, mountain location
+- ZIP Code: 18344
+
+#### 4. Stroudsburg Borough
+- Population: 5,567 (2020 census)
+- Area: 1.9 square miles
+- Coordinates: 40.9856° N, 75.1946° W
+- Elevation: 450 feet
+- Characteristics: County seat, commercial and government center
+- Golf Cart Applications: Downtown transportation, municipal use, business districts
+- Notable Features: Historic courthouse, downtown business district
+- ZIP Code: 18360
+
+### Townships (16 Total)
+
+#### 1. Barrett Township
+- Population: 4,530 (2020 census)
+- Area: 56.8 square miles
+- Coordinates: 41.1667° N, 75.4167° W
+- Elevation: 1,200-2,000+ feet
+- Characteristics: Rural, recreational properties, mountainous
+- Golf Cart Applications: Large property transportation, recreational use
+- Notable Features: Mountainous terrain, recreational developments
+- ZIP Codes: 18314, 18466
+
+#### 2. Chestnuthill Township
+- Population: 16,960 (2020 census)
+- Area: 60.4 square miles
+- Coordinates: 41.0500° N, 75.3833° W
+- Elevation: 800-1,800 feet
+- Characteristics: Residential, suburban development, growing community
+- Golf Cart Applications: Residential communities, neighborhood transportation
+- Notable Features: Suburban development, family communities
+- ZIP Codes: 18330, 18355
+
+#### 3. Coolbaugh Township
+- Population: 8,015 (2020 census)
+- Area: 91.5 square miles
+- Coordinates: 41.1667° N, 75.5000° W
+- Elevation: 1,400-2,100 feet
+- Characteristics: Resort area, recreational properties, tourism
+- Golf Cart Applications: Resort transportation, vacation properties
+- Notable Features: Resort developments, recreational facilities
+- ZIP Codes: 18466, 18351
+
+#### 4. Eldred Township
+- Population: 2,615 (2020 census)
+- Area: 21.6 square miles
+- Coordinates: 40.9167° N, 75.4500° W
+- Elevation: 600-1,400 feet
+- Characteristics: Rural, agricultural areas, small communities
+- Golf Cart Applications: Farm and agricultural use, rural transportation
+- Notable Features: Agricultural land, rural character
+- ZIP Code: 18058
+
+#### 5. Hamilton Township
+- Population: 9,669 (2020 census)
+- Area: 34.7 square miles
+- Coordinates: 41.0833° N, 75.2833° W
+- Elevation: 400-1,200 feet
+- Characteristics: Mixed residential and commercial, growing area
+- Golf Cart Applications: Residential developments, commercial properties
+- Notable Features: Balanced development, suburban growth
+- ZIP Codes: 18337, 18301
+
+#### 6. Jackson Township
+- Population: 5,483 (2020 census)
+- Area: 46.1 square miles
+- Coordinates: 41.1833° N, 75.3167° W
+- Elevation: 1,000-1,800 feet
+- Characteristics: Resort communities, recreational areas
+- Golf Cart Applications: Resort and vacation properties, recreational use
+- Notable Features: Resort development, recreational focus
+- ZIP Code: 18466
+
+#### 7. Middle Smithfield Township
+- Population: 7,866 (2020 census)
+- Area: 29.0 square miles
+- Coordinates: 40.9167° N, 75.1167° W
+- Elevation: 300-800 feet
+- Characteristics: Residential, commercial growth, developing area
+- Golf Cart Applications: Residential communities, commercial developments
+- Notable Features: Growth corridor, development activity
+- ZIP Codes: 18327, 18375
+
+#### 8. Paradise Township
+- Population: 3,451 (2020 census)
+- Area: 41.3 square miles
+- Coordinates: 41.0000° N, 75.4167° W
+- Elevation: 800-1,600 feet
+- Characteristics: Rural, agricultural focus, mountain location
+- Golf Cart Applications: Rural properties, agricultural use
+- Notable Features: Rural character, agricultural operations
+- ZIP Codes: 18058, 18071
+
+#### 9. Pocono Township
+- Population: 11,700 (2020 census)
+- Area: 48.8 square miles
+- Coordinates: 41.1000° N, 75.4000° W
+- Elevation: 1,200-2,000 feet
+- Characteristics: Resort area, recreational properties, tourism focus
+- Golf Cart Applications: Resort transportation, recreational properties
+- Notable Features: Resort development, recreational amenities
+- ZIP Codes: 18348, 18355
+
+#### 10. Polk Township
+- Population: 2,827 (2020 census)
+- Area: 36.4 square miles
+- Coordinates: 41.2167° N, 75.4667° W
+- Elevation: 1,600-2,100 feet
+- Characteristics: Rural, mountainous terrain, remote location
+- Golf Cart Applications: Large property transportation, recreational use
+- Notable Features: Mountain location, rural character
+- ZIP Code: 18466
+
+#### 11. Price Township
+- Population: 1,991 (2020 census)
+- Area: 31.0 square miles
+- Coordinates: 41.1500° N, 75.5500° W
+- Elevation: 1,400-2,000 feet
+- Characteristics: Rural, agricultural areas, mountain location
+- Golf Cart Applications: Agricultural use, rural transportation
+- Notable Features: Rural setting, agricultural focus
+- ZIP Code: 18466
+
+#### 12. Ross Township
+- Population: 2,638 (2020 census)
+- Area: 35.9 square miles
+- Coordinates: 40.9833° N, 75.4833° W
+- Elevation: 600-1,400 feet
+- Characteristics: Rural, mixed development, quiet communities
+- Golf Cart Applications: Rural properties, residential use
+- Notable Features: Mixed rural development
+- ZIP Code: 18058
+
+#### 13. Smithfield Township
+- Population: 6,134 (2020 census)
+- Area: 32.1 square miles
+- Coordinates: 40.8833° N, 75.2000° W
+- Elevation: 300-600 feet
+- Characteristics: Residential, growing communities, development
+- Golf Cart Applications: Residential developments, community transportation
+- Notable Features: Residential growth, community development
+- ZIP Codes: 18375, 18327
+
+#### 14. Stroud Township
+- Population: 22,203 (2020 census)
+- Area: 35.2 square miles
+- Coordinates: 40.9833° N, 75.2167° W
+- Elevation: 400-800 feet
+- Characteristics: Suburban, commercial development, largest township
+- Golf Cart Applications: Suburban communities, commercial properties
+- Notable Features: Major commercial corridor, suburban development
+- ZIP Codes: 18360, 18301
+
+#### 15. Tobyhanna Township
+- Population: 8,250 (2020 census)
+- Area: 56.7 square miles
+- Coordinates: 41.1833° N, 75.4500° W
+- Elevation: 1,200-2,000 feet
+- Characteristics: Resort area, recreational properties, tourism
+- Golf Cart Applications: Resort transportation, vacation properties
+- Notable Features: Resort development, recreational focus
+- ZIP Codes: 18466, 18350
+
+#### 16. Tunkhannock Township
+- Population: 5,434 (2020 census)
+- Area: 72.1 square miles
+- Coordinates: 41.2333° N, 75.3000° W
+- Elevation: 1,000-2,000 feet
+- Characteristics: Rural, mountainous areas, recreational properties
+- Golf Cart Applications: Large properties, recreational use
+- Notable Features: Mountain location, recreational development
+- ZIP Codes: 18351, 18444
+
+## TRANSPORTATION INFRASTRUCTURE
+
+### Major Highways
+- Interstate 80: East-west corridor through southern Monroe County
+- Interstate 380: North-south connector to Interstate 84
+- U.S. Route 209: Major north-south highway through county
+- U.S. Route 611: Primary commercial corridor
+- Pennsylvania Route 940: East-west mountain route
+- Pennsylvania Route 402: Local connector route
+
+### Golf Cart Operation Areas
+- Resort properties throughout Pocono Mountains region
+- Golf courses (25+ facilities county-wide)
+- Recreational vehicle parks and campgrounds
+- Private residential communities
+- Municipal parks and recreational facilities
+- Commercial properties and business districts (where permitted)
+
+## CLIMATE AND SEASONAL CONSIDERATIONS
+
+### Climate Classification
+- Type: Humid continental climate (Köppen Dfb)
+- Four distinct seasons with significant temperature variation
+- Annual precipitation: 45-50 inches
+- Snowfall: 40-60 inches annually (higher elevations)
+
+### Seasonal Operating Conditions
+**Spring (March-May)**
+- Temperature Range: 35-70°F
+- Conditions: Variable weather, mud season, good for golf cart preparation
+- Usage Peak: Golf cart sales and service peak season begins
+
+**Summer (June-August)**
+- Temperature Range: 55-80°F
+- Conditions: Ideal golf cart weather, peak tourism season
+- Usage Peak: Maximum golf cart usage, rental season peak
+
+**Fall (September-November)**
+- Temperature Range: 35-70°F
+- Conditions: Excellent golf cart weather, fall foliage tourism
+- Usage Peak: Continued high usage, preparation for winter storage
+
+**Winter (December-February)**
+- Temperature Range: 15-40°F
+- Conditions: Limited golf cart usage, storage season
+- Usage Peak: Minimal usage, maintenance and storage services
+
+## SERVICE TERRITORY ANALYSIS
+
+### Primary Service Zones (Highest Activity)
+1. **Resort Corridor** - Tobyhanna, Coolbaugh, Jackson Townships
+2. **University Area** - East Stroudsburg Borough and surrounding areas
+3. **Commercial Corridor** - Stroud Township, Stroudsburg Borough
+4. **Recreation Zone** - Delaware Water Gap area, recreational properties
+
+### Geographic Service Challenges
+- Mountainous terrain in northern townships
+- Seasonal access limitations in remote areas
+- Variable elevation and climate conditions
+- Rural road networks in agricultural areas
+
+### Delivery and Service Logistics
+- Central location near Stroudsburg for optimal coverage
+- 25-mile service radius covers entire county
+- Specialized equipment for mountain and rural deliveries
+- Seasonal service scheduling for weather-dependent areas
+
+## ECONOMIC GEOGRAPHIC FACTORS
+
+### Tourism Economics
+- $2.1 billion annual tourism revenue
+- 15+ million annual visitors to Pocono Mountains region
+- 100+ resort properties throughout county
+- Seasonal employment peaks during summer months
+
+### Golf Course Distribution
+- 25+ golf courses throughout Monroe County
+- Concentration in resort areas and suburban townships
+- Year-round facilities with seasonal peaks
+- Private clubs and public courses served
+
+### Recreational Property Markets
+- Primary resort areas: Pocono, Tobyhanna, Coolbaugh Townships
+- Secondary recreation: Barrett, Jackson, Paradise Townships
+- Vacation rental properties throughout mountain areas
+- Seasonal population increases in resort communities
+
+This comprehensive geographic dataset provides complete coverage intelligence
+for Monroe County Golf Carts service territory and market analysis.
