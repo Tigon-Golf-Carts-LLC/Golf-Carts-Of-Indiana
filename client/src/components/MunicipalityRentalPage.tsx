@@ -208,7 +208,7 @@ export default function MunicipalityRentalPage({
         title={pageTitle}
         description={pageDescription}
         keywords={keywords}
-        canonicalUrl={`https://montcogolfcarts.com/${slug}`}
+        canonicalUrl={`https://monroegolfcarts.com/${slug}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -226,7 +226,7 @@ export default function MunicipalityRentalPage({
               Golf Cart Rentals in {fullLocationName}
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Premium golf cart rentals delivered to your door in {fullLocationName}, Berks County. 
+              Premium golf cart rentals delivered to your door in {fullLocationName}, Monroe County. 
               Street legal, fully insured, and ready for adventure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -254,7 +254,7 @@ export default function MunicipalityRentalPage({
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 We provide the most reliable and convenient golf cart rental service in {fullLocationName} 
-                and throughout Berks County, Pennsylvania.
+                and throughout Monroe County, Pennsylvania.
               </p>
             </div>
 
@@ -275,7 +275,7 @@ export default function MunicipalityRentalPage({
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Proudly serving {fullLocationName} and all of Berks County with personalized, 
+                    Proudly serving {fullLocationName} and all of Monroe County with personalized, 
                     local customer service you can trust.
                   </p>
                 </CardContent>

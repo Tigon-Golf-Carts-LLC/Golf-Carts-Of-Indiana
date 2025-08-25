@@ -288,7 +288,7 @@ export default function AboutPage() {
             {/* Google Maps Embed - Mobile Responsive */}
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195876.91772958!2d-76.1273!3d41.2451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5c8b59ab6d6bd%3A0x1c7e1e8e8e8e8e8e!2sLuzerne%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus" 
                 className="w-full h-64 sm:h-80 md:h-96"
                 style={{border:0}}
                 allowFullScreen 

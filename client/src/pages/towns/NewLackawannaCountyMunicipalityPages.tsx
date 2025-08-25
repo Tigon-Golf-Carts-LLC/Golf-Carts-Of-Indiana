@@ -29,20 +29,20 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Lackawanna County Golf Carts`;
-  const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Lackawanna County, PA. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
+  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Monroe County Golf Carts`;
+  const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Monroe County, PA. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
 
   // Google Maps embed URL for the specific municipality in Lackawanna County
-  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-75.6649!3d41.4993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Lackawanna%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817600000`;
+  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   return (
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
         title={pageTitle}
         description={metaDescription}
-        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} PA, Lackawanna County golf cart sales, electric golf carts ${municipality.name}`}
-        canonicalUrl={`https://lackawannagolfcarts.com${municipality.url}`}
-        ogImage="https://lackawannagolfcarts.com/assets/lackawanna-county-golf-carts-logo.png"
+        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} PA, Monroe County golf cart sales, electric golf carts ${municipality.name}`}
+        canonicalUrl={`https://monroegolfcarts.com${municipality.url}`}
+        ogImage="https://monroegolfcarts.com/assets/monroe-county-golf-carts-logo.png"
       />
 
       {/* Hero Section */}
@@ -50,14 +50,14 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4 bg-theme-orange text-white">
-              Lackawanna County Golf Carts
+              Monroe County Golf Carts
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Golf Carts in {municipality.name} {municipality.type}
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
               Premium electric golf carts, professional service, and expert maintenance 
-              delivered directly to {municipality.name} {municipality.type}, Lackawanna County, Pennsylvania.
+              delivered directly to {municipality.name} {municipality.type}, Monroe County, Pennsylvania.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/inventory">

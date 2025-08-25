@@ -341,7 +341,7 @@ export default function HomePage() {
                 About Monroe County Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Luzerne County and surrounding Pennsylvania areas.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Monroe County and surrounding Pennsylvania areas.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -365,13 +365,13 @@ export default function HomePage() {
             <div className="relative order-1 lg:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97175.20062851234!2d-75.7413!3d40.8473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c36b1e7b5c1e5d%3A0x5b2e6f7b5b5e7b5b!2sLuzerne%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753472406041!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753472406041!5m2!1sen!2sus" 
                   className="w-full h-64 md:h-80 lg:h-96"
                   style={{border: 0}} 
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Luzerne County, PA Map"
+                  title="Monroe County, PA Map"
                 />
               </div>
             </div>

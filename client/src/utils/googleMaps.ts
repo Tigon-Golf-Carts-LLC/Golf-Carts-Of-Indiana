@@ -1,5 +1,5 @@
 /**
- * Utility functions for generating Google Maps embed URLs for Luzerne County locations
+ * Utility functions for generating Google Maps embed URLs for Monroe County locations
  */
 
 export function generateGoogleMapsEmbed(locationName: string, locationType?: string): string {
@@ -8,8 +8,8 @@ export function generateGoogleMapsEmbed(locationName: string, locationType?: str
   
   // Create the full location string with proper formatting for Google Maps
   const fullLocation = locationType 
-    ? `${cleanLocationName} ${locationType}, Luzerne County, PA`
-    : `${cleanLocationName}, Luzerne County, PA`;
+    ? `${cleanLocationName} ${locationType}, Monroe County, PA`
+    : `${cleanLocationName}, Monroe County, PA`;
   
   // Encode the location for the URL
   const encodedLocation = encodeURIComponent(fullLocation);
@@ -22,22 +22,22 @@ export function generateGoogleMapsEmbedLegacy(locationName: string, locationType
   // Alternative method using the older embed format (more reliable for some locations)
   const cleanLocationName = locationName.trim();
   const fullLocation = locationType 
-    ? `${cleanLocationName} ${locationType}, Luzerne County, PA`
-    : `${cleanLocationName}, Luzerne County, PA`;
+    ? `${cleanLocationName} ${locationType}, Monroe County, PA`
+    : `${cleanLocationName}, Monroe County, PA`;
   
   // Encode for legacy embed format
   const encodedLocation = encodeURIComponent(fullLocation);
   
   // Use the standard embed format that works without API key
-  return `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.5!2d-75.88!3d41.24!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s${encodedLocation}!5e0!3m2!1sen!2sus!4v1653000000000!5m2!1sen!2sus`;
+  return `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s${encodedLocation}!5e0!3m2!1sen!2sus!4v1653000000000!5m2!1sen!2sus`;
 }
 
 export function generateSimpleGoogleMapsEmbed(locationName: string, locationType?: string): string {
   // Most reliable method - simple place search
   const cleanLocationName = locationName.trim();
   const searchQuery = locationType 
-    ? `${cleanLocationName} ${locationType} Luzerne County PA`
-    : `${cleanLocationName} Luzerne County PA`;
+    ? `${cleanLocationName} ${locationType} Monroe County PA`
+    : `${cleanLocationName} Monroe County PA`;
   
   const encodedQuery = encodeURIComponent(searchQuery);
   

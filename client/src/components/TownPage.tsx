@@ -22,44 +22,31 @@ const getGoogleMapsEmbedUrl = (townName: string, townType: string): string => {
   const townKey = `${townName.toLowerCase().replace(/\s+/g, '')}_${townType.toLowerCase()}`;
   
   const townMaps: Record<string, string> = {
-    // All 33 Ocean County Towns with Google Maps embeds
-    'barnegat_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25080.1!2d-74.2221!3d39.7584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c1949a9a9a9a9a%3A0x9a9a9a9a9a9a9a9a!2sBarnegat%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300000!5m2!1sen!2sus',
-    'barnegat_light_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3050.2!2d-74.1087!3d39.7584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c194b1b1b1b1b1%3A0xb1b1b1b1b1b1b1b1!2sBarnegat%20Light%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300001!5m2!1sen!2sus',
-    'bay_head_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.1!2d-74.0487!3d40.0676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c173a2a2a2a2a2%3A0xa2a2a2a2a2a2a2a2!2sBay%20Head%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300002!5m2!1sen!2sus',
-    'beach_haven_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.5!2d-74.2430!3d39.5598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c194c3c3c3c3c3%3A0xc3c3c3c3c3c3c3c3!2sBeach%20Haven%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300003!5m2!1sen!2sus',
-    'beachwood_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12200.3!2d-74.1876!3d39.9287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19bd4d4d4d4d4%3A0xd4d4d4d4d4d4d4d4!2sBeachwood%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300004!5m2!1sen!2sus',
-    'berkeley_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24960.5!2d-74.2043!3d39.9276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19b5c5c5c5c5c%3A0x5c5c5c5c5c5c5c5c!2sBerkeley%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300005!5m2!1sen!2sus',
-    'brick_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24368.123!2d-74.1096!3d40.0617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c173d8c5b7a8a5%3A0x123456789abcdef0!2sBrick%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300006!5m2!1sen!2sus',
-    'eagleswood_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12400.7!2d-74.3287!3d39.5943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c186e6e6e6e6e6%3A0xe6e6e6e6e6e6e6e6!2sEagleswood%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300007!5m2!1sen!2sus',
-    'harvey_cedars_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.2!2d-74.1398!3d39.6954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c194f7f7f7f7f7%3A0xf7f7f7f7f7f7f7f7!2sHarvey%20Cedars%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300008!5m2!1sen!2sus',
-    'island_heights_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6100.5!2d-74.1532!3d39.9420!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19c8g8g8g8g8g%3A0x8g8g8g8g8g8g8g8g!2sIsland%20Heights%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300009!5m2!1sen!2sus',
-    'jackson_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49020.1!2d-74.2966!3d40.1076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16d1c8e1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sJackson%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300010!5m2!1sen!2sus',
-    'lacey_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24800.8!2d-74.2043!3d39.8576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19ah9h9h9h9h9%3A0xh9h9h9h9h9h9h9h9!2sLacey%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300011!5m2!1sen!2sus',
-    'lakehurst_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12300.4!2d-74.3132!3d40.0143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16ci1i1i1i1i1%3A0xi1i1i1i1i1i1i1i1!2sLakehurst%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300012!5m2!1sen!2sus',
-    'lakewood_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48384.36!2d-74.2004!3d40.077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c17d0e0b2b7b59%3A0x1e0b7b59e0b7b59!2sLakewood%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300013!5m2!1sen!2sus',
-    'lavallette_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6050.2!2d-74.0687!3d39.9687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c173j2j2j2j2j2%3A0xj2j2j2j2j2j2j2j2!2sLavallette%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300014!5m2!1sen!2sus',
-    'little_egg_harbor_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25200.6!2d-74.2987!3d39.6287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c186k3k3k3k3k3%3A0xk3k3k3k3k3k3k3k3!2sLittle%20Egg%20Harbor%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300015!5m2!1sen!2sus',
-    'long_beach_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24800.9!2d-74.1987!3d39.6543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c194l4l4l4l4l4%3A0xl4l4l4l4l4l4l4l4!2sLong%20Beach%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300016!5m2!1sen!2sus',
-    'manchester_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49200.3!2d-74.2987!3d39.9943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16dm5m5m5m5m5%3A0xm5m5m5m5m5m5m5m5!2sManchester%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300017!5m2!1sen!2sus',
-    'mantoloking_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6000.1!2d-74.0487!3d40.0376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c173n6n6n6n6n6%3A0xn6n6n6n6n6n6n6n6!2sMantoloking%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300018!5m2!1sen!2sus',
-    'ocean_gate_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6100.7!2d-74.1376!3d39.9254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19co7o7o7o7o7%3A0xo7o7o7o7o7o7o7o7!2sOcean%20Gate%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300019!5m2!1sen!2sus',
-    'ocean_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24600.8!2d-74.0287!3d40.2176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c175p8p8p8p8p8%3A0xp8p8p8p8p8p8p8p8!2sOcean%20Township%2C%20Ocean%20County%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300020!5m2!1sen!2sus',
-    'pine_beach_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6200.5!2d-74.1576!3d39.9287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19cq9q9q9q9q9%3A0xq9q9q9q9q9q9q9q9!2sPine%20Beach%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300021!5m2!1sen!2sus',
-    'plumsted_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24900.4!2d-74.4187!3d40.1043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c16dr1r1r1r1r1%3A0xr1r1r1r1r1r1r1r1!2sPlumsted%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300022!5m2!1sen!2sus',
-    'point_pleasant_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12400.2!2d-74.0687!3d40.0876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c173s2s2s2s2s2%3A0xs2s2s2s2s2s2s2s2!2sPoint%20Pleasant%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300023!5m2!1sen!2sus',
-    'point_pleasant_beach_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6100.8!2d-74.0487!3d40.0876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c173t3t3t3t3t3%3A0xt3t3t3t3t3t3t3t3!2sPoint%20Pleasant%20Beach%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300024!5m2!1sen!2sus',
-    'seaside_heights_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6200.3!2d-74.0687!3d39.9443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19cu4u4u4u4u4%3A0xu4u4u4u4u4u4u4u4!2sSeaside%20Heights%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300025!5m2!1sen!2sus',
-    'seaside_park_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6150.4!2d-74.0687!3d39.9287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19cv5v5v5v5v5%3A0xv5v5v5v5v5v5v5v5!2sSeaside%20Park%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300026!5m2!1sen!2sus',
-    'ship_bottom_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6080.6!2d-74.1687!3d39.6443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c194w6w6w6w6w6%3A0xw6w6w6w6w6w6w6w6!2sShip%20Bottom%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300027!5m2!1sen!2sus',
-    'south_toms_river_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6200.7!2d-74.2087!3d39.9443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19cx7x7x7x7x7%3A0xx7x7x7x7x7x7x7x7!2sSouth%20Toms%20River%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300028!5m2!1sen!2sus',
-    'stafford_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25100.2!2d-74.2500!3d39.7542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c1952d2d2d2d2d%3A0x2d2d2d2d2d2d2d2d!2sStafford%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300029!5m2!1sen!2sus',
-    'surf_city_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6100.9!2d-74.1587!3d39.6554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c194y8y8y8y8y8%3A0xy8y8y8y8y8y8y8y8!2sSurf%20City%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300030!5m2!1sen!2sus',
-    'toms_river_township': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49127.5!2d-74.2748!3d39.9532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c19c8e0379c5a3%3A0x5a0f6e8e1b5e6c1d!2sToms%20River%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300031!5m2!1sen!2sus',
-    'tuckerton_borough': 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12400.3!2d-74.3387!3d39.6043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c186z9z9z9z9z9%3A0xz9z9z9z9z9z9z9z9!2sTuckerton%2C%20NJ!5e0!3m2!1sen!2sus!4v1753141300032!5m2!1sen!2sus',
+    // Monroe County, PA municipalities with Google Maps embeds (using Monroe County coordinates as fallback)
+    'barrett_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBarrett%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'chestnuthill_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sChestnuthill%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'coolbaugh_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCoolbaugh%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'delaware_water_gap_borough': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sDelaware%20Water%20Gap%20Borough%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'east_stroudsburg_borough': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sEast%20Stroudsburg%20Borough%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'eldred_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sEldred%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'hamilton_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sHamilton%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'jackson_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sJackson%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'middle_smithfield_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMiddle%20Smithfield%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'mount_pocono_borough': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMount%20Pocono%20Borough%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'paradise_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sParadise%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'pocono_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPocono%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'polk_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPolk%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'price_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPrice%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'ross_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRoss%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'smithfield_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSmithfield%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'stroud_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sStroud%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'stroudsburg_borough': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sStroudsburg%20Borough%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'tobyhanna_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sTobyhanna%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
+    'tunkhannock_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sTunkhannock%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
   };
   
-  // Return specific map or fallback to generic Luzerne County embed for smaller towns
-  return townMaps[townKey] || `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195876.91772958!2d-76.1273!3d41.2451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5c8b59ab6d6bd%3A0x1c7e1e8e8e8e8e8e!2s${encodeURIComponent(townName + ' ' + townType)}%2C%20Luzerne%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`;
+  // Return specific map or fallback to generic Monroe County embed for smaller towns
+  return townMaps[townKey] || `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2s${encodeURIComponent(townName + ' ' + townType)}%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`;
 };
 
 export default function TownPage({ townName, townType }: TownPageProps) {
@@ -71,13 +58,13 @@ export default function TownPage({ townName, townType }: TownPageProps) {
   const fullTownName = `${townName} ${townType}`;
   
   // SEO optimization
-  const pageTitle = `${townName} Golf Carts - Luzerne County's Premier Dealership | Sales, Service & Rentals`;
-  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Lackawanna County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
-  const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Luzerne County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
-  const canonicalUrl = `https://lackawannagolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
+  const pageTitle = `${townName} Golf Carts - Monroe County's Premier Dealership | Sales, Service & Rentals`;
+  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Monroe County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
+  const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Monroe County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
+  const canonicalUrl = `https://monroegolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://lackawannagolfcarts.com" },
+    { name: "Home", url: "https://monroegolfcarts.com" },
     { name: `${townName} Golf Carts`, url: canonicalUrl }
   ];
 
@@ -100,7 +87,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                {townName} Golf Carts - Luzerne County's Premier Dealership
+                {townName} Golf Carts - Monroe County's Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Professional golf cart sales, service, and rentals in {fullTownName}. 
@@ -135,7 +122,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
             Golf Cart Services in {fullTownName}
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            Lackawanna County Golf Carts proudly serves {townName} residents with comprehensive 
+            Monroe County Golf Carts proudly serves {townName} residents with comprehensive 
             golf cart solutions including sales, maintenance, repairs, and rentals.
           </p>
           
