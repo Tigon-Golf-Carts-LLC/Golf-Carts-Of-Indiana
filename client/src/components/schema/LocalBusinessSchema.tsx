@@ -25,17 +25,17 @@ interface LocalBusinessSchemaProps {
 
 export default function LocalBusinessSchema({
   name = "Monroe County Golf Carts",
-  description = "Premier golf cart dealership specializing in electric golf carts, sales, service, rentals, and financing.",
+  description = "Premier golf cart dealership in Monroe County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
-    streetAddress: "1036 Bethlehem Pike",
-    addressLocality: "Montgomeryville",
+    streetAddress: "1040 PA-611",
+    addressLocality: "Stroudsburg",
     addressRegion: "PA",
-    postalCode: "18936",
+    postalCode: "18360",
     addressCountry: "US"
   },
   geo = {
-    latitude: "40.2465",
-    longitude: "-75.2416"
+    latitude: "40.9856",
+    longitude: "-75.1946"
   },
   telephone = "1-844-844-6638",
   email = "info@monroegolfcarts.com",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Montgomery County, PA"
+  areaServed = "Monroe County, PA"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {

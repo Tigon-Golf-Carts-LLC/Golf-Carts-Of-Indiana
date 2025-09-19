@@ -75,7 +75,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       label: "Monroe County Golf Carts",
-      value: "1036 Bethlehem Pike, Montgomeryville, PA 18936",
+      value: "1040 PA-611, Stroudsburg, PA 18360",
       phone: "1-844-844-6638",
     },
     {
@@ -106,7 +106,7 @@ export default function ContactPage() {
     <>
       <SEOHead 
         title="Contact Monroe County Golf Carts - Sales & Service"
-        description="Contact Monroe County Golf Carts for sales, service, and support. Located at 1036 Bethlehem Pike, Montgomeryville, PA. Call 1-844-844-6638."
+        description="Contact Monroe County Golf Carts for sales, service, and support. Located at 1040 PA-611, Stroudsburg, PA 18360. Call 1-844-844-6638."
         keywords="contact Monroe County golf carts, golf cart sales Pennsylvania, Stroudsburg showroom, East Stroudsburg golf cart service PA"
         canonicalUrl="https://monroegolfcarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
