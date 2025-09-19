@@ -17,7 +17,7 @@ export const generateOrganizationSchema = () => ({
   "@type": "Organization",
   "name": "Monroe County Golf Carts",
   "alternateName": "MCGC",
-  "description": "Premier golf cart dealer in Monroe County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "description": "Premier golf cart dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
   "url": "https://monroegolfcarts.com",
   "logo": "https://monroegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
   "image": [
@@ -28,9 +28,11 @@ export const generateOrganizationSchema = () => ({
   "email": "info@monroegolfcarts.com",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "1036 Bethlehem Pike",
+    "addressLocality": "Montgomeryville",
     "addressRegion": "PA",
-    "addressCountry": "US",
-    "addressLocality": "Monroe County"
+    "postalCode": "18936",
+    "addressCountry": "US"
   },
   "areaServed": {
     "@type": "State",
@@ -40,8 +42,8 @@ export const generateOrganizationSchema = () => ({
     "@type": "GeoCircle",
     "geoMidpoint": {
       "@type": "GeoCoordinates",
-      "latitude": 41.045,
-      "longitude": -75.355
+      "latitude": 40.2465,
+      "longitude": -75.2416
     },
     "geoRadius": "50000"
   },
@@ -87,7 +89,7 @@ export const generateLocalBusinessSchema = () => ({
   "@type": "LocalBusiness",
   "@id": "https://monroegolfcarts.com/#localbusiness",
   "name": "Monroe County Golf Carts",
-  "description": "Premier golf cart dealer serving all 20 Monroe County municipalities with electric vehicle sales, service, and rentals.",
+  "description": "Premier golf cart dealer with electric vehicle sales, service, and rentals.",
   "url": "https://monroegolfcarts.com",
   "telephone": "1-844-844-6638",
   "email": "info@monroegolfcarts.com",
@@ -100,14 +102,16 @@ export const generateLocalBusinessSchema = () => ({
   ],
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "1036 Bethlehem Pike",
+    "addressLocality": "Montgomeryville",
     "addressRegion": "PA",
-    "addressCountry": "US",
-    "addressLocality": "Monroe County"
+    "postalCode": "18936",
+    "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 41.045,
-    "longitude": -75.355
+    "latitude": 40.2465,
+    "longitude": -75.2416
   },
   "areaServed": [
     "Stroudsburg", "East Stroudsburg", "Mount Pocono", "Delaware Water Gap", "Barrett Township", "Chestnuthill Township",

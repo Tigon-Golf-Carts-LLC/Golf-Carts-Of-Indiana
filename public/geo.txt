@@ -3,20 +3,22 @@
 
 ## MONROE COUNTY GEOGRAPHIC OVERVIEW
 
-### County Statistics
-- Official Name: Monroe County, Pennsylvania
-- County Seat: Stroudsburg Borough
-- Total Area: 608 square miles (1,575 km²)
-- Land Area: 604 square miles (1,564 km²)
-- Water Area: 4 square miles (10 km²)
-- Population: 168,327 (2020 U.S. Census)
-- Population Density: 277 people per square mile
-- Founded: April 1, 1836
-- Named After: James Monroe, 5th President of the United States
-- County Code: FIPS 42089
+### Business Location
+- Business Address: 1036 Bethlehem Pike, Montgomeryville, PA 18936
+- County: Montgomery County, Pennsylvania
+- Geographic Coordinates: 40.2465° N, 75.2416° W
 
-### Geographic Coordinates
-- Center Point: 41.0548° N, 75.1932° W
+### Montgomery County Statistics
+- Official Name: Montgomery County, Pennsylvania
+- County Seat: Norristown Borough
+- Total Area: 487 square miles (1,261 km²)
+- Land Area: 483 square miles (1,251 km²)
+- Water Area: 4 square miles (10 km²)
+- Population: 856,553 (2020 U.S. Census)
+- Population Density: 1,774 people per square mile
+- Founded: September 10, 1784
+- Named After: Richard Montgomery, Revolutionary War general
+- County Code: FIPS 42091
 - Northernmost Point: 41.2500° N (Tunkhannock Township)
 - Southernmost Point: 40.8333° N (Middle Smithfield Township)
 - Easternmost Point: 75.0000° W (Pike County border)

@@ -207,20 +207,20 @@ Sitemap: https://monroegolfcarts.com/public/sitemap.xml
 
 # BUSINESS INFORMATION
 # Company: Monroe County Golf Carts
-# Location: Monroe County, Pennsylvania
-# Service Area: All 20 Monroe County municipalities (4 boroughs + 16 townships)
+# Address: 1036 Bethlehem Pike, Montgomeryville, PA 18936
+# Location: Montgomery County, Pennsylvania
+# Service Area: Montgomery County and surrounding areas
 # Brands: DENAGO and EVOLUTION electric golf carts
 # Services: Sales, Service, Rentals, Parts
 # Phone: 1-844-844-6638
 # Email: info@monroegolfcarts.com
 # Website: https://monroegolfcarts.com
-# Coordinates: 41.0548° N, 75.1932° W (Stroudsburg area)
+# Coordinates: 40.2465° N, 75.2416° W (Montgomeryville area)
 
-# MUNICIPALITIES SERVED:
-# Boroughs: Delaware Water Gap, East Stroudsburg, Mount Pocono, Stroudsburg
-# Townships: Barrett, Chestnuthill, Coolbaugh, Eldred, Hamilton, Jackson, 
-#           Middle Smithfield, Paradise, Pocono, Polk, Price, Ross, 
-#           Smithfield, Stroud, Tobyhanna, Tunkhannock
+# PRIMARY SERVICE AREAS:
+# Montgomery County, Pennsylvania
+# North Penn area, Upper Perkiomen Valley
+# Surrounding Bucks, Chester, and Berks Counties
 
 # TRACKING CODES
 # Google Analytics: G-QJVWEK6RT8

@@ -24,18 +24,18 @@ interface LocalBusinessSchemaProps {
 }
 
 export default function LocalBusinessSchema({
-  name = "Lackawanna County Golf Carts",
-  description = "Premier golf cart dealership in Lackawanna County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+  name = "Monroe County Golf Carts",
+  description = "Premier golf cart dealership specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
-    streetAddress: "123 Golf Cart Lane",
-    addressLocality: "Stroudsburg",
+    streetAddress: "1036 Bethlehem Pike",
+    addressLocality: "Montgomeryville",
     addressRegion: "PA",
-    postalCode: "18229",
+    postalCode: "18936",
     addressCountry: "US"
   },
   geo = {
-    latitude: "41.0534",
-    longitude: "-75.3379"
+    latitude: "40.2465",
+    longitude: "-75.2416"
   },
   telephone = "1-844-844-6638",
   email = "info@monroegolfcarts.com",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Monroe County, PA"
+  areaServed = "Montgomery County, PA"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {
