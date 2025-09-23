@@ -9,10 +9,6 @@ export default function DenagoEvRoverXl6Page() {
       series="EV ROVER"
       price="$11,995"
       image={denagoEvRoverXL6Image}
-      seoTitle="DENAGO EV ROVER XL6 - Extended 6-Seat Golf Cart | Atlantic County Golf Carts"
-      seoDescription="Experience the DENAGO EV ROVER XL6 electric golf cart in Atlantic County, NJ. Extended 6-seat configuration with premium materials and enhanced comfort."
-      seoKeywords="DENAGO EV ROVER XL6, extended 6-seat, premium golf cart, Atlantic County, New Jersey"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/denago-ev-rover-xl6"
       seats="6"
       range="50 miles"
       topSpeed="25 mph"
@@ -27,7 +23,7 @@ export default function DenagoEvRoverXl6Page() {
         "Superior Build Quality",
         "Modern Design"
       ]}
-      description="Extended 6-seat configuration with premium materials and enhanced comfort features. The DENAGO EV ROVER XL6 represents the pinnacle of family electric vehicle luxury in Atlantic County."
+      description="Extended 6-seat configuration with premium materials and enhanced comfort features. The DENAGO EV ROVER XL6 represents the pinnacle of family electric vehicle luxury in Monroe County. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/rover-xl6/"
     />
   );

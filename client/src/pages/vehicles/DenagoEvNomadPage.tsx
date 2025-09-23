@@ -9,10 +9,6 @@ export default function DenagoEvNomadPage() {
       series="EV NOMAD"
       price="$8,495"
       image={denagoEvNomadImage}
-      seoTitle="DENAGO EV NOMAD - Adventure Electric Golf Cart | Atlantic County Golf Carts"
-      seoDescription="Explore with the DENAGO EV NOMAD electric golf cart in Atlantic County, NJ. Adventure-ready vehicles built for exploration and off-road adventures."
-      seoKeywords="DENAGO EV NOMAD, adventure golf cart, off-road electric vehicle, Atlantic County, New Jersey, all-terrain"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/denago-ev-nomad"
       seats="4"
       range="45 miles"
       topSpeed="25 mph"
@@ -27,7 +23,7 @@ export default function DenagoEvNomadPage() {
         "Durable Frame",
         "Weather Protection"
       ]}
-      description="Adventure-ready vehicles built for exploration and off-road adventures. The DENAGO EV NOMAD combines rugged durability with electric efficiency for Atlantic County's diverse terrain."
+      description="Adventure-ready vehicles built for exploration and off-road adventures. The DENAGO EV NOMAD combines rugged durability with electric efficiency for Monroe County's diverse terrain. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/nomad/"
     />
   );

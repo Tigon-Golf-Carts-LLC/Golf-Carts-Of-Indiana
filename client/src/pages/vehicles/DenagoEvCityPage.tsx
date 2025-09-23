@@ -9,10 +9,6 @@ export default function DenagoEvCityPage() {
       series="EV CITY"
       price="$15,000"
       image={denagoEvCityImage}
-      seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Monroe County Golf Carts"
-      seoDescription="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Monroe County's urban environments."
-      seoKeywords="DENAGO EV CITY, urban electric golf cart, street legal golf cart, Monroe County Pennsylvania, electric vehicle"
-      canonicalUrl="https://monroegolfcarts.com/vehicles/denago-ev-city"
       seats="2"
       range="40 miles"
       topSpeed="25 mph"
@@ -27,7 +23,7 @@ export default function DenagoEvCityPage() {
         "Digital Display",
         "Comfortable Seating"
       ]}
-      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Monroe County's urban environments."
+      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Monroe County's urban environments. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/city/"
     />
   );

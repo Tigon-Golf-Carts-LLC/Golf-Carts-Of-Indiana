@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import EcoImpactCalculator from "@/components/EcoImpactCalculator";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";

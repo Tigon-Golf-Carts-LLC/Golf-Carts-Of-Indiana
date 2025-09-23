@@ -9,10 +9,6 @@ export default function EvolutionClassic4PlusPage() {
       series="CLASSIC"
       price="$6,995"
       image={evolutionClassic4PlusImage}
-      seoTitle="EVOLUTION CLASSIC 4 PLUS - Traditional Golf Cart | Monroe County Golf Carts"
-      seoDescription="Traditional 4-passenger golf cart with classic design and reliable performance. The EVOLUTION CLASSIC 4 PLUS offers timeless styling with modern electric efficiency for Monroe County golf enthusiasts."
-      seoKeywords="EVOLUTION CLASSIC 4 PLUS, traditional golf cart, classic design, Monroe County Pennsylvania, electric golf cart"
-      canonicalUrl="https://monroegolfcarts.com/vehicles/evolution-classic-4-plus"
       seats="4"
       range="35 miles"
       topSpeed="25 mph"
@@ -27,7 +23,7 @@ export default function EvolutionClassic4PlusPage() {
         "Easy Operation",
         "Value-Oriented"
       ]}
-      description="Traditional 4-passenger golf cart with classic design and reliable performance. The EVOLUTION CLASSIC 4 PLUS offers timeless styling with modern electric efficiency for Monroe County golf enthusiasts."
+      description="Traditional 4-passenger golf cart with classic design and reliable performance. The EVOLUTION CLASSIC 4 PLUS offers timeless styling with modern electric efficiency for Monroe County golf enthusiasts. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/evolution/classic/4-plus/"
     />
   );

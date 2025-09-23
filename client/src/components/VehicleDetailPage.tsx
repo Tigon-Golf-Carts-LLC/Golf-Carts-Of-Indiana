@@ -16,12 +16,6 @@ interface VehicleDetailPageProps {
   price: string;
   image: string;
 
-  // SEO
-  seoTitle: string;
-  seoDescription: string;
-  seoKeywords: string;
-  canonicalUrl: string;
-
   // Specifications
   seats: string;
   range: string;
@@ -34,6 +28,10 @@ interface VehicleDetailPageProps {
 
   // External Link
   tigoUrl: string;
+
+  // Optional SEO overrides (for legacy compatibility)
+  seoKeywords?: string;
+  canonicalUrl?: string;
 }
 
 export default function VehicleDetailPage({
@@ -42,17 +40,15 @@ export default function VehicleDetailPage({
   series,
   price,
   image,
-  seoTitle,
-  seoDescription,
-  seoKeywords,
-  canonicalUrl,
   seats,
   range,
   topSpeed,
   driveType,
   features,
   description,
-  tigoUrl
+  tigoUrl,
+  seoKeywords,
+  canonicalUrl
 }: VehicleDetailPageProps) {
   const brandColors = {
     DENAGO: "from-gray-900 to-gray-700",
@@ -60,12 +56,23 @@ export default function VehicleDetailPage({
   };
   
   // Generate enhanced SEO metadata that matches H1 and includes call-to-action
+  const vehicleSlug = vehicleName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const defaultCanonicalPath = `/vehicles/${vehicleSlug}`;
+  const defaultKeywords = [
+    vehicleName,
+    `${brand} golf cart`,
+    `${series} series`,
+    `electric golf cart Monroe County`,
+    `${brand} ${series}`,
+    "golf cart sales Pennsylvania"
+  ];
+  
   const seoData = generateSEOMetadata({
     pageTitle: vehicleName, // This matches the H1 text exactly
     baseDescription: `Discover the ${vehicleName} electric golf cart in Monroe County, PA. ${description} Expert sales, service, and delivery available.`,
     pageType: "vehicle",
-    canonicalPath: new URL(canonicalUrl).pathname,
-    keywords: seoKeywords.split(', '),
+    canonicalPath: canonicalUrl ? new URL(canonicalUrl).pathname : defaultCanonicalPath,
+    keywords: seoKeywords ? seoKeywords.split(', ') : defaultKeywords,
     ogImage: image,
     heroBackgroundSeed: "vehicle",
     vehicleBrand: brand,
@@ -100,13 +107,13 @@ export default function VehicleDetailPage({
       <AllSchemas 
         pageType="vehicle" 
         pageData={{
-          title: seoTitle,
-          description: seoDescription,
-          url: canonicalUrl,
+          title: seoData.title,
+          description: seoData.description,
+          url: seoData.canonicalUrl,
           breadcrumbs: [
-            { name: "Home", url: "https://lackawannagolfcarts.com/" },
-            { name: "Inventory", url: "https://lackawannagolfcarts.com/inventory" },
-            { name: vehicleName, url: canonicalUrl }
+            { name: "Home", url: "https://monroegolfcarts.com/" },
+            { name: "Inventory", url: "https://monroegolfcarts.com/inventory" },
+            { name: vehicleName, url: seoData.canonicalUrl }
           ],
           vehicleName,
           vehicleBrand: brand,
