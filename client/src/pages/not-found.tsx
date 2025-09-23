@@ -1,21 +1,46 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function NotFound() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "404 Page Not Found",
+    baseDescription: "The page you're looking for doesn't exist. Visit Monroe County Golf Carts for premium electric golf carts, sales, service, and rentals throughout Pennsylvania.",
+    pageType: "general",
+    canonicalPath: "/404",
+    keywords: ["404 error", "page not found", "Monroe County Golf Carts"],
+    heroBackgroundSeed: "404"
+  });
+  
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
-      <Card className="w-full max-w-md mx-4">
-        <CardContent className="pt-6">
-          <div className="flex mb-4 gap-2">
-            <AlertCircle className="h-8 w-8 text-red-500" />
-            <h1 className="text-2xl font-bold text-gray-900">404 Page Not Found</h1>
-          </div>
+    <>
+      <SEOHead 
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
+      />
+      <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
+        <Card className="w-full max-w-md mx-4">
+          <CardContent className="pt-6">
+            <div className="flex mb-4 gap-2">
+              <AlertCircle className="h-8 w-8 text-red-500" />
+              <h1 className="text-2xl font-bold text-gray-900">404 Page Not Found</h1>
+            </div>
 
-          <p className="mt-4 text-sm text-gray-600">
-            Did you forget to add the page to the router?
-          </p>
-        </CardContent>
-      </Card>
-    </div>
+            <p className="mt-4 text-sm text-gray-600">
+              Did you forget to add the page to the router?
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </>
   );
 }

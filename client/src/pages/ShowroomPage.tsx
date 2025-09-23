@@ -6,8 +6,20 @@ import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function ShowroomPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Monroe County Golf Carts LSV Showrooms",
+    baseDescription: "Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Pennsylvania. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County with expert sales and service.",
+    pageType: "general",
+    canonicalPath: "/showroom",
+    keywords: ["TIGON Golf Carts showroom", "Monroe County golf cart dealership", "Pocono Pines golf carts", "Scranton golf carts"],
+    ogImage: "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
+    heroBackgroundSeed: "showroom"
+  });
+  
   const locations = [
     {
       name: "TIGON GOLF CARS POCONO PA",
@@ -52,12 +64,16 @@ export default function ShowroomPage() {
   return (
     <>
       <SEOHead 
-        title="Monroe County Golf Carts Showrooms | TIGON Golf Cart Sales PA"
-        description="Visit our TIGON Golf Carts showrooms serving Monroe County PA. Complete DENAGO and EVOLUTION golf cart lineup with expert service across all 20 municipalities."
-        keywords="Monroe County golf carts, TIGON golf carts showroom, golf cart dealership Pennsylvania, DENAGO EVOLUTION Monroe County"
-        canonicalUrl="https://monroegolfcarts.com/showroom"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
-        ogType="website"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImage={seoData.ogImage}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

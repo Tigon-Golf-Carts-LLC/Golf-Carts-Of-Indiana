@@ -4,14 +4,31 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Phone, Clock, Mail } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function ThankYouPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Thank You!",
+    baseDescription: "Thank you for contacting Monroe County Golf Carts. We've received your message and our team will respond to your inquiry within 24 hours. Expert golf cart sales, service, and rentals.",
+    pageType: "general",
+    canonicalPath: "/thank-you",
+    keywords: ["thank you", "contact confirmation", "Monroe County Golf Carts", "customer service"],
+    heroBackgroundSeed: "thankyou"
+  });
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <SEOHead 
-        title="Thank You - Monroe County Golf Carts"
-        description="Thank you for contacting Monroe County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all 20 Monroe County municipalities."
-        keywords="thank you, contact confirmation, Monroe County Golf Carts, TIGON Golf Carts"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       
       {/* Hero Section */}

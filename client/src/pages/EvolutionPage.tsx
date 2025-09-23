@@ -7,6 +7,7 @@ import { Check, Star, Zap, Shield, Truck, Phone, MapPin, Award } from "lucide-re
 import SEOHead from "@/components/SEOHead";
 import VehicleCard from "@/components/VehicleCard";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 // Import EVOLUTION vehicle images
 import evolutionD5Ranger6Image from "@assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg";
@@ -48,6 +49,17 @@ export default function EvolutionPage() {
   const evolutionVehicles = vehicles?.filter(vehicle => 
     vehicle.brand.toLowerCase().includes('evolution')
   ) || [];
+  
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "EVOLUTION®",
+    baseDescription: "Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver premium quality, innovative design, and reliable performance for Monroe County, Pennsylvania. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series.",
+    pageType: "general",
+    canonicalPath: "/evolution",
+    keywords: ["EVOLUTION golf carts", "premium electric vehicles", "D5 RANGER", "EVOLUTION MAVERICK", "golf cart sales Monroe County"],
+    ogImage: "/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg",
+    heroBackgroundSeed: "evolution"
+  });
 
   const evolutionFeatures = [
     "Premium Quality Construction",
@@ -226,12 +238,16 @@ export default function EvolutionPage() {
   return (
     <>
       <SEOHead 
-        title="EVOLUTION Golf Carts Monroe County | Premium Electric Vehicles PA"
-        description="Discover EVOLUTION golf carts in Monroe County, PA. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
-        keywords="EVOLUTION golf carts Monroe County, electric golf carts Pennsylvania, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales Pennsylvania, EVOLUTION dealers"
-        canonicalUrl="https://monroegolfcarts.com/evolution"
-        ogImage="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
-        ogType="product.group"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImage={seoData.ogImage}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
 
       <div className="min-h-screen bg-gray-50">

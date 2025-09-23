@@ -3,10 +3,22 @@ import EcoImpactCalculator from "@/components/EcoImpactCalculator";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Leaf, Zap, TreePine, Recycle, Globe, Wind } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function EcoImpactPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Calculate Your Environmental Impact",
+    baseDescription: "Discover how much CO₂, fuel, and money you save by choosing electric golf carts. Make an informed decision for your wallet and the environment with our free interactive calculator.",
+    pageType: "general",
+    canonicalPath: "/eco-impact",
+    keywords: ["eco impact calculator", "environmental benefits", "electric golf cart savings", "CO2 reduction", "fuel savings calculator"],
+    heroBackgroundSeed: "eco"
+  });
+  
   const benefits = [
     {
       icon: <Leaf className="w-8 h-8 text-green-600" />,
@@ -65,30 +77,17 @@ export default function EcoImpactPage() {
 
   return (
     <>
-      {/* SEO Head */}
-      <Helmet>
-        <title>Eco-Impact Calculator - Environmental Benefits | Monroe County Golf Carts</title>
-        <meta 
-          name="description" 
-          content="Calculate your environmental impact and savings with electric golf carts. See CO₂ reduction, fuel savings, and carbon offset benefits. Free eco-impact calculator for Monroe County." 
-        />
-        <meta 
-          name="keywords" 
-          content="eco impact calculator, electric golf cart environmental benefits, carbon footprint reduction, CO2 savings, sustainable transportation Monroe County, green golf carts Pennsylvania" 
-        />
-        <link rel="canonical" href="https://monroegolfcarts.com/eco-impact" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Eco-Impact Calculator - Calculate Your Environmental Savings" />
-        <meta property="og:description" content="See how much CO₂, fuel, and money you save by choosing electric golf carts. Interactive calculator with real environmental data." />
-        <meta property="og:url" content="https://monroegolfcarts.com/eco-impact" />
-        <meta property="og:type" content="website" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Eco-Impact Calculator - Environmental Golf Cart Benefits" />
-        <meta name="twitter:description" content="Calculate your environmental impact with our free eco-impact calculator for electric golf carts." />
-      </Helmet>
+      <SEOHead 
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
+      />
 
       {/* Schema Markup */}
       <AllSchemas 

@@ -7,6 +7,7 @@ import { Check, Star, Zap, Shield, Truck, Phone, MapPin } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import VehicleCard from "@/components/VehicleCard";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 // Import DENAGO vehicle images
 import denagoEvCityImage from "@assets/DENAGONEVCITY_1751893047472_1753135231313.jpg";
@@ -46,6 +47,17 @@ export default function DenagoPage() {
   const denagoVehicles = vehicles?.filter(vehicle => 
     vehicle.brand.toLowerCase().includes('denago')
   ) || [];
+  
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "DENAGO®",
+    baseDescription: "Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge technology with rugged durability for unmatched adventure capability in Monroe County, Pennsylvania. Premium EV CITY, EV NOMAD, and EV ROVER series available.",
+    pageType: "general",
+    canonicalPath: "/denago",
+    keywords: ["DENAGO golf carts", "electric off-road vehicles", "premium golf carts Monroe County", "all-wheel drive golf carts"],
+    ogImage: "/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg",
+    heroBackgroundSeed: "denago"
+  });
 
   const denagoFeatures = [
     "Advanced All-Wheel Drive Technology",
@@ -138,12 +150,16 @@ export default function DenagoPage() {
   return (
     <>
       <SEOHead 
-        title="DENAGO Electric Golf Carts Monroe County | Premium Off-Road Vehicles PA"
-        description="Discover DENAGO electric golf carts in Monroe County, PA. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
-        keywords="DENAGO golf carts Monroe County, electric golf carts Pennsylvania, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, all-wheel drive golf carts"
-        canonicalUrl="https://monroegolfcarts.com/denago"
-        ogImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
-        ogType="product.group"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImage={seoData.ogImage}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
 
       <div className="min-h-screen bg-gray-50">
