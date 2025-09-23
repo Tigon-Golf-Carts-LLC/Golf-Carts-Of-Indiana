@@ -1,12 +1,29 @@
 import SEOHead from '@/components/SEOHead';
+import { generateSEOMetadata } from '@/utils/seoUtils';
 
 export function TermsOfServicePage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Terms of Service",
+    baseDescription: "Terms of Service for Monroe County Golf Carts. Review our comprehensive terms and conditions for purchasing golf carts, rental services, and using our website.",
+    pageType: "policy",
+    canonicalPath: "/terms-of-service",
+    keywords: ["terms of service", "terms and conditions", "golf cart purchase", "rental agreement", "Monroe County Golf Carts"],
+    heroBackgroundSeed: "policy"
+  });
+  
   return (
     <>
       <SEOHead 
-        title="Terms of Service | Monroe County Golf Carts"
-        description="Terms of Service for Monroe County Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
-        keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Monroe County Golf Carts"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

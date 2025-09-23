@@ -1,12 +1,29 @@
 import SEOHead from '@/components/SEOHead';
+import { generateSEOMetadata } from '@/utils/seoUtils';
 
 export function PrivacyPolicyPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Privacy Policy",
+    baseDescription: "Privacy Policy for Monroe County Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts. Your privacy is our priority.",
+    pageType: "policy",
+    canonicalPath: "/privacy-policy",
+    keywords: ["privacy policy", "data protection", "personal information", "Monroe County Golf Carts"],
+    heroBackgroundSeed: "policy"
+  });
+  
   return (
     <>
       <SEOHead 
-        title="Privacy Policy | Monroe County Golf Carts"
-        description="Privacy Policy for Monroe County Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts."
-        keywords="privacy policy, data protection, personal information, Monroe County Golf Carts"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

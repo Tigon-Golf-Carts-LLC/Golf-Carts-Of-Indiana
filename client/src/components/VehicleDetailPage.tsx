@@ -6,6 +6,7 @@ import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 interface VehicleDetailPageProps {
   // Vehicle Information
@@ -57,6 +58,19 @@ export default function VehicleDetailPage({
     DENAGO: "from-gray-900 to-gray-700",
     EVOLUTION: "from-blue-900 to-blue-700"
   };
+  
+  // Generate enhanced SEO metadata that matches H1 and includes call-to-action
+  const seoData = generateSEOMetadata({
+    pageTitle: vehicleName, // This matches the H1 text exactly
+    baseDescription: `Discover the ${vehicleName} electric golf cart in Monroe County, PA. ${description} Expert sales, service, and delivery available.`,
+    pageType: "vehicle",
+    canonicalPath: new URL(canonicalUrl).pathname,
+    keywords: seoKeywords.split(', '),
+    ogImage: image,
+    heroBackgroundSeed: "vehicle",
+    vehicleBrand: brand,
+    vehicleModel: series
+  });
 
   const specifications = {
     "Seating Capacity": seats,
@@ -72,12 +86,16 @@ export default function VehicleDetailPage({
   return (
     <>
       <SEOHead 
-        title={seoTitle}
-        description={seoDescription}
-        keywords={seoKeywords}
-        canonicalUrl={canonicalUrl}
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
         ogImage={image}
-        ogType="product"
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <AllSchemas 
         pageType="vehicle" 
