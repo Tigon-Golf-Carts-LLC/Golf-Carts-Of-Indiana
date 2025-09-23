@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { getRandomBackgroundImage } from "@/utils/backgroundImages";
 
 interface SEOHeadProps {
   title: string;
@@ -7,18 +8,59 @@ interface SEOHeadProps {
   canonicalUrl?: string;
   townName?: string;
   ogImage?: string;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
   ogType?: string;
+  heroBackgroundSeed?: string;
+  pageType?: 'home' | 'vehicle' | 'contact' | 'about' | 'policy' | 'municipality' | 'rental' | 'general';
 }
 
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Luzerne County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "golf carts Monroe County PA, electric golf carts Pennsylvania, DENAGO EVOLUTION golf cart sales service", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-  ogType = "website"
+  ogImage,
+  ogImageWidth = 1200,
+  ogImageHeight = 630,
+  ogType = "website",
+  heroBackgroundSeed,
+  pageType = 'general'
 }: SEOHeadProps) {
+  
+  // Enhanced description formatting - ensure it ends with the phone number call-to-action
+  const formatDescription = (desc: string): string => {
+    const trimmedDesc = desc.trim();
+    if (trimmedDesc.endsWith('Call 1-844-844-6638.')) {
+      return trimmedDesc;
+    }
+    // Remove any existing call-to-action to avoid duplication
+    const cleanDesc = trimmedDesc.replace(/\s*Call\s+1-844-844-6638\.?\s*$/, '');
+    return `${cleanDesc} Call 1-844-844-6638.`;
+  };
+  
+  const formattedDescription = formatDescription(description);
+  
+  // Determine the best image to use for Open Graph
+  const getOptimalOGImage = (): string => {
+    // 1. Use explicitly provided ogImage if available
+    if (ogImage) {
+      return ogImage.startsWith('http') ? ogImage : `https://monroegolfcarts.com${ogImage}`;
+    }
+    
+    // 2. Use hero background image based on page type or seed
+    if (heroBackgroundSeed || pageType) {
+      const seed = heroBackgroundSeed || pageType;
+      const heroImage = getRandomBackgroundImage(seed);
+      return `https://monroegolfcarts.com${heroImage}`;
+    }
+    
+    // 3. Fallback to logo
+    return "https://monroegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png";
+  };
+  
+  const finalOGImage = getOptimalOGImage();
   useEffect(() => {
     // Set page title
     document.title = title;
@@ -26,11 +68,11 @@ export default function SEOHead({
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute("content", description);
+      metaDescription.setAttribute("content", formattedDescription);
     } else {
       const meta = document.createElement("meta");
       meta.name = "description";
-      meta.content = description;
+      meta.content = formattedDescription;
       document.head.appendChild(meta);
     }
 
@@ -95,9 +137,11 @@ export default function SEOHead({
     };
 
     updateOGTag("og:title", title);
-    updateOGTag("og:description", description);
+    updateOGTag("og:description", formattedDescription);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", `https://monroegolfcarts.com${ogImage}`);
+    updateOGTag("og:image", finalOGImage);
+    updateOGTag("og:image:width", ogImageWidth.toString());
+    updateOGTag("og:image:height", ogImageHeight.toString());
     updateOGTag("og:site_name", "Monroe County Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
@@ -119,10 +163,8 @@ export default function SEOHead({
 
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
-    updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://lackawannagolfcarts.com${ogImage}`);
-    updateTwitterTag("twitter:site", "@lehighgolfcarts");
-    updateTwitterTag("twitter:creator", "@lehighgolfcarts");
+    updateTwitterTag("twitter:description", formattedDescription);
+    updateTwitterTag("twitter:image", finalOGImage);
 
     // Structured Data (JSON-LD)
     if (townName) {
@@ -212,7 +254,7 @@ export default function SEOHead({
         document.head.appendChild(script);
       }
     }
-  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogType]);
+  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogImageWidth, ogImageHeight, ogType, heroBackgroundSeed, pageType, formattedDescription, finalOGImage]);
 
   return null;
 }
