@@ -15,11 +15,22 @@ import { MapPin, Phone, Mail, Globe, Clock } from "lucide-react";
 import { contactFormSchema, ContactForm } from "@shared/schema";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function ContactPage() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [, setLocation] = useLocation();
+  
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Contact Monroe County Golf Carts",
+    baseDescription: "Get in touch with Monroe County Golf Carts for expert golf cart sales, service, and support. Located at 1040 PA-611, Stroudsburg, PA 18360. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
+    pageType: "contact",
+    canonicalPath: "/contact",
+    keywords: ["Monroe County showroom", "Stroudsburg location", "golf cart consultation", "Pennsylvania service center"],
+    heroBackgroundSeed: "contact"
+  });
 
   const form = useForm<ContactForm>({
     resolver: zodResolver(contactFormSchema),
@@ -105,12 +116,16 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Monroe County Golf Carts - Sales & Service"
-        description="Contact Monroe County Golf Carts for sales, service, and support. Located at 1040 PA-611, Stroudsburg, PA 18360. Call 1-844-844-6638."
-        keywords="contact Monroe County golf carts, golf cart sales Pennsylvania, Stroudsburg showroom, East Stroudsburg golf cart service PA"
-        canonicalUrl="https://monroegolfcarts.com/contact"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
-        ogType="website"
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
 
       <div className="min-h-screen bg-gray-50">

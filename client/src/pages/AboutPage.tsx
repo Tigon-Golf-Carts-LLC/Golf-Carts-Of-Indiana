@@ -6,8 +6,19 @@ import SEOHead from "@/components/SEOHead";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function AboutPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "About Monroe County Golf Carts",
+    baseDescription: "Since 2008, Monroe County Golf Carts has been Pennsylvania's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving all 20 municipalities across the Pocono Mountains region with expert sales, service, and rentals.",
+    pageType: "about",
+    canonicalPath: "/about",
+    keywords: ["golf cart company history", "Pennsylvania dealership since 2008", "Pocono Mountains golf carts", "authorized dealer team"],
+    heroBackgroundSeed: "about"
+  });
+  
   const teamMembers = [
     {
       name: "Mike Johnson",
@@ -42,10 +53,15 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Monroe County Golf Carts - Premier Golf Cart Dealership Since 2008"
-        description="Learn about Monroe County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Monroe County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://monroegolfcarts.com/about"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <AllSchemas 
         pageType="about" 

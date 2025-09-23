@@ -5,9 +5,20 @@ import { Wrench, Settings, Battery, Truck, Shield, Star } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 
 export default function ServicesPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Golf Cart Services in Monroe County",
+    baseDescription: "Professional golf cart maintenance, repair, customization, and warranty services in Monroe County, Pennsylvania. Certified technicians using genuine parts with comprehensive care for all golf cart brands.",
+    pageType: "general",
+    canonicalPath: "/services",
+    keywords: ["golf cart maintenance PA", "certified technicians", "warranty service", "battery replacement", "customization services"],
+    heroBackgroundSeed: "services"
+  });
+  
   const services = [
     {
       icon: Wrench,
@@ -87,10 +98,15 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Monroe County Golf Cart Services - Expert Maintenance & Repair in PA"
-        description="Professional golf cart maintenance, repair, customization, and warranty services in Monroe County, Pennsylvania. Certified technicians, quality parts, and comprehensive care."
-        keywords="golf cart service Monroe County PA, golf cart repair Pennsylvania, golf cart maintenance, battery service, customization"
-        canonicalUrl="https://monroegolfcarts.com/services"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <AllSchemas 
         pageType="services" 

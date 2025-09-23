@@ -13,11 +13,22 @@ import SchemaMarkup, {
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 
 export default function InventoryPage() {
   const [selectedBrand, setSelectedBrand] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
+  
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Golf Cart Inventory",
+    baseDescription: "Browse our extensive collection of premium electric golf carts from DENAGO and EVOLUTION. Quality vehicles available in Monroe County, Pennsylvania with expert sales support and competitive pricing.",
+    pageType: "general",
+    canonicalPath: "/inventory",
+    keywords: ["golf cart inventory", "electric vehicles for sale", "DENAGO EVOLUTION models", "Pennsylvania golf cart dealer"],
+    heroBackgroundSeed: "inventory"
+  });
 
   const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
     queryKey: ["/api/vehicles", selectedBrand, selectedCategory],
@@ -56,10 +67,15 @@ export default function InventoryPage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Golf Cart Inventory - Monroe County Golf Carts | New Electric Golf Carts PA"
-        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Monroe County, Pennsylvania with expert service."
-        keywords="golf cart inventory Monroe County PA, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, new golf carts Pennsylvania"
-        canonicalUrl="https://monroegolfcarts.com/inventory"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <AllSchemas 
         pageType="inventory" 

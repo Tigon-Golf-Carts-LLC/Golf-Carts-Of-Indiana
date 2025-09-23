@@ -12,6 +12,7 @@ import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { NEW_MONROE_COUNTY_MUNICIPALITIES, type Municipality } from "@/data/newMonroeCountyMunicipalities";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function HomePage() {
   const { data: vehicles } = useQuery<Vehicle[]>({
@@ -19,17 +20,31 @@ export default function HomePage() {
   });
 
   const featuredVehicles = vehicles?.slice(0, 3) || [];
+  
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Monroe County Golf Carts - Premier Pennsylvania Dealership",
+    baseDescription: "Serving all 20 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout Monroe County, PA.",
+    pageType: "home",
+    canonicalPath: "/",
+    keywords: ["premium golf cart dealer", "Pennsylvania electric vehicles", "Monroe County showroom"],
+    heroBackgroundSeed: "home"
+  });
 
   return (
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Monroe County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania"
-        description="Discover premium electric golf carts from Denago and Evolution at Monroe County Golf Carts. Expert sales, service, rentals, and financing throughout Monroe County, PA."
-        keywords="golf carts Monroe County PA, electric golf carts Pennsylvania, Denago golf carts, Evolution golf carts, golf cart sales service rentals"
-        canonicalUrl="https://monroegolfcarts.com/"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
-        ogType="website"
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
       <AllSchemas 
         pageType="home" 

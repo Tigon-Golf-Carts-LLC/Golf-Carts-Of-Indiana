@@ -5,8 +5,19 @@ import { Badge } from "@/components/ui/badge";
 import SEOHead from "@/components/SEOHead";
 import { Check, Phone, Users, Car } from "lucide-react";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function RentalsPage() {
+  // Generate SEO metadata that matches the H1 on this page
+  const seoData = generateSEOMetadata({
+    pageTitle: "Golf Cart Rentals in Monroe County",
+    baseDescription: "Rent premium electric golf carts throughout Monroe County, Pennsylvania. Daily, weekly, and monthly rental options with full insurance coverage and convenient delivery service. Perfect for events, vacations, and special occasions.",
+    pageType: "rental",
+    canonicalPath: "/rentals",
+    keywords: ["golf cart rental Monroe County", "Pennsylvania golf cart hire", "vacation rentals", "event golf carts"],
+    heroBackgroundSeed: "rentals"
+  });
+  
   const rentalFeatures = [
     "Street legal with seat belts",
     "Flexible pickup and return",
@@ -201,12 +212,16 @@ export default function RentalsPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Rentals - Monroe County Golf Carts PA"
-        description="Rent premium golf carts in Monroe County, PA. Daily, weekly, and monthly rental options available with full insurance and delivery service."
-        keywords="golf cart rental, Monroe County rentals, golf cart hire, Pennsylvania golf cart rental"
-        canonicalUrl="https://monroegolfcarts.com/rentals"
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        canonicalUrl={seoData.canonicalUrl}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
-        ogType="website"
+        ogImageWidth={seoData.ogImageWidth}
+        ogImageHeight={seoData.ogImageHeight}
+        ogType={seoData.ogType}
+        heroBackgroundSeed={seoData.heroBackgroundSeed}
+        pageType={seoData.pageType}
       />
 
       <div className="min-h-screen bg-gray-50">
@@ -232,7 +247,7 @@ export default function RentalsPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-8 text-gray-900">
-                Why Choose Lackawanna County Golf Cart Rentals?
+                Why Choose Monroe County Golf Cart Rentals?
               </h2>
             </div>
 
