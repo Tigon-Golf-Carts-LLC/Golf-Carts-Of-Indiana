@@ -1,5 +1,7 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { createServer } from "http";
+import path from "path";
+import fs from "fs";
 import routes from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
@@ -9,6 +11,29 @@ app.use(express.urlencoded({ extended: false }));
 
 // Serve static files from attached_assets directory
 app.use('/attached_assets', express.static('attached_assets'));
+
+// Production-specific static file serving
+// This bypasses serveStatic which uses import.meta.dirname that gets baked incorrectly by esbuild
+function serveBundledStatic(app: express.Express) {
+  const staticDir = path.resolve(process.cwd(), "dist", "public");
+  
+  if (!fs.existsSync(staticDir)) {
+    throw new Error(
+      `Could not find the build directory: ${staticDir}, make sure to build the client first`,
+    );
+  }
+
+  log(`Serving static files from: ${staticDir}`, "express");
+  
+  // Serve built client files
+  app.use(express.static(staticDir));
+
+  // SPA fallback - serve index.html for all non-API routes only
+  // Using regex to exclude /api paths entirely, preserving API 404/error responses
+  app.get(/^\/(?!api).*/, (_req, res) => {
+    res.sendFile(path.resolve(staticDir, "index.html"));
+  });
+}
 
 app.use((req, res, next) => {
   const start = Date.now();
@@ -58,7 +83,7 @@ app.use((req, res, next) => {
   if (app.get("env") === "development") {
     await setupVite(app, server);
   } else {
-    serveStatic(app);
+    serveBundledStatic(app);
   }
 
   // ALWAYS serve the app on the port specified in the environment variable PORT
