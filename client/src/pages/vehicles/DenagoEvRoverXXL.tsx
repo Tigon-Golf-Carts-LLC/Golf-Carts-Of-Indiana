@@ -11,9 +11,9 @@ export default function DenagoEvRoverXXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Lackawanna County Golf Carts"
+        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Monroe County Golf Carts"
         description="Experience the DENAGO® EV Rover XXL with maximum seating and cargo capacity. Our largest luxury model for ultimate group transportation."
-        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Luzerne County"
+        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Monroe County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

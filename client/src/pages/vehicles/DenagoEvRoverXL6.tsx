@@ -11,9 +11,9 @@ export default function DenagoEvRoverXL6() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Lackawanna County Golf Carts"
+        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Monroe County Golf Carts"
         description="Experience the DENAGO® EV Rover XL6 with premium luxury features and 6-passenger seating. Ultimate comfort and performance for discerning customers."
-        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Luzerne County"
+        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Monroe County"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">

@@ -196,7 +196,7 @@ export const generateProductSchema = (vehicle: any) => ({
       "@type": "Organization",
       "name": "Monroe County Golf Carts",
       "telephone": "1-844-844-6638",
-      "email": "info@lackawannagolfcarts.com"
+      "email": "info@monroegolfcarts.com"
     },
     "url": `https://monroegolfcarts.com/vehicles/${vehicle.id}`
   },

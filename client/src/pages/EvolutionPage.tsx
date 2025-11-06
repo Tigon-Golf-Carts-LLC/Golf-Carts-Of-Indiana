@@ -295,7 +295,7 @@ export default function EvolutionPage() {
                   EVOLUTION represents the perfect balance of innovation, quality, and value in 
                   electric vehicle manufacturing. With a comprehensive lineup ranging from classic 
                   golf carts to high-performance utility vehicles, EVOLUTION delivers solutions 
-                  for every need in Lackawanna County's diverse mountainous and suburban communities.
+                  for every need in Monroe County's diverse mountainous and suburban communities.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {evolutionFeatures.map((feature, index) => (
@@ -329,7 +329,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the full range of EVOLUTION electric vehicles available in Atlantic County
+                Discover the full range of EVOLUTION electric vehicles available in Monroe County
               </p>
             </div>
 
@@ -395,7 +395,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Vehicle Lineup  
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 EVOLUTION electric vehicle models available in Atlantic County
+                Explore all 6 EVOLUTION electric vehicle models available in Monroe County
               </p>
             </div>
 
@@ -469,7 +469,7 @@ export default function EvolutionPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose EVOLUTION in Luzerne County?
+                Why Choose EVOLUTION in Monroe County?
               </h2>
             </div>
 
@@ -505,7 +505,7 @@ export default function EvolutionPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Support</h3>
                 <p className="text-gray-600">
-                  Expert EVOLUTION service and genuine parts support right here in Luzerne County 
+                  Expert EVOLUTION service and genuine parts support right here in Monroe County 
                   with factory-trained technicians and comprehensive warranties.
                 </p>
               </div>
@@ -520,7 +520,7 @@ export default function EvolutionPage() {
               Ready to Experience EVOLUTION?
             </h2>
             <p className="text-xl mb-8">
-              Contact Lackawanna County Golf Carts today to explore the complete EVOLUTION lineup 
+              Contact Monroe County Golf Carts today to explore the complete EVOLUTION lineup 
               and find the perfect electric vehicle for your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

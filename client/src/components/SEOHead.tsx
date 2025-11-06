@@ -171,7 +171,7 @@ export default function SEOHead({
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Atlantic County Golf Carts - ${townName}`,
+        "name": `Monroe County Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
@@ -180,10 +180,10 @@ export default function SEOHead({
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@lackawannagolfcarts.com",
+        "email": "info@monroegolfcarts.com",
         "url": canonicalUrl,
         "logo": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-        "image": `https://lackawannagolfcarts.com${ogImage}`,
+        "image": `https://monroegolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

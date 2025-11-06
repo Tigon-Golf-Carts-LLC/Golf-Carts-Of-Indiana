@@ -5,9 +5,9 @@ export default function StoragePolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Storage Policy | Lackawanna County Golf Carts"
-        description="Learn about golf cart storage services and policies at Lackawanna County Golf Carts. Seasonal storage, maintenance, and security information for Pennsylvania customers."
-        keywords="golf cart storage, storage policy, Lackawanna County storage, Pennsylvania golf cart storage"
+        title="Storage Policy | Monroe County Golf Carts"
+        description="Learn about golf cart storage services and policies at Monroe County Golf Carts. Seasonal storage, maintenance, and security information for Pennsylvania customers."
+        keywords="golf cart storage, storage policy, Monroe County storage, Pennsylvania golf cart storage"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function StoragePolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Storage Services Overview</h2>
               <p className="mb-6">
-                Lackawanna County Golf Carts provides secure, climate-controlled storage services for golf carts 
+                Monroe County Golf Carts provides secure, climate-controlled storage services for golf carts 
                 at our Pennsylvania facilities. Our storage policy ensures the protection and maintenance 
                 of your investment during storage periods.
               </p>
@@ -193,11 +193,11 @@ export default function StoragePolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Storage Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Storage Services</strong></p>
-                <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
+                <p className="mb-2">Monroe County Golf Carts</p>
+                <p className="mb-2">Email: info@monroegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
-                <p>Website: lackawannagolfcarts.com</p>
+                <p className="mb-2">Serving Monroe County, Pennsylvania</p>
+                <p>Website: monroegolfcarts.com</p>
               </div>
             </div>
           </div>

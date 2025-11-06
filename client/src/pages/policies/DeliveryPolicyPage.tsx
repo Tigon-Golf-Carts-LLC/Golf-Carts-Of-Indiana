@@ -5,9 +5,9 @@ export default function DeliveryPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Delivery Policy | Lackawanna County Golf Carts"
-        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Lackawanna County, Pennsylvania. Free delivery zones and scheduling information."
-        keywords="delivery policy, golf cart delivery, Lackawanna County delivery, Pennsylvania golf cart shipping"
+        title="Delivery Policy | Monroe County Golf Carts"
+        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Monroe County, Pennsylvania. Free delivery zones and scheduling information."
+        keywords="delivery policy, golf cart delivery, Monroe County delivery, Pennsylvania golf cart shipping"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function DeliveryPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Delivery Overview</h2>
               <p className="mb-6">
-                Lackawanna County Golf Carts offers comprehensive delivery services throughout Pennsylvania 
+                Monroe County Golf Carts offers comprehensive delivery services throughout Pennsylvania 
                 and surrounding areas. Our delivery policy ensures safe, timely, and professional 
                 transport of your golf cart purchase or rental.
               </p>
@@ -42,7 +42,7 @@ export default function DeliveryPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Free Delivery Zone</h3>
               <p className="mb-4">Complimentary delivery within:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>All Lackawanna County municipalities (39 locations)</li>
+                <li>All Monroe County municipalities (39 locations)</li>
                 <li>20-mile radius from TIGON Golf Carts Pocono location</li>
                 <li>15-mile radius from TIGON Golf Carts Scranton location</li>
                 <li>Minimum purchase of $5,000 for golf cart sales</li>
@@ -84,7 +84,7 @@ export default function DeliveryPolicyPage() {
                 <li>Available for orders placed before 2:00 PM</li>
                 <li>Subject to vehicle availability</li>
                 <li>Additional $50 rush delivery fee within free zone</li>
-                <li>Limited to Lackawanna County municipalities</li>
+                <li>Limited to Monroe County municipalities</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Standard Rental Delivery</h3>
@@ -154,10 +154,10 @@ export default function DeliveryPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Delivery Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Delivery Scheduling</strong></p>
-                <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
+                <p className="mb-2">Monroe County Golf Carts</p>
+                <p className="mb-2">Email: info@monroegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
+                <p className="mb-2">Serving Monroe County, Pennsylvania</p>
                 <p className="mb-2">Hours: Monday-Saturday 8:00 AM - 6:00 PM</p>
                 <p>Sunday: 10:00 AM - 4:00 PM</p>
               </div>

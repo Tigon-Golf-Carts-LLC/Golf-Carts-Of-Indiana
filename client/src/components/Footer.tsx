@@ -137,7 +137,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Towns Served - Lackawanna County */}
+        {/* Towns Served - Monroe County */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
             Monroe County Locations We Serve

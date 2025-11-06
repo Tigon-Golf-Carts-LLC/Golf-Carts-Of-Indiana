@@ -284,7 +284,7 @@ export default function ShowroomPage() {
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 mb-4">
-              Serving all of Luzerne County including boroughs, townships, and surrounding communities
+              Serving all of Monroe County including boroughs, townships, and surrounding communities
             </p>
             <Link href="/contact">
               <Button className="bg-theme-orange hover:bg-orange-600 text-white">

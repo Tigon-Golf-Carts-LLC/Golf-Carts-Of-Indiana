@@ -34,11 +34,11 @@ export default function OfferSchema({
   validFrom,
   validThrough,
   seller = {
-    name: "Atlantic County Golf Carts",
+    name: "Monroe County Golf Carts",
     telephone: "1-844-844-6638",
-    email: "info@lackawannagolfcarts.com"
+    email: "info@monroegolfcarts.com"
   },
-  eligibleRegion = "Atlantic County, NJ",
+  eligibleRegion = "Monroe County, PA",
   priceSpecification = []
 }: OfferSchemaProps) {
   useEffect(() => {
@@ -63,8 +63,8 @@ export default function OfferSchema({
         ...(seller.email && { "email": seller.email }),
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Atlantic City",
-          "addressRegion": "NJ",
+          "addressLocality": "Monroe County",
+          "addressRegion": "PA",
           "addressCountry": "US"
         }
       },

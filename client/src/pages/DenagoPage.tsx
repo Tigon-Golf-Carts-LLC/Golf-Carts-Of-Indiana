@@ -297,7 +297,7 @@ export default function DenagoPage() {
                 Complete DENAGO Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 DENAGO electric vehicle models available in Atlantic County
+                Explore all 6 DENAGO electric vehicle models available in Monroe County
               </p>
             </div>
 
@@ -389,7 +389,7 @@ export default function DenagoPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose DENAGO in Luzerne County?
+                Why Choose DENAGO in Monroe County?
               </h2>
             </div>
 
@@ -416,7 +416,7 @@ export default function DenagoPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Service</h3>
                 <p className="text-gray-600">
-                  Expert DENAGO service and support right here in Luzerne County with 
+                  Expert DENAGO service and support right here in Monroe County with 
                   genuine parts and factory-trained technicians.
                 </p>
               </div>
@@ -431,7 +431,7 @@ export default function DenagoPage() {
               Ready to Experience DENAGO?
             </h2>
             <p className="text-xl mb-8">
-              Contact Lackawanna County Golf Carts today to schedule a test drive or learn more 
+              Contact Monroe County Golf Carts today to schedule a test drive or learn more 
               about DENAGO's revolutionary electric vehicle technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

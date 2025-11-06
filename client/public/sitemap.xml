@@ -1,315 +1,468 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://monroegolfcarts.com/</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png</image:loc>
+      <image:title>Monroe County Golf Carts - Premier Golf Cart Dealer</image:title>
+      <image:caption>Monroe County Golf Carts logo and professional branding for Pennsylvania's premier golf cart dealership</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+      <image:license>https://monroegolfcarts.com/policies/terms-conditions</image:license>
+    </image:image>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/a-photograph-of-a-friendly-young-woman-s_vxGUqvxjTKqX67SqAuIYoQ_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg</image:loc>
+      <image:title>Modern Monroe County Golf Cart Dealership</image:title>
+      <image:caption>Professional Monroe County Golf Carts showroom featuring DENAGO and EVOLUTION electric golf carts</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+    </image:image>
+  </url>
+
   <!-- Main Pages -->
   <url>
-    <loc>https://carbongolfcarts.com/</loc>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://monroegolfcarts.com/inventory</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/Lehigh%20County%20Golf%20Carts_1753721745051.png</image:loc>
-      <image:title>Lehigh County Golf Carts Logo</image:title>
-      <image:caption>Premier electric golf cart dealership in Lehigh County, Pennsylvania</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:title>EVOLUTION D5 Maverick 4 Plus Golf Cart</image:title>
+      <image:caption>Premium EVOLUTION D5 Maverick 4 Plus electric golf cart available at Monroe County Golf Carts</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV City Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV City street-legal electric golf cart for urban mobility in Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/inventory</loc>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/rentals</loc>
+    <loc>https://monroegolfcarts.com/about</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/services</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/contact</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/showroom</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/services</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/about</loc>
     <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/contact</loc>
+    <loc>https://monroegolfcarts.com/rentals</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
   </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/showroom</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
+
   <!-- Brand Pages -->
   <url>
-    <loc>https://carbongolfcarts.com/denago</loc>
+    <loc>https://monroegolfcarts.com/denago</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/evolution</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- DENAGO Vehicle Models -->
+  <url>
+    <loc>https://monroegolfcarts.com/vehicles/denago-ev-city</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV City Electric Golf Cart</image:title>
+      <image:caption>Premium DENAGO EV City street-legal electric golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+    </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/evolution</loc>
+    <loc>https://monroegolfcarts.com/vehicles/denago-ev-nomad</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/eco-impact</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <!-- Vehicle Detail Pages - 37 Vehicles -->
-  <!-- DENAGO Vehicles -->
-  <url>
-    <loc>https://carbongolfcarts.com/vehicle/denago-ev-city</loc>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV CITY Golf Cart - $15,000</image:title>
-      <image:caption>Urban electric golf cart with street-legal capabilities</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Nomad Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV Nomad off-road electric golf cart for Monroe County adventures</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/denago-ev-nomad</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/denago-ev-nomad-xl</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV NOMAD Golf Cart - $8,495</image:title>
-      <image:caption>Versatile electric golf cart for any terrain</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Nomad XL Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV Nomad XL extended range electric golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/denago-ev-nomad-xl</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/denago-ev-rover-xl</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV NOMAD XL Golf Cart - $8,495</image:title>
-      <image:caption>Extended range electric golf cart</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Rover XL Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV Rover XL premium electric golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/denago-ev-rover-xl</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/denago-ev-rover-xl6</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV ROVER XL Golf Cart - $9,995</image:title>
-      <image:caption>Heavy-duty electric golf cart</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Rover XL6 Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV Rover XL6 6-passenger electric golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/denago-ev-rover-xl6</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/denago-ev-rover-xxl</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/DENAGONEVROVERXL6_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV ROVER XL6 Golf Cart - $11,995</image:title>
-      <image:caption>6-passenger electric golf cart</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
+      <image:title>DENAGO EV Rover XXL Electric Golf Cart</image:title>
+      <image:caption>DENAGO EV Rover XXL luxury electric golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
+  <!-- EVOLUTION Vehicle Models -->
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/denago-ev-rover-xxl</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-classic-2-plus</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/DENAGONEVROVERXXL_1751893047473_1753135231313.jpg</image:loc>
-      <image:title>DENAGO EV ROVER XXL Golf Cart - $11,995</image:title>
-      <image:caption>Extra large electric golf cart</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIONCLASSIC2PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>EVOLUTION Classic 2 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION Classic 2 Plus traditional golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
-  <!-- Evolution Vehicles -->
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/evolution-carrier-6-plus</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-classic-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
-      <image:title>Evolution Carrier 6 Plus Golf Cart - $9,595</image:title>
-      <image:caption>6-passenger utility golf cart</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIONCLASSIC4PLUS_1751893115779_1753135231314.jpg</image:loc>
+      <image:title>EVOLUTION Classic 4 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION Classic 4 Plus traditional 4-passenger golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/evolution-carrier-8-plus</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-d5-maverick-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/EVOLUTIONCARRIER8PLUS_1751893115779_1753135231314.jpg</image:loc>
-      <image:title>Evolution Carrier 8 Plus Golf Cart - $13,995</image:title>
-      <image:caption>8-passenger utility golf cart</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg</image:loc>
+      <image:title>EVOLUTION D5 Maverick 4 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION D5 Maverick 4 Plus sport golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
-  <!-- Add remaining Evolution vehicles with proper URLs and metadata -->
+
   <url>
-    <loc>https://carbongolfcarts.com/vehicle/evolution-d6-max-xt4</loc>
-    <priority>0.8</priority>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-d5-ranger-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.9</priority>
     <image:image>
-      <image:loc>https://carbongolfcarts.com/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg</image:loc>
-      <image:title>Evolution D6 Max XT4 Golf Cart - $15,595</image:title>
-      <image:caption>4-passenger D6 Max with XT performance package</image:caption>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg</image:loc>
+      <image:title>EVOLUTION D5 Ranger 4 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION D5 Ranger 4 Plus utility golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
     </image:image>
   </url>
-  
-  <!-- Lehigh County Municipality Pages -->
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/allentown</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-d5-ranger-6-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIOND5RANGER6PLUS_1751893159004_1753135350619.jpg</image:loc>
+      <image:title>EVOLUTION D5 Ranger 6 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION D5 Ranger 6 Plus 6-passenger utility golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+    </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/bethlehem</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-carrier-6-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIONCARRIER6PLUS_1751893115778_1753135231314.jpg</image:loc>
+      <image:title>EVOLUTION Carrier 6 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION Carrier 6 Plus utility golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+    </image:image>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/emmaus</loc>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <loc>https://monroegolfcarts.com/vehicles/evolution-forester-4-plus</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://monroegolfcarts.com/attached_assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg</image:loc>
+      <image:title>EVOLUTION Forester 4 Plus Golf Cart</image:title>
+      <image:caption>EVOLUTION Forester 4 Plus outdoor golf cart for Monroe County</image:caption>
+      <image:geo_location>Monroe County, Pennsylvania</image:geo_location>
+    </image:image>
   </url>
-  
+
+  <!-- Monroe County Municipality Pages -->
   <url>
-    <loc>https://carbongolfcarts.com/towns/catasauqua</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/delaware-water-gap-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.8</priority>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/coopersburg</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/east-stroudsburg-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.8</priority>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/alburtis</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/mount-pocono-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.8</priority>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/coplay</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/stroudsburg-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.8</priority>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/towns/macungie</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/barrett-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.7</priority>
   </url>
-  
-  <!-- Rental Pages for Major Municipalities -->
+
   <url>
-    <loc>https://carbongolfcarts.com/rentals/allentown</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/chestnuthill-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.7</priority>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/rentals/bethlehem</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/coolbaugh-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.7</priority>
   </url>
-  
+
   <url>
-    <loc>https://carbongolfcarts.com/rentals/emmaus</loc>
-    <priority>0.7</priority>
+    <loc>https://monroegolfcarts.com/eldred-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>monthly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.7</priority>
   </url>
-  
+
+  <url>
+    <loc>https://monroegolfcarts.com/hamilton-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/jackson-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/middle-smithfield-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/paradise-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/pocono-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/polk-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/price-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/ross-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/smithfield-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/stroud-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/tobyhanna-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/tunkhannock-township-golf-carts</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Rental Pages -->
+  <url>
+    <loc>https://monroegolfcarts.com/rentals/delaware-water-gap</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/rentals/east-stroudsburg</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/rentals/stroudsburg</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Policy Pages -->
   <url>
-    <loc>https://carbongolfcarts.com/policies/terms-conditions</loc>
-    <priority>0.5</priority>
+    <loc>https://monroegolfcarts.com/policies/terms-conditions</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/policies/privacy-policy</loc>
-    <priority>0.5</priority>
-    <changefreq>yearly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/policies/return-policy</loc>
-    <priority>0.5</priority>
-    <changefreq>yearly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/policies/delivery-policy</loc>
-    <priority>0.5</priority>
-    <changefreq>yearly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/policies/rental-policy</loc>
-    <priority>0.5</priority>
-    <changefreq>yearly</changefreq>
-    <lastmod>2025-01-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carbongolfcarts.com/thank-you</loc>
     <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/policies/delivery-policy</loc>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>yearly</changefreq>
-    <lastmod>2025-01-29</lastmod>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/policies/rental-policy</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/eco-impact</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://monroegolfcarts.com/thank-you</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>

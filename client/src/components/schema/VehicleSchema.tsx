@@ -91,8 +91,8 @@ export default function VehicleSchema({
       "availability": `https://schema.org/${offers?.availability || availability}`,
       "seller": offers?.seller || {
         "@type": "Organization",
-        "name": "Lackawanna County Golf Carts",
-        "url": "https://lackawannagolfcarts.com"
+        "name": "Monroe County Golf Carts",
+        "url": "https://monroegolfcarts.com"
       }
     }
   };
