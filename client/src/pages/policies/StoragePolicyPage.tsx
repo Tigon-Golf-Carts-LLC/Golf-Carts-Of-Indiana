@@ -5,8 +5,8 @@ export default function StoragePolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Storage Policy | Notredame Golf Carts"
-        description="Learn about golf cart storage services and policies at Notredame Golf Carts. Seasonal storage, maintenance, and security information for Indiana customers."
+        title="Storage Policy | Notre Dame Golf Carts"
+        description="Learn about golf cart storage services and policies at Notre Dame Golf Carts. Seasonal storage, maintenance, and security information for Indiana customers."
         keywords="golf cart storage, storage policy, Notre Dame storage, Indiana golf cart storage"
       />
       
@@ -33,7 +33,7 @@ export default function StoragePolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Storage Services Overview</h2>
               <p className="mb-6">
-                Notredame Golf Carts provides secure, climate-controlled storage services for golf carts 
+                Notre Dame Golf Carts provides secure, climate-controlled storage services for golf carts 
                 at our Indiana facilities. Our storage policy ensures the protection and maintenance 
                 of your investment during storage periods.
               </p>
@@ -193,7 +193,7 @@ export default function StoragePolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Storage Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Storage Services</strong></p>
-                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Notre Dame Golf Carts</p>
                 <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Notre Dame, Indiana</p>

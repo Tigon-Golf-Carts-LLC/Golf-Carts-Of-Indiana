@@ -159,12 +159,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Notredame Golf Carts. All rights reserved. | 
+              © 2025 Notre Dame Golf Carts. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Notredame Golf Carts - Serving Notre Dame locations with premium golf carts and exceptional service.
+              Notre Dame Golf Carts - Serving Notre Dame locations with premium golf carts and exceptional service.
             </div>
           </div>
         </div>

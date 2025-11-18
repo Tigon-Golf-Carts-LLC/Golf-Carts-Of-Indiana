@@ -18,10 +18,10 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `Golf Cart Rentals in ${municipality.name} ${municipality.type} | Notredame Golf Carts`;
+  const pageTitle = `Golf Cart Rentals in ${municipality.name} ${municipality.type} | Notre Dame Golf Carts`;
   const metaDescription = `Rent electric golf carts in ${municipality.name}, Notre Dame, IN. Daily, weekly & monthly rates. Street-legal carts with professional delivery service. Reserve today!`;
 
-  // Google Maps embed URL for the specific municipality in Notre Dame area
+  // Google Maps embed URL for the specific municipality in St. Joseph County
   const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Notre%20Dame%20area%2C%20IN!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   // Why Choose Our Golf Cart Rentals Features
@@ -190,7 +190,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               Golf Cart Rentals in {municipality.name}
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
-              Rent premium electric golf carts in {municipality.name} {municipality.type}, Notre Dame area. 
+              Rent premium electric golf carts in {municipality.name} {municipality.type}, St. Joseph County. 
               Daily, weekly, and monthly rental options available with professional delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -240,7 +240,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               Golf Cart Rental Pricing for {municipality.name}
             </h2>
             <p className="text-xl text-gray-600">
-              Flexible rental options to meet your needs in {municipality.name} {municipality.type}, Notre Dame area.
+              Flexible rental options to meet your needs in {municipality.name} {municipality.type}, St. Joseph County.
             </p>
           </div>
 
@@ -310,7 +310,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 We provide professional delivery and pickup service throughout {municipality.name} {municipality.type}, 
-                Notre Dame area. Our rental golf carts are street-legal, fully charged, and ready for immediate use.
+                St. Joseph County. Our rental golf carts are street-legal, fully charged, and ready for immediate use.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center">
@@ -376,7 +376,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
             Ready to Rent in {municipality.name}?
           </h2>
           <p className="text-xl text-gray-100 mb-8">
-            Contact Notredame Golf Carts today to reserve your rental golf cart 
+            Contact Notre Dame Golf Carts today to reserve your rental golf cart 
             for delivery to {municipality.name} {municipality.type}.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">

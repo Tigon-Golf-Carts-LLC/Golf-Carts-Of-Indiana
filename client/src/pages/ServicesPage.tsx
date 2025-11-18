@@ -11,7 +11,7 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function ServicesPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Golf Cart Services in Notre Dame area",
+    pageTitle: "Golf Cart Services in St. Joseph County",
     baseDescription: "Professional golf cart maintenance, repair, customization, and warranty services in Notre Dame, Indiana. Certified technicians using genuine parts with comprehensive care for all golf cart brands.",
     pageType: "general",
     canonicalPath: "/services",
@@ -111,7 +111,7 @@ export default function ServicesPage() {
       <AllSchemas 
         pageType="services" 
         pageData={{
-          title: "Notre Dame area Golf Cart Services",
+          title: "St. Joseph County Golf Cart Services",
           description: "Professional golf cart maintenance, repair, customization, and warranty services in Notre Dame, Indiana. Certified technicians, quality parts, and comprehensive care.",
           url: "https://notredamegolfcarts.com/services",
           breadcrumbs: [
@@ -133,7 +133,7 @@ export default function ServicesPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("services")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Services in Notre Dame area
+              Golf Cart Services in St. Joseph County
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Professional maintenance, repair, and customization services for all golf cart brands throughout Notre Dame, Indiana.
@@ -232,7 +232,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Service Areas</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout Notre Dame area and surrounding areas
+            We proudly serve customers throughout St. Joseph County and surrounding areas
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-gray-700">

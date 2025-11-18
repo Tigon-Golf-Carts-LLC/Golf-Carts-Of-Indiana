@@ -5,8 +5,8 @@ export default function ReturnPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Return Policy | Notredame Golf Carts"
-        description="Learn about Notredame Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
+        title="Return Policy | Notre Dame Golf Carts"
+        description="Learn about Notre Dame Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
         keywords="return policy, golf cart returns, Notre Dame golf carts, refund policy Indiana"
       />
       
@@ -17,7 +17,7 @@ export default function ReturnPolicyPage() {
             Return Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Learn about our return policy for golf carts, parts, and accessories purchased from Notredame Golf Carts.
+            Learn about our return policy for golf carts, parts, and accessories purchased from Notre Dame Golf Carts.
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function ReturnPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">General Return Policy</h2>
               <p className="mb-6">
-                At Notredame Golf Carts, we strive for complete customer satisfaction. This return policy 
+                At Notre Dame Golf Carts, we strive for complete customer satisfaction. This return policy 
                 outlines the conditions and procedures for returns on golf carts, parts, and accessories 
                 purchased from our Indiana locations.
               </p>
@@ -93,7 +93,7 @@ export default function ReturnPolicyPage() {
                 <li>Customer responsible for return shipping costs unless item is defective</li>
                 <li>Items must be properly packaged to prevent damage</li>
                 <li>Insurance recommended for high-value returns</li>
-                <li>Notredame Golf Carts not responsible for items lost in transit</li>
+                <li>Notre Dame Golf Carts not responsible for items lost in transit</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Defective Items</h2>
@@ -125,7 +125,7 @@ export default function ReturnPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Returns Department</strong></p>
-                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Notre Dame Golf Carts</p>
                 <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Notre Dame, Indiana</p>

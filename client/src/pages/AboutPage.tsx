@@ -11,8 +11,8 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function AboutPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "About Notredame Golf Carts",
-    baseDescription: "Since 2008, Notredame Golf Carts has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving Notre Dame and surrounding Indiana communities with expert sales, service, and rentals.",
+    pageTitle: "About Notre Dame Golf Carts",
+    baseDescription: "Since 2008, Notre Dame Golf Carts has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving Notre Dame and surrounding Indiana communities with expert sales, service, and rentals.",
     pageType: "about",
     canonicalPath: "/about",
     keywords: ["golf cart company history", "Indiana dealership since 2008", "Notre Dame golf carts", "authorized dealer team"],
@@ -41,9 +41,9 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2008", event: "Notredame Golf Carts founded in Notre Dame, Indiana" },
+    { year: "2008", event: "Notre Dame Golf Carts founded in Notre Dame, Indiana" },
     { year: "2010", event: "Became authorized EVOLUTION dealer" },
-    { year: "2013", event: "Expanded to serve all Notre Dame area communities" },
+    { year: "2013", event: "Expanded to serve all St. Joseph County communities" },
     { year: "2016", event: "Added DENAGO to our brand portfolio" },
     { year: "2019", event: "Opened expanded service center in South Bend" },
     { year: "2024", event: "Reached 750+ satisfied customers across Indiana" }
@@ -66,8 +66,8 @@ export default function AboutPage() {
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Notredame Golf Carts",
-          description: "Learn about Notredame Golf Carts, Indiana's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
+          title: "About Notre Dame Golf Carts",
+          description: "Learn about Notre Dame Golf Carts, Indiana's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
           url: "https://notredamegolfcarts.com/about",
           breadcrumbs: [
             { name: "Home", url: "https://notredamegolfcarts.com/" },
@@ -100,7 +100,7 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Notredame Golf Carts
+            About Notre Dame Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Since 2008, we've been Notre Dame's premier destination for premium golf carts, 
@@ -125,12 +125,12 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2008 in Notre Dame, Indiana, Notredame Golf Carts began with a simple mission: 
+                Founded in 2008 in Notre Dame, Indiana, Notre Dame Golf Carts began with a simple mission: 
                 to provide high-quality golf carts and exceptional service to customers throughout the Notre Dame and greater South Bend area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Notre Dame is home to the world-renowned University of Notre Dame, along with vibrant communities like 
-                South Bend, Mishawaka, Elkhart, and Granger. Our location in the heart of northern Indiana drives our commitment to excellence 
+                South Bend, Mishawaka, Elkhart, and Granger. Our location in the heart of St. Joseph County, Indiana drives our commitment to excellence 
                 and serves both campus communities and residential neighborhoods throughout the area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -139,7 +139,7 @@ export default function AboutPage() {
                 combine cutting-edge technology with personalized customer care.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Today, we're proud to serve the diverse communities across the Notre Dame area, from South Bend 
+                Today, we're proud to serve the diverse communities across the St. Joseph County, from South Bend 
                 to Mishawaka, from Granger to Elkhart, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
@@ -275,13 +275,13 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Notre Dame</h2>
               <p className="text-lg text-gray-600 mb-6">
                 From our location in Notre Dame, we proudly serve customers throughout 
-                northern Indiana. Our commitment to quality service extends across our 
+                St. Joseph County, Indiana. Our commitment to quality service extends across our 
                 entire service area with convenient access to all communities.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Notredame Golf Carts - Notre Dame</span>
+                  <span className="text-gray-700 font-medium">Notre Dame Golf Carts - Notre Dame</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
@@ -340,7 +340,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Notredame Golf Carts difference in Notre Dame, Indiana
+            Experience the Notre Dame Golf Carts difference in Notre Dame, Indiana
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

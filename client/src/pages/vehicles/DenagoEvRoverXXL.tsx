@@ -11,7 +11,7 @@ export default function DenagoEvRoverXXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Notredame Golf Carts"
+        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Notre Dame Golf Carts"
         description="Experience the DENAGO® EV Rover XXL with maximum seating and cargo capacity. Our largest luxury model for ultimate group transportation."
         keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Notre Dame"
       />

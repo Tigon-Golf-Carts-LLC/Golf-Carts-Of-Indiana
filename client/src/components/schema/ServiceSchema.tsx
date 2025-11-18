@@ -18,7 +18,7 @@ export default function ServiceSchema({
   serviceName,
   description,
   serviceType = "Golf Cart Service",
-  provider = "Notredame Golf Carts",
+  provider = "Notre Dame Golf Carts",
   areaServed = "Notre Dame, IN",
   availableChannel = ["https://schema.org/OnlineChannel", "https://schema.org/InStoreChannel"],
   offers = []

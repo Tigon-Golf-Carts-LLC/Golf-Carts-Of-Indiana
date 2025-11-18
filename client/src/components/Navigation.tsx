@@ -37,13 +37,13 @@ export default function Navigation() {
             <div className="rounded-lg">
               <img 
                 src={logoImage} 
-                alt="Notredame Golf Carts Logo" 
+                alt="Notre Dame Golf Carts Logo" 
                 className="h-20 w-20"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-xl font-bold text-theme-primary">NOTREDAME</div>
+                <div className="text-xl font-bold text-theme-primary">NOTRE DAME</div>
                 <div className="text-xl font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>

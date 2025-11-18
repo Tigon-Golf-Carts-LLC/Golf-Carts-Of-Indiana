@@ -11,7 +11,7 @@ export default function DenagoEvNomad() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Notredame Golf Carts"
+        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Notre Dame Golf Carts"
         description="Discover the DENAGO® EV NOMAD designed for outdoor adventures and off-road capability. Perfect for camping, hunting, and recreational activities."
         keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Notre Dame"
         canonicalUrl="https://notredamegolfcarts.com/vehicles/denago-ev-nomad"

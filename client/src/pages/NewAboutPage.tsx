@@ -62,8 +62,8 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Notredame Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Notredame Golf Carts, Indiana's trusted golf cart dealer serving all 20 communities with premium DENAGO and EVOLUTION vehicles since 2010."
+        title="About Notre Dame Golf Carts - Your Premier Golf Cart Dealer"
+        description="Learn about Notre Dame Golf Carts, Indiana's trusted golf cart dealer serving all 22 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
         keywords="Notre Dame golf carts, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer"
         canonicalUrl="https://notredamegolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
@@ -75,12 +75,12 @@ export default function NewAboutPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={getHeroBackgroundStyle("about")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Notredame Golf Carts
+              About Notre Dame Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
               Since 2010, we've been Notre Dame's premier destination for premium golf carts, 
-              exceptional service, and unmatched customer care. Serving all 20 communities 
-              across the northern Indiana region with pride and professionalism.
+              exceptional service, and unmatched customer care. Serving all 22 municipalities 
+              across the St. Joseph County, Indiana region with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -105,17 +105,17 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010 in Notre Dame, Indiana, Notredame Golf Carts began with a simple mission: 
-                    to provide high-quality golf carts and exceptional service to customers throughout the northern Indiana region's 
+                    Founded in 2010 in Notre Dame, Indiana, Notre Dame Golf Carts began with a simple mission: 
+                    to provide high-quality golf carts and exceptional service to customers throughout the St. Joseph County, Indiana region's 
                     most beautiful and recreational county.
                   </p>
                   <p>
                     Notre Dame stands as one of Indiana's most scenic and recreational regions, encompassing 
                     everything from the vibrant borough of Notre Dame to the charming Elkhart, from the 
-                    beautiful northern Indiana to the family-friendly communities throughout our 20 communities.
+                    beautiful St. Joseph County, Indiana to the family-friendly communities throughout our 22 municipalities.
                   </p>
                   <p>
-                    Our county holds a special place in American recreation as the heart of the northern Indiana region and 
+                    Our county holds a special place in American recreation as the heart of the St. Joseph County, Indiana region and 
                     home to some of Indiana's most beautiful natural landscapes. Today, Notre Dame is equally 
                     renowned for its world-class golf courses, resort communities, and outdoor recreation that attracts visitors who appreciate 
                     premium recreational vehicles.
@@ -162,10 +162,10 @@ export default function NewAboutPage() {
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Notredame Golf Carts Service</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Notre Dame Golf Carts Service</h3>
                   <div className="grid md:grid-cols-1 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Notredame Golf Carts</h4>
+                      <h4 className="font-semibold text-theme-orange">Notre Dame Golf Carts</h4>
                       <p className="text-gray-600">Serving all Notre Dame, IN</p>
                       <p className="text-gray-700">1-844-844-6638</p>
                       <p className="text-gray-600">info@notredamegolfcarts.com</p>
@@ -295,7 +295,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Notredame Golf Carts Difference?
+              Ready to Experience the Notre Dame Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.

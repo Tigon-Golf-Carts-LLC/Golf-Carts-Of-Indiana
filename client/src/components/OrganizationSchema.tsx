@@ -9,7 +9,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Notredame Golf Carts",
+      "name": "Notre Dame Golf Carts",
       "description": "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
       "url": "https://notredamegolfcarts.com",
       "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Notredame Golf Carts"
+          "name": "Notre Dame Golf Carts"
         }
       } as any;
     }

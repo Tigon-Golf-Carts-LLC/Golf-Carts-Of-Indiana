@@ -132,7 +132,7 @@ export default function VehicleDetailPage({
             },
             {
               author: "Susan Rodriguez",
-              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Notredame Golf Carts.`,
+              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Notre Dame Golf Carts.`,
               reviewRating: 5,
               datePublished: "2025-01-18",
               headline: "Excellent purchase experience"
@@ -294,12 +294,12 @@ export default function VehicleDetailPage({
           </div>
         </section>
 
-        {/* Why Choose Notredame Golf Carts */}
+        {/* Why Choose Notre Dame Golf Carts */}
         <section className="py-16 px-4 bg-theme-primary text-white">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4">
-                Why Choose Notredame Golf Carts?
+                Why Choose Notre Dame Golf Carts?
               </h2>
             </div>
 
@@ -338,7 +338,7 @@ export default function VehicleDetailPage({
               Ready to Experience the {vehicleName}?
             </h2>
             <p className="text-xl mb-8">
-              Contact Notredame Golf Carts today for pricing, availability, and to schedule your test drive.
+              Contact Notre Dame Golf Carts today for pricing, availability, and to schedule your test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">

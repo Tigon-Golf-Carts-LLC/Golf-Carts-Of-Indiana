@@ -23,7 +23,7 @@ export default function HomePage() {
   
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Notredame Golf Carts - Premier Indiana Dealership",
+    pageTitle: "Notre Dame Golf Carts - Premier Indiana Dealership",
     baseDescription: "Serving Notre Dame, Indiana with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the area.",
     pageType: "home",
     canonicalPath: "/",
@@ -49,14 +49,14 @@ export default function HomePage() {
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Notredame Golf Carts - Premier Electric Golf Cart Dealership in Indiana",
-          description: "Discover premium electric golf carts from Denago and Evolution at Notredame Golf Carts. Expert sales, service, rentals, and financing throughout Notre Dame, IN.",
+          title: "Notre Dame Golf Carts - Premier Electric Golf Cart Dealership in Indiana",
+          description: "Discover premium electric golf carts from Denago and Evolution at Notre Dame Golf Carts. Expert sales, service, rentals, and financing throughout Notre Dame, IN.",
           url: "https://notredamegolfcarts.com/",
           breadcrumbs: [{ name: "Home", url: "https://notredamegolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Notredame Golf Carts helped me find the perfect cart for my needs.",
+              reviewBody: "Excellent service and quality golf carts. The team at Notre Dame Golf Carts helped me find the perfect cart for my needs.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
@@ -84,7 +84,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Notredame Golf Carts - Premier Indiana Dealership
+                Notre Dame Golf Carts - Premier Indiana Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Serving Notre Dame, Indiana and all surrounding communities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the area.
@@ -117,7 +117,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Notredame Golf Carts?
+            Why Choose Notre Dame Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -172,7 +172,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Notredame Golf Carts - Top Golf Cart and LSV Brands
+            Notre Dame Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -352,10 +352,10 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
-                About Notredame Golf Carts
+                About Notre Dame Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Notre Dame area and surrounding Indiana areas.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout St. Joseph County and surrounding Indiana areas.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -393,17 +393,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Notre Dame area Municipalities Section */}
+      {/* St. Joseph County Municipalities Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Notre Dame area Municipality
+            Golf Carts for Every St. Joseph County Municipality
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             Professional golf cart services delivered to your city, borough, or township
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Complete Notre Dame area Municipality List - dynamically generated */}
+            {/* Complete St. Joseph County Municipality List - dynamically generated */}
             {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality) => (
               <Link 
                 key={municipality.slug} 
@@ -418,7 +418,7 @@ export default function HomePage() {
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all {NEW_MONROE_COUNTY_MUNICIPALITIES.length} Notre Dame area communities! Professional golf cart sales, service, and rentals delivered throughout the region.
+            Serving all {NEW_MONROE_COUNTY_MUNICIPALITIES.length} St. Joseph County communities! Professional golf cart sales, service, and rentals delivered throughout the region.
           </p>
         </div>
       </section>
@@ -458,7 +458,7 @@ export default function HomePage() {
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout Notre Dame area</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout St. Joseph County</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
               <Link href="/contact">

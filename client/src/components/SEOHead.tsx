@@ -18,7 +18,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "Notredame Golf Carts, Golf Carts In Notredame, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service", 
+  keywords = "Notre Dame Golf Carts, Golf Carts In Notredame, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service", 
   canonicalUrl,
   townName,
   ogImage,
@@ -142,7 +142,7 @@ export default function SEOHead({
     updateOGTag("og:image", finalOGImage);
     updateOGTag("og:image:width", ogImageWidth.toString());
     updateOGTag("og:image:height", ogImageHeight.toString());
-    updateOGTag("og:site_name", "Notredame Golf Carts");
+    updateOGTag("og:site_name", "Notre Dame Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -171,7 +171,7 @@ export default function SEOHead({
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Notredame Golf Carts - ${townName}`,
+        "name": `Notre Dame Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",

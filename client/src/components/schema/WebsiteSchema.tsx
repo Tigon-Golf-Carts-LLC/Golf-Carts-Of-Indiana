@@ -8,7 +8,7 @@ interface WebsiteSchemaProps {
 
 export default function WebsiteSchema({ 
   url = "https://notredamegolfcarts.com",
-  name = "Notredame Golf Carts",
+  name = "Notre Dame Golf Carts",
   description = "Premier golf cart dealership in Notre Dame, Indiana"
 }: WebsiteSchemaProps) {
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function WebsiteSchema({
       "url": url,
       "publisher": {
         "@type": "Organization",
-        "name": "Notredame Golf Carts",
+        "name": "Notre Dame Golf Carts",
         "logo": {
           "@type": "ImageObject",
           "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",

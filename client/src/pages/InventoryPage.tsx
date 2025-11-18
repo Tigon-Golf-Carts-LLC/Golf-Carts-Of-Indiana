@@ -80,7 +80,7 @@ export default function InventoryPage() {
       <AllSchemas 
         pageType="inventory" 
         pageData={{
-          title: "Golf Cart Inventory - Notredame Golf Carts",
+          title: "Golf Cart Inventory - Notre Dame Golf Carts",
           description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Notre Dame, Indiana with expert service.",
           url: "https://notredamegolfcarts.com/inventory",
           breadcrumbs: breadcrumbItems,

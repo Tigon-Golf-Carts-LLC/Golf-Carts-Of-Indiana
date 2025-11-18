@@ -79,7 +79,7 @@ export default function ProductSchema({
         ...(priceValidUntil && { "priceValidUntil": priceValidUntil }),
         "seller": {
           "@type": "Organization",
-          "name": "Notredame Golf Carts",
+          "name": "Notre Dame Golf Carts",
           "telephone": "1-844-844-6638",
           "email": "info@notredamegolfcarts.com",
           "address": {

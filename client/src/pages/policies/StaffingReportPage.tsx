@@ -5,8 +5,8 @@ export default function StaffingReportPage() {
   return (
     <>
       <SEOHead 
-        title="Staffing Report | Notredame Golf Carts"
-        description="Learn about Notredame Golf Carts' staffing structure, employment practices, and workforce development in Indiana."
+        title="Staffing Report | Notre Dame Golf Carts"
+        description="Learn about Notre Dame Golf Carts' staffing structure, employment practices, and workforce development in Indiana."
         keywords="staffing report, employment, Notre Dame golf carts, workforce Indiana"
       />
       
@@ -33,7 +33,7 @@ export default function StaffingReportPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Executive Summary</h2>
               <p className="mb-6">
-                Notredame Golf Carts maintains a dedicated workforce committed to providing 
+                Notre Dame Golf Carts maintains a dedicated workforce committed to providing 
                 exceptional golf cart sales, rental, and service throughout Indiana. This 
                 annual staffing report provides transparency on our employment practices, 
                 workforce composition, and professional development initiatives.
@@ -229,7 +229,7 @@ export default function StaffingReportPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Human Resources</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Human Resources Department</strong></p>
-                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Notre Dame Golf Carts</p>
                 <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Notre Dame, Indiana</p>

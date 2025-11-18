@@ -125,7 +125,7 @@ interface AllSchemasProps {
 
 export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps) {
   const {
-    title = "Notredame Golf Carts",
+    title = "Notre Dame Golf Carts",
     description = "Premier golf cart dealership in Notre Dame, Indiana",
     url = "https://notredamegolfcarts.com",
     breadcrumbs = [{ name: "Home", url: "https://notredamegolfcarts.com/" }],
@@ -166,7 +166,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Auto Dealer Schema for all pages */}
       <AutoDealerSchema
-        name="Notredame Golf Carts"
+        name="Notre Dame Golf Carts"
         description="Premier electric golf cart dealership serving Notre Dame, Indiana with sales, service, rentals, and financing"
         url="https://notredamegolfcarts.com"
         address={{
@@ -211,7 +211,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Menu Schema for site navigation */}
       <MenuSchema
-        name="Notredame Golf Carts Navigation"
+        name="Notre Dame Golf Carts Navigation"
         description="Main website navigation menu"
         hasMenuSection={[
           {
@@ -251,7 +251,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             name={vehicleName}
             brand={vehicleBrand}
             model={vehicleModel}
-            description={`${vehicleBrand} ${vehicleModel} electric golf cart available at Notredame Golf Carts`}
+            description={`${vehicleBrand} ${vehicleModel} electric golf cart available at Notre Dame Golf Carts`}
             image={vehicleImage}
             price={vehiclePrice}
             features={vehicleFeatures}
@@ -306,7 +306,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           <BrandSchema
             name={vehicleBrand}
-            description={`${vehicleBrand} electric golf carts available at Notredame Golf Carts`}
+            description={`${vehicleBrand} electric golf carts available at Notre Dame Golf Carts`}
             url={`https://notredamegolfcarts.com/${vehicleBrand.toLowerCase()}`}
             manufacturer={vehicleBrand}
             products={[{
@@ -322,7 +322,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "inventory" && (
         <>
           <CollectionPageSchema
-            name="Golf Cart Inventory - Notredame Golf Carts"
+            name="Golf Cart Inventory - Notre Dame Golf Carts"
             description="Browse our complete inventory of electric golf carts from DENAGO and EVOLUTION"
             url={url}
             mainEntity={collectionItems.length > 0 ? collectionItems : [
@@ -388,7 +388,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             areaServed={`${locationName} ${locationType}, Notre Dame, IN`}
           />
           <AutoDealerSchema
-            name={`Notredame Golf Carts - ${locationName} Service`}
+            name={`Notre Dame Golf Carts - ${locationName} Service`}
             description={`Premier golf cart dealership serving ${locationName} ${locationType} and surrounding areas`}
             url={url}
             address={{
@@ -416,7 +416,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             longitude={locationLongitude}
           />
           <RentalCarAgencySchema
-            name={`Notredame Golf Carts - ${locationName} Rentals`}
+            name={`Notre Dame Golf Carts - ${locationName} Rentals`}
             description={`Professional golf cart rental services in ${locationName} ${locationType}, Notre Dame, Indiana`}
             url={url}
             address={{
@@ -529,7 +529,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             ]}
           />
           <RentalCarAgencySchema
-            name="Notredame Golf Carts - Rental Services"
+            name="Notre Dame Golf Carts - Rental Services"
             description="Professional golf cart rental services throughout Notre Dame, Indiana"
             url="https://notredamegolfcarts.com/rentals"
             address={{
@@ -606,8 +606,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {/* Always include main company image */}
       <ImageObjectSchema
         url="/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
-        name="Notredame Golf Carts Logo"
-        description="Notredame Golf Carts company logo featuring professional golf cart branding"
+        name="Notre Dame Golf Carts Logo"
+        description="Notre Dame Golf Carts company logo featuring professional golf cart branding"
         width={400}
         height={400}
       />
@@ -628,7 +628,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               endDate={event.endDate}
               location={event.location}
               organizer={{
-                name: "Notredame Golf Carts",
+                name: "Notre Dame Golf Carts",
                 url: "https://notredamegolfcarts.com"
               }}
             />
@@ -639,7 +639,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "brand" && brandName && (
         <BrandSchema
           name={brandName}
-          description={brandDescription || `${brandName} electric golf carts available at Notredame Golf Carts`}
+          description={brandDescription || `${brandName} electric golf carts available at Notre Dame Golf Carts`}
           url={url}
           logo={brandLogo}
           manufacturer={brandName}
@@ -650,7 +650,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "home" && (
         <>
           <HowToSchema
-            name="How to Buy a Golf Cart from Notredame Golf Carts"
+            name="How to Buy a Golf Cart from Notre Dame Golf Carts"
             description="Step-by-step guide to purchasing your perfect electric golf cart"
             steps={[
               {
@@ -677,14 +677,14 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           {/* VideoObjectSchema temporarily disabled due to props issue */}
           {/* <VideoObjectSchema
-            name="Notredame Golf Carts - Electric Vehicle Showcase"
+            name="Notre Dame Golf Carts - Electric Vehicle Showcase"
             description="Watch our showcase of premium electric golf carts from DENAGO and EVOLUTION brands"
             thumbnailUrl="/attached_assets/image_1753728346042.png"
             embedUrl={`${url}#video-showcase`}
             duration="PT3M45S"
             uploadDate="2024-12-01"
             publisher={{
-              name: "Notredame Golf Carts",
+              name: "Notre Dame Golf Carts",
               logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
             }}
           /> */}

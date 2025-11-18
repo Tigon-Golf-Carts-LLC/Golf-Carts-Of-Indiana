@@ -18,7 +18,7 @@ export default function MunicipalityRentalPage({
   slug 
 }: MunicipalityRentalPageProps) {
   const fullLocationName = `${municipalityName} ${municipalityType}`;
-  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, IN | Notredame Golf Carts`;
+  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, IN | Notre Dame Golf Carts`;
   const pageDescription = `Rent premium golf carts in ${fullLocationName}, Notre Dame, IN. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery within ${fullLocationName}.`;
   const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Notre Dame golf cart rental, Indiana golf cart rental, street legal golf cart rental`;
 
@@ -226,7 +226,7 @@ export default function MunicipalityRentalPage({
               Golf Cart Rentals in {fullLocationName}
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Premium golf cart rentals delivered to your door in {fullLocationName}, Notre Dame area. 
+              Premium golf cart rentals delivered to your door in {fullLocationName}, St. Joseph County. 
               Street legal, fully insured, and ready for adventure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -275,7 +275,7 @@ export default function MunicipalityRentalPage({
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Proudly serving {fullLocationName} and the entire Notre Dame area with personalized, 
+                    Proudly serving {fullLocationName} and the entire St. Joseph County with personalized, 
                     local customer service you can trust.
                   </p>
                 </CardContent>

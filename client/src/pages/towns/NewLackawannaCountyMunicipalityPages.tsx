@@ -29,7 +29,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Notredame Golf Carts`;
+  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Notre Dame Golf Carts`;
   const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Notre Dame, IN. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
 
   // Google Maps embed URL for the specific municipality in Notre Dame
@@ -50,7 +50,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4 bg-theme-orange text-white">
-              Notredame Golf Carts
+              Notre Dame Golf Carts
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Golf Carts in {municipality.name} {municipality.type}
@@ -80,7 +80,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Notredame Golf Carts for {municipality.name}?
+              Why Choose Notre Dame Golf Carts for {municipality.name}?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We deliver premium electric golf cart solutions throughout Notre Dame, 
@@ -312,7 +312,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         schema={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: `Notredame Golf Carts - ${municipality.name} Service`,
+          name: `Notre Dame Golf Carts - ${municipality.name} Service`,
           description: metaDescription,
           url: `https://notredamegolfcarts.com${municipality.url}`,
           telephone: "1-844-844-6638",

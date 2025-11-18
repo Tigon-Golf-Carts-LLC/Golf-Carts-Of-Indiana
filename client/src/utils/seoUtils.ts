@@ -52,7 +52,7 @@ export function generateSEOMetadata(options: {
 
   // Generate keywords
   const defaultKeywords = [
-    'Notredame Golf Carts',
+    'Notre Dame Golf Carts',
     'Golf Carts In Notredame',
     'electric golf carts Indiana', 
     'DENAGO golf carts',
@@ -209,9 +209,9 @@ export function extractPageTitle(options: {
 
   if (explicitTitle) return explicitTitle;
   if (vehicleName) return vehicleName;
-  if (townName) return `${townName} Golf Cart Sales & Rentals - Notredame Golf Carts`;
+  if (townName) return `${townName} Golf Cart Sales & Rentals - Notre Dame Golf Carts`;
   if (fileName) return fileNameToTitle(fileName);
   if (pageType) return fileNameToTitle(pageType);
   
-  return 'Notredame Golf Carts';
+  return 'Notre Dame Golf Carts';
 }

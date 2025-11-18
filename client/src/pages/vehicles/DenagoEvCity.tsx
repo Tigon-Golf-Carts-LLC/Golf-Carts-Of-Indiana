@@ -12,7 +12,7 @@ export default function DenagoEvCity() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV CITY - Urban Electric Vehicle | Notredame Golf Carts"
+        title="DENAGO® EV CITY - Urban Electric Vehicle | Notre Dame Golf Carts"
         description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Notre Dame, IN."
         keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Notre Dame IN"
         canonicalUrl="https://notredamegolfcarts.com/vehicle/denago-ev-city"
@@ -259,7 +259,7 @@ export default function DenagoEvCity() {
               Ready to Experience the DENAGO® EV CITY?
             </h2>
             <p className="text-xl mb-8">
-              Contact Notredame Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact Notre Dame Golf Carts today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

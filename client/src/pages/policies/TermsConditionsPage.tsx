@@ -5,8 +5,8 @@ export default function TermsConditionsPage() {
   return (
     <>
       <SEOHead 
-        title="Terms & Conditions | Notredame Golf Carts"
-        description="Read the complete terms and conditions for Notredame Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Indiana."
+        title="Terms & Conditions | Notre Dame Golf Carts"
+        description="Read the complete terms and conditions for Notre Dame Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Indiana."
         keywords="terms conditions, Notre Dame golf carts, Indiana golf cart terms, legal agreement"
       />
       
@@ -33,7 +33,7 @@ export default function TermsConditionsPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Agreement Overview</h2>
               <p className="mb-6">
-                These Terms & Conditions ("Terms") govern your use of services provided by Notredame Golf Carts, 
+                These Terms & Conditions ("Terms") govern your use of services provided by Notre Dame Golf Carts, 
                 including golf cart sales, rentals, service, and related products. By engaging with our services, 
                 you agree to be bound by these Terms.
               </p>
@@ -86,7 +86,7 @@ export default function TermsConditionsPage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Limitation of Liability</h2>
               <p className="mb-6">
-                To the maximum extent permitted by Indiana law, Notredame Golf Carts shall not be 
+                To the maximum extent permitted by Indiana law, Notre Dame Golf Carts shall not be 
                 liable for any indirect, incidental, special, or consequential damages. Our total liability 
                 shall not exceed the amount paid for the specific product or service in question.
               </p>
@@ -99,7 +99,7 @@ export default function TermsConditionsPage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Notredame Golf Carts</strong></p>
+                <p className="mb-2"><strong>Notre Dame Golf Carts</strong></p>
                 <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Notre Dame, Indiana</p>

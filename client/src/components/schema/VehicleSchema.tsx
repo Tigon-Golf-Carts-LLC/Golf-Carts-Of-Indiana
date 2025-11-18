@@ -91,7 +91,7 @@ export default function VehicleSchema({
       "availability": `https://schema.org/${offers?.availability || availability}`,
       "seller": offers?.seller || {
         "@type": "Organization",
-        "name": "Notredame Golf Carts",
+        "name": "Notre Dame Golf Carts",
         "url": "https://notredamegolfcarts.com"
       }
     }

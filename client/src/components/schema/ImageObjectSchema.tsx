@@ -28,9 +28,9 @@ export default function ImageObjectSchema({
   contentUrl,
   thumbnailUrl,
   caption,
-  copyrightHolder = "Notredame Golf Carts",
+  copyrightHolder = "Notre Dame Golf Carts",
   creditText,
-  creator = "Notredame Golf Carts",
+  creator = "Notre Dame Golf Carts",
   datePublished,
   license,
   acquireLicensePage

@@ -56,7 +56,7 @@ export default function EvolutionPage() {
     baseDescription: "Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver premium quality, innovative design, and reliable performance for Notre Dame, Indiana. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series.",
     pageType: "general",
     canonicalPath: "/evolution",
-    keywords: ["EVOLUTION golf carts", "premium electric vehicles", "D5 RANGER", "EVOLUTION MAVERICK", "golf cart sales Notre Dame area"],
+    keywords: ["EVOLUTION golf carts", "premium electric vehicles", "D5 RANGER", "EVOLUTION MAVERICK", "golf cart sales St. Joseph County"],
     ogImage: "/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg",
     heroBackgroundSeed: "evolution"
   });
@@ -295,7 +295,7 @@ export default function EvolutionPage() {
                   EVOLUTION represents the perfect balance of innovation, quality, and value in 
                   electric vehicle manufacturing. With a comprehensive lineup ranging from classic 
                   golf carts to high-performance utility vehicles, EVOLUTION delivers solutions 
-                  for every need in Notre Dame area's diverse campus and residential communities.
+                  for every need in St. Joseph County's diverse campus and residential communities.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {evolutionFeatures.map((feature, index) => (
@@ -329,7 +329,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the full range of EVOLUTION electric vehicles available in Notre Dame area
+                Discover the full range of EVOLUTION electric vehicles available in St. Joseph County
               </p>
             </div>
 
@@ -395,7 +395,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Vehicle Lineup  
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 EVOLUTION electric vehicle models available in Notre Dame area
+                Explore all 6 EVOLUTION electric vehicle models available in St. Joseph County
               </p>
             </div>
 
@@ -469,7 +469,7 @@ export default function EvolutionPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose EVOLUTION in Notre Dame area?
+                Why Choose EVOLUTION in St. Joseph County?
               </h2>
             </div>
 
@@ -505,7 +505,7 @@ export default function EvolutionPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Support</h3>
                 <p className="text-gray-600">
-                  Expert EVOLUTION service and genuine parts support right here in Notre Dame area 
+                  Expert EVOLUTION service and genuine parts support right here in St. Joseph County 
                   with factory-trained technicians and comprehensive warranties.
                 </p>
               </div>
@@ -520,7 +520,7 @@ export default function EvolutionPage() {
               Ready to Experience EVOLUTION?
             </h2>
             <p className="text-xl mb-8">
-              Contact Notredame Golf Carts today to explore the complete EVOLUTION lineup 
+              Contact Notre Dame Golf Carts today to explore the complete EVOLUTION lineup 
               and find the perfect electric vehicle for your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

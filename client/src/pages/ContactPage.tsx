@@ -24,8 +24,8 @@ export default function ContactPage() {
   
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Contact Notredame Golf Carts",
-    baseDescription: "Get in touch with Notredame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Notre Dame, IN 46556. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
+    pageTitle: "Contact Notre Dame Golf Carts",
+    baseDescription: "Get in touch with Notre Dame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Notre Dame, IN 46556. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
     pageType: "contact",
     canonicalPath: "/contact",
     keywords: ["Notre Dame showroom", "Notre Dame location", "golf cart consultation", "Indiana service center"],
@@ -85,7 +85,7 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Notredame Golf Carts",
+      label: "Notre Dame Golf Carts",
       value: "1040 IN-611, Notre Dame, IN 46556",
       phone: "1-844-844-6638",
     },
@@ -133,7 +133,7 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Notredame Golf Carts
+              Contact Notre Dame Golf Carts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Get in touch with our team for sales, service, and support throughout Notre Dame, Indiana. 

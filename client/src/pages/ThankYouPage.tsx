@@ -10,10 +10,10 @@ export default function ThankYouPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Thank You!",
-    baseDescription: "Thank you for contacting Notredame Golf Carts. We've received your message and our team will respond to your inquiry within 24 hours. Expert golf cart sales, service, and rentals.",
+    baseDescription: "Thank you for contacting Notre Dame Golf Carts. We've received your message and our team will respond to your inquiry within 24 hours. Expert golf cart sales, service, and rentals.",
     pageType: "general",
     canonicalPath: "/thank-you",
-    keywords: ["thank you", "contact confirmation", "Notredame Golf Carts", "customer service"],
+    keywords: ["thank you", "contact confirmation", "Notre Dame Golf Carts", "customer service"],
     heroBackgroundSeed: "thankyou"
   });
   
@@ -41,7 +41,7 @@ export default function ThankYouPage() {
             Thank You!
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            We've received your message and appreciate your interest in Notredame Golf Carts.
+            We've received your message and appreciate your interest in Notre Dame Golf Carts.
             Our team will respond to your inquiry soon.
           </p>
         </div>
@@ -135,11 +135,11 @@ export default function ThankYouPage() {
           <Card className="bg-blue-50 border-blue-200 mb-12">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Serving All of Notre Dame area
+                Serving All of St. Joseph County
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Professional golf cart sales, rentals, and service delivered to all 20 Notre Dame area municipalities - 
-                from Notre Dame Borough to the scenic townships throughout the northern Indiana region.
+                Professional golf cart sales, rentals, and service delivered to all 20 St. Joseph County municipalities - 
+                from Notre Dame Borough to the scenic townships throughout the St. Joseph County, Indiana region.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>

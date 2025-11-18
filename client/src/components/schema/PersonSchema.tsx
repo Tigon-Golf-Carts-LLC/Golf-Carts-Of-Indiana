@@ -15,11 +15,11 @@ interface PersonSchemaProps {
 export default function PersonSchema({
   name,
   jobTitle = "Golf Cart Specialist",
-  description = "Professional golf cart expert at Notredame Golf Carts",
+  description = "Professional golf cart expert at Notre Dame Golf Carts",
   email,
   telephone,
   image,
-  worksFor = "Notredame Golf Carts",
+  worksFor = "Notre Dame Golf Carts",
   url,
   sameAs = []
 }: PersonSchemaProps) {

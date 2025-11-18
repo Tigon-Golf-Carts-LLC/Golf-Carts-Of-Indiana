@@ -5,10 +5,10 @@ export function PrivacyPolicyPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Privacy Policy",
-    baseDescription: "Privacy Policy for Notredame Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts. Your privacy is our priority.",
+    baseDescription: "Privacy Policy for Notre Dame Golf Carts. Learn how we collect, use, and protect your personal information when you visit our website or purchase golf carts. Your privacy is our priority.",
     pageType: "policy",
     canonicalPath: "/privacy-policy",
-    keywords: ["privacy policy", "data protection", "personal information", "Notredame Golf Carts"],
+    keywords: ["privacy policy", "data protection", "personal information", "Notre Dame Golf Carts"],
     heroBackgroundSeed: "policy"
   });
   
@@ -36,7 +36,7 @@ export function PrivacyPolicyPage() {
               </p>
               
               <p className="mb-6">
-                At Notredame Golf Carts, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website notredamegolfcarts.com or engage with our services.
+                At Notre Dame Golf Carts, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website notredamegolfcarts.com or engage with our services.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Information We Collect</h2>
@@ -132,7 +132,7 @@ export function PrivacyPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <p className="mb-4">If you have any questions about this Privacy Policy or our privacy practices, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Notredame Golf Carts</strong></p>
+                <p className="mb-2"><strong>Notre Dame Golf Carts</strong></p>
                 <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Notre Dame, Indiana</p>

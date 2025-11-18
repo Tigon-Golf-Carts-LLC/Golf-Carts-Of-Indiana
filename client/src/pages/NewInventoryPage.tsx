@@ -46,7 +46,7 @@ export default function NewInventoryPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Inventory - New & Used | Notredame Golf Carts"
+        title="Golf Cart Inventory - New & Used | Notre Dame Golf Carts"
         description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs in Notre Dame, IN."
         keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Notre Dame golf carts"
         canonicalUrl="https://notredamegolfcarts.com/inventory"

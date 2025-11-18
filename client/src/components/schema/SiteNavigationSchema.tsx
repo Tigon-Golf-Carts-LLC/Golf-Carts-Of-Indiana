@@ -12,12 +12,12 @@ interface SiteNavigationSchemaProps {
 
 export default function SiteNavigationSchema({ 
   navigationItems = [
-    { name: "Home", url: "https://notredamegolfcarts.com/", description: "Notredame Golf Carts homepage" },
+    { name: "Home", url: "https://notredamegolfcarts.com/", description: "Notre Dame Golf Carts homepage" },
     { name: "Inventory", url: "https://notredamegolfcarts.com/inventory", description: "Browse our golf cart inventory" },
     { name: "Rentals", url: "https://notredamegolfcarts.com/rentals", description: "Golf cart rental services" },
     { name: "Services", url: "https://notredamegolfcarts.com/services", description: "Golf cart maintenance and repair services" },
     { name: "Showroom", url: "https://notredamegolfcarts.com/showroom", description: "Visit our showroom locations" },
-    { name: "About", url: "https://notredamegolfcarts.com/about", description: "About Notredame Golf Carts" },
+    { name: "About", url: "https://notredamegolfcarts.com/about", description: "About Notre Dame Golf Carts" },
     { name: "Contact", url: "https://notredamegolfcarts.com/contact", description: "Contact information and locations" }
   ]
 }: SiteNavigationSchemaProps) {
@@ -28,7 +28,7 @@ export default function SiteNavigationSchema({
       "name": "Main Navigation",
       "about": {
         "@type": "WebSite",
-        "name": "Notredame Golf Carts",
+        "name": "Notre Dame Golf Carts",
         "url": "https://notredamegolfcarts.com"
       },
       "hasPart": navigationItems.map((item, index) => ({

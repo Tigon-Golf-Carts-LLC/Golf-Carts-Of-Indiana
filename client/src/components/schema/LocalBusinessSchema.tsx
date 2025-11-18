@@ -24,7 +24,7 @@ interface LocalBusinessSchemaProps {
 }
 
 export default function LocalBusinessSchema({
-  name = "Notredame Golf Carts",
+  name = "Notre Dame Golf Carts",
   description = "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
     streetAddress: "",

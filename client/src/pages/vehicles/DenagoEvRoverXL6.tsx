@@ -11,7 +11,7 @@ export default function DenagoEvRoverXL6() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Notredame Golf Carts"
+        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Notre Dame Golf Carts"
         description="Experience the DENAGO® EV Rover XL6 with premium luxury features and 6-passenger seating. Ultimate comfort and performance for discerning customers."
         keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Notre Dame"
       />

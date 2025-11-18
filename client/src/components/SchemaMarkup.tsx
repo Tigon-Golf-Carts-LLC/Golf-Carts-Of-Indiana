@@ -15,7 +15,7 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Notredame Golf Carts",
+  "name": "Notre Dame Golf Carts",
   "alternateName": "MCGC",
   "description": "Premier golf cart dealer in Notre Dame, Indiana specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
   "url": "https://notredamegolfcarts.com",
@@ -88,7 +88,7 @@ export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://notredamegolfcarts.com/#localbusiness",
-  "name": "Notredame Golf Carts",
+  "name": "Notre Dame Golf Carts",
   "description": "Premier golf cart dealer serving Notre Dame, Indiana communities with electric vehicle sales, service, and rentals.",
   "url": "https://notredamegolfcarts.com",
   "telephone": "1-844-844-6638",
@@ -147,8 +147,8 @@ export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": "https://notredamegolfcarts.com/#website",
-  "name": "Notredame Golf Carts",
-  "description": "Official website for Notredame Golf Carts - Indiana's premier electric golf cart dealer",
+  "name": "Notre Dame Golf Carts",
+  "description": "Official website for Notre Dame Golf Carts - Indiana's premier electric golf cart dealer",
   "url": "https://notredamegolfcarts.com",
   "potentialAction": {
     "@type": "SearchAction",
@@ -160,7 +160,7 @@ export const generateWebsiteSchema = () => ({
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Notredame Golf Carts"
+    "name": "Notre Dame Golf Carts"
   }
 });
 
@@ -194,7 +194,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Notredame Golf Carts",
+      "name": "Notre Dame Golf Carts",
       "telephone": "1-844-844-6638",
       "email": "info@notredamegolfcarts.com"
     },
@@ -242,7 +242,7 @@ export const generateServiceSchema = () => ({
   "description": "Comprehensive golf cart sales, service, repair, and rental services in Notre Dame, Indiana",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Notredame Golf Carts"
+    "name": "Notre Dame Golf Carts"
   },
   "areaServed": {
     "@type": "State",
@@ -311,12 +311,12 @@ export const generateOfferCatalogSchema = (vehicles: any[]) => ({
 export const generateContactPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "name": "Contact Notredame Golf Carts",
-  "description": "Get in touch with Notredame Golf Carts for sales, service, rentals, and support",
+  "name": "Contact Notre Dame Golf Carts",
+  "description": "Get in touch with Notre Dame Golf Carts for sales, service, rentals, and support",
   "url": "https://notredamegolfcarts.com/contact",
   "mainEntity": {
     "@type": "Organization",
-    "name": "Notredame Golf Carts",
+    "name": "Notre Dame Golf Carts",
     "contactPoint": [
       {
         "@type": "ContactPoint",
@@ -343,7 +343,7 @@ export const generateTownPageSchema = (townName: string) => ({
   "url": `https://notredamegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Notredame Golf Carts",
+    "name": "Notre Dame Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,

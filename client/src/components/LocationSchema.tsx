@@ -19,7 +19,7 @@ export default function LocationSchema({
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": `Notredame Golf Carts - ${municipalityName} ${municipalityType}`,
+      "name": `Notre Dame Golf Carts - ${municipalityName} ${municipalityType}`,
       "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Notre Dame, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
       "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
       "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
@@ -96,7 +96,7 @@ export default function LocationSchema({
         ...baseStructuredData,
         "@type": ["LocalBusiness", "RentalCarAgency"],
         "name": `Golf Cart Rentals - ${municipalityName} ${municipalityType}`,
-        "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, Notre Dame area. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
+        "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, St. Joseph County. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
         "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
         "hasOfferCatalog": {
           "@type": "OfferCatalog",

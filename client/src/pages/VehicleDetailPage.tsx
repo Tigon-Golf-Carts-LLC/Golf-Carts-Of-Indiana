@@ -98,14 +98,14 @@ export default function VehicleDetailPage() {
     <>
       {/* Dynamic SEO Head */}
       <Helmet>
-        <title>{vehicle.name} - ${vehicle.price.toLocaleString()} | Notredame Golf Carts</title>
-        <meta name="description" content={`${vehicle.name} for sale at Notredame Golf Carts. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
+        <title>{vehicle.name} - ${vehicle.price.toLocaleString()} | Notre Dame Golf Carts</title>
+        <meta name="description" content={`${vehicle.name} for sale at Notre Dame Golf Carts. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
         <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Notre Dame golf carts, TIGON dealer Indiana, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
         <link rel="canonical" href={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
         
         {/* Open Graph */}
-        <meta property="og:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()} | Notredame Golf Carts`} />
-        <meta property="og:description" content={`${vehicle.description} Available now at Notredame Golf Carts. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart with ${vehicle.specifications.range} range.`} />
+        <meta property="og:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()} | Notre Dame Golf Carts`} />
+        <meta property="og:description" content={`${vehicle.description} Available now at Notre Dame Golf Carts. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart with ${vehicle.specifications.range} range.`} />
         <meta property="og:url" content={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
         <meta property="og:type" content="product" />
         <meta property="og:image" content={`https://notredamegolfcarts.com${vehicle.images[0]}`} />

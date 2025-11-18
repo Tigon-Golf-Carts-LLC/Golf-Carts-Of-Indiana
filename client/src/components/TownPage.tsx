@@ -59,7 +59,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
   
   // SEO optimization
   const pageTitle = `${townName} Golf Carts - Notre Dame's Premier Dealership | Sales, Service & Rentals`;
-  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Notredame Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
+  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Notre Dame Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
   const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Notre Dame golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
   const canonicalUrl = `https://notredamegolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
@@ -122,7 +122,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
             Golf Cart Services in {fullTownName}
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            Notredame Golf Carts proudly serves {townName} residents with comprehensive 
+            Notre Dame Golf Carts proudly serves {townName} residents with comprehensive 
             golf cart solutions including sales, maintenance, repairs, and rentals.
           </p>
           
@@ -174,7 +174,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Notredame Golf Carts - Top Golf Cart and LSV Brands
+            Notre Dame Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -291,7 +291,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-gray-900">
-              Contact Notredame Golf Carts from {fullTownName}
+              Contact Notre Dame Golf Carts from {fullTownName}
             </h2>
             <p className="text-xl text-gray-600">
               Easy access to professional golf cart services for {townName} residents
@@ -333,7 +333,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout {fullTownName} and surrounding Notre Dame areas.
+                    Delivery and pickup available throughout {fullTownName} and surrounding St. Joseph Countys.
                   </p>
                 </CardContent>
               </Card>
@@ -361,10 +361,10 @@ export default function TownPage({ townName, townType }: TownPageProps) {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">
-                Why {townName} Chooses Notredame Golf Carts
+                Why {townName} Chooses Notre Dame Golf Carts
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Residents of {fullTownName} trust Notredame Golf Carts for reliable, 
+                Residents of {fullTownName} trust Notre Dame Golf Carts for reliable, 
                 high-quality golf cart solutions. Our local expertise and commitment to customer 
                 service make us the preferred choice for {townName} golf cart needs.
               </p>
