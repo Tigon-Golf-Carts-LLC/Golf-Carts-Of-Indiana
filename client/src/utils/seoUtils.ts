@@ -53,7 +53,8 @@ export function generateSEOMetadata(options: {
   // Generate keywords
   const defaultKeywords = [
     'Notre Dame Golf Carts',
-    'Golf Carts In Notredame',
+    'Golf Carts In Notre Dame',
+    'St. Joseph County golf carts',
     'electric golf carts Indiana', 
     'DENAGO golf carts',
     'EVOLUTION golf carts',
@@ -110,7 +111,8 @@ function getPageSpecificKeywords(
   switch (pageType) {
     case 'home':
       keywords.push(
-        'Notredame golf cart dealership',
+        'Notre Dame golf cart dealership',
+        'St. Joseph County golf carts',
         'Indiana golf cart dealer',
         'electric vehicle sales IN',
         'golf cart financing'
@@ -130,14 +132,16 @@ function getPageSpecificKeywords(
     case 'contact':
       keywords.push(
         'golf cart dealership contact',
-        'Notredame showroom',
+        'Notre Dame showroom',
+        'St. Joseph County golf cart service',
         'Indiana golf cart service',
         'golf cart support'
       );
       break;
     case 'about':
       keywords.push(
-        'golf cart company Notredame',
+        'golf cart company Notre Dame',
+        'St. Joseph County dealership',
         'electric vehicle expertise',
         'Indiana golf cart history'
       );
@@ -154,12 +158,13 @@ function getPageSpecificKeywords(
     case 'rental':
       keywords.push(
         'golf cart rentals',
-        'Notredame rentals',
+        'Notre Dame rentals',
+        'St. Joseph County rentals',
         'electric vehicle rental IN'
       );
       break;
     case 'policy':
-      keywords.push('golf cart dealer policies', 'Notredame terms');
+      keywords.push('golf cart dealer policies', 'Notre Dame terms');
       break;
   }
 

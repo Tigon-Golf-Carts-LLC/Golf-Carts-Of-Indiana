@@ -18,7 +18,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "Notre Dame Golf Carts, Golf Carts In Notredame, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service", 
+  keywords = "Notre Dame Golf Carts, Golf Carts In Notre Dame, St. Joseph County golf carts, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service", 
   canonicalUrl,
   townName,
   ogImage,

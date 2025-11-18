@@ -25,7 +25,7 @@ interface LocalBusinessSchemaProps {
 
 export default function LocalBusinessSchema({
   name = "Notre Dame Golf Carts",
-  description = "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
+  description = "Premier golf cart dealership serving St. Joseph County, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
     streetAddress: "",
     addressLocality: "Notre Dame",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Notre Dame, IN"
+  areaServed = "St. Joseph County, Indiana"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {
