@@ -5,8 +5,8 @@ export default function PublishingPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Publishing Policy | Monroe County Golf Carts"
-        description="Learn about Monroe County Golf Carts' content publishing standards, guidelines for user-generated content, and editorial policies for our Pennsylvania website."
+        title="Publishing Policy | Notredame Golf Carts"
+        description="Learn about Notredame Golf Carts' content publishing standards, guidelines for user-generated content, and editorial policies for our Indiana website."
         keywords="publishing policy, content policy, Monroe County golf carts, editorial guidelines"
       />
       
@@ -33,9 +33,9 @@ export default function PublishingPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Content Publishing Standards</h2>
               <p className="mb-6">
-                Monroe County Golf Carts maintains high standards for all content published on our website, 
+                Notredame Golf Carts maintains high standards for all content published on our website, 
                 social media channels, and marketing materials. This policy ensures accuracy, professionalism, 
-                and compliance with Pennsylvania business regulations.
+                and compliance with Indiana business regulations.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Editorial Guidelines</h2>
@@ -100,7 +100,7 @@ export default function PublishingPolicyPage() {
               <ul className="list-disc pl-6 mb-6">
                 <li>All claims substantiated with supporting evidence</li>
                 <li>Federal Trade Commission guidelines followed</li>
-                <li>Pennsylvania consumer protection laws observed</li>
+                <li>Indiana consumer protection laws observed</li>
                 <li>Clear disclosure of any paid partnerships</li>
                 <li>Honest representation of products and services</li>
               </ul>
@@ -173,11 +173,11 @@ export default function PublishingPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Content Team</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Content and Marketing Department</strong></p>
-                <p className="mb-2">Monroe County Golf Carts</p>
-                <p className="mb-2">Email: info@monroegolfcarts.com</p>
+                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">For content corrections or suggestions</p>
-                <p className="mb-2">Website: monroegolfcarts.com</p>
+                <p className="mb-2">Website: notredamegolfcarts.com</p>
                 <p>Response time: 24-48 hours for content inquiries</p>
               </div>
             </div>

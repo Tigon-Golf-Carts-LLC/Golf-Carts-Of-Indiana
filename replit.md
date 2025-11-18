@@ -1,7 +1,7 @@
-# Monroe County Golf Carts - Website Project
+# Notredame Golf Carts - Website Project
 
 ## Overview
-This project is for Monroe County Golf Carts (https://monroegolfcarts.com), Pennsylvania's premier golf cart dealership. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services within Monroe County. Key capabilities include complete inventory management, a rental system with location-based services for all 20 municipalities, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across the entire county.
+This project is for Notredame Golf Carts (https://notredamegolfcarts.com), Pennsylvania's premier golf cart dealership. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services within Notre Dame. Key capabilities include complete inventory management, a rental system with location-based services for all 20 municipalities, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across the entire county.
 
 ## User Preferences
 I want iterative development. Ask before making major changes.
@@ -20,14 +20,14 @@ I want iterative development. Ask before making major changes.
 - **Database**: PostgreSQL with Drizzle ORM for data persistence and PostgreSQL-backed user sessions.
 - **API**: RESTful endpoints with JSON responses.
 - **Code Structure**: Monorepo with clear separation of frontend, backend, and shared code (`shared/schema.ts` for consistent types).
-- **SEO**: Comprehensive sitemap.xml (100+ pages), robots.txt, full Schema Markup integration (Location, Vehicle, Service, Website, Person, Product, LocalBusiness, Organization), and individual pages for all 20 Monroe County municipalities for local SEO.
+- **SEO**: Comprehensive sitemap.xml (100+ pages), robots.txt, full Schema Markup integration (Location, Vehicle, Service, Website, Person, Product, LocalBusiness, Organization), and individual pages for all 20 Notre Dame municipalities for local SEO.
 - **PWA Configuration**: Progressive Web App enabled with `site.webmanifest` for enhanced user experience and app shortcuts.
 
 ### Feature Specifications
 - **Vehicle Inventory**: Detailed listings for DENAGO and EVOLUTION models with specifications and pricing.
-- **Rental System**: Location-specific rental services and pricing for all Monroe County municipalities.
+- **Rental System**: Location-specific rental services and pricing for all Notre Dame municipalities.
 - **Contact Management**: Forms and systems for lead capture and customer inquiries.
-- **Location-based Services**: Integration of Google Maps embeds with accurate Monroe County coordinates.
+- **Location-based Services**: Integration of Google Maps embeds with accurate Notre Dame coordinates.
 
 ## External Dependencies
 - **Google Tag Manager (GTM)**: Used for analytics and marketing tag deployment (GTM-NSN3ZJPP).
@@ -38,15 +38,15 @@ I want iterative development. Ask before making major changes.
 ## Recent Updates and Achievements
 
 ### ✅ Complete Branding Transformation (January 2025)
-- **New Brand Identity**: Monroe County Golf Carts professional logos, favicons, and showroom imagery
-- **Domain Migration**: Complete transition to monroegolfcarts.com with full URL structure optimization
+- **New Brand Identity**: Notredame Golf Carts professional logos, favicons, and showroom imagery
+- **Domain Migration**: Complete transition to notredamegolfcarts.com with full URL structure optimization
 - **Analytics Integration**: Google Tag Manager (GTM-NSN3ZJPP) and Google Analytics (G-QJVWEK6RT8)
-- **Professional Photography**: 8 new Monroe County showroom background images implemented
+- **Professional Photography**: 8 new Notre Dame showroom background images implemented
 
 ### ✅ Comprehensive SEO & AI Optimization Suite (January 2025)  
 - **Enhanced Sitemap**: Completely rebuilt sitemap.xml with 100+ pages for all main, brand, vehicle, municipality, rental, and policy pages
 - **AI Training Authorization**: Complete suite of AI training files (llms.txt, ai.txt, gpt.txt, claude.txt, training.txt, nlp.txt)
-- **SEO Optimization**: Comprehensive seo.txt with keyword strategy, geo.txt with complete geographic data for all 20 Monroe County municipalities
+- **SEO Optimization**: Comprehensive seo.txt with keyword strategy, geo.txt with complete geographic data for all 20 Notre Dame municipalities
 - **Bot Management**: Universal bot permissions (bots.txt, crawlers.txt) authorizing 50+ crawler types with zero restrictions
 - **Web Standards**: Progressive Web App configuration (manifest.json, browserconfig.xml) for enhanced user experience
 - **Security & Transparency**: Professional compliance files (security.txt, humans.txt, ads.txt)
@@ -57,6 +57,6 @@ I want iterative development. Ask before making major changes.
 ### ✅ Technical Infrastructure Enhancements
 - **Updated Robots.txt**: Complete business information, municipality coverage, and tracking code documentation
 - **Professional Standards**: WCAG accessibility compliance, security policies, and transparency documentation
-- **Geographic Optimization**: Detailed coverage of 7 boroughs + 13 townships = 20 total Monroe County municipalities
+- **Geographic Optimization**: Detailed coverage of 7 boroughs + 13 townships = 20 total Notre Dame municipalities
 - **Maximum Search Visibility**: Zero restrictions policy for all legitimate search engines and AI training systems
 ```

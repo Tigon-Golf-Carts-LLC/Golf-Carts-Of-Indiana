@@ -19,17 +19,17 @@ export default function LocationSchema({
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": `Monroe County Golf Carts - ${municipalityName} ${municipalityType}`,
-      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Monroe County, Pennsylvania. Premium DENAGO and Evolution electric golf carts available.`,
-      "url": `https://monroegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
-      "image": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
+      "name": `Notredame Golf Carts - ${municipalityName} ${municipalityType}`,
+      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Notre Dame, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
+      "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
+      "logo": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts_1753809066045.png",
+      "image": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
-      "email": "info@monroegolfcarts.com",
+      "email": "info@notredamegolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": municipalityName,
-        "addressRegion": "PA",
+        "addressRegion": "IN",
         "addressCountry": "US"
       },
       "geo": {
@@ -45,7 +45,7 @@ export default function LocationSchema({
           "name": "Monroe County",
           "containedInPlace": {
             "@type": "State",
-            "name": "Pennsylvania"
+            "name": "Indiana"
           }
         }
       },
@@ -97,7 +97,7 @@ export default function LocationSchema({
         "@type": ["LocalBusiness", "RentalCarAgency"],
         "name": `Golf Cart Rentals - ${municipalityName} ${municipalityType}`,
         "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, Monroe County. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
-        "url": `https://monroegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
+        "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": `Golf Cart Rental Services in ${municipalityName} ${municipalityType}`,

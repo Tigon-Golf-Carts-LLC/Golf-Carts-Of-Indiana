@@ -36,7 +36,7 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// Monroe County Town Pages
+// Notre Dame Town Pages
 import {
   AlburtisPage, AllentownPage, BreinigsvillePage, CatasauquaPage, CenterValleyPage,
   CoopersburgPage, CoplayPage, EastTexasPage, EmmausPage, FogelsvillePage,
@@ -45,7 +45,7 @@ import {
   SlatingtonPage, TrexlertownPage, WhitehallPage, ZionsvillePage
 } from "@/pages/towns/LehighCountyTownPages";
 
-// Monroe County Rental Pages
+// Notre Dame Rental Pages
 import {
   AlburtisRentalPage, AllentownRentalPage, BreinigsvilleRentalPage, CatasauquaRentalPage,
   CenterValleyRentalPage, CoopersburgRentalPage, CoplayRentalPage, EastTexasRentalPage,
@@ -116,7 +116,7 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
             
-            {/* Monroe County Municipality Pages */}
+            {/* Notre Dame Municipality Pages */}
             <Route path="/towns/alburtis" component={AlburtisPage} />
             <Route path="/towns/allentown" component={AllentownPage} />
             <Route path="/towns/breinigsville" component={BreinigsvillePage} />
@@ -142,7 +142,7 @@ export default function App() {
             <Route path="/towns/whitehall" component={WhitehallPage} />
             <Route path="/towns/zionsville" component={ZionsvillePage} />
             
-            {/* Monroe County Rental Pages */}
+            {/* Notre Dame Rental Pages */}
             <Route path="/rentals/alburtis" component={AlburtisRentalPage} />
             <Route path="/rentals/allentown" component={AllentownRentalPage} />
             <Route path="/rentals/breinigsville" component={BreinigsvilleRentalPage} />

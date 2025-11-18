@@ -5,9 +5,9 @@ export default function RentalPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Rental Policy | Monroe County Golf Carts"
-        description="Complete golf cart rental policy for Monroe County Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Pennsylvania golf cart rentals."
-        keywords="rental policy, golf cart rental, Monroe County rentals, Pennsylvania golf cart rental policy"
+        title="Rental Policy | Notredame Golf Carts"
+        description="Complete golf cart rental policy for Notredame Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Indiana golf cart rentals."
+        keywords="rental policy, golf cart rental, Monroe County rentals, Indiana golf cart rental policy"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function RentalPolicyPage() {
             Rental Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Complete golf cart rental terms, requirements, and responsibilities for Monroe County, Pennsylvania.
+            Complete golf cart rental terms, requirements, and responsibilities for Notre Dame, Indiana.
           </p>
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function RentalPolicyPage() {
                 <li>Keep golf cart clean and in good condition</li>
                 <li>No smoking, pets, or food/beverages in golf cart</li>
                 <li>Maximum speed and weight limits must be observed</li>
-                <li>Golf cart must remain within Pennsylvania unless approved</li>
+                <li>Golf cart must remain within Indiana unless approved</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Prohibited Uses</h3>
@@ -146,14 +146,14 @@ export default function RentalPolicyPage() {
                 <li>Cancellations within 24 hours: 50% refund</li>
                 <li>No-shows: No refund</li>
                 <li>Weather cancellations: Full refund or rescheduling available</li>
-                <li>Monroe County Golf Carts may cancel due to vehicle unavailability with full refund</li>
+                <li>Notredame Golf Carts may cancel due to vehicle unavailability with full refund</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Emergency Procedures</h2>
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Accidents</h3>
               <ul className="list-disc pl-6 mb-6">
                 <li>Contact 911 if anyone is injured</li>
-                <li>Call Monroe County Golf Carts immediately: 1-844-844-6638</li>
+                <li>Call Notredame Golf Carts immediately: 1-844-844-6638</li>
                 <li>Do not admit fault or make statements about the incident</li>
                 <li>Take photos of damage and scene if safe to do so</li>
                 <li>Obtain contact information from other parties involved</li>
@@ -172,11 +172,11 @@ export default function RentalPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Rental Department</strong></p>
-                <p className="mb-2">Monroe County Golf Carts</p>
-                <p className="mb-2">Email: info@monroegolfcarts.com</p>
+                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638 (24/7 Support)</p>
-                <p className="mb-2">Serving Monroe County, Pennsylvania</p>
-                <p>Website: monroegolfcarts.com</p>
+                <p className="mb-2">Serving Notre Dame, Indiana</p>
+                <p>Website: notredamegolfcarts.com</p>
               </div>
             </div>
           </div>

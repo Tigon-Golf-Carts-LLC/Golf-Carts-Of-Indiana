@@ -9,18 +9,18 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Monroe County Golf Carts",
-      "description": "Premier golf cart dealership in Monroe County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
-      "url": "https://monroegolfcarts.com",
-      "logo": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
-      "image": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
+      "name": "Notredame Golf Carts",
+      "description": "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
+      "url": "https://notredamegolfcarts.com",
+      "logo": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts_1753809066045.png",
+      "image": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
-      "email": "info@monroegolfcarts.com",
+      "email": "info@notredamegolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Golf Cart Lane",
         "addressLocality": "Stroudsburg",
-        "addressRegion": "PA",
+        "addressRegion": "IN",
         "postalCode": "18360",
         "addressCountry": "US"
       },
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "AdministrativeArea",
-        "name": "Monroe County, Pennsylvania"
+        "name": "Notre Dame, Indiana"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Monroe County Golf Carts"
+          "name": "Notredame Golf Carts"
         }
       } as any;
     }

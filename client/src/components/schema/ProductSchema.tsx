@@ -57,7 +57,7 @@ export default function ProductSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": `https://monroegolfcarts.com/attached_assets/${image}`,
+        "url": `https://notredamegolfcarts.com/attached_assets/${image}`,
         "width": 800,
         "height": 600
       },
@@ -79,13 +79,13 @@ export default function ProductSchema({
         ...(priceValidUntil && { "priceValidUntil": priceValidUntil }),
         "seller": {
           "@type": "Organization",
-          "name": "Monroe County Golf Carts",
+          "name": "Notredame Golf Carts",
           "telephone": "1-844-844-6638",
-          "email": "info@monroegolfcarts.com",
+          "email": "info@notredamegolfcarts.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Monroe County",
-            "addressRegion": "PA",
+            "addressRegion": "IN",
             "addressCountry": "US"
           }
         },

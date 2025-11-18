@@ -28,9 +28,9 @@ export default function ImageObjectSchema({
   contentUrl,
   thumbnailUrl,
   caption,
-  copyrightHolder = "Monroe County Golf Carts",
+  copyrightHolder = "Notredame Golf Carts",
   creditText,
-  creator = "Monroe County Golf Carts",
+  creator = "Notredame Golf Carts",
   datePublished,
   license,
   acquireLicensePage
@@ -39,13 +39,13 @@ export default function ImageObjectSchema({
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "ImageObject",
-      "url": url.startsWith('http') ? url : `https://monroegolfcarts.com${url}`,
+      "url": url.startsWith('http') ? url : `https://notredamegolfcarts.com${url}`,
       ...(name && { "name": name }),
       ...(description && { "description": description }),
       ...(width && { "width": width }),
       ...(height && { "height": height }),
       "encodingFormat": encodingFormat,
-      "contentUrl": contentUrl || (url.startsWith('http') ? url : `https://monroegolfcarts.com${url}`),
+      "contentUrl": contentUrl || (url.startsWith('http') ? url : `https://notredamegolfcarts.com${url}`),
       ...(thumbnailUrl && { "thumbnailUrl": thumbnailUrl }),
       ...(caption && { "caption": caption }),
       "copyrightHolder": {

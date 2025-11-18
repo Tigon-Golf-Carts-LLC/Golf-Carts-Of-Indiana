@@ -52,7 +52,7 @@ export default function MontgomeryCountyMunicipalityPage({ municipality }: Montg
   // SEO optimization for Montgomery County
   const pageTitle = `${municipality.name} Golf Carts - Montgomery County's Premier Dealership | Sales, Service & Rentals`;
   const pageDescription = `Professional golf cart sales, service, and rentals in ${fullName}. Montgomery County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${municipality.name} residents.`;
-  const pageKeywords = `${municipality.name} golf carts, ${fullName} golf cart sales, Montgomery County golf carts, electric golf carts ${municipality.name}, golf cart service ${municipality.name}, golf cart rentals ${municipality.name}, Pennsylvania golf carts`;
+  const pageKeywords = `${municipality.name} golf carts, ${fullName} golf cart sales, Montgomery County golf carts, electric golf carts ${municipality.name}, golf cart service ${municipality.name}, golf cart rentals ${municipality.name}, Indiana golf carts`;
   const canonicalUrl = `https://montcogolfcarts.com${municipality.url}`;
 
   const businessHours = "Mon-Fri: 8:00 AM - 6:00 PM, Sat: 9:00 AM - 4:00 PM, Sun: Closed";
@@ -282,7 +282,7 @@ export default function MontgomeryCountyMunicipalityPage({ municipality }: Montg
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-900 mb-2">Service Area</h3>
-                    <p className="text-blue-700">Montgomery County, PA</p>
+                    <p className="text-blue-700">Montgomery County, IN</p>
                   </div>
                 </div>
               </div>
@@ -321,7 +321,7 @@ export default function MontgomeryCountyMunicipalityPage({ municipality }: Montg
                 All Montgomery County Service Areas
               </h2>
               <p className="text-xl text-gray-600">
-                Professional golf cart services throughout Montgomery County, Pennsylvania
+                Professional golf cart services throughout Montgomery County, Indiana
               </p>
             </div>
             

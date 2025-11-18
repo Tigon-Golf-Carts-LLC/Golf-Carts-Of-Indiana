@@ -38,7 +38,7 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// New Monroe County Municipality Pages (19 Total - 1 City + 11 Boroughs + 7 Townships)
+// New Notre Dame Municipality Pages (19 Total - 1 City + 11 Boroughs + 7 Townships)
 import {
   ArchbaldPage, CarbondalePage, ChinchillaPage, ClarksSummitPage, DaltonPage,
   ElmhurstPage, FleetvillePage, JermynPage, JessupPage, LaPlumePage,
@@ -46,7 +46,7 @@ import {
   RansomPage, ScrantonPage, TaylorPage, WaverlyPage
 } from "@/pages/towns/NewLackawannaCountyMunicipalityPages";
 
-// New Monroe County Rental Pages (19 Total)
+// New Notre Dame Rental Pages (19 Total)
 import {
   ArchbaldRentalsPage, CarbondaleRentalsPage, ChinchillaRentalsPage, ClarksSummitRentalsPage, DaltonRentalsPage,
   ElmhurstRentalsPage, FleetvilleRentalsPage, JermynRentalsPage, JessupRentalsPage, LaPlumeRentalsPage,
@@ -114,11 +114,11 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
 
-            {/* New Monroe County Municipality Pages - City (1) */}
+            {/* New Notre Dame Municipality Pages - City (1) */}
             <Route path="/towns/scranton" component={ScrantonPage} />
             <Route path="/towns/scranton-city" component={ScrantonPage} />
             
-            {/* New Monroe County Municipality Pages - Boroughs (11) */}
+            {/* New Notre Dame Municipality Pages - Boroughs (11) */}
             <Route path="/towns/archbald" component={ArchbaldPage} />
             <Route path="/towns/carbondale" component={CarbondalePage} />
             <Route path="/towns/clarks-summit" component={ClarksSummitPage} />
@@ -131,7 +131,7 @@ export default function App() {
             <Route path="/towns/olyphant" component={OlyphantPage} />
             <Route path="/towns/taylor" component={TaylorPage} />
 
-            {/* New Monroe County Municipality Pages - Townships (7) */}
+            {/* New Notre Dame Municipality Pages - Townships (7) */}
             <Route path="/towns/chinchilla-township" component={ChinchillaPage} />
             <Route path="/towns/elmhurst-township" component={ElmhurstPage} />
             <Route path="/towns/fleetville-township" component={FleetvillePage} />
@@ -140,7 +140,7 @@ export default function App() {
             <Route path="/towns/ransom-township" component={RansomPage} />
             <Route path="/towns/waverly-township" component={WaverlyPage} />
 
-            {/* SEO-friendly URL routes for New Monroe County municipalities */}
+            {/* SEO-friendly URL routes for New Notre Dame municipalities */}
             <Route path="/scranton-golf-carts" component={ScrantonPage} />
             <Route path="/archbald-golf-carts" component={ArchbaldPage} />
             <Route path="/carbondale-golf-carts" component={CarbondalePage} />
@@ -161,7 +161,7 @@ export default function App() {
             <Route path="/taylor-golf-carts" component={TaylorPage} />
             <Route path="/waverly-township-golf-carts" component={WaverlyPage} />
 
-            {/* New Monroe County Municipality Rental Pages (19 Total) */}
+            {/* New Notre Dame Municipality Rental Pages (19 Total) */}
             <Route path="/rentals/scranton" component={ScrantonRentalsPage} />
             <Route path="/rentals/archbald" component={ArchbaldRentalsPage} />
             <Route path="/rentals/carbondale" component={CarbondaleRentalsPage} />

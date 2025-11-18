@@ -5,9 +5,9 @@ export default function DeliveryPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Delivery Policy | Monroe County Golf Carts"
-        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Monroe County, Pennsylvania. Free delivery zones and scheduling information."
-        keywords="delivery policy, golf cart delivery, Monroe County delivery, Pennsylvania golf cart shipping"
+        title="Delivery Policy | Notredame Golf Carts"
+        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Notre Dame, Indiana. Free delivery zones and scheduling information."
+        keywords="delivery policy, golf cart delivery, Monroe County delivery, Indiana golf cart shipping"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function DeliveryPolicyPage() {
             Delivery Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Comprehensive delivery services throughout Pennsylvania and surrounding areas for golf cart sales and rentals.
+            Comprehensive delivery services throughout Indiana and surrounding areas for golf cart sales and rentals.
           </p>
         </div>
       </section>
@@ -33,7 +33,7 @@ export default function DeliveryPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Delivery Overview</h2>
               <p className="mb-6">
-                Monroe County Golf Carts offers comprehensive delivery services throughout Pennsylvania 
+                Notredame Golf Carts offers comprehensive delivery services throughout Indiana 
                 and surrounding areas. Our delivery policy ensures safe, timely, and professional 
                 transport of your golf cart purchase or rental.
               </p>
@@ -55,7 +55,7 @@ export default function DeliveryPolicyPage() {
                 <li>Philadelphia and surrounding counties</li>
                 <li>Lancaster County</li>
                 <li>Lehigh Valley region</li>
-                <li>Central Pennsylvania locations</li>
+                <li>Central Indiana locations</li>
                 <li>Fee: $6 per mile beyond free delivery zone</li>
               </ul>
 
@@ -154,10 +154,10 @@ export default function DeliveryPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Delivery Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Delivery Scheduling</strong></p>
-                <p className="mb-2">Monroe County Golf Carts</p>
-                <p className="mb-2">Email: info@monroegolfcarts.com</p>
+                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Monroe County, Pennsylvania</p>
+                <p className="mb-2">Serving Notre Dame, Indiana</p>
                 <p className="mb-2">Hours: Monday-Saturday 8:00 AM - 6:00 PM</p>
                 <p>Sunday: 10:00 AM - 4:00 PM</p>
               </div>

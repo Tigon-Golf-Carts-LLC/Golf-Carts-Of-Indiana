@@ -125,10 +125,10 @@ interface AllSchemasProps {
 
 export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps) {
   const {
-    title = "Monroe County Golf Carts",
-    description = "Premier golf cart dealership in Monroe County, Pennsylvania",
-    url = "https://monroegolfcarts.com",
-    breadcrumbs = [{ name: "Home", url: "https://monroegolfcarts.com/" }],
+    title = "Notredame Golf Carts",
+    description = "Premier golf cart dealership in Notre Dame, Indiana",
+    url = "https://notredamegolfcarts.com",
+    breadcrumbs = [{ name: "Home", url: "https://notredamegolfcarts.com/" }],
     vehicleName,
     vehicleBrand,
     vehicleModel,
@@ -166,18 +166,18 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Auto Dealer Schema for all pages */}
       <AutoDealerSchema
-        name="Monroe County Golf Carts"
-        description="Premier electric golf cart dealership serving Monroe County, Pennsylvania with sales, service, rentals, and financing"
-        url="https://monroegolfcarts.com"
+        name="Notredame Golf Carts"
+        description="Premier electric golf cart dealership serving Notre Dame, Indiana with sales, service, rentals, and financing"
+        url="https://notredamegolfcarts.com"
         address={{
           streetAddress: "Various Locations",
           addressLocality: "Monroe County",
-          addressRegion: "PA",
+          addressRegion: "IN",
           postalCode: "18101",
           addressCountry: "US"
         }}
         telephone="1-844-844-6638"
-        email="info@monroegolfcarts.com"
+        email="info@notredamegolfcarts.com"
         brands={["DENAGO", "EVOLUTION"]}
         services={["Golf Cart Sales", "Golf Cart Service", "Golf Cart Rentals", "Financing", "Parts & Accessories"]}
         openingHours={[
@@ -195,8 +195,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       <ContactPointSchema
         contactType="customer service"
         telephone="1-844-844-6638"
-        email="info@monroegolfcarts.com"
-        areaServed="Monroe County, Pennsylvania"
+        email="info@notredamegolfcarts.com"
+        areaServed="Notre Dame, Indiana"
         availableLanguage={["English"]}
         hoursAvailable={[
           { dayOfWeek: "Monday", opens: "09:00", closes: "18:00" },
@@ -211,7 +211,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Menu Schema for site navigation */}
       <MenuSchema
-        name="Monroe County Golf Carts Navigation"
+        name="Notredame Golf Carts Navigation"
         description="Main website navigation menu"
         hasMenuSection={[
           {
@@ -251,7 +251,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             name={vehicleName}
             brand={vehicleBrand}
             model={vehicleModel}
-            description={`${vehicleBrand} ${vehicleModel} electric golf cart available at Monroe County Golf Carts`}
+            description={`${vehicleBrand} ${vehicleModel} electric golf cart available at Notredame Golf Carts`}
             image={vehicleImage}
             price={vehiclePrice}
             features={vehicleFeatures}
@@ -277,7 +277,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             features={vehicleFeatures}
             manufacturer={{
               name: vehicleBrand,
-              url: `https://monroegolfcarts.com/${vehicleBrand.toLowerCase()}`
+              url: `https://notredamegolfcarts.com/${vehicleBrand.toLowerCase()}`
             }}
           />
           <VehicleSchemaOld
@@ -306,8 +306,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           <BrandSchema
             name={vehicleBrand}
-            description={`${vehicleBrand} electric golf carts available at Monroe County Golf Carts`}
-            url={`https://monroegolfcarts.com/${vehicleBrand.toLowerCase()}`}
+            description={`${vehicleBrand} electric golf carts available at Notredame Golf Carts`}
+            url={`https://notredamegolfcarts.com/${vehicleBrand.toLowerCase()}`}
             manufacturer={vehicleBrand}
             products={[{
               name: vehicleName,
@@ -322,7 +322,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "inventory" && (
         <>
           <CollectionPageSchema
-            name="Golf Cart Inventory - Monroe County Golf Carts"
+            name="Golf Cart Inventory - Notredame Golf Carts"
             description="Browse our complete inventory of electric golf carts from DENAGO and EVOLUTION"
             url={url}
             mainEntity={collectionItems.length > 0 ? collectionItems : [
@@ -347,7 +347,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               },
               {
                 question: "Do you provide delivery service?",
-                answer: "Yes, we provide delivery service throughout Monroe County and surrounding areas in Pennsylvania."
+                answer: "Yes, we provide delivery service throughout Monroe County and surrounding areas in Indiana."
               }
             ]}
           />
@@ -365,10 +365,10 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           <PlaceSchema
             name={`${locationName} ${locationType}`}
-            description={`Golf cart sales and service in ${locationName} ${locationType}, Monroe County, Pennsylvania`}
+            description={`Golf cart sales and service in ${locationName} ${locationType}, Notre Dame, Indiana`}
             address={{
               addressLocality: locationName,
-              addressRegion: "PA",
+              addressRegion: "IN",
               addressCountry: "US"
             }}
             geo={locationLatitude && locationLongitude ? {
@@ -384,22 +384,22 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           <ServiceSchema
             serviceName={`Golf Cart Services in ${locationName} ${locationType}`}
-            description={`Professional golf cart sales, service, and rentals serving ${locationName} ${locationType}, Monroe County, PA`}
-            areaServed={`${locationName} ${locationType}, Monroe County, PA`}
+            description={`Professional golf cart sales, service, and rentals serving ${locationName} ${locationType}, Notre Dame, IN`}
+            areaServed={`${locationName} ${locationType}, Notre Dame, IN`}
           />
           <AutoDealerSchema
-            name={`Monroe County Golf Carts - ${locationName} Service`}
+            name={`Notredame Golf Carts - ${locationName} Service`}
             description={`Premier golf cart dealership serving ${locationName} ${locationType} and surrounding areas`}
             url={url}
             address={{
               streetAddress: "Service Area",
               addressLocality: locationName,
-              addressRegion: "PA",
+              addressRegion: "IN",
               postalCode: "18000",
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@monroegolfcarts.com"
+            email="info@notredamegolfcarts.com"
             brands={["DENAGO", "EVOLUTION"]}
             services={["Golf Cart Sales", "Service & Repair", "Rentals", "Parts & Accessories"]}
           />
@@ -416,19 +416,19 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             longitude={locationLongitude}
           />
           <RentalCarAgencySchema
-            name={`Monroe County Golf Carts - ${locationName} Rentals`}
-            description={`Professional golf cart rental services in ${locationName} ${locationType}, Monroe County, Pennsylvania`}
+            name={`Notredame Golf Carts - ${locationName} Rentals`}
+            description={`Professional golf cart rental services in ${locationName} ${locationType}, Notre Dame, Indiana`}
             url={url}
             address={{
               streetAddress: "Service Area",
               addressLocality: locationName,
-              addressRegion: "PA",
+              addressRegion: "IN",
               postalCode: "18000",
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@monroegolfcarts.com"
-            areaServed={`${locationName} ${locationType}, Monroe County, PA`}
+            email="info@notredamegolfcarts.com"
+            areaServed={`${locationName} ${locationType}, Notre Dame, IN`}
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[
               { type: "Daily Rental", description: "4-Seater from $245/day, 6-Seater from $295/day, Utility from $245/day" },
@@ -438,8 +438,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           <ServiceSchema
             serviceName={`Golf Cart Rentals in ${locationName} ${locationType}`}
-            description={`Professional golf cart rental services in ${locationName} ${locationType}, Monroe County, Pennsylvania`}
-            areaServed={`${locationName} ${locationType}, Monroe County, PA`}
+            description={`Professional golf cart rental services in ${locationName} ${locationType}, Notre Dame, Indiana`}
+            areaServed={`${locationName} ${locationType}, Notre Dame, IN`}
             offers={[
               { price: "$245", description: "4-Seater Golf Cart Daily Rental" },
               { price: "$295", description: "6-Seater Golf Cart Daily Rental" },
@@ -463,7 +463,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             faqs={[
               {
                 question: `Do you deliver golf cart rentals to ${locationName}?`,
-                answer: `Yes, we provide professional delivery of rental golf carts throughout ${locationName} ${locationType} and surrounding areas in Monroe County, Pennsylvania.`
+                answer: `Yes, we provide professional delivery of rental golf carts throughout ${locationName} ${locationType} and surrounding areas in Notre Dame, Indiana.`
               },
               {
                 question: "What types of golf carts are available for rent?",
@@ -486,7 +486,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
         <>
           <ServiceSchema
             serviceName="Golf Cart Services"
-            description="Comprehensive golf cart sales, service, repair, and maintenance in Monroe County, Pennsylvania"
+            description="Comprehensive golf cart sales, service, repair, and maintenance in Notre Dame, Indiana"
             offers={serviceOffers}
           />
           <OfferSchema
@@ -504,7 +504,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
         <>
           <ServiceSchema
             serviceName="Golf Cart Sales"
-            description="New and used electric golf cart sales in Monroe County, Pennsylvania"
+            description="New and used electric golf cart sales in Notre Dame, Indiana"
           />
           <OfferSchema
             itemOffered={{
@@ -521,7 +521,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
         <>
           <ServiceSchema
             serviceName="Golf Cart Rentals"
-            description="Golf cart rental services throughout Monroe County, Pennsylvania"
+            description="Golf cart rental services throughout Notre Dame, Indiana"
             offers={[
               { price: "$245", description: "4-Seater Golf Cart Daily Rental" },
               { price: "$295", description: "6-Seater Golf Cart Daily Rental" },
@@ -529,19 +529,19 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             ]}
           />
           <RentalCarAgencySchema
-            name="Monroe County Golf Carts - Rental Services"
-            description="Professional golf cart rental services throughout Monroe County, Pennsylvania"
-            url="https://monroegolfcarts.com/rentals"
+            name="Notredame Golf Carts - Rental Services"
+            description="Professional golf cart rental services throughout Notre Dame, Indiana"
+            url="https://notredamegolfcarts.com/rentals"
             address={{
               streetAddress: "Service Area",
               addressLocality: "Monroe County",
-              addressRegion: "PA",
+              addressRegion: "IN",
               postalCode: "18101",
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@monroegolfcarts.com"
-            areaServed="Monroe County, Pennsylvania"
+            email="info@notredamegolfcarts.com"
+            areaServed="Notre Dame, Indiana"
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[
               { type: "Daily Rental", description: "4-Seater and Utility from $245/day, 6-Seater from $295/day" },
@@ -605,9 +605,9 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Always include main company image */}
       <ImageObjectSchema
-        url="/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
-        name="Monroe County Golf Carts Logo"
-        description="Monroe County Golf Carts company logo featuring professional golf cart branding"
+        url="/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
+        name="Notredame Golf Carts Logo"
+        description="Notredame Golf Carts company logo featuring professional golf cart branding"
         width={400}
         height={400}
       />
@@ -628,8 +628,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               endDate={event.endDate}
               location={event.location}
               organizer={{
-                name: "Monroe County Golf Carts",
-                url: "https://monroegolfcarts.com"
+                name: "Notredame Golf Carts",
+                url: "https://notredamegolfcarts.com"
               }}
             />
           ))}
@@ -639,7 +639,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "brand" && brandName && (
         <BrandSchema
           name={brandName}
-          description={brandDescription || `${brandName} electric golf carts available at Monroe County Golf Carts`}
+          description={brandDescription || `${brandName} electric golf carts available at Notredame Golf Carts`}
           url={url}
           logo={brandLogo}
           manufacturer={brandName}
@@ -650,7 +650,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       {pageType === "home" && (
         <>
           <HowToSchema
-            name="How to Buy a Golf Cart from Monroe County Golf Carts"
+            name="How to Buy a Golf Cart from Notredame Golf Carts"
             description="Step-by-step guide to purchasing your perfect electric golf cart"
             steps={[
               {
@@ -677,15 +677,15 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           />
           {/* VideoObjectSchema temporarily disabled due to props issue */}
           {/* <VideoObjectSchema
-            name="Monroe County Golf Carts - Electric Vehicle Showcase"
+            name="Notredame Golf Carts - Electric Vehicle Showcase"
             description="Watch our showcase of premium electric golf carts from DENAGO and EVOLUTION brands"
             thumbnailUrl="/attached_assets/image_1753728346042.png"
             embedUrl={`${url}#video-showcase`}
             duration="PT3M45S"
             uploadDate="2024-12-01"
             publisher={{
-              name: "Monroe County Golf Carts",
-              logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              name: "Notredame Golf Carts",
+              logo: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
             }}
           /> */}
         </>

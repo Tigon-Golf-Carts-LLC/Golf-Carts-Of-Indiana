@@ -11,10 +11,10 @@ export default function RentalsPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Golf Cart Rentals in Monroe County",
-    baseDescription: "Rent premium electric golf carts throughout Monroe County, Pennsylvania. Daily, weekly, and monthly rental options with full insurance coverage and convenient delivery service. Perfect for events, vacations, and special occasions.",
+    baseDescription: "Rent premium electric golf carts throughout Notre Dame, Indiana. Daily, weekly, and monthly rental options with full insurance coverage and convenient delivery service. Perfect for events, vacations, and special occasions.",
     pageType: "rental",
     canonicalPath: "/rentals",
-    keywords: ["golf cart rental Monroe County", "Pennsylvania golf cart hire", "vacation rentals", "event golf carts"],
+    keywords: ["golf cart rental Monroe County", "Indiana golf cart hire", "vacation rentals", "event golf carts"],
     heroBackgroundSeed: "rentals"
   });
   
@@ -232,7 +232,7 @@ export default function RentalsPage() {
               Golf Cart Rentals in Monroe County
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Rent premium electric golf carts throughout Monroe County, Pennsylvania. Perfect for events, vacations, and special occasions.
+              Rent premium electric golf carts throughout Notre Dame, Indiana. Perfect for events, vacations, and special occasions.
             </p>
             <a href="tel:1-844-844-6638">
               <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

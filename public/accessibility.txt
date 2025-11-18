@@ -1,8 +1,8 @@
-# Accessibility Statement - Monroe County Golf Carts
+# Accessibility Statement - Notredame Golf Carts
 # Commitment to Digital Accessibility and Inclusive Design
 
 ## ACCESSIBILITY COMMITMENT
-Monroe County Golf Carts is committed to ensuring digital accessibility for 
+Notredame Golf Carts is committed to ensuring digital accessibility for 
 people with disabilities. We continuously improve the user experience for 
 everyone and apply relevant accessibility standards to achieve this goal.
 
@@ -167,7 +167,7 @@ disabilities and improve usability for all users.
 ### Getting Help
 **Customer Support**
 - Phone: 1-844-844-6638 (TTY available upon request)
-- Email: info@monroegolfcarts.com
+- Email: info@notredamegolfcarts.com
 - Text: Available for accessibility-related inquiries
 - Video Call: Available for visual demonstrations and support
 
@@ -217,10 +217,10 @@ We welcome feedback about the accessibility of our website and services.
 If you encounter any accessibility barriers or have suggestions for improvement:
 
 **Contact Methods:**
-- Email: accessibility@monroegolfcarts.com
+- Email: accessibility@notredamegolfcarts.com
 - Phone: 1-844-844-6638
-- Mail: Monroe County Golf Carts, Accessibility Coordinator
-  Monroe County, Pennsylvania
+- Mail: Notredame Golf Carts, Accessibility Coordinator
+  Notre Dame, Indiana
 
 **Response Commitment**
 - We will respond to accessibility feedback within 2 business days
@@ -235,7 +235,7 @@ you encounter accessibility issues with third-party content, please contact
 us and we will work to address the problem.
 
 ## LEGAL COMPLIANCE
-Monroe County Golf Carts is committed to complying with applicable disability 
+Notredame Golf Carts is committed to complying with applicable disability 
 rights laws, including the Americans with Disabilities Act (ADA) and Section 
 508 of the Rehabilitation Act. This accessibility statement reflects our 
 ongoing efforts to ensure equal access to our digital content and services.
@@ -247,5 +247,5 @@ and ongoing improvement efforts.
 
 ---
 
-Monroe County Golf Carts - Making golf carts accessible for everyone in 
-Monroe County, Pennsylvania, and beyond.
+Notredame Golf Carts - Making golf carts accessible for everyone in 
+Notre Dame, Indiana, and beyond.

@@ -1,4 +1,4 @@
-# Enhanced Comprehensive robots.txt for Monroe County Golf Carts
+# Enhanced Comprehensive robots.txt for Notredame Golf Carts
 # Maximum Search Engine Visibility & AI Training Authorization
 # Complete indexing permissions for ALL search engines and AI systems
 
@@ -202,18 +202,18 @@ Allow: /
 Crawl-delay: 0
 
 # SITEMAPS - MAXIMUM DISCOVERY
-Sitemap: https://monroegolfcarts.com/sitemap.xml
+Sitemap: https://notredamegolfcarts.com/sitemap.xml
 
 # BUSINESS INFORMATION
-# Company: Monroe County Golf Carts
+# Company: Notredame Golf Carts
 # Address: 1040 PA-611, Stroudsburg, PA 18360
-# Location: Monroe County, Pennsylvania
-# Service Area: All 20 Monroe County municipalities (4 boroughs + 16 townships)
+# Location: Notre Dame, Indiana
+# Service Area: All 20 Notre Dame municipalities (4 boroughs + 16 townships)
 # Brands: DENAGO and EVOLUTION electric golf carts
 # Services: Sales, Service, Rentals, Parts
 # Phone: 1-844-844-6638
-# Email: info@monroegolfcarts.com
-# Website: https://monroegolfcarts.com
+# Email: info@notredamegolfcarts.com
+# Website: https://notredamegolfcarts.com
 # Coordinates: 40.9856° N, 75.1946° W (Stroudsburg, PA)
 
 # MUNICIPALITIES SERVED:

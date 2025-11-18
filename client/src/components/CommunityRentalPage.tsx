@@ -20,8 +20,8 @@ function CommunityRentalPage({
 }: CommunityRentalPageProps) {
   const locationText = parentMunicipality ? `${communityName} (${parentMunicipality})` : communityName;
   const pageTitle = `Golf Cart Rentals in ${communityName}, Montgomery County | Premium Rental Services`;
-  const pageDescription = `Rent premium golf carts in ${communityName}, Montgomery County, PA. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery in ${communityName}.`;
-  const keywords = `golf cart rental ${communityName}, ${communityName} golf cart rental, Montgomery County golf cart rental, Pennsylvania golf cart rental, street legal golf cart rental`;
+  const pageDescription = `Rent premium golf carts in ${communityName}, Montgomery County, IN. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery in ${communityName}.`;
+  const keywords = `golf cart rental ${communityName}, ${communityName} golf cart rental, Montgomery County golf cart rental, Indiana golf cart rental, street legal golf cart rental`;
 
   const rentalFeatures = [
     "Street legal with seat belts and safety features",
@@ -246,7 +246,7 @@ function CommunityRentalPage({
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 We provide the most reliable and convenient golf cart rental service in {communityName} 
-                and throughout Montgomery County, Pennsylvania.
+                and throughout Montgomery County, Indiana.
               </p>
             </div>
 

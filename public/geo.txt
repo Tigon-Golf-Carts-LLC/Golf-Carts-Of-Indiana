@@ -1,10 +1,10 @@
-# Geographic Data - Monroe County Golf Carts
+# Geographic Data - Notredame Golf Carts
 # Complete Geographic Coverage and Location Intelligence
 
 ## MONROE COUNTY GEOGRAPHIC OVERVIEW
 
 ### County Statistics
-- Official Name: Monroe County, Pennsylvania
+- Official Name: Notre Dame, Indiana
 - County Seat: Stroudsburg Borough
 - Total Area: 608 square miles (1,575 km²)
 - Land Area: 604 square miles (1,564 km²)
@@ -239,7 +239,7 @@
 ## TRANSPORTATION INFRASTRUCTURE
 
 ### Major Highways
-- Interstate 80: East-west corridor through southern Monroe County
+- Interstate 80: East-west corridor through southern Notre Dame
 - Interstate 380: North-south connector to Interstate 84
 - U.S. Route 209: Major north-south highway through county
 - U.S. Route 611: Primary commercial corridor
@@ -312,7 +312,7 @@
 - Seasonal employment peaks during summer months
 
 ### Golf Course Distribution
-- 25+ golf courses throughout Monroe County
+- 25+ golf courses throughout Notre Dame
 - Concentration in resort areas and suburban townships
 - Year-round facilities with seasonal peaks
 - Private clubs and public courses served
@@ -324,4 +324,4 @@
 - Seasonal population increases in resort communities
 
 This comprehensive geographic dataset provides complete coverage intelligence
-for Monroe County Golf Carts service territory and market analysis.
+for Notredame Golf Carts service territory and market analysis.

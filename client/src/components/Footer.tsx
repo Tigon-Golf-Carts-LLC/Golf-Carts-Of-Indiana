@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="md:hidden">
             <div className="space-y-2">
               <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-              <p className="text-gray-600 text-sm">Email: info@monroegolfcarts.com</p>
+              <p className="text-gray-600 text-sm">Email: info@notredamegolfcarts.com</p>
               <div className="text-gray-600 text-sm">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
@@ -126,7 +126,7 @@ export default function Footer() {
               </ul>
               <div className="space-y-2">
                 <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-                <p className="text-gray-600 text-sm">Email: info@monroegolfcarts.com</p>
+                <p className="text-gray-600 text-sm">Email: info@notredamegolfcarts.com</p>
                 <div className="text-gray-600 text-sm">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
@@ -159,12 +159,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Monroe County Golf Carts. All rights reserved. | 
+              © 2025 Notredame Golf Carts. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Monroe County Golf Carts - Serving Monroe County locations with premium golf carts and exceptional service.
+              Notredame Golf Carts - Serving Monroe County locations with premium golf carts and exceptional service.
             </div>
           </div>
         </div>

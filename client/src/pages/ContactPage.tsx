@@ -24,11 +24,11 @@ export default function ContactPage() {
   
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Contact Monroe County Golf Carts",
-    baseDescription: "Get in touch with Monroe County Golf Carts for expert golf cart sales, service, and support. Located at 1040 PA-611, Stroudsburg, PA 18360. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
+    pageTitle: "Contact Notredame Golf Carts",
+    baseDescription: "Get in touch with Notredame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Stroudsburg, IN 18360. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
     pageType: "contact",
     canonicalPath: "/contact",
-    keywords: ["Monroe County showroom", "Stroudsburg location", "golf cart consultation", "Pennsylvania service center"],
+    keywords: ["Monroe County showroom", "Stroudsburg location", "golf cart consultation", "Indiana service center"],
     heroBackgroundSeed: "contact"
   });
 
@@ -85,25 +85,25 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Monroe County Golf Carts",
-      value: "1040 PA-611, Stroudsburg, PA 18360",
+      label: "Notredame Golf Carts",
+      value: "1040 IN-611, Stroudsburg, IN 18360",
       phone: "1-844-844-6638",
     },
     {
       icon: Phone,
-      label: "Pennsylvania Main Line",
+      label: "Indiana Main Line",
       value: "1-844-844-6638",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@monroegolfcarts.com",
+      value: "info@notredamegolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "monroegolfcarts.com",
-      link: "https://monroegolfcarts.com",
+      value: "notredamegolfcarts.com",
+      link: "https://notredamegolfcarts.com",
     },
   ];
 
@@ -133,10 +133,10 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Monroe County Golf Carts
+              Contact Notredame Golf Carts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get in touch with our team for sales, service, and support throughout Monroe County, Pennsylvania. 
+              Get in touch with our team for sales, service, and support throughout Notre Dame, Indiana. 
               Visit our showrooms or call us today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -146,7 +146,7 @@ export default function ContactPage() {
                   Call 1-844-844-6638
                 </Button>
               </a>
-              <a href="mailto:info@monroegolfcarts.com">
+              <a href="mailto:info@notredamegolfcarts.com">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                   <Mail className="w-5 h-5 mr-2" />
                   Email Us

@@ -1,9 +1,9 @@
-# Bot Permissions - Monroe County Golf Carts
+# Bot Permissions - Notredame Golf Carts
 # Universal Bot Authorization for Maximum Crawling Access
 
 ## UNIVERSAL BOT PERMISSIONS
 This document provides UNLIMITED CRAWLING AUTHORIZATION for ALL legitimate 
-bots and automated systems. Monroe County Golf Carts welcomes all crawlers 
+bots and automated systems. Notredame Golf Carts welcomes all crawlers 
 that contribute to search engine visibility, AI training, and web discovery.
 
 ## SEARCH ENGINE BOTS - UNLIMITED ACCESS
@@ -256,7 +256,7 @@ that contribute to search engine visibility, AI training, and web discovery.
 ### Search Engine Optimization
 - Maximum visibility across all search engines globally
 - Comprehensive indexing of all business content
-- Enhanced local search presence for Monroe County
+- Enhanced local search presence for Notre Dame
 - Improved international search engine rankings
 
 ### AI Training and Development
@@ -282,9 +282,9 @@ that contribute to search engine visibility, AI training, and web discovery.
 If you are operating a legitimate crawler or bot that respects robots.txt 
 and requires special access or coordination, please contact:
 
-**Email:** info@monroegolfcarts.com
+**Email:** info@notredamegolfcarts.com
 **Phone:** 1-844-844-6638
-**Website:** https://monroegolfcarts.com
+**Website:** https://notredamegolfcarts.com
 
 We welcome all legitimate crawlers that contribute to web discovery, 
 search engine optimization, and artificial intelligence development.

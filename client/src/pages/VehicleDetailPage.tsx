@@ -89,26 +89,26 @@ export default function VehicleDetailPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://monroegolfcarts.com" },
-    { name: "Inventory", url: "https://monroegolfcarts.com/inventory" },
-    { name: vehicle.name, url: `https://monroegolfcarts.com/vehicle/${vehicle.id}` }
+    { name: "Home", url: "https://notredamegolfcarts.com" },
+    { name: "Inventory", url: "https://notredamegolfcarts.com/inventory" },
+    { name: vehicle.name, url: `https://notredamegolfcarts.com/vehicle/${vehicle.id}` }
   ];
 
   return (
     <>
       {/* Dynamic SEO Head */}
       <Helmet>
-        <title>{vehicle.name} - ${vehicle.price.toLocaleString()} | Monroe County Golf Carts</title>
-        <meta name="description" content={`${vehicle.name} for sale at Monroe County Golf Carts. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
-        <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Monroe County golf carts, TIGON dealer Pennsylvania, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
-        <link rel="canonical" href={`https://monroegolfcarts.com/vehicle/${vehicle.id}`} />
+        <title>{vehicle.name} - ${vehicle.price.toLocaleString()} | Notredame Golf Carts</title>
+        <meta name="description" content={`${vehicle.name} for sale at Notredame Golf Carts. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
+        <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Monroe County golf carts, TIGON dealer Indiana, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
+        <link rel="canonical" href={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
         
         {/* Open Graph */}
-        <meta property="og:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()} | Monroe County Golf Carts`} />
-        <meta property="og:description" content={`${vehicle.description} Available now at Monroe County Golf Carts. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart with ${vehicle.specifications.range} range.`} />
-        <meta property="og:url" content={`https://monroegolfcarts.com/vehicle/${vehicle.id}`} />
+        <meta property="og:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()} | Notredame Golf Carts`} />
+        <meta property="og:description" content={`${vehicle.description} Available now at Notredame Golf Carts. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart with ${vehicle.specifications.range} range.`} />
+        <meta property="og:url" content={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
         <meta property="og:type" content="product" />
-        <meta property="og:image" content={`https://monroegolfcarts.com${vehicle.images[0]}`} />
+        <meta property="og:image" content={`https://notredamegolfcarts.com${vehicle.images[0]}`} />
         <meta property="product:price:amount" content={vehicle.price.toString()} />
         <meta property="product:price:currency" content="USD" />
         <meta property="product:availability" content={vehicle.inStock ? "in stock" : "out of stock"} />
@@ -118,7 +118,7 @@ export default function VehicleDetailPage() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()}`} />
         <meta name="twitter:description" content={vehicle.description} />
-        <meta name="twitter:image" content={`https://monroegolfcarts.com${vehicle.images[0]}`} />
+        <meta name="twitter:image" content={`https://notredamegolfcarts.com${vehicle.images[0]}`} />
       </Helmet>
 
       {/* Schema Markup */}

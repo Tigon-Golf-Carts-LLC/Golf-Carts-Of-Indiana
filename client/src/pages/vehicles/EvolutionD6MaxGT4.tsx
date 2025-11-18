@@ -297,7 +297,7 @@ export default function EvolutionD6MaxGT4() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Premium delivery and pickup service available throughout Bucks County, Pennsylvania.
+                    Premium delivery and pickup service available throughout Bucks County, Indiana.
                   </p>
                 </CardContent>
               </Card>

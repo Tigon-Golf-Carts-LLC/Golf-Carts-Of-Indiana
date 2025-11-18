@@ -11,11 +11,11 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function AboutPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "About Monroe County Golf Carts",
-    baseDescription: "Since 2008, Monroe County Golf Carts has been Pennsylvania's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving all 20 municipalities across the Pocono Mountains region with expert sales, service, and rentals.",
+    pageTitle: "About Notredame Golf Carts",
+    baseDescription: "Since 2008, Notredame Golf Carts has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving all 20 municipalities across the Pocono Mountains region with expert sales, service, and rentals.",
     pageType: "about",
     canonicalPath: "/about",
-    keywords: ["golf cart company history", "Pennsylvania dealership since 2008", "Pocono Mountains golf carts", "authorized dealer team"],
+    keywords: ["golf cart company history", "Indiana dealership since 2008", "Pocono Mountains golf carts", "authorized dealer team"],
     heroBackgroundSeed: "about"
   });
   
@@ -41,12 +41,12 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2008", event: "Monroe County Golf Carts founded in Stroudsburg" },
+    { year: "2008", event: "Notredame Golf Carts founded in Stroudsburg" },
     { year: "2010", event: "Became authorized EVOLUTION dealer" },
     { year: "2013", event: "Expanded to serve all Monroe County municipalities" },
     { year: "2016", event: "Added DENAGO to our brand portfolio" },
     { year: "2019", event: "Opened service center in East Stroudsburg" },
-    { year: "2024", event: "Reached 750+ satisfied customers across Pennsylvania" }
+    { year: "2024", event: "Reached 750+ satisfied customers across Indiana" }
   ];
 
   return (
@@ -66,31 +66,31 @@ export default function AboutPage() {
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Monroe County Golf Carts",
-          description: "Learn about Monroe County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
-          url: "https://monroegolfcarts.com/about",
+          title: "About Notredame Golf Carts",
+          description: "Learn about Notredame Golf Carts, Indiana's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
+          url: "https://notredamegolfcarts.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://monroegolfcarts.com/" },
-            { name: "About", url: "https://monroegolfcarts.com/about" }
+            { name: "Home", url: "https://notredamegolfcarts.com/" },
+            { name: "About", url: "https://notredamegolfcarts.com/about" }
           ],
           people: [
             {
               name: "Mike Johnson",
               jobTitle: "General Manager",
               description: "Leading our team with passion for customer service and golf cart expertise with 15+ years experience",
-              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
             },
             {
               name: "Sarah Davis",
               jobTitle: "Service Manager", 
               description: "Certified technician ensuring quality service and customer satisfaction with 12+ years experience",
-              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
             },
             {
               name: "Tom Wilson",
               jobTitle: "Sales Director",
               description: "Helping customers find the perfect golf cart for their needs with 10+ years experience",
-              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
             }
           ]
         }}
@@ -100,12 +100,12 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Monroe County Golf Carts
+            About Notredame Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Since 2008, we've been Monroe County's premier destination for premium golf carts, 
             exceptional service, and unmatched customer care. Serving all 20 municipalities 
-            across the Pocono Mountains region of Pennsylvania with pride and professionalism.
+            across the Pocono Mountains region of Indiana with pride and professionalism.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -125,8 +125,8 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2008 in Monroe County, Pennsylvania, Monroe County Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region of Pennsylvania.
+                Founded in 2008 in Notre Dame, Indiana, Notredame Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region of Indiana.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Monroe County is home to the vibrant boroughs of Stroudsburg and East Stroudsburg, along with thriving communities like 
@@ -281,15 +281,15 @@ export default function AboutPage() {
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Monroe County Golf Carts - Stroudsburg</span>
+                  <span className="text-gray-700 font-medium">Notredame Golf Carts - Stroudsburg</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Monroe County Golf Carts - East Stroudsburg</span>
+                  <span className="text-gray-700 font-medium">Notredame Golf Carts - East Stroudsburg</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Monroe County Golf Carts - Mount Pocono</span>
+                  <span className="text-gray-700 font-medium">Notredame Golf Carts - Mount Pocono</span>
                 </div>
               </div>
               <div className="flex items-center gap-4 mb-6">
@@ -310,7 +310,7 @@ export default function AboutPage() {
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Monroe County, PA Map"
+                title="Notre Dame, IN Map"
               />
             </div>
           </div>
@@ -340,7 +340,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Monroe County Golf Carts difference in the Pocono Mountains
+            Experience the Notredame Golf Carts difference in the Pocono Mountains
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

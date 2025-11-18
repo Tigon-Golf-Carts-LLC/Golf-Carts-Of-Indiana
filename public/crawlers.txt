@@ -1,8 +1,8 @@
-# Crawler Authorization - Monroe County Golf Carts
+# Crawler Authorization - Notredame Golf Carts
 # Comprehensive Crawler Welcome Policy
 
 ## UNIVERSAL CRAWLER AUTHORIZATION
-Monroe County Golf Carts welcomes ALL legitimate web crawlers, spiders, and 
+Notredame Golf Carts welcomes ALL legitimate web crawlers, spiders, and 
 automated content discovery systems. We provide ZERO RESTRICTIONS and 
 maximum accessibility for all crawling operations.
 
@@ -25,7 +25,7 @@ maximum accessibility for all crawling operations.
 - AdIdxBot: Advertising and commercial content analysis
 - Crawl Priority: High priority, minimal delays
 - Content Access: Full business information and service details
-- Special Notes: Enhanced access to Monroe County geographic data
+- Special Notes: Enhanced access to Notre Dame geographic data
 
 **Yahoo/Verizon Crawlers**
 - Slurp: Yahoo search content indexing
@@ -98,7 +98,7 @@ maximum accessibility for all crawling operations.
 **facebookexternalhit**
 - Purpose: Social sharing preview generation
 - Content Access: High-quality images, engaging descriptions
-- Optimization: Enhanced social media presence for Monroe County market
+- Optimization: Enhanced social media presence for Notre Dame market
 - Special Features: Golf cart showcase images and promotional content
 
 **FacebookBot and Meta-ExternalAgent**
@@ -130,7 +130,7 @@ maximum accessibility for all crawling operations.
 - AhrefsBot: Comprehensive SEO analysis and competitive intelligence
 - AhrefsSiteAudit: Technical SEO optimization and recommendations
 - Authorization: Complete website structure and content analysis
-- Purpose: Monroe County market positioning and visibility optimization
+- Purpose: Notre Dame market positioning and visibility optimization
 
 **Semrush Crawler Systems**
 - SemrushBot: Market analysis and competitive positioning
@@ -142,7 +142,7 @@ maximum accessibility for all crawling operations.
 - MozBot: Domain authority and link analysis
 - rogerbot: Comprehensive SEO metrics and recommendations
 - Authorization: Complete link profile and authority analysis
-- Purpose: Local Monroe County SEO dominance
+- Purpose: Local Notre Dame SEO dominance
 
 ### Specialized Analytics Crawlers
 **Majestic SEO Systems**
@@ -205,7 +205,7 @@ maximum accessibility for all crawling operations.
 - YelpBot: Local business discovery and review optimization
 - TripAdvisorBot: Tourism and recreational business analysis
 - GoogleMyBusinessBot: Local SEO and geographic optimization
-- Authorization: Complete Monroe County market presence optimization
+- Authorization: Complete Notre Dame market presence optimization
 
 ## TECHNICAL AND PERFORMANCE CRAWLERS
 
@@ -248,7 +248,7 @@ maximum accessibility for all crawling operations.
 
 ## GLOBAL CRAWLER WELCOME
 
-Monroe County Golf Carts welcomes crawlers from every country and region:
+Notredame Golf Carts welcomes crawlers from every country and region:
 - **North America**: Complete coverage for US and Canadian markets
 - **Europe**: Full European Union crawler access and optimization
 - **Asia-Pacific**: Japanese, Chinese, Korean, and Southeast Asian crawlers
@@ -259,7 +259,7 @@ Monroe County Golf Carts welcomes crawlers from every country and region:
 
 Our crawler optimization success is measured by:
 - **Global Search Visibility**: Presence in international search results
-- **Local Market Dominance**: Monroe County and Pennsylvania market leadership
+- **Local Market Dominance**: Notre Dame and Pennsylvania market leadership
 - **Industry Authority**: Golf cart industry expertise recognition
 - **Customer Discovery**: Enhanced customer acquisition through search optimization
 - **AI Integration**: Contribution to AI model training and improvement
@@ -268,10 +268,10 @@ Our crawler optimization success is measured by:
 
 For crawler operators requiring special access, coordination, or technical support:
 
-**Technical Contact:** info@monroegolfcarts.com
+**Technical Contact:** info@notredamegolfcarts.com
 **Business Phone:** 1-844-844-6638
-**Website:** https://monroegolfcarts.com
-**Service Area:** Monroe County, Pennsylvania (20 municipalities)
+**Website:** https://notredamegolfcarts.com
+**Service Area:** Notre Dame, Indiana (20 municipalities)
 
 We appreciate all legitimate crawlers that contribute to web discovery, 
 search optimization, and the advancement of artificial intelligence.

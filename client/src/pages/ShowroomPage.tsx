@@ -11,8 +11,8 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function ShowroomPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Monroe County Golf Carts LSV Showrooms",
-    baseDescription: "Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Pennsylvania. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County with expert sales and service.",
+    pageTitle: "Notredame Golf Carts LSV Showrooms",
+    baseDescription: "Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County with expert sales and service.",
     pageType: "general",
     canonicalPath: "/showroom",
     keywords: ["TIGON Golf Carts showroom", "Monroe County golf cart dealership", "Pocono Pines golf carts", "Scranton golf carts"],
@@ -22,8 +22,8 @@ export default function ShowroomPage() {
   
   const locations = [
     {
-      name: "TIGON GOLF CARS POCONO PA",
-      address: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
+      name: "TIGON GOLF CARS POCONO IN",
+      address: "1712 Indiana 940, Pocono Pines, IN 18350",
       phone: "570-643-0152",
       coordinates: "41.10286354605563, -75.48758590250345",
       googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
@@ -35,8 +35,8 @@ export default function ShowroomPage() {
       type: "physical"
     },
     {
-      name: "TIGON GOLF CARS SCRANTON-WILKES-BARRE PA",
-      address: "1225 N Keyser Ave #2, Scranton, PA 18504",
+      name: "TIGON GOLF CARS SCRANTON-WILKES-BARRE IN",
+      address: "1225 N Keyser Ave #2, Scranton, IN 18504",
       phone: "570-344-4443",
       coordinates: "41.4374075,-75.6835104",
       googleMapsUrl: "https://www.google.com/maps?cid=13243686786001524416",
@@ -49,14 +49,14 @@ export default function ShowroomPage() {
     },
     {
       name: "TIGON GOLF CARTS PENNSYLVANIA",
-      address: "Pennsylvania",
+      address: "Indiana",
       phone: "1-844-844-6638",
       coordinates: "41.1169824,-77.6047047",
       googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPennsylvania",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsIndiana",
       websiteUrl: "https://tigongolfcarts.com/pennsylvania/",
       reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
-      city: "Pennsylvania",
+      city: "Indiana",
       type: "online"
     }
   ];
@@ -80,10 +80,10 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Monroe County Golf Carts LSV Showrooms
+            Notredame Golf Carts LSV Showrooms
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Pennsylvania. 
+            Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Indiana. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County.
           </p>
           <div className="flex justify-center">
@@ -100,7 +100,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Three convenient locations serving all of Pennsylvania</p>
+            <p className="text-xl text-gray-600">Three convenient locations serving all of Indiana</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -264,7 +264,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Areas We Serve</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout all 19 Monroe County municipalities and surrounding Pennsylvania areas
+            We proudly serve customers throughout all 19 Monroe County municipalities and surrounding Indiana areas
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-700">

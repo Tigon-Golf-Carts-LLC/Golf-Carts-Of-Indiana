@@ -23,11 +23,11 @@ export default function HomePage() {
   
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Monroe County Golf Carts - Premier Pennsylvania Dealership",
-    baseDescription: "Serving all 20 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout Monroe County, PA.",
+    pageTitle: "Notredame Golf Carts - Premier Indiana Dealership",
+    baseDescription: "Serving all 20 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout Notre Dame, IN.",
     pageType: "home",
     canonicalPath: "/",
-    keywords: ["premium golf cart dealer", "Pennsylvania electric vehicles", "Monroe County showroom"],
+    keywords: ["premium golf cart dealer", "Indiana electric vehicles", "Monroe County showroom"],
     heroBackgroundSeed: "home"
   });
 
@@ -49,14 +49,14 @@ export default function HomePage() {
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Monroe County Golf Carts - Premier Electric Golf Cart Dealership in Pennsylvania",
-          description: "Discover premium electric golf carts from Denago and Evolution at Monroe County Golf Carts. Expert sales, service, rentals, and financing throughout Monroe County, PA.",
-          url: "https://monroegolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://monroegolfcarts.com/" }],
+          title: "Notredame Golf Carts - Premier Electric Golf Cart Dealership in Indiana",
+          description: "Discover premium electric golf carts from Denago and Evolution at Notredame Golf Carts. Expert sales, service, rentals, and financing throughout Notre Dame, IN.",
+          url: "https://notredamegolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://notredamegolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Monroe County Golf Carts helped me find the perfect cart for my needs.",
+              reviewBody: "Excellent service and quality golf carts. The team at Notredame Golf Carts helped me find the perfect cart for my needs.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
@@ -84,11 +84,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Monroe County Golf Carts - Premier Pennsylvania Dealership
+                Notredame Golf Carts - Premier Indiana Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Serving all 39 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions. 
-                Serving Monroe County, and all surrounding towns, townships, and Pennsylvania communities in Monroe County.
+                Serving Monroe County, and all surrounding towns, townships, and Indiana communities in Monroe County.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -118,7 +118,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Monroe County Golf Carts?
+            Why Choose Notredame Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -173,7 +173,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Monroe County Golf Carts - Top Golf Cart and LSV Brands
+            Notredame Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -353,10 +353,10 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
-                About Monroe County Golf Carts
+                About Notredame Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Monroe County and surrounding Pennsylvania areas.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Monroe County and surrounding Indiana areas.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -386,7 +386,7 @@ export default function HomePage() {
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Monroe County, PA Map"
+                  title="Notre Dame, IN Map"
                 />
               </div>
             </div>
@@ -438,21 +438,21 @@ export default function HomePage() {
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Hatfield</h3>
-              <p className="text-sm text-gray-600 mb-2">2333 Bethlehem Pike, Hatfield, PA 19440</p>
+              <p className="text-sm text-gray-600 mb-2">2333 Bethlehem Pike, Hatfield, IN 19440</p>
               <p className="text-theme-orange font-semibold">(215) 595-8736</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
-              <p className="text-sm text-gray-600 mb-2">1712 Pennsylvania 940, Pocono Pines, PA 18350</p>
+              <p className="text-sm text-gray-600 mb-2">1712 Indiana 940, Pocono Pines, IN 18350</p>
               <p className="text-theme-orange font-semibold">(570) 643-0152</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Scranton</h3>
-              <p className="text-sm text-gray-600 mb-2">1225 N Keyser Ave #2, Scranton, PA 18504</p>
+              <p className="text-sm text-gray-600 mb-2">1225 N Keyser Ave #2, Scranton, IN 18504</p>
               <p className="text-theme-orange font-semibold">(570) 344-4443</p>
             </div>
           </div>

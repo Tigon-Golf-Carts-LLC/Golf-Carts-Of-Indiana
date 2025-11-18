@@ -22,7 +22,7 @@ const getGoogleMapsEmbedUrl = (townName: string, townType: string): string => {
   const townKey = `${townName.toLowerCase().replace(/\s+/g, '')}_${townType.toLowerCase()}`;
   
   const townMaps: Record<string, string> = {
-    // Monroe County, PA municipalities with Google Maps embeds (using Monroe County coordinates as fallback)
+    // Notre Dame, IN municipalities with Google Maps embeds (using Monroe County coordinates as fallback)
     'barrett_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBarrett%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
     'chestnuthill_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sChestnuthill%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
     'coolbaugh_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCoolbaugh%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
@@ -59,12 +59,12 @@ export default function TownPage({ townName, townType }: TownPageProps) {
   
   // SEO optimization
   const pageTitle = `${townName} Golf Carts - Monroe County's Premier Dealership | Sales, Service & Rentals`;
-  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Monroe County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
+  const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Notredame Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
   const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Monroe County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
-  const canonicalUrl = `https://monroegolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
+  const canonicalUrl = `https://notredamegolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://monroegolfcarts.com" },
+    { name: "Home", url: "https://notredamegolfcarts.com" },
     { name: `${townName} Golf Carts`, url: canonicalUrl }
   ];
 
@@ -122,7 +122,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
             Golf Cart Services in {fullTownName}
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            Monroe County Golf Carts proudly serves {townName} residents with comprehensive 
+            Notredame Golf Carts proudly serves {townName} residents with comprehensive 
             golf cart solutions including sales, maintenance, repairs, and rentals.
           </p>
           
@@ -174,7 +174,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Monroe County Golf Carts - Top Golf Cart and LSV Brands
+            Notredame Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -291,7 +291,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-gray-900">
-              Contact Monroe County Golf Carts from {fullTownName}
+              Contact Notredame Golf Carts from {fullTownName}
             </h2>
             <p className="text-xl text-gray-600">
               Easy access to professional golf cart services for {townName} residents
@@ -361,10 +361,10 @@ export default function TownPage({ townName, townType }: TownPageProps) {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">
-                Why {townName} Chooses Monroe County Golf Carts
+                Why {townName} Chooses Notredame Golf Carts
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Residents of {fullTownName} trust Monroe County Golf Carts for reliable, 
+                Residents of {fullTownName} trust Notredame Golf Carts for reliable, 
                 high-quality golf cart solutions. Our local expertise and commitment to customer 
                 service make us the preferred choice for {townName} golf cart needs.
               </p>

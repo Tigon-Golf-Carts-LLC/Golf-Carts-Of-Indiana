@@ -1,4 +1,4 @@
-# Monroe County Golf Carts - Robots.txt
+# Notredame Golf Carts - Robots.txt
 # Allow all web crawlers and search engine bots
 # Follow all links and index all content
 
@@ -41,7 +41,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://monroegolfcarts.com/sitemap.xml
+Sitemap: https://notredamegolfcarts.com/sitemap.xml
 
 # Allow indexing of all content types
 # CSS, JS, images, and other assets
@@ -56,23 +56,23 @@ Allow: /*.svg
 Allow: /*.pdf
 
 # Company Information for SEO
-# Business: Monroe County Golf Carts
-# Location: Monroe County, Pennsylvania
+# Business: Notredame Golf Carts
+# Location: Notre Dame, Indiana
 # Services: Golf Cart Sales, Service, Rentals, Parts
 # Brands: DENAGO, EVOLUTION
 # Phone: 1-844-844-6638
-# Email: info@monroegolfcarts.com
-# Coverage: All 20 Monroe County municipalities
+# Email: info@notredamegolfcarts.com
+# Coverage: All 20 Notre Dame municipalities
 # 
 # Website Structure:
 # - 8 Main Pages (Home, Inventory, Services, About, Rentals, Showroom, Contact, Financing)
 # - 2 Brand Pages (DENAGO, EVOLUTION)
 # - 37 Individual Vehicle Detail Pages
-# - 20 Monroe County Location Pages
-# - 20 Monroe County Location Rental Pages
+# - 20 Notre Dame Location Pages
+# - 20 Notre Dame Location Rental Pages
 # - 12 Comprehensive Policy Pages
 # 
-# Monroe County Municipalities Served:
+# Notre Dame Municipalities Served:
 # Boroughs (4): Delaware Water Gap, East Stroudsburg, Mount Pocono, Stroudsburg
 # Townships (16): Barrett, Chestnuthill, Coolbaugh, Eldred, Hamilton, Jackson,
 #                 Middle Smithfield, Paradise, Pocono, Polk, Price, Ross,

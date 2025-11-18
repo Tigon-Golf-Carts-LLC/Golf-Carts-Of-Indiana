@@ -10,10 +10,10 @@ export default function ThankYouPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Thank You!",
-    baseDescription: "Thank you for contacting Monroe County Golf Carts. We've received your message and our team will respond to your inquiry within 24 hours. Expert golf cart sales, service, and rentals.",
+    baseDescription: "Thank you for contacting Notredame Golf Carts. We've received your message and our team will respond to your inquiry within 24 hours. Expert golf cart sales, service, and rentals.",
     pageType: "general",
     canonicalPath: "/thank-you",
-    keywords: ["thank you", "contact confirmation", "Monroe County Golf Carts", "customer service"],
+    keywords: ["thank you", "contact confirmation", "Notredame Golf Carts", "customer service"],
     heroBackgroundSeed: "thankyou"
   });
   
@@ -41,7 +41,7 @@ export default function ThankYouPage() {
             Thank You!
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            We've received your message and appreciate your interest in Monroe County Golf Carts.
+            We've received your message and appreciate your interest in Notredame Golf Carts.
             Our team will respond to your inquiry soon.
           </p>
         </div>
@@ -145,13 +145,13 @@ export default function ThankYouPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Hatfield</h3>
                   <p className="text-gray-600 text-sm mb-1">2333 Bethlehem Pike</p>
-                  <p className="text-gray-600 text-sm mb-1">Hatfield, PA 19440</p>
+                  <p className="text-gray-600 text-sm mb-1">Hatfield, IN 19440</p>
                   <p className="text-theme-orange font-semibold">(215) 595-8736</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
-                  <p className="text-gray-600 text-sm mb-1">1712 Pennsylvania 940</p>
-                  <p className="text-gray-600 text-sm mb-1">Pocono Pines, PA 18350</p>
+                  <p className="text-gray-600 text-sm mb-1">1712 Indiana 940</p>
+                  <p className="text-gray-600 text-sm mb-1">Pocono Pines, IN 18350</p>
                   <p className="text-theme-orange font-semibold">(570) 643-0152</p>
                 </div>
               </div>

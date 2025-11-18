@@ -29,8 +29,8 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Monroe County Golf Carts`;
-  const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Monroe County, PA. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
+  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Notredame Golf Carts`;
+  const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Notre Dame, IN. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
 
   // Google Maps embed URL for the specific municipality in Monroe County
   const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817600000`;
@@ -40,9 +40,9 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
       <SEOHead 
         title={pageTitle}
         description={metaDescription}
-        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} PA, Monroe County golf cart sales, electric golf carts ${municipality.name}`}
-        canonicalUrl={`https://monroegolfcarts.com${municipality.url}`}
-        ogImage="https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, Monroe County golf cart sales, electric golf carts ${municipality.name}`}
+        canonicalUrl={`https://notredamegolfcarts.com${municipality.url}`}
+        ogImage="https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}
@@ -50,14 +50,14 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4 bg-theme-orange text-white">
-              Monroe County Golf Carts
+              Notredame Golf Carts
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Golf Carts in {municipality.name} {municipality.type}
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
               Premium electric golf carts, professional service, and expert maintenance 
-              delivered directly to {municipality.name} {municipality.type}, Monroe County, Pennsylvania.
+              delivered directly to {municipality.name} {municipality.type}, Notre Dame, Indiana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/inventory">
@@ -80,7 +80,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Monroe County Golf Carts for {municipality.name}?
+              Why Choose Notredame Golf Carts for {municipality.name}?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We deliver premium electric golf cart solutions throughout Monroe County, 
@@ -275,7 +275,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
           </h2>
           <p className="text-xl text-gray-100 mb-8">
             Contact us today for golf cart sales, rentals, and service in {municipality.name} {municipality.type}, 
-            Monroe County, Pennsylvania.
+            Notre Dame, Indiana.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Card className="bg-white text-gray-900 border-0">
@@ -312,14 +312,14 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         schema={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: `Monroe County Golf Carts - ${municipality.name} Service`,
+          name: `Notredame Golf Carts - ${municipality.name} Service`,
           description: metaDescription,
-          url: `https://monroegolfcarts.com${municipality.url}`,
+          url: `https://notredamegolfcarts.com${municipality.url}`,
           telephone: "1-844-844-6638",
           address: {
             "@type": "PostalAddress",
             addressLocality: municipality.name,
-            addressRegion: "PA",
+            addressRegion: "IN",
             addressCountry: "US"
           },
           geo: {
@@ -327,7 +327,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
             latitude: 41.4993,
             longitude: -75.6649
           },
-          areaServed: `${municipality.name} ${municipality.type}, Monroe County, Pennsylvania`
+          areaServed: `${municipality.name} ${municipality.type}, Notre Dame, Indiana`
         }}
       />
     </div>

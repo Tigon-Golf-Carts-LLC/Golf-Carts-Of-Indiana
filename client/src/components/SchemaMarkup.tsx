@@ -15,28 +15,28 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Monroe County Golf Carts",
+  "name": "Notredame Golf Carts",
   "alternateName": "MCGC",
-  "description": "Premier golf cart dealer in Monroe County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://monroegolfcarts.com",
-  "logo": "https://monroegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
+  "description": "Premier golf cart dealer in Notre Dame, Indiana specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "url": "https://notredamegolfcarts.com",
+  "logo": "https://notredamegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
   "image": [
-    "https://monroegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
-    "https://monroegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+    "https://notredamegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
+    "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "info@monroegolfcarts.com",
+  "email": "info@notredamegolfcarts.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1040 PA-611",
+    "streetAddress": "1040 IN-611",
     "addressLocality": "Stroudsburg",
-    "addressRegion": "PA",
+    "addressRegion": "IN",
     "postalCode": "18360",
     "addressCountry": "US"
   },
   "areaServed": {
     "@type": "State",
-    "name": "Pennsylvania"
+    "name": "Indiana"
   },
   "serviceArea": {
     "@type": "GeoCircle",
@@ -87,12 +87,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://monroegolfcarts.com/#localbusiness",
-  "name": "Monroe County Golf Carts",
+  "@id": "https://notredamegolfcarts.com/#localbusiness",
+  "name": "Notredame Golf Carts",
   "description": "Premier golf cart dealer serving all 20 Monroe County municipalities with electric vehicle sales, service, and rentals.",
-  "url": "https://monroegolfcarts.com",
+  "url": "https://notredamegolfcarts.com",
   "telephone": "1-844-844-6638",
-  "email": "info@monroegolfcarts.com",
+  "email": "info@notredamegolfcarts.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -102,9 +102,9 @@ export const generateLocalBusinessSchema = () => ({
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1040 PA-611",
+    "streetAddress": "1040 IN-611",
     "addressLocality": "Stroudsburg",
-    "addressRegion": "PA",
+    "addressRegion": "IN",
     "postalCode": "18360",
     "addressCountry": "US"
   },
@@ -146,21 +146,21 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://monroegolfcarts.com/#website",
-  "name": "Monroe County Golf Carts",
-  "description": "Official website for Monroe County Golf Carts - Pennsylvania's premier electric golf cart dealer",
-  "url": "https://monroegolfcarts.com",
+  "@id": "https://notredamegolfcarts.com/#website",
+  "name": "Notredame Golf Carts",
+  "description": "Official website for Notredame Golf Carts - Indiana's premier electric golf cart dealer",
+  "url": "https://notredamegolfcarts.com",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://monroegolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": "https://notredamegolfcarts.com/inventory?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Monroe County Golf Carts"
+    "name": "Notredame Golf Carts"
   }
 });
 
@@ -178,7 +178,7 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://monroegolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": `https://notredamegolfcarts.com/vehicles/${vehicle.id}#product`,
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -186,7 +186,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://monroegolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => `https://notredamegolfcarts.com${img}`) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -194,11 +194,11 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Monroe County Golf Carts",
+      "name": "Notredame Golf Carts",
       "telephone": "1-844-844-6638",
-      "email": "info@monroegolfcarts.com"
+      "email": "info@notredamegolfcarts.com"
     },
-    "url": `https://monroegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://notredamegolfcarts.com/vehicles/${vehicle.id}`
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -239,14 +239,14 @@ export const generateServiceSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Golf Cart Services",
-  "description": "Comprehensive golf cart sales, service, repair, and rental services in Monroe County, Pennsylvania",
+  "description": "Comprehensive golf cart sales, service, repair, and rental services in Notre Dame, Indiana",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Monroe County Golf Carts"
+    "name": "Notredame Golf Carts"
   },
   "areaServed": {
     "@type": "State",
-    "name": "Pennsylvania"
+    "name": "Indiana"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -299,24 +299,24 @@ export const generateOfferCatalogSchema = (vehicles: any[]) => ({
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://monroegolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? `https://notredamegolfcarts.com${vehicle.images[0]}` : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://monroegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://notredamegolfcarts.com/vehicles/${vehicle.id}`
   }))
 });
 
 export const generateContactPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "name": "Contact Monroe County Golf Carts",
-  "description": "Get in touch with Monroe County Golf Carts for sales, service, rentals, and support",
-  "url": "https://monroegolfcarts.com/contact",
+  "name": "Contact Notredame Golf Carts",
+  "description": "Get in touch with Notredame Golf Carts for sales, service, rentals, and support",
+  "url": "https://notredamegolfcarts.com/contact",
   "mainEntity": {
     "@type": "Organization",
-    "name": "Monroe County Golf Carts",
+    "name": "Notredame Golf Carts",
     "contactPoint": [
       {
         "@type": "ContactPoint",
@@ -327,7 +327,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@monroegolfcarts.com",
+        "email": "info@notredamegolfcarts.com",
         "contactType": "sales",
         "areaServed": "US"
       }
@@ -339,11 +339,11 @@ export const generateTownPageSchema = (townName: string) => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
-  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Monroe County, Pennsylvania`,
-  "url": `https://monroegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
+  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Notre Dame, Indiana`,
+  "url": `https://notredamegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Monroe County Golf Carts",
+    "name": "Notredame Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,
@@ -352,7 +352,7 @@ export const generateTownPageSchema = (townName: string) => ({
         "name": "Monroe County",
         "containedInPlace": {
           "@type": "State",
-          "name": "Pennsylvania"
+          "name": "Indiana"
         }
       }
     }
@@ -364,13 +364,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://monroegolfcarts.com"
+        "item": "https://notredamegolfcarts.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://monroegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://notredamegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }

@@ -18,9 +18,9 @@ export default function MunicipalityRentalPage({
   slug 
 }: MunicipalityRentalPageProps) {
   const fullLocationName = `${municipalityName} ${municipalityType}`;
-  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, PA | Montgomery County Golf Carts`;
-  const pageDescription = `Rent premium golf carts in ${fullLocationName}, Montgomery County, PA. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery within ${fullLocationName}.`;
-  const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Montgomery County golf cart rental, Pennsylvania golf cart rental, street legal golf cart rental`;
+  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, IN | Montgomery County Golf Carts`;
+  const pageDescription = `Rent premium golf carts in ${fullLocationName}, Montgomery County, IN. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery within ${fullLocationName}.`;
+  const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Montgomery County golf cart rental, Indiana golf cart rental, street legal golf cart rental`;
 
   const rentalFeatures = [
     "Street legal with seat belts and safety features",
@@ -208,7 +208,7 @@ export default function MunicipalityRentalPage({
         title={pageTitle}
         description={pageDescription}
         keywords={keywords}
-        canonicalUrl={`https://monroegolfcarts.com/${slug}`}
+        canonicalUrl={`https://notredamegolfcarts.com/${slug}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -254,7 +254,7 @@ export default function MunicipalityRentalPage({
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 We provide the most reliable and convenient golf cart rental service in {fullLocationName} 
-                and throughout Monroe County, Pennsylvania.
+                and throughout Notre Dame, Indiana.
               </p>
             </div>
 

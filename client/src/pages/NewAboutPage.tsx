@@ -62,10 +62,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Monroe County Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Monroe County Golf Carts, Pennsylvania's trusted golf cart dealer serving all 20 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Monroe County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
-        canonicalUrl="https://monroegolfcarts.com/about"
+        title="About Notredame Golf Carts - Your Premier Golf Cart Dealer"
+        description="Learn about Notredame Golf Carts, Indiana's trusted golf cart dealer serving all 20 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Monroe County golf carts, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer"
+        canonicalUrl="https://notredamegolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -75,7 +75,7 @@ export default function NewAboutPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={getHeroBackgroundStyle("about")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Monroe County Golf Carts
+              About Notredame Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
               Since 2010, we've been Monroe County's premier destination for premium golf carts, 
@@ -105,24 +105,24 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010 in Monroe County, Pennsylvania, Monroe County Golf Carts began with a simple mission: 
+                    Founded in 2010 in Notre Dame, Indiana, Notredame Golf Carts began with a simple mission: 
                     to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region's 
                     most beautiful and recreational county.
                   </p>
                   <p>
-                    Monroe County stands as one of Pennsylvania's most scenic and recreational regions, encompassing 
+                    Monroe County stands as one of Indiana's most scenic and recreational regions, encompassing 
                     everything from the vibrant borough of Stroudsburg to the charming Delaware Water Gap, from the 
                     beautiful Pocono Mountains to the family-friendly communities throughout our 20 municipalities.
                   </p>
                   <p>
                     Our county holds a special place in American recreation as the heart of the Pocono Mountains region and 
-                    home to some of Pennsylvania's most beautiful natural landscapes. Today, Monroe County is equally 
+                    home to some of Indiana's most beautiful natural landscapes. Today, Monroe County is equally 
                     renowned for its world-class golf courses, resort communities, and outdoor recreation that attracts visitors who appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
                     With Stroudsburg's historic downtown district, proximity to major highways including I-80 and Route 611, 
-                    and some of Pennsylvania's most beautiful resort communities, Monroe County attracts residents and visitors who 
+                    and some of Indiana's most beautiful resort communities, Monroe County attracts residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
@@ -162,13 +162,13 @@ export default function NewAboutPage() {
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Monroe County Golf Carts Service</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Notredame Golf Carts Service</h3>
                   <div className="grid md:grid-cols-1 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Monroe County Golf Carts</h4>
-                      <p className="text-gray-600">Serving all Monroe County, PA</p>
+                      <h4 className="font-semibold text-theme-orange">Notredame Golf Carts</h4>
+                      <p className="text-gray-600">Serving all Notre Dame, IN</p>
                       <p className="text-gray-700">1-844-844-6638</p>
-                      <p className="text-gray-600">info@monroegolfcarts.com</p>
+                      <p className="text-gray-600">info@notredamegolfcarts.com</p>
                     </div>
                   </div>
                 </div>
@@ -236,7 +236,7 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Monroe County, Pennsylvania</p>
+              <p className="text-lg text-gray-600">Proudly serving all of Notre Dame, Indiana</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -295,7 +295,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Monroe County Golf Carts Difference?
+              Ready to Experience the Notredame Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.
@@ -336,7 +336,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@monroegolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@notredamegolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>

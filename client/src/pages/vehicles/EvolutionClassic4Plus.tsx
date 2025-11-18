@@ -295,7 +295,7 @@ export default function EvolutionClassic4Plus() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Bucks County, Pennsylvania and surrounding areas.
+                    Delivery and pickup available throughout Bucks County, Indiana and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

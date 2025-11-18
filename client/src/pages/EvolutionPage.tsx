@@ -53,7 +53,7 @@ export default function EvolutionPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "EVOLUTION®",
-    baseDescription: "Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver premium quality, innovative design, and reliable performance for Monroe County, Pennsylvania. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series.",
+    baseDescription: "Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver premium quality, innovative design, and reliable performance for Notre Dame, Indiana. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series.",
     pageType: "general",
     canonicalPath: "/evolution",
     keywords: ["EVOLUTION golf carts", "premium electric vehicles", "D5 RANGER", "EVOLUTION MAVERICK", "golf cart sales Monroe County"],
@@ -265,7 +265,7 @@ export default function EvolutionPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver 
-              premium quality, innovative design, and reliable performance for Monroe County, Pennsylvania.
+              premium quality, innovative design, and reliable performance for Notre Dame, Indiana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -497,7 +497,7 @@ export default function EvolutionPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Reliable Performance</h3>
                 <p className="text-gray-600">
                   Count on EVOLUTION's dependable electric systems and robust construction 
-                  for years of reliable service in Pennsylvania's varied conditions.
+                  for years of reliable service in Indiana's varied conditions.
                 </p>
               </div>
 
@@ -520,7 +520,7 @@ export default function EvolutionPage() {
               Ready to Experience EVOLUTION?
             </h2>
             <p className="text-xl mb-8">
-              Contact Monroe County Golf Carts today to explore the complete EVOLUTION lineup 
+              Contact Notredame Golf Carts today to explore the complete EVOLUTION lineup 
               and find the perfect electric vehicle for your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

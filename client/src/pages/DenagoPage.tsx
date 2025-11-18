@@ -51,7 +51,7 @@ export default function DenagoPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "DENAGO®",
-    baseDescription: "Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge technology with rugged durability for unmatched adventure capability in Monroe County, Pennsylvania. Premium EV CITY, EV NOMAD, and EV ROVER series available.",
+    baseDescription: "Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge technology with rugged durability for unmatched adventure capability in Notre Dame, Indiana. Premium EV CITY, EV NOMAD, and EV ROVER series available.",
     pageType: "general",
     canonicalPath: "/denago",
     keywords: ["DENAGO golf carts", "electric off-road vehicles", "premium golf carts Monroe County", "all-wheel drive golf carts"],
@@ -177,7 +177,7 @@ export default function DenagoPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge 
-              technology with rugged durability for unmatched adventure capability in Monroe County, Pennsylvania.
+              technology with rugged durability for unmatched adventure capability in Notre Dame, Indiana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -398,7 +398,7 @@ export default function DenagoPage() {
                 <Shield className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Built to Last</h3>
                 <p className="text-gray-600">
-                  DENAGO vehicles are engineered for Pennsylvania's challenging terrain with 
+                  DENAGO vehicles are engineered for Indiana's challenging terrain with 
                   military-grade components and weather-resistant construction.
                 </p>
               </div>
@@ -431,7 +431,7 @@ export default function DenagoPage() {
               Ready to Experience DENAGO?
             </h2>
             <p className="text-xl mb-8">
-              Contact Monroe County Golf Carts today to schedule a test drive or learn more 
+              Contact Notredame Golf Carts today to schedule a test drive or learn more 
               about DENAGO's revolutionary electric vehicle technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

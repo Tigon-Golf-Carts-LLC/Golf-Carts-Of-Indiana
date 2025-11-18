@@ -5,8 +5,8 @@ export default function FeedbackPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Feedback Policy | Monroe County Golf Carts"
-        description="Learn how to provide feedback to Monroe County Golf Carts. Our commitment to customer feedback, review process, and continuous improvement in Pennsylvania."
+        title="Feedback Policy | Notredame Golf Carts"
+        description="Learn how to provide feedback to Notredame Golf Carts. Our commitment to customer feedback, review process, and continuous improvement in Indiana."
         keywords="feedback policy, customer feedback, Monroe County golf carts, customer service policy"
       />
       
@@ -17,7 +17,7 @@ export default function FeedbackPolicyPage() {
             Feedback Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Your feedback drives our continuous improvement and helps us provide exceptional service throughout Pennsylvania.
+            Your feedback drives our continuous improvement and helps us provide exceptional service throughout Indiana.
           </p>
         </div>
       </section>
@@ -33,9 +33,9 @@ export default function FeedbackPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Our Commitment to Customer Feedback</h2>
               <p className="mb-6">
-                At Monroe County Golf Carts, we value every customer's voice. Your feedback drives our 
+                At Notredame Golf Carts, we value every customer's voice. Your feedback drives our 
                 continuous improvement efforts and helps us provide exceptional service throughout 
-                Pennsylvania. This policy outlines how we collect, process, and act on customer feedback.
+                Indiana. This policy outlines how we collect, process, and act on customer feedback.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Types of Feedback We Welcome</h2>
@@ -69,7 +69,7 @@ export default function FeedbackPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">How to Provide Feedback</h2>
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Direct Communication Channels</h3>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>Email:</strong> info@monroegolfcarts.com</li>
+                <li><strong>Email:</strong> info@notredamegolfcarts.com</li>
                 <li><strong>Phone:</strong> 1-844-844-6638</li>
                 <li><strong>In-Person:</strong> Any TIGON Golf Carts location</li>
                 <li><strong>Mail:</strong> Written feedback to our business addresses</li>
@@ -192,11 +192,11 @@ export default function FeedbackPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Our Feedback Team</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Customer Feedback Department</strong></p>
-                <p className="mb-2">Monroe County Golf Carts</p>
-                <p className="mb-2">Email: info@monroegolfcarts.com</p>
+                <p className="mb-2">Notredame Golf Carts</p>
+                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Monroe County, Pennsylvania</p>
-                <p className="mb-2">Website: monroegolfcarts.com</p>
+                <p className="mb-2">Serving Notre Dame, Indiana</p>
+                <p className="mb-2">Website: notredamegolfcarts.com</p>
                 <p>We appreciate your feedback and look forward to serving you better!</p>
               </div>
             </div>

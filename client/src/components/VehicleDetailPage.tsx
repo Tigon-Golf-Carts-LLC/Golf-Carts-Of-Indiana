@@ -64,12 +64,12 @@ export default function VehicleDetailPage({
     `${series} series`,
     `electric golf cart Monroe County`,
     `${brand} ${series}`,
-    "golf cart sales Pennsylvania"
+    "golf cart sales Indiana"
   ];
   
   const seoData = generateSEOMetadata({
     pageTitle: vehicleName, // This matches the H1 text exactly
-    baseDescription: `Discover the ${vehicleName} electric golf cart in Monroe County, PA. ${description} Expert sales, service, and delivery available.`,
+    baseDescription: `Discover the ${vehicleName} electric golf cart in Notre Dame, IN. ${description} Expert sales, service, and delivery available.`,
     pageType: "vehicle",
     canonicalPath: canonicalUrl ? new URL(canonicalUrl).pathname : defaultCanonicalPath,
     keywords: seoKeywords ? seoKeywords.split(', ') : defaultKeywords,
@@ -111,8 +111,8 @@ export default function VehicleDetailPage({
           description: seoData.description,
           url: seoData.canonicalUrl,
           breadcrumbs: [
-            { name: "Home", url: "https://monroegolfcarts.com/" },
-            { name: "Inventory", url: "https://monroegolfcarts.com/inventory" },
+            { name: "Home", url: "https://notredamegolfcarts.com/" },
+            { name: "Inventory", url: "https://notredamegolfcarts.com/inventory" },
             { name: vehicleName, url: seoData.canonicalUrl }
           ],
           vehicleName,
@@ -132,7 +132,7 @@ export default function VehicleDetailPage({
             },
             {
               author: "Susan Rodriguez",
-              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Monroe County Golf Carts.`,
+              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Notredame Golf Carts.`,
               reviewRating: 5,
               datePublished: "2025-01-18",
               headline: "Excellent purchase experience"
@@ -294,12 +294,12 @@ export default function VehicleDetailPage({
           </div>
         </section>
 
-        {/* Why Choose Monroe County Golf Carts */}
+        {/* Why Choose Notredame Golf Carts */}
         <section className="py-16 px-4 bg-theme-primary text-white">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4">
-                Why Choose Monroe County Golf Carts?
+                Why Choose Notredame Golf Carts?
               </h2>
             </div>
 
@@ -338,7 +338,7 @@ export default function VehicleDetailPage({
               Ready to Experience the {vehicleName}?
             </h2>
             <p className="text-xl mb-8">
-              Contact Monroe County Golf Carts today for pricing, availability, and to schedule your test drive.
+              Contact Notredame Golf Carts today for pricing, availability, and to schedule your test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">

@@ -1,5 +1,5 @@
-// Background image utility for Monroe County Golf Carts
-// Uses the 8 professional showroom images featuring the modern Monroe County Golf Carts dealership
+// Background image utility for Notre Dame Golf Carts
+// Uses the 8 professional showroom images featuring the modern Notre Dame Golf Carts dealership
 
 const BACKGROUND_IMAGES = [
   '/attached_assets/a-photograph-of-a-friendly-young-woman-s_vxGUqvxjTKqX67SqAuIYoQ_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',

@@ -12,10 +12,10 @@ export default function DenagoEvCity() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV CITY - Urban Electric Vehicle | Monroe County Golf Carts"
-        description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Monroe County, PA."
-        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Monroe County PA"
-        canonicalUrl="https://monroegolfcarts.com/vehicle/denago-ev-city"
+        title="DENAGO® EV CITY - Urban Electric Vehicle | Notredame Golf Carts"
+        description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Notre Dame, IN."
+        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Monroe County IN"
+        canonicalUrl="https://notredamegolfcarts.com/vehicle/denago-ev-city"
         ogImage="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"
         ogType="product"
       />
@@ -24,7 +24,7 @@ export default function DenagoEvCity() {
         brand="DENAGO"
         image="DENAGONEVCITY_1751893047472_1753135231313.jpg"
         description="Discover the EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use."
-        url="https://monroegolfcarts.com/vehicle/denago-ev-city"
+        url="https://notredamegolfcarts.com/vehicle/denago-ev-city"
         features={["Street Legal NEV Certified", "40-50 mile range", "25 mph top speed", "4 passenger seating", "Urban mobility design"]}
       />
       
@@ -259,7 +259,7 @@ export default function DenagoEvCity() {
               Ready to Experience the DENAGO® EV CITY?
             </h2>
             <p className="text-xl mb-8">
-              Contact Monroe County Golf Carts today for pricing, availability, and to schedule a test drive.
+              Contact Notredame Golf Carts today for pricing, availability, and to schedule a test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -312,7 +312,7 @@ export default function DenagoEvCity() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout Monroe County, Pennsylvania and surrounding areas.
+                    Delivery and pickup available throughout Notre Dame, Indiana and surrounding areas.
                   </p>
                 </CardContent>
               </Card>

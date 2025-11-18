@@ -161,7 +161,7 @@ Population Density: 471 people per square mile
 ### Surrounding Counties
 - North: Susquehanna County
 - East: Pike County, Wayne County  
-- South: Monroe County
+- South: Notre Dame
 - Southwest: Carbon County, Luzerne County
 - West: Wyoming County
 
