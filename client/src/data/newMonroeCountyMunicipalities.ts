@@ -1,51 +1,172 @@
 export interface Municipality {
   name: string;
-  type: 'City' | 'Borough' | 'Township';
+  type: 'City' | 'Town' | 'Township';
   slug: string;
   url: string;
+  coordinates: {
+    lat: number;
+    lng: number;
+  };
 }
 
-// Notre Dame, Indiana service area municipalities
 export const NEW_MONROE_COUNTY_MUNICIPALITIES: Municipality[] = [
-  // Cities
-  { name: 'South Bend', type: 'City', slug: 'south-bend', url: '/south-bend-golf-carts' },
-  { name: 'Mishawaka', type: 'City', slug: 'mishawaka', url: '/mishawaka-golf-carts' },
-  { name: 'Elkhart', type: 'City', slug: 'elkhart', url: '/elkhart-golf-carts' },
-  { name: 'Granger', type: 'Township', slug: 'granger', url: '/granger-golf-carts' },
+  // Cities (2)
+  {
+    name: "South Bend",
+    type: "City",
+    slug: "south-bend-city",
+    url: "/south-bend-city-golf-carts",
+    coordinates: { lat: 41.6764, lng: -86.2520 }
+  },
+  {
+    name: "Mishawaka",
+    type: "City",
+    slug: "mishawaka-city",
+    url: "/mishawaka-city-golf-carts",
+    coordinates: { lat: 41.6620, lng: -86.1586 }
+  },
   
-  // Townships and Communities
-  { name: 'Notre Dame', type: 'Township', slug: 'notre-dame', url: '/notre-dame-golf-carts' },
-  { name: 'Penn Township', type: 'Township', slug: 'penn-township', url: '/penn-township-golf-carts' },
-  { name: 'Clay Township', type: 'Township', slug: 'clay-township', url: '/clay-township-golf-carts' },
-  { name: 'Centre Township', type: 'Township', slug: 'centre-township', url: '/centre-township-golf-carts' },
-  { name: 'Portage Township', type: 'Township', slug: 'portage-township', url: '/portage-township-golf-carts' },
-  { name: 'German Township', type: 'Township', slug: 'german-township', url: '/german-township-golf-carts' },
-  { name: 'Liberty Township', type: 'Township', slug: 'liberty-township', url: '/liberty-township-golf-carts' },
-  { name: 'Union Township', type: 'Township', slug: 'union-township', url: '/union-township-golf-carts' },
-  { name: 'Warren Township', type: 'Township', slug: 'warren-township', url: '/warren-township-golf-carts' },
-  { name: 'Greene Township', type: 'Township', slug: 'greene-township', url: '/greene-township-golf-carts' },
-  { name: 'Madison Township', type: 'Township', slug: 'madison-township', url: '/madison-township-golf-carts' },
-  { name: 'Harris Township', type: 'Township', slug: 'harris-township', url: '/harris-township-golf-carts' },
-  { name: 'Olive Township', type: 'Township', slug: 'olive-township', url: '/olive-township-golf-carts' },
-  { name: 'Baugo Township', type: 'Township', slug: 'baugo-township', url: '/baugo-township-golf-carts' },
-  { name: 'Concord Township', type: 'Township', slug: 'concord-township', url: '/concord-township-golf-carts' },
-  { name: 'Washington Township', type: 'Township', slug: 'washington-township', url: '/washington-township-golf-carts' },
+  // Towns (7)
+  {
+    name: "Indian Village",
+    type: "Town",
+    slug: "indian-village-town",
+    url: "/indian-village-town-golf-carts",
+    coordinates: { lat: 41.7033, lng: -86.2389 }
+  },
+  {
+    name: "Lakeville",
+    type: "Town",
+    slug: "lakeville-town",
+    url: "/lakeville-town-golf-carts",
+    coordinates: { lat: 41.5192, lng: -86.2742 }
+  },
+  {
+    name: "New Carlisle",
+    type: "Town",
+    slug: "new-carlisle-town",
+    url: "/new-carlisle-town-golf-carts",
+    coordinates: { lat: 41.7000, lng: -86.5094 }
+  },
+  {
+    name: "North Liberty",
+    type: "Town",
+    slug: "north-liberty-town",
+    url: "/north-liberty-town-golf-carts",
+    coordinates: { lat: 41.5328, lng: -86.4253 }
+  },
+  {
+    name: "Osceola",
+    type: "Town",
+    slug: "osceola-town",
+    url: "/osceola-town-golf-carts",
+    coordinates: { lat: 41.6645, lng: -86.0764 }
+  },
+  {
+    name: "Roseland",
+    type: "Town",
+    slug: "roseland-town",
+    url: "/roseland-town-golf-carts",
+    coordinates: { lat: 41.7389, lng: -86.2389 }
+  },
+  {
+    name: "Walkerton",
+    type: "Town",
+    slug: "walkerton-town",
+    url: "/walkerton-town-golf-carts",
+    coordinates: { lat: 41.4675, lng: -86.4844 }
+  },
+  
+  // Townships (13)
+  {
+    name: "Centre",
+    type: "Township",
+    slug: "centre-township",
+    url: "/centre-township-golf-carts",
+    coordinates: { lat: 41.6833, lng: -86.2500 }
+  },
+  {
+    name: "Clay",
+    type: "Township",
+    slug: "clay-township",
+    url: "/clay-township-golf-carts",
+    coordinates: { lat: 41.7167, lng: -86.3333 }
+  },
+  {
+    name: "German",
+    type: "Township",
+    slug: "german-township",
+    url: "/german-township-golf-carts",
+    coordinates: { lat: 41.7667, lng: -86.2167 }
+  },
+  {
+    name: "Greene",
+    type: "Township",
+    slug: "greene-township",
+    url: "/greene-township-golf-carts",
+    coordinates: { lat: 41.8000, lng: -86.3500 }
+  },
+  {
+    name: "Harris",
+    type: "Township",
+    slug: "harris-township",
+    url: "/harris-township-golf-carts",
+    coordinates: { lat: 41.5667, lng: -86.4667 }
+  },
+  {
+    name: "Liberty",
+    type: "Township",
+    slug: "liberty-township",
+    url: "/liberty-township-golf-carts",
+    coordinates: { lat: 41.5333, lng: -86.3667 }
+  },
+  {
+    name: "Lincoln",
+    type: "Township",
+    slug: "lincoln-township",
+    url: "/lincoln-township-golf-carts",
+    coordinates: { lat: 41.5667, lng: -86.2500 }
+  },
+  {
+    name: "Madison",
+    type: "Township",
+    slug: "madison-township",
+    url: "/madison-township-golf-carts",
+    coordinates: { lat: 41.6167, lng: -86.4167 }
+  },
+  {
+    name: "Olive",
+    type: "Township",
+    slug: "olive-township",
+    url: "/olive-township-golf-carts",
+    coordinates: { lat: 41.6333, lng: -86.5000 }
+  },
+  {
+    name: "Penn",
+    type: "Township",
+    slug: "penn-township",
+    url: "/penn-township-golf-carts",
+    coordinates: { lat: 41.6667, lng: -86.0833 }
+  },
+  {
+    name: "Portage",
+    type: "Township",
+    slug: "portage-township",
+    url: "/portage-township-golf-carts",
+    coordinates: { lat: 41.6833, lng: -86.1667 }
+  },
+  {
+    name: "Union",
+    type: "Township",
+    slug: "union-township",
+    url: "/union-township-golf-carts",
+    coordinates: { lat: 41.5500, lng: -86.1500 }
+  },
+  {
+    name: "Warren",
+    type: "Township",
+    slug: "warren-township",
+    url: "/warren-township-golf-carts",
+    coordinates: { lat: 41.7833, lng: -86.4667 }
+  }
 ];
-
-// Notre Dame, Indiana coordinates (center of Notre Dame community)
-export const NEW_MONROE_COUNTY_COORDINATES = {
-  latitude: 41.7033,
-  longitude: -86.2389
-};
-
-// Notre Dame, Indiana basic information
-export const NEW_MONROE_COUNTY_INFO = {
-  name: 'Notre Dame',
-  state: 'Indiana',
-  totalMunicipalities: 20, // 3 cities + 17 townships
-  countySeat: 'South Bend',
-  population: 315000, // St. Joseph County area
-  area: '458 square miles',
-  founded: 1842,
-  website: 'sjcindiana.com'
-};
