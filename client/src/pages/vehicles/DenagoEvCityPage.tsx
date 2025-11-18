@@ -23,7 +23,7 @@ export default function DenagoEvCityPage() {
         "Digital Display",
         "Comfortable Seating"
       ]}
-      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Monroe County's urban environments. Call 1-844-844-6638."
+      description="Urban mobility redefined with sleek design and efficient performance. The DENAGO EV CITY is built for street legal operation with premium features perfect for Notre Dame's urban environments. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/city/"
     />
   );

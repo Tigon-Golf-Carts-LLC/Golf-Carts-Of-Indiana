@@ -174,7 +174,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
       <SEOHead 
         title={pageTitle}
         description={metaDescription}
-        keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Monroe County golf cart rental, electric golf cart rental ${municipality.name}`}
+        keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Notre Dame golf cart rental, electric golf cart rental ${municipality.name}`}
         canonicalUrl={`https://notredamegolfcarts.com/rentals/${municipality.slug}`}
         ogImage="https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       />

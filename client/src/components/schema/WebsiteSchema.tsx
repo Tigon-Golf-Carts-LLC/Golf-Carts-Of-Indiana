@@ -37,9 +37,9 @@ export default function WebsiteSchema({
         "query-input": "required name=search_term_string"
       },
       "sameAs": [
-        "https://www.facebook.com/carbongolfcarts",
-        "https://twitter.com/carbongolfcarts",
-        "https://www.instagram.com/carbongolfcarts"
+        "https://www.facebook.com/notredamegolfcarts",
+        "https://twitter.com/notredamegolfcarts",
+        "https://www.instagram.com/notredamegolfcarts"
       ]
     };
     

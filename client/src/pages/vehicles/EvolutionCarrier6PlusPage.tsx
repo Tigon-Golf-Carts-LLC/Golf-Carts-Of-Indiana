@@ -23,7 +23,7 @@ export default function EvolutionCarrier6PlusPage() {
         "Commercial Grade",
         "Reliable Power"
       ]}
-      description="6-passenger utility vehicle with enhanced cargo capacity and work features. The EVOLUTION CARRIER 6 PLUS is designed for both passenger transport and utility work in Monroe County communities. Call 1-844-844-6638."
+      description="6-passenger utility vehicle with enhanced cargo capacity and work features. The EVOLUTION CARRIER 6 PLUS is designed for both passenger transport and utility work in Notre Dame communities. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/evolution/carrier/6-plus/"
     />
   );

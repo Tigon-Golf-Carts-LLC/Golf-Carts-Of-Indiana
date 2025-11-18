@@ -62,7 +62,7 @@ export default function VehicleDetailPage({
     vehicleName,
     `${brand} golf cart`,
     `${series} series`,
-    `electric golf cart Monroe County`,
+    `electric golf cart Notre Dame`,
     `${brand} ${series}`,
     "golf cart sales Indiana"
   ];
@@ -308,7 +308,7 @@ export default function VehicleDetailPage({
                 <Shield className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-4">Expert Service</h3>
                 <p className="text-blue-100">
-                  Professional installation, maintenance, and warranty support for all {brand} vehicles in Monroe County, New Jersey.
+                  Professional installation, maintenance, and warranty support for all {brand} vehicles in Notre Dame, New Jersey.
                 </p>
               </div>
 
@@ -324,7 +324,7 @@ export default function VehicleDetailPage({
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-4">Local Expertise</h3>
                 <p className="text-blue-100">
-                  Deep knowledge of Monroe County's communities and terrain to help you choose the perfect vehicle for your needs.
+                  Deep knowledge of Notre Dame's communities and terrain to help you choose the perfect vehicle for your needs.
                 </p>
               </div>
             </div>

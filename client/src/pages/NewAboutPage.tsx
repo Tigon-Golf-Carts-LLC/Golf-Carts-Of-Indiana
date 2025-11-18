@@ -64,7 +64,7 @@ export default function NewAboutPage() {
       <SEOHead 
         title="About Notredame Golf Carts - Your Premier Golf Cart Dealer"
         description="Learn about Notredame Golf Carts, Indiana's trusted golf cart dealer serving all 20 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Monroe County golf carts, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer"
+        keywords="Notre Dame golf carts, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer"
         canonicalUrl="https://notredamegolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"

@@ -21,7 +21,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "streetAddress": "123 Golf Cart Lane",
         "addressLocality": "Stroudsburg",
         "addressRegion": "IN",
-        "postalCode": "18360",
+        "postalCode": "46556",
         "addressCountry": "US"
       },
       "geo": {

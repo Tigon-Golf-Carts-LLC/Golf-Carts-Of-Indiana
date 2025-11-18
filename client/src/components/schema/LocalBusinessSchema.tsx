@@ -106,9 +106,9 @@ export default function LocalBusinessSchema({
         "name": areaServed
       },
       "sameAs": [
-        "https://www.facebook.com/lehighgolfcarts",
-        "https://twitter.com/lehighgolfcarts",
-        "https://www.instagram.com/lehighgolfcarts"
+        "https://www.facebook.com/notredamegolfcarts",
+        "https://twitter.com/notredamegolfcarts",
+        "https://www.instagram.com/notredamegolfcarts"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",

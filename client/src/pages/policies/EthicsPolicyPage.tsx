@@ -7,7 +7,7 @@ export default function EthicsPolicyPage() {
       <SEOHead 
         title="Ethics Policy | Notredame Golf Carts"
         description="Learn about Notredame Golf Carts' code of ethics and business conduct standards for employees, customers, and partners in Indiana."
-        keywords="ethics policy, business ethics, Monroe County golf carts, code of conduct Indiana"
+        keywords="ethics policy, business ethics, Notre Dame golf carts, code of conduct Indiana"
       />
       
       {/* Hero Section */}

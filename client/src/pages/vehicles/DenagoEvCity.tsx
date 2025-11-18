@@ -14,7 +14,7 @@ export default function DenagoEvCity() {
       <SEOHead 
         title="DENAGO® EV CITY - Urban Electric Vehicle | Notredame Golf Carts"
         description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Notre Dame, IN."
-        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Monroe County IN"
+        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Notre Dame IN"
         canonicalUrl="https://notredamegolfcarts.com/vehicle/denago-ev-city"
         ogImage="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"
         ogType="product"
@@ -308,7 +308,7 @@ export default function DenagoEvCity() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-                  <CardTitle>Monroe County Service</CardTitle>
+                  <CardTitle>Notre Dame Service</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">

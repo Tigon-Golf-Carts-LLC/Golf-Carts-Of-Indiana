@@ -32,7 +32,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
   const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Notredame Golf Carts`;
   const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Notre Dame, IN. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
 
-  // Google Maps embed URL for the specific municipality in Monroe County
+  // Google Maps embed URL for the specific municipality in Notre Dame
   const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   return (
@@ -40,9 +40,9 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
       <SEOHead 
         title={pageTitle}
         description={metaDescription}
-        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, Monroe County golf cart sales, electric golf carts ${municipality.name}`}
+        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, Notre Dame golf cart sales, electric golf carts ${municipality.name}`}
         canonicalUrl={`https://notredamegolfcarts.com${municipality.url}`}
-        ogImage="https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        ogImage="https://notredamegolfcarts.com/attached_assets/Notre Dame Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}
@@ -83,7 +83,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
               Why Choose Notredame Golf Carts for {municipality.name}?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We deliver premium electric golf cart solutions throughout Monroe County, 
+              We deliver premium electric golf cart solutions throughout Notre Dame, 
               including {municipality.name} {municipality.type}.
             </p>
           </div>
@@ -204,7 +204,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
                 Professional Service in {municipality.name} {municipality.type}
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Our team provides comprehensive golf cart services throughout Monroe County, 
+                Our team provides comprehensive golf cart services throughout Notre Dame, 
                 including dedicated service routes to {municipality.name} {municipality.type}. 
                 From sales to maintenance, we're your trusted local partner.
               </p>

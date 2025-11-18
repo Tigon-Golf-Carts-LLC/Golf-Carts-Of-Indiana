@@ -7,7 +7,7 @@ export default function DiversityPolicyPage() {
       <SEOHead 
         title="Diversity Policy | Notredame Golf Carts"
         description="Learn about Notredame Golf Carts' commitment to diversity, equity, and inclusion in our Indiana workplace and customer service practices."
-        keywords="diversity policy, equity inclusion, Monroe County golf carts, workplace diversity Indiana"
+        keywords="diversity policy, equity inclusion, Notre Dame golf carts, workplace diversity Indiana"
       />
       
       {/* Hero Section */}

@@ -23,7 +23,7 @@ export default function EvolutionD5Ranger4PlusPage() {
         "Weather Protection",
         "Quality Materials"
       ]}
-      description="Premium 4-passenger golf cart with enhanced comfort and performance features. The EVOLUTION D5 RANGER 4 PLUS delivers reliable performance with premium appointments for Monroe County families. Call 1-844-844-6638."
+      description="Premium 4-passenger golf cart with enhanced comfort and performance features. The EVOLUTION D5 RANGER 4 PLUS delivers reliable performance with premium appointments for Notre Dame families. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/evolution/d5-ranger/4-plus/"
     />
   );

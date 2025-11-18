@@ -5,47 +5,47 @@ export interface Municipality {
   url: string;
 }
 
-// New Monroe County municipalities for golf cart business
+// Notre Dame, Indiana service area municipalities
 export const NEW_MONROE_COUNTY_MUNICIPALITIES: Municipality[] = [
-  // Boroughs
-  { name: 'Delaware Water Gap', type: 'Borough', slug: 'delaware-water-gap', url: '/delaware-water-gap-golf-carts' },
-  { name: 'East Stroudsburg', type: 'Borough', slug: 'east-stroudsburg', url: '/east-stroudsburg-golf-carts' },
-  { name: 'Mount Pocono', type: 'Borough', slug: 'mount-pocono', url: '/mount-pocono-golf-carts' },
-  { name: 'Stroudsburg', type: 'Borough', slug: 'stroudsburg', url: '/stroudsburg-golf-carts' },
-
-  // Townships
-  { name: 'Barrett', type: 'Township', slug: 'barrett-township', url: '/barrett-township-golf-carts' },
-  { name: 'Chestnuthill', type: 'Township', slug: 'chestnuthill-township', url: '/chestnuthill-township-golf-carts' },
-  { name: 'Coolbaugh', type: 'Township', slug: 'coolbaugh-township', url: '/coolbaugh-township-golf-carts' },
-  { name: 'Eldred', type: 'Township', slug: 'eldred-township', url: '/eldred-township-golf-carts' },
-  { name: 'Hamilton', type: 'Township', slug: 'hamilton-township', url: '/hamilton-township-golf-carts' },
-  { name: 'Jackson', type: 'Township', slug: 'jackson-township', url: '/jackson-township-golf-carts' },
-  { name: 'Middle Smithfield', type: 'Township', slug: 'middle-smithfield-township', url: '/middle-smithfield-township-golf-carts' },
-  { name: 'Paradise', type: 'Township', slug: 'paradise-township', url: '/paradise-township-golf-carts' },
-  { name: 'Pocono', type: 'Township', slug: 'pocono-township', url: '/pocono-township-golf-carts' },
-  { name: 'Polk', type: 'Township', slug: 'polk-township', url: '/polk-township-golf-carts' },
-  { name: 'Price', type: 'Township', slug: 'price-township', url: '/price-township-golf-carts' },
-  { name: 'Ross', type: 'Township', slug: 'ross-township', url: '/ross-township-golf-carts' },
-  { name: 'Smithfield', type: 'Township', slug: 'smithfield-township', url: '/smithfield-township-golf-carts' },
-  { name: 'Stroud', type: 'Township', slug: 'stroud-township', url: '/stroud-township-golf-carts' },
-  { name: 'Tobyhanna', type: 'Township', slug: 'tobyhanna-township', url: '/tobyhanna-township-golf-carts' },
-  { name: 'Tunkhannock', type: 'Township', slug: 'tunkhannock-township', url: '/tunkhannock-township-golf-carts' },
+  // Cities
+  { name: 'South Bend', type: 'City', slug: 'south-bend', url: '/south-bend-golf-carts' },
+  { name: 'Mishawaka', type: 'City', slug: 'mishawaka', url: '/mishawaka-golf-carts' },
+  { name: 'Elkhart', type: 'City', slug: 'elkhart', url: '/elkhart-golf-carts' },
+  { name: 'Granger', type: 'Township', slug: 'granger', url: '/granger-golf-carts' },
+  
+  // Townships and Communities
+  { name: 'Notre Dame', type: 'Township', slug: 'notre-dame', url: '/notre-dame-golf-carts' },
+  { name: 'Penn Township', type: 'Township', slug: 'penn-township', url: '/penn-township-golf-carts' },
+  { name: 'Clay Township', type: 'Township', slug: 'clay-township', url: '/clay-township-golf-carts' },
+  { name: 'Centre Township', type: 'Township', slug: 'centre-township', url: '/centre-township-golf-carts' },
+  { name: 'Portage Township', type: 'Township', slug: 'portage-township', url: '/portage-township-golf-carts' },
+  { name: 'German Township', type: 'Township', slug: 'german-township', url: '/german-township-golf-carts' },
+  { name: 'Liberty Township', type: 'Township', slug: 'liberty-township', url: '/liberty-township-golf-carts' },
+  { name: 'Union Township', type: 'Township', slug: 'union-township', url: '/union-township-golf-carts' },
+  { name: 'Warren Township', type: 'Township', slug: 'warren-township', url: '/warren-township-golf-carts' },
+  { name: 'Greene Township', type: 'Township', slug: 'greene-township', url: '/greene-township-golf-carts' },
+  { name: 'Madison Township', type: 'Township', slug: 'madison-township', url: '/madison-township-golf-carts' },
+  { name: 'Harris Township', type: 'Township', slug: 'harris-township', url: '/harris-township-golf-carts' },
+  { name: 'Olive Township', type: 'Township', slug: 'olive-township', url: '/olive-township-golf-carts' },
+  { name: 'Baugo Township', type: 'Township', slug: 'baugo-township', url: '/baugo-township-golf-carts' },
+  { name: 'Concord Township', type: 'Township', slug: 'concord-township', url: '/concord-township-golf-carts' },
+  { name: 'Washington Township', type: 'Township', slug: 'washington-township', url: '/washington-township-golf-carts' },
 ];
 
-// Monroe County coordinates (center of county near Stroudsburg)
+// Notre Dame, Indiana coordinates (center of Notre Dame community)
 export const NEW_MONROE_COUNTY_COORDINATES = {
-  latitude: 41.0548,
-  longitude: -75.1932
+  latitude: 41.7033,
+  longitude: -86.2389
 };
 
-// Monroe County basic information
+// Notre Dame, Indiana basic information
 export const NEW_MONROE_COUNTY_INFO = {
-  name: 'Monroe County',
-  state: 'Pennsylvania',
-  totalMunicipalities: 20, // 4 boroughs + 16 townships
-  countySeat: 'Stroudsburg',
-  population: 168327, // 2020 census
-  area: '608 square miles',
-  founded: 1836,
-  website: 'monroecountypa.gov'
+  name: 'Notre Dame',
+  state: 'Indiana',
+  totalMunicipalities: 20, // 3 cities + 17 townships
+  countySeat: 'South Bend',
+  population: 315000, // St. Joseph County area
+  area: '458 square miles',
+  founded: 1842,
+  website: 'sjcindiana.com'
 };

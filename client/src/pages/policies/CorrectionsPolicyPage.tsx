@@ -7,7 +7,7 @@ export default function CorrectionsPolicyPage() {
       <SEOHead 
         title="Corrections Policy | Notredame Golf Carts"
         description="Learn about Notredame Golf Carts' commitment to accuracy and our process for handling corrections to published content and information."
-        keywords="corrections policy, content accuracy, Monroe County golf carts, information corrections"
+        keywords="corrections policy, content accuracy, Notre Dame golf carts, information corrections"
       />
       
       {/* Hero Section */}

@@ -23,7 +23,7 @@ export default function DenagoEvNomadPage() {
         "Durable Frame",
         "Weather Protection"
       ]}
-      description="Adventure-ready vehicles built for exploration and off-road adventures. The DENAGO EV NOMAD combines rugged durability with electric efficiency for Monroe County's diverse terrain. Call 1-844-844-6638."
+      description="Adventure-ready vehicles built for exploration and off-road adventures. The DENAGO EV NOMAD combines rugged durability with electric efficiency for Notre Dame's diverse terrain. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/nomad/"
     />
   );

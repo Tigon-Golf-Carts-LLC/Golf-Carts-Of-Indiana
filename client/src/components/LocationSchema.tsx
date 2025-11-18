@@ -12,8 +12,8 @@ export default function LocationSchema({
   municipalityName, 
   municipalityType, 
   pageType = 'location',
-  latitude = "41.045",
-  longitude = "-75.355"
+  latitude = "41.7033",
+  longitude = "-86.2389"
 }: LocationSchemaProps) {
   useEffect(() => {
     const baseStructuredData = {
@@ -42,7 +42,7 @@ export default function LocationSchema({
         "name": `${municipalityName} ${municipalityType}`,
         "containedInPlace": {
           "@type": "AdministrativeArea",
-          "name": "Monroe County",
+          "name": "Notre Dame",
           "containedInPlace": {
             "@type": "State",
             "name": "Indiana"
@@ -96,7 +96,7 @@ export default function LocationSchema({
         ...baseStructuredData,
         "@type": ["LocalBusiness", "RentalCarAgency"],
         "name": `Golf Cart Rentals - ${municipalityName} ${municipalityType}`,
-        "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, Monroe County. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
+        "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, Notre Dame area. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
         "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
         "hasOfferCatalog": {
           "@type": "OfferCatalog",

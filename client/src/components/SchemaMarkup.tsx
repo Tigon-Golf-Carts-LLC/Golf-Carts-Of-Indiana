@@ -31,7 +31,7 @@ export const generateOrganizationSchema = () => ({
     "streetAddress": "1040 IN-611",
     "addressLocality": "Stroudsburg",
     "addressRegion": "IN",
-    "postalCode": "18360",
+    "postalCode": "46556",
     "addressCountry": "US"
   },
   "areaServed": {
@@ -89,7 +89,7 @@ export const generateLocalBusinessSchema = () => ({
   "@type": "LocalBusiness",
   "@id": "https://notredamegolfcarts.com/#localbusiness",
   "name": "Notredame Golf Carts",
-  "description": "Premier golf cart dealer serving all 20 Monroe County municipalities with electric vehicle sales, service, and rentals.",
+  "description": "Premier golf cart dealer serving Notre Dame, Indiana communities with electric vehicle sales, service, and rentals.",
   "url": "https://notredamegolfcarts.com",
   "telephone": "1-844-844-6638",
   "email": "info@notredamegolfcarts.com",
@@ -105,7 +105,7 @@ export const generateLocalBusinessSchema = () => ({
     "streetAddress": "1040 IN-611",
     "addressLocality": "Stroudsburg",
     "addressRegion": "IN",
-    "postalCode": "18360",
+    "postalCode": "46556",
     "addressCountry": "US"
   },
   "geo": {
@@ -349,7 +349,7 @@ export const generateTownPageSchema = (townName: string) => ({
       "name": townName,
       "containedInPlace": {
         "@type": "AdministrativeArea",
-        "name": "Monroe County",
+        "name": "Notre Dame",
         "containedInPlace": {
           "@type": "State",
           "name": "Indiana"

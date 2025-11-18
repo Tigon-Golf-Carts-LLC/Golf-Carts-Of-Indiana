@@ -7,7 +7,7 @@ export default function ReturnPolicyPage() {
       <SEOHead 
         title="Return Policy | Notredame Golf Carts"
         description="Learn about Notredame Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
-        keywords="return policy, golf cart returns, Monroe County golf carts, refund policy Indiana"
+        keywords="return policy, golf cart returns, Notre Dame golf carts, refund policy Indiana"
       />
       
       {/* Hero Section */}

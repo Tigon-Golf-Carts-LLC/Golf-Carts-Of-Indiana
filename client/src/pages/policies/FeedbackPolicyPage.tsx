@@ -7,7 +7,7 @@ export default function FeedbackPolicyPage() {
       <SEOHead 
         title="Feedback Policy | Notredame Golf Carts"
         description="Learn how to provide feedback to Notredame Golf Carts. Our commitment to customer feedback, review process, and continuous improvement in Indiana."
-        keywords="feedback policy, customer feedback, Monroe County golf carts, customer service policy"
+        keywords="feedback policy, customer feedback, Notre Dame golf carts, customer service policy"
       />
       
       {/* Hero Section */}

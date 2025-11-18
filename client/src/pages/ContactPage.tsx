@@ -25,7 +25,7 @@ export default function ContactPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Contact Notredame Golf Carts",
-    baseDescription: "Get in touch with Notredame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Stroudsburg, IN 18360. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
+    baseDescription: "Get in touch with Notredame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Stroudsburg, IN 46556. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
     pageType: "contact",
     canonicalPath: "/contact",
     keywords: ["Monroe County showroom", "Stroudsburg location", "golf cart consultation", "Indiana service center"],
@@ -86,7 +86,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       label: "Notredame Golf Carts",
-      value: "1040 IN-611, Stroudsburg, IN 18360",
+      value: "1040 IN-611, Stroudsburg, IN 46556",
       phone: "1-844-844-6638",
     },
     {

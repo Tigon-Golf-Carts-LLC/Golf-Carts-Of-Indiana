@@ -23,7 +23,7 @@ export default function EvolutionClassic4PlusPage() {
         "Easy Operation",
         "Value-Oriented"
       ]}
-      description="Traditional 4-passenger golf cart with classic design and reliable performance. The EVOLUTION CLASSIC 4 PLUS offers timeless styling with modern electric efficiency for Monroe County golf enthusiasts. Call 1-844-844-6638."
+      description="Traditional 4-passenger golf cart with classic design and reliable performance. The EVOLUTION CLASSIC 4 PLUS offers timeless styling with modern electric efficiency for Notre Dame golf enthusiasts. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/evolution/classic/4-plus/"
     />
   );

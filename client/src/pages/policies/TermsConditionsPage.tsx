@@ -7,7 +7,7 @@ export default function TermsConditionsPage() {
       <SEOHead 
         title="Terms & Conditions | Notredame Golf Carts"
         description="Read the complete terms and conditions for Notredame Golf Carts. Understand your rights and responsibilities when purchasing, renting, or servicing golf carts in Indiana."
-        keywords="terms conditions, Monroe County golf carts, Indiana golf cart terms, legal agreement"
+        keywords="terms conditions, Notre Dame golf carts, Indiana golf cart terms, legal agreement"
       />
       
       {/* Hero Section */}

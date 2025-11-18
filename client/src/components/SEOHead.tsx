@@ -188,8 +188,8 @@ export default function SEOHead({
           "@type": "GeoCircle",
           "geoMidpoint": {
             "@type": "GeoCoordinates",
-            "latitude": "40.3073",
-            "longitude": "-75.1292"
+            "latitude": "41.7033",
+            "longitude": "-86.2389"
           },
           "geoRadius": "50000"
         },

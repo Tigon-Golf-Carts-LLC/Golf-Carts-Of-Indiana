@@ -7,7 +7,7 @@ export default function StaffingReportPage() {
       <SEOHead 
         title="Staffing Report | Notredame Golf Carts"
         description="Learn about Notredame Golf Carts' staffing structure, employment practices, and workforce development in Indiana."
-        keywords="staffing report, employment, Monroe County golf carts, workforce Indiana"
+        keywords="staffing report, employment, Notre Dame golf carts, workforce Indiana"
       />
       
       {/* Hero Section */}

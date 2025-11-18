@@ -171,9 +171,9 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
         url="https://notredamegolfcarts.com"
         address={{
           streetAddress: "Various Locations",
-          addressLocality: "Monroe County",
+          addressLocality: "Notre Dame",
           addressRegion: "IN",
-          postalCode: "18101",
+          postalCode: "46556",
           addressCountry: "US"
         }}
         telephone="1-844-844-6638"
@@ -347,7 +347,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               },
               {
                 question: "Do you provide delivery service?",
-                answer: "Yes, we provide delivery service throughout Monroe County and surrounding areas in Indiana."
+                answer: "Yes, we provide delivery service throughout Notre Dame and surrounding areas in Indiana."
               }
             ]}
           />
@@ -378,7 +378,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             telephone="1-844-844-6638"
             url={url}
             containedInPlace={{
-              name: "Monroe County",
+              name: "Notre Dame",
               type: "AdministrativeArea"
             }}
           />
@@ -432,7 +432,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[
               { type: "Daily Rental", description: "4-Seater from $245/day, 6-Seater from $295/day, Utility from $245/day" },
-              { type: "Delivery", description: "Professional delivery within Monroe County" },
+              { type: "Delivery", description: "Professional delivery within Notre Dame" },
               { type: "Insurance", description: "Full coverage included with all rentals" }
             ]}
           />
@@ -534,9 +534,9 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             url="https://notredamegolfcarts.com/rentals"
             address={{
               streetAddress: "Service Area",
-              addressLocality: "Monroe County",
+              addressLocality: "Notre Dame",
               addressRegion: "IN",
-              postalCode: "18101",
+              postalCode: "46556",
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
@@ -547,7 +547,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               { type: "Daily Rental", description: "4-Seater and Utility from $245/day, 6-Seater from $295/day" },
               { type: "Weekly Rental", description: "Save with weekly rates starting at $1,400/week" },
               { type: "Monthly Rental", description: "Best value with monthly rates starting at $4,200/month" },
-              { type: "Delivery", description: "Professional delivery throughout Monroe County" },
+              { type: "Delivery", description: "Professional delivery throughout Notre Dame" },
               { type: "Insurance", description: "Full coverage included with all rentals" }
             ]}
           />
@@ -555,7 +555,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             itemOffered={{
               name: "Golf Cart Rental",
               type: "Service",
-              description: "Daily, weekly, and monthly golf cart rentals in Monroe County",
+              description: "Daily, weekly, and monthly golf cart rentals in Notre Dame",
               category: "Rental Service"
             }}
             priceSpecification={[

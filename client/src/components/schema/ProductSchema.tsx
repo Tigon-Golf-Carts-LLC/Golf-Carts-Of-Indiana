@@ -84,7 +84,7 @@ export default function ProductSchema({
           "email": "info@notredamegolfcarts.com",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Monroe County",
+            "addressLocality": "Notre Dame",
             "addressRegion": "IN",
             "addressCountry": "US"
           }

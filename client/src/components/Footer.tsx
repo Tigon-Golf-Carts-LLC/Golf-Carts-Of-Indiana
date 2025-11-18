@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
-              Monroe County's premier golf cart dealership serving customers across 
+              Notre Dame's premier golf cart dealership serving customers across 
               the region with quality carts and expert service.
             </p>
           </div>
@@ -65,7 +65,7 @@ export default function Footer() {
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
-                Monroe County's premier golf cart dealership serving customers across 
+                Notre Dame's premier golf cart dealership serving customers across 
                 the region with quality carts and expert service.
               </p>
             </div>
@@ -137,10 +137,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Towns Served - Monroe County */}
+        {/* Towns Served - Notre Dame Area */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Monroe County Locations We Serve
+            Notre Dame Area Locations We Serve
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
             {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality) => (
@@ -164,7 +164,7 @@ export default function Footer() {
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Notredame Golf Carts - Serving Monroe County locations with premium golf carts and exceptional service.
+              Notredame Golf Carts - Serving Notre Dame locations with premium golf carts and exceptional service.
             </div>
           </div>
         </div>

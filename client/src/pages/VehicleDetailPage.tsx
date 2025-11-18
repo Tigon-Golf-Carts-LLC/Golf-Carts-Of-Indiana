@@ -100,7 +100,7 @@ export default function VehicleDetailPage() {
       <Helmet>
         <title>{vehicle.name} - ${vehicle.price.toLocaleString()} | Notredame Golf Carts</title>
         <meta name="description" content={`${vehicle.name} for sale at Notredame Golf Carts. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
-        <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Monroe County golf carts, TIGON dealer Indiana, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
+        <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Notre Dame golf carts, TIGON dealer Indiana, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
         <link rel="canonical" href={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
         
         {/* Open Graph */}

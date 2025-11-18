@@ -23,7 +23,7 @@ export default function DenagoEvRoverXl6Page() {
         "Superior Build Quality",
         "Modern Design"
       ]}
-      description="Extended 6-seat configuration with premium materials and enhanced comfort features. The DENAGO EV ROVER XL6 represents the pinnacle of family electric vehicle luxury in Monroe County. Call 1-844-844-6638."
+      description="Extended 6-seat configuration with premium materials and enhanced comfort features. The DENAGO EV ROVER XL6 represents the pinnacle of family electric vehicle luxury in Notre Dame. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/rover-xl6/"
     />
   );

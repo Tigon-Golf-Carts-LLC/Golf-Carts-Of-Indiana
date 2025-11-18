@@ -24,10 +24,10 @@ export default function HomePage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Notredame Golf Carts - Premier Indiana Dealership",
-    baseDescription: "Serving all 20 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout Notre Dame, IN.",
+    baseDescription: "Serving Notre Dame, Indiana with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the area.",
     pageType: "home",
     canonicalPath: "/",
-    keywords: ["premium golf cart dealer", "Indiana electric vehicles", "Monroe County showroom"],
+    keywords: ["premium golf cart dealer", "Indiana electric vehicles", "Notre Dame showroom"],
     heroBackgroundSeed: "home"
   });
 
@@ -63,7 +63,7 @@ export default function HomePage() {
             },
             {
               author: "Maria Garcia",
-              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Monroe County.",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Notre Dame.",
               reviewRating: 5,
               datePublished: "2025-01-20",
               headline: "Professional and affordable"
@@ -87,8 +87,7 @@ export default function HomePage() {
                 Notredame Golf Carts - Premier Indiana Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving all 39 Monroe County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions. 
-                Serving Monroe County, and all surrounding towns, townships, and Indiana communities in Monroe County.
+                Serving Notre Dame, Indiana and all surrounding communities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the area.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">

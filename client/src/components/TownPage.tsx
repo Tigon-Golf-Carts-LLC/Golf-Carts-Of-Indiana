@@ -58,9 +58,9 @@ export default function TownPage({ townName, townType }: TownPageProps) {
   const fullTownName = `${townName} ${townType}`;
   
   // SEO optimization
-  const pageTitle = `${townName} Golf Carts - Monroe County's Premier Dealership | Sales, Service & Rentals`;
+  const pageTitle = `${townName} Golf Carts - Notre Dame's Premier Dealership | Sales, Service & Rentals`;
   const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Notredame Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
-  const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Monroe County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
+  const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Notre Dame golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
   const canonicalUrl = `https://notredamegolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
   const breadcrumbItems = [
@@ -87,7 +87,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                {townName} Golf Carts - Monroe County's Premier Dealership
+                {townName} Golf Carts - Notre Dame's Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
                 Professional golf cart sales, service, and rentals in {fullTownName}. 
@@ -333,7 +333,7 @@ export default function TownPage({ townName, townType }: TownPageProps) {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Delivery and pickup available throughout {fullTownName} and surrounding Monroe County areas.
+                    Delivery and pickup available throughout {fullTownName} and surrounding Notre Dame areas.
                   </p>
                 </CardContent>
               </Card>

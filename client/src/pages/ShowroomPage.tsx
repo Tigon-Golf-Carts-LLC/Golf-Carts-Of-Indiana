@@ -15,7 +15,7 @@ export default function ShowroomPage() {
     baseDescription: "Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County with expert sales and service.",
     pageType: "general",
     canonicalPath: "/showroom",
-    keywords: ["TIGON Golf Carts showroom", "Monroe County golf cart dealership", "Pocono Pines golf carts", "Scranton golf carts"],
+    keywords: ["TIGON Golf Carts showroom", "Notre Dame golf cart dealership", "Pocono Pines golf carts", "Scranton golf carts"],
     ogImage: "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
     heroBackgroundSeed: "showroom"
   });

@@ -23,7 +23,7 @@ export default function DenagoEvNomadXlPage() {
         "Advanced Battery System",
         "Premium Interior"
       ]}
-      description="Extended range and premium off-road capabilities for serious adventurers. The DENAGO EV NOMAD XL offers enhanced cargo space and all-weather protection for Monroe County expeditions. Call 1-844-844-6638."
+      description="Extended range and premium off-road capabilities for serious adventurers. The DENAGO EV NOMAD XL offers enhanced cargo space and all-weather protection for Notre Dame expeditions. Call 1-844-844-6638."
       tigoUrl="https://tigongolfcarts.com/denago-ev/nomad-xl/"
     />
   );

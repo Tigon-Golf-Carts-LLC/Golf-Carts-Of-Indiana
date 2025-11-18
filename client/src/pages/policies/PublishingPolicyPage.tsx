@@ -7,7 +7,7 @@ export default function PublishingPolicyPage() {
       <SEOHead 
         title="Publishing Policy | Notredame Golf Carts"
         description="Learn about Notredame Golf Carts' content publishing standards, guidelines for user-generated content, and editorial policies for our Indiana website."
-        keywords="publishing policy, content policy, Monroe County golf carts, editorial guidelines"
+        keywords="publishing policy, content policy, Notre Dame golf carts, editorial guidelines"
       />
       
       {/* Hero Section */}
