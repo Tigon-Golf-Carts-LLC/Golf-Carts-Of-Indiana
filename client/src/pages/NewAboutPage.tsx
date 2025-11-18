@@ -14,7 +14,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing Monroe County with the best golf cart experience."
+      description: "Passionate about providing Notre Dame with the best golf cart experience."
     },
     {
       name: "Sarah Martinez",
@@ -50,7 +50,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve Monroe County with personalized, community-focused service."
+      description: "Proud to serve Notre Dame with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -63,7 +63,7 @@ export default function NewAboutPage() {
     <>
       <SEOHead 
         title="About Notredame Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Notredame Golf Carts, Indiana's trusted golf cart dealer serving all 20 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
+        description="Learn about Notredame Golf Carts, Indiana's trusted golf cart dealer serving all 20 communities with premium DENAGO and EVOLUTION vehicles since 2010."
         keywords="Notre Dame golf carts, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer"
         canonicalUrl="https://notredamegolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
@@ -78,8 +78,8 @@ export default function NewAboutPage() {
               About Notredame Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
-              Since 2010, we've been Monroe County's premier destination for premium golf carts, 
-              exceptional service, and unmatched customer care. Serving all 20 municipalities 
+              Since 2010, we've been Notre Dame's premier destination for premium golf carts, 
+              exceptional service, and unmatched customer care. Serving all 20 communities 
               across the Pocono Mountains region with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -110,24 +110,24 @@ export default function NewAboutPage() {
                     most beautiful and recreational county.
                   </p>
                   <p>
-                    Monroe County stands as one of Indiana's most scenic and recreational regions, encompassing 
+                    Notre Dame stands as one of Indiana's most scenic and recreational regions, encompassing 
                     everything from the vibrant borough of Stroudsburg to the charming Delaware Water Gap, from the 
-                    beautiful Pocono Mountains to the family-friendly communities throughout our 20 municipalities.
+                    beautiful Pocono Mountains to the family-friendly communities throughout our 20 communities.
                   </p>
                   <p>
                     Our county holds a special place in American recreation as the heart of the Pocono Mountains region and 
-                    home to some of Indiana's most beautiful natural landscapes. Today, Monroe County is equally 
+                    home to some of Indiana's most beautiful natural landscapes. Today, Notre Dame is equally 
                     renowned for its world-class golf courses, resort communities, and outdoor recreation that attracts visitors who appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
                     With Stroudsburg's historic downtown district, proximity to major highways including I-80 and Route 611, 
-                    and some of Indiana's most beautiful resort communities, Monroe County attracts residents and visitors who 
+                    and some of Indiana's most beautiful resort communities, Notre Dame attracts residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
                     From the rural townships of Paradise and Chestnuthill to the bustling boroughs of Stroudsburg and East Stroudsburg, we proudly serve all 
-                    Monroe County municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
+                    Notre Dame municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
                     less than the finest quality and service.
                   </p>
                 </div>
@@ -135,7 +135,7 @@ export default function NewAboutPage() {
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">15+</div>
-                    <div className="text-sm text-gray-600">Years Serving Monroe County</div>
+                    <div className="text-sm text-gray-600">Years Serving Notre Dame</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">500+</div>
@@ -158,7 +158,7 @@ export default function NewAboutPage() {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Monroe County Service Area Map"
+                    title="Notre Dame Service Area Map"
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
@@ -243,7 +243,7 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Northern Monroe County</CardTitle>
+                  <CardTitle>Northern Notre Dame</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">Pocono, Barrett, and northern communities</p>
@@ -254,7 +254,7 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Central Monroe County</CardTitle>
+                  <CardTitle>Central Notre Dame</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">Stroudsburg, East Stroudsburg, Delaware Water Gap, and central townships</p>
@@ -265,7 +265,7 @@ export default function NewAboutPage() {
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Southern Monroe County</CardTitle>
+                  <CardTitle>Southern Notre Dame</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">Mount Pocono, Scotrun, Swiftwater, and southern townships</p>
@@ -275,7 +275,7 @@ export default function NewAboutPage() {
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Monroe County Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Complete Notre Dame Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
                 {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality, index: number) => (
                   <div key={index} className="text-center py-2">
@@ -361,7 +361,7 @@ export default function NewAboutPage() {
                   <CardTitle>Service Area</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">All 20 Monroe County municipalities plus delivery service</p>
+                  <p className="text-gray-600">All 20 Notre Dame municipalities plus delivery service</p>
                 </CardContent>
               </Card>
             </div>

@@ -28,7 +28,7 @@ export default function ContactPage() {
     baseDescription: "Get in touch with Notredame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Stroudsburg, IN 46556. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
     pageType: "contact",
     canonicalPath: "/contact",
-    keywords: ["Monroe County showroom", "Stroudsburg location", "golf cart consultation", "Indiana service center"],
+    keywords: ["Notre Dame showroom", "Stroudsburg location", "golf cart consultation", "Indiana service center"],
     heroBackgroundSeed: "contact"
   });
 

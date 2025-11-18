@@ -7,7 +7,7 @@ export default function RentalPolicyPage() {
       <SEOHead 
         title="Rental Policy | Notredame Golf Carts"
         description="Complete golf cart rental policy for Notredame Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Indiana golf cart rentals."
-        keywords="rental policy, golf cart rental, Monroe County rentals, Indiana golf cart rental policy"
+        keywords="rental policy, golf cart rental, Notre Dame rentals, Indiana golf cart rental policy"
       />
       
       {/* Hero Section */}

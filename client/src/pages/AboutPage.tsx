@@ -12,10 +12,10 @@ export default function AboutPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "About Notredame Golf Carts",
-    baseDescription: "Since 2008, Notredame Golf Carts has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving all 20 municipalities across the Pocono Mountains region with expert sales, service, and rentals.",
+    baseDescription: "Since 2008, Notredame Golf Carts has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving Notre Dame and surrounding Indiana communities with expert sales, service, and rentals.",
     pageType: "about",
     canonicalPath: "/about",
-    keywords: ["golf cart company history", "Indiana dealership since 2008", "Pocono Mountains golf carts", "authorized dealer team"],
+    keywords: ["golf cart company history", "Indiana dealership since 2008", "Notre Dame golf carts", "authorized dealer team"],
     heroBackgroundSeed: "about"
   });
   
@@ -41,11 +41,11 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2008", event: "Notredame Golf Carts founded in Stroudsburg" },
+    { year: "2008", event: "Notredame Golf Carts founded in Notre Dame, Indiana" },
     { year: "2010", event: "Became authorized EVOLUTION dealer" },
-    { year: "2013", event: "Expanded to serve all Monroe County municipalities" },
+    { year: "2013", event: "Expanded to serve all Notre Dame area communities" },
     { year: "2016", event: "Added DENAGO to our brand portfolio" },
-    { year: "2019", event: "Opened service center in East Stroudsburg" },
+    { year: "2019", event: "Opened expanded service center in South Bend" },
     { year: "2024", event: "Reached 750+ satisfied customers across Indiana" }
   ];
 
@@ -78,19 +78,19 @@ export default function AboutPage() {
               name: "Mike Johnson",
               jobTitle: "General Manager",
               description: "Leading our team with passion for customer service and golf cart expertise with 15+ years experience",
-              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Notre Dame Golf Carts (1)_1756141613254.png"
             },
             {
               name: "Sarah Davis",
               jobTitle: "Service Manager", 
               description: "Certified technician ensuring quality service and customer satisfaction with 12+ years experience",
-              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Notre Dame Golf Carts (1)_1756141613254.png"
             },
             {
               name: "Tom Wilson",
               jobTitle: "Sales Director",
               description: "Helping customers find the perfect golf cart for their needs with 10+ years experience",
-              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Notre Dame Golf Carts (1)_1756141613254.png"
             }
           ]
         }}
@@ -103,9 +103,9 @@ export default function AboutPage() {
             About Notredame Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Since 2008, we've been Monroe County's premier destination for premium golf carts, 
-            exceptional service, and unmatched customer care. Serving all 20 municipalities 
-            across the Pocono Mountains region of Indiana with pride and professionalism.
+            Since 2008, we've been Notre Dame's premier destination for premium golf carts, 
+            exceptional service, and unmatched customer care. Serving Notre Dame, South Bend, 
+            Mishawaka, and surrounding Indiana communities with pride and professionalism.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -126,21 +126,21 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Founded in 2008 in Notre Dame, Indiana, Notredame Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region of Indiana.
+                to provide high-quality golf carts and exceptional service to customers throughout the Notre Dame and greater South Bend area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Monroe County is home to the vibrant boroughs of Stroudsburg and East Stroudsburg, along with thriving communities like 
-                Mount Pocono, Delaware Water Gap, and the scenic Pocono townships. Our location in the heart of the Pocono Mountains drives our commitment to excellence 
-                and serves the outdoor recreation and residential communities throughout the area.
+                Notre Dame is home to the world-renowned University of Notre Dame, along with vibrant communities like 
+                South Bend, Mishawaka, Elkhart, and Granger. Our location in the heart of northern Indiana drives our commitment to excellence 
+                and serves both campus communities and residential neighborhoods throughout the area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our county is known for its breathtaking natural beauty and outdoor recreation, home to numerous resorts, lakes and thriving 
-                business communities. This tradition of excellence continues in our approach to golf cart sales and service, where we 
+                Our region is known for its university heritage, thriving business community, and strong sense of community pride. 
+                This tradition of excellence continues in our approach to golf cart sales and service, where we 
                 combine cutting-edge technology with personalized customer care.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Today, we're proud to serve the diverse communities across Monroe County's 20 municipalities, from Stroudsburg 
-                to East Stroudsburg, from Mount Pocono to Tobyhanna, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
+                Today, we're proud to serve the diverse communities across the Notre Dame area, from South Bend 
+                to Mishawaka, from Granger to Elkhart, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services
@@ -272,24 +272,24 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Monroe County</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Notre Dame</h2>
               <p className="text-lg text-gray-600 mb-6">
-                From our locations serving Monroe County and beyond, we proudly serve customers throughout 
-                the Pocono Mountains region. Our commitment to quality service extends across our 
-                entire service area with multiple convenient locations.
+                From our location in Notre Dame, we proudly serve customers throughout 
+                northern Indiana. Our commitment to quality service extends across our 
+                entire service area with convenient access to all communities.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Notredame Golf Carts - Stroudsburg</span>
+                  <span className="text-gray-700 font-medium">Notredame Golf Carts - Notre Dame</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Notredame Golf Carts - East Stroudsburg</span>
+                  <span className="text-gray-700 font-medium">Serving South Bend</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Notredame Golf Carts - Mount Pocono</span>
+                  <span className="text-gray-700 font-medium">Serving Mishawaka</span>
                 </div>
               </div>
               <div className="flex items-center gap-4 mb-6">
@@ -304,7 +304,7 @@ export default function AboutPage() {
             {/* Google Maps Embed - Mobile Responsive */}
             <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48447.7!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8816cd5f56c8c0b1%3A0x1c7e1e8e8e8e8e8e!2sNotre%20Dame%2C%20IN%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus" 
                 className="w-full h-64 sm:h-80 md:h-96"
                 style={{border:0}}
                 allowFullScreen 
@@ -317,12 +317,12 @@ export default function AboutPage() {
 
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Monroe County Municipalities We Serve</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Notre Dame Area Communities We Serve</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
-                "Barrett Township", "Chestnuthill Township", "Coolbaugh Township", "Delaware Water Gap", "East Stroudsburg", "Eldred Township",
-                "Hamilton Township", "Jackson Township", "Middle Smithfield Township", "Mount Pocono", "Paradise Township", "Pocono Township",
-                "Polk Township", "Price Township", "Ross Township", "Smithfield Township", "Stroud Township", "Stroudsburg", "Tobyhanna Township", "Tunkhannock Township"
+                "South Bend", "Mishawaka", "Elkhart", "Granger", "Notre Dame", "Penn Township", "Clay Township", "Centre Township",
+                "Portage Township", "German Township", "Liberty Township", "Union Township", "Warren Township", "Greene Township",
+                "Madison Township", "Harris Township", "Olive Township", "Baugo Township", "Concord Township", "Washington Township"
               ].map((town, index) => (
                 <div key={index} className="py-1">
                   {town}
@@ -340,7 +340,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Notredame Golf Carts difference in the Pocono Mountains
+            Experience the Notredame Golf Carts difference in Notre Dame, Indiana
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

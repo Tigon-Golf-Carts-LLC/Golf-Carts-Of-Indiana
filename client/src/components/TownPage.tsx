@@ -22,7 +22,7 @@ const getGoogleMapsEmbedUrl = (townName: string, townType: string): string => {
   const townKey = `${townName.toLowerCase().replace(/\s+/g, '')}_${townType.toLowerCase()}`;
   
   const townMaps: Record<string, string> = {
-    // Notre Dame, IN municipalities with Google Maps embeds (using Monroe County coordinates as fallback)
+    // Notre Dame, IN municipalities with Google Maps embeds (using Notre Dame coordinates as fallback)
     'barrett_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBarrett%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
     'chestnuthill_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sChestnuthill%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
     'coolbaugh_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCoolbaugh%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
@@ -45,7 +45,7 @@ const getGoogleMapsEmbedUrl = (townName: string, townType: string): string => {
     'tunkhannock_township': `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sTunkhannock%20Township%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`,
   };
   
-  // Return specific map or fallback to generic Monroe County embed for smaller towns
+  // Return specific map or fallback to generic Notre Dame embed for smaller towns
   return townMaps[townKey] || `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2s${encodeURIComponent(townName + ' ' + townType)}%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817670000!5m2!1sen!2sus`;
 };
 

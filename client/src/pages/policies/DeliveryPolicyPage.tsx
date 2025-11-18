@@ -7,7 +7,7 @@ export default function DeliveryPolicyPage() {
       <SEOHead 
         title="Delivery Policy | Notredame Golf Carts"
         description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Notre Dame, Indiana. Free delivery zones and scheduling information."
-        keywords="delivery policy, golf cart delivery, Monroe County delivery, Indiana golf cart shipping"
+        keywords="delivery policy, golf cart delivery, Notre Dame delivery, Indiana golf cart shipping"
       />
       
       {/* Hero Section */}
@@ -42,7 +42,7 @@ export default function DeliveryPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Free Delivery Zone</h3>
               <p className="mb-4">Complimentary delivery within:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>All Monroe County municipalities (39 locations)</li>
+                <li>All Notre Dame municipalities (39 locations)</li>
                 <li>20-mile radius from TIGON Golf Carts Pocono location</li>
                 <li>15-mile radius from TIGON Golf Carts Scranton location</li>
                 <li>Minimum purchase of $5,000 for golf cart sales</li>
@@ -84,7 +84,7 @@ export default function DeliveryPolicyPage() {
                 <li>Available for orders placed before 2:00 PM</li>
                 <li>Subject to vehicle availability</li>
                 <li>Additional $50 rush delivery fee within free zone</li>
-                <li>Limited to Monroe County municipalities</li>
+                <li>Limited to Notre Dame municipalities</li>
               </ul>
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Standard Rental Delivery</h3>

@@ -7,7 +7,7 @@ export default function StoragePolicyPage() {
       <SEOHead 
         title="Storage Policy | Notredame Golf Carts"
         description="Learn about golf cart storage services and policies at Notredame Golf Carts. Seasonal storage, maintenance, and security information for Indiana customers."
-        keywords="golf cart storage, storage policy, Monroe County storage, Indiana golf cart storage"
+        keywords="golf cart storage, storage policy, Notre Dame storage, Indiana golf cart storage"
       />
       
       {/* Hero Section */}

@@ -190,7 +190,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               Golf Cart Rentals in {municipality.name}
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
-              Rent premium electric golf carts in {municipality.name} {municipality.type}, Monroe County. 
+              Rent premium electric golf carts in {municipality.name} {municipality.type}, Notre Dame area. 
               Daily, weekly, and monthly rental options available with professional delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -240,7 +240,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               Golf Cart Rental Pricing for {municipality.name}
             </h2>
             <p className="text-xl text-gray-600">
-              Flexible rental options to meet your needs in {municipality.name} {municipality.type}, Monroe County.
+              Flexible rental options to meet your needs in {municipality.name} {municipality.type}, Notre Dame area.
             </p>
           </div>
 
