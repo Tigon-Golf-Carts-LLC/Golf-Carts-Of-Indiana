@@ -29,7 +29,7 @@ export const generateOrganizationSchema = () => ({
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1040 IN-611",
-    "addressLocality": "Stroudsburg",
+    "addressLocality": "Notre Dame",
     "addressRegion": "IN",
     "postalCode": "46556",
     "addressCountry": "US"
@@ -103,7 +103,7 @@ export const generateLocalBusinessSchema = () => ({
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1040 IN-611",
-    "addressLocality": "Stroudsburg",
+    "addressLocality": "Notre Dame",
     "addressRegion": "IN",
     "postalCode": "46556",
     "addressCountry": "US"
@@ -114,10 +114,10 @@ export const generateLocalBusinessSchema = () => ({
     "longitude": -75.1946
   },
   "areaServed": [
-    "Stroudsburg", "East Stroudsburg", "Mount Pocono", "Delaware Water Gap", "Barrett Township", "Chestnuthill Township",
+    "Notre Dame", "Mishawaka", "Granger", "Elkhart", "Barrett Township", "Chestnuthill Township",
     "Coolbaugh Township", "Eldred Township", "Hamilton Township", "Jackson Township", "Middle Smithfield Township",
-    "Paradise Township", "Pocono Township", "Polk Township", "Price Township", "Ross Township",
-    "Smithfield Township", "Stroud Township", "Tobyhanna Township", "Tunkhannock Township"
+    "Paradise Township", "Notre Dame Township", "Polk Township", "Price Township", "Ross Township",
+    "Smithfield Township", "Stroud Township", "Granger Township", "Tunkhannock Township"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

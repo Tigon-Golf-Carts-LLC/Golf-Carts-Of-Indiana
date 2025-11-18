@@ -54,7 +54,7 @@ export default function DenagoPage() {
     baseDescription: "Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge technology with rugged durability for unmatched adventure capability in Notre Dame, Indiana. Premium EV CITY, EV NOMAD, and EV ROVER series available.",
     pageType: "general",
     canonicalPath: "/denago",
-    keywords: ["DENAGO golf carts", "electric off-road vehicles", "premium golf carts Monroe County", "all-wheel drive golf carts"],
+    keywords: ["DENAGO golf carts", "electric off-road vehicles", "premium golf carts Notre Dame area", "all-wheel drive golf carts"],
     ogImage: "/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg",
     heroBackgroundSeed: "denago"
   });
@@ -207,7 +207,7 @@ export default function DenagoPage() {
                   DENAGO represents the pinnacle of electric vehicle engineering, combining innovative 
                   all-wheel drive technology with premium comfort features. Each DENAGO is built to 
                   exceed expectations on any terrain while delivering exceptional reliability for 
-                  Monroe County's diverse mountainous and suburban landscapes.
+                  Notre Dame area's diverse mountainous and suburban landscapes.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {denagoFeatures.map((feature, index) => (
@@ -241,7 +241,7 @@ export default function DenagoPage() {
                 DENAGO Vehicle Series
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the complete lineup of DENAGO electric vehicles available in Monroe County
+                Discover the complete lineup of DENAGO electric vehicles available in Notre Dame area
               </p>
             </div>
 
@@ -297,7 +297,7 @@ export default function DenagoPage() {
                 Complete DENAGO Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 DENAGO electric vehicle models available in Monroe County
+                Explore all 6 DENAGO electric vehicle models available in Notre Dame area
               </p>
             </div>
 
@@ -389,7 +389,7 @@ export default function DenagoPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose DENAGO in Monroe County?
+                Why Choose DENAGO in Notre Dame area?
               </h2>
             </div>
 
@@ -416,7 +416,7 @@ export default function DenagoPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Service</h3>
                 <p className="text-gray-600">
-                  Expert DENAGO service and support right here in Monroe County with 
+                  Expert DENAGO service and support right here in Notre Dame area with 
                   genuine parts and factory-trained technicians.
                 </p>
               </div>

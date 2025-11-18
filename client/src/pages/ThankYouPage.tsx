@@ -135,11 +135,11 @@ export default function ThankYouPage() {
           <Card className="bg-blue-50 border-blue-200 mb-12">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Serving All of Monroe County
+                Serving All of Notre Dame area
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Professional golf cart sales, rentals, and service delivered to all 20 Monroe County municipalities - 
-                from Stroudsburg Borough to the scenic townships throughout the Pocono Mountains region.
+                Professional golf cart sales, rentals, and service delivered to all 20 Notre Dame area municipalities - 
+                from Notre Dame Borough to the scenic townships throughout the northern Indiana region.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>
@@ -149,9 +149,9 @@ export default function ThankYouPage() {
                   <p className="text-theme-orange font-semibold">(215) 595-8736</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Notre Dames</h3>
                   <p className="text-gray-600 text-sm mb-1">1712 Indiana 940</p>
-                  <p className="text-gray-600 text-sm mb-1">Pocono Pines, IN 18350</p>
+                  <p className="text-gray-600 text-sm mb-1">Notre Dame Pines, IN 18350</p>
                   <p className="text-theme-orange font-semibold">(570) 643-0152</p>
                 </div>
               </div>

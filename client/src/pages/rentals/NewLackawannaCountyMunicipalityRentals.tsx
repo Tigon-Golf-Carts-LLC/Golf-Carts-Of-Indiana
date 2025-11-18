@@ -21,8 +21,8 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
   const pageTitle = `Golf Cart Rentals in ${municipality.name} ${municipality.type} | Notredame Golf Carts`;
   const metaDescription = `Rent electric golf carts in ${municipality.name}, Notre Dame, IN. Daily, weekly & monthly rates. Street-legal carts with professional delivery service. Reserve today!`;
 
-  // Google Maps embed URL for the specific municipality in Monroe County
-  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Monroe%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1753817600000`;
+  // Google Maps embed URL for the specific municipality in Notre Dame area
+  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Monroe%20County%2C%20IN!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   // Why Choose Our Golf Cart Rentals Features
   const whyChooseFeatures = [
@@ -176,7 +176,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
         description={metaDescription}
         keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Notre Dame golf cart rental, electric golf cart rental ${municipality.name}`}
         canonicalUrl={`https://notredamegolfcarts.com/rentals/${municipality.slug}`}
-        ogImage="https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        ogImage="https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}
@@ -310,7 +310,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 We provide professional delivery and pickup service throughout {municipality.name} {municipality.type}, 
-                Monroe County. Our rental golf carts are street-legal, fully charged, and ready for immediate use.
+                Notre Dame area. Our rental golf carts are street-legal, fully charged, and ready for immediate use.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center">

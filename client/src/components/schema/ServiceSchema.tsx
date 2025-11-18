@@ -37,13 +37,13 @@ export default function ServiceSchema({
         "email": "info@notredamegolfcarts.com",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Stroudsburg",
+          "addressLocality": "Notre Dame",
           "addressRegion": "IN",
           "addressCountry": "US"
         },
         "logo": {
           "@type": "ImageObject",
-          "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+          "url": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png"
         }
       },
       "areaServed": {

@@ -605,7 +605,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Always include main company image */}
       <ImageObjectSchema
-        url="/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        url="/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png"
         name="Notredame Golf Carts Logo"
         description="Notredame Golf Carts company logo featuring professional golf cart branding"
         width={400}
@@ -685,7 +685,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             uploadDate="2024-12-01"
             publisher={{
               name: "Notredame Golf Carts",
-              logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              logo: "/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png"
             }}
           /> */}
         </>

@@ -166,7 +166,7 @@ export function TermsOfServicePage() {
                 <p className="mb-2">Email: info@notredamegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, IN 19440 | (215) 595-8736</p>
-                <p className="mb-2">TIGON Golf Carts Poconos: 1712 Indiana 940, Pocono Pines, IN 18350 | (570) 643-0152</p>
+                <p className="mb-2">TIGON Golf Carts Notre Dames: 1712 Indiana 940, Notre Dame Pines, IN 18350 | (570) 643-0152</p>
                 <p>Website: notredamegolfcarts.com</p>
               </div>
 

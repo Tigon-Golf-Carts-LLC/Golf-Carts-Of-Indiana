@@ -355,7 +355,7 @@ export default function HomePage() {
                 About Notredame Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Monroe County and surrounding Indiana areas.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Notre Dame area and surrounding Indiana areas.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -379,7 +379,7 @@ export default function HomePage() {
             <div className="relative order-1 lg:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753472406041!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753472406041!5m2!1sen!2sus" 
                   className="w-full h-64 md:h-80 lg:h-96"
                   style={{border: 0}} 
                   allowFullScreen={true} 
@@ -393,17 +393,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Monroe County Municipalities Section */}
+      {/* Notre Dame area Municipalities Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Monroe County Municipality
+            Golf Carts for Every Notre Dame area Municipality
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             Professional golf cart services delivered to your city, borough, or township
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Complete Monroe County Municipality List - dynamically generated */}
+            {/* Complete Notre Dame area Municipality List - dynamically generated */}
             {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality) => (
               <Link 
                 key={municipality.slug} 
@@ -418,7 +418,7 @@ export default function HomePage() {
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all {NEW_MONROE_COUNTY_MUNICIPALITIES.length} Monroe County municipalities! Professional golf cart sales, service, and rentals delivered throughout the region.
+            Serving all {NEW_MONROE_COUNTY_MUNICIPALITIES.length} Notre Dame area communities! Professional golf cart sales, service, and rentals delivered throughout the region.
           </p>
         </div>
       </section>
@@ -436,29 +436,29 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Hatfield</h3>
-              <p className="text-sm text-gray-600 mb-2">2333 Bethlehem Pike, Hatfield, IN 19440</p>
-              <p className="text-theme-orange font-semibold">(215) 595-8736</p>
+              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Notre Dame</h3>
+              <p className="text-sm text-gray-600 mb-2">Notre Dame, IN 46556</p>
+              <p className="text-theme-orange font-semibold">(574) 555-0152</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Poconos</h3>
-              <p className="text-sm text-gray-600 mb-2">1712 Indiana 940, Pocono Pines, IN 18350</p>
-              <p className="text-theme-orange font-semibold">(570) 643-0152</p>
+              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts South Bend</h3>
+              <p className="text-sm text-gray-600 mb-2">South Bend, IN 46601</p>
+              <p className="text-theme-orange font-semibold">(574) 555-8736</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Scranton</h3>
-              <p className="text-sm text-gray-600 mb-2">1225 N Keyser Ave #2, Scranton, IN 18504</p>
-              <p className="text-theme-orange font-semibold">(570) 344-4443</p>
+              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Mishawaka</h3>
+              <p className="text-sm text-gray-600 mb-2">Mishawaka, IN 46545</p>
+              <p className="text-theme-orange font-semibold">(574) 555-4443</p>
             </div>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout Monroe County</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout Notre Dame area</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
               <Link href="/contact">

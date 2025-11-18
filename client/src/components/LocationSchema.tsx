@@ -22,8 +22,8 @@ export default function LocationSchema({
       "name": `Notredame Golf Carts - ${municipalityName} ${municipalityType}`,
       "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Notre Dame, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
       "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
-      "image": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
+      "logo": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts_1753809066045.png",
+      "image": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
       "email": "info@notredamegolfcarts.com",
       "address": {

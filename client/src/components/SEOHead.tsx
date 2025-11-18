@@ -103,23 +103,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png";
+      favicon.href = "/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png";
       document.head.appendChild(favicon);
     }
 
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png";
+      appleIcon.href = "/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png";
       document.head.appendChild(appleIcon);
     }
 
@@ -182,7 +182,7 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@notredamegolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "logo": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png",
         "image": `https://notredamegolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",

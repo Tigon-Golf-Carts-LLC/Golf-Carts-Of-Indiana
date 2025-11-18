@@ -10,11 +10,11 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function RentalsPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Golf Cart Rentals in Monroe County",
+    pageTitle: "Golf Cart Rentals in Notre Dame area",
     baseDescription: "Rent premium electric golf carts throughout Notre Dame, Indiana. Daily, weekly, and monthly rental options with full insurance coverage and convenient delivery service. Perfect for events, vacations, and special occasions.",
     pageType: "rental",
     canonicalPath: "/rentals",
-    keywords: ["golf cart rental Monroe County", "Indiana golf cart hire", "vacation rentals", "event golf carts"],
+    keywords: ["golf cart rental Notre Dame area", "Indiana golf cart hire", "vacation rentals", "event golf carts"],
     heroBackgroundSeed: "rentals"
   });
   
@@ -229,7 +229,7 @@ export default function RentalsPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("rentals")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Rentals in Monroe County
+              Golf Cart Rentals in Notre Dame area
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Rent premium electric golf carts throughout Notre Dame, Indiana. Perfect for events, vacations, and special occasions.
@@ -247,7 +247,7 @@ export default function RentalsPage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-8 text-gray-900">
-                Why Choose Monroe County Golf Cart Rentals?
+                Why Choose Notre Dame area Golf Cart Rentals?
               </h2>
             </div>
 

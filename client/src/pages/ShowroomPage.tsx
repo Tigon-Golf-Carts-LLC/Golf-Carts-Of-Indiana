@@ -12,10 +12,10 @@ export default function ShowroomPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Notredame Golf Carts LSV Showrooms",
-    baseDescription: "Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County with expert sales and service.",
+    baseDescription: "Visit our TIGON Golf Carts showrooms in Notre Dame Pines and Scranton, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Notre Dame area with expert sales and service.",
     pageType: "general",
     canonicalPath: "/showroom",
-    keywords: ["TIGON Golf Carts showroom", "Notre Dame golf cart dealership", "Pocono Pines golf carts", "Scranton golf carts"],
+    keywords: ["TIGON Golf Carts showroom", "Notre Dame golf cart dealership", "Notre Dame Pines golf carts", "Scranton golf carts"],
     ogImage: "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
     heroBackgroundSeed: "showroom"
   });
@@ -23,15 +23,15 @@ export default function ShowroomPage() {
   const locations = [
     {
       name: "TIGON GOLF CARS POCONO IN",
-      address: "1712 Indiana 940, Pocono Pines, IN 18350",
+      address: "1712 Indiana 940, Notre Dame Pines, IN 18350",
       phone: "570-643-0152",
       coordinates: "41.10286354605563, -75.48758590250345",
       googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsPoconos/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPoconosPA",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsNotre Dames/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsNotre DamesPA",
       websiteUrl: "https://tigongolfcarts.com/pocono/",
       reviewUrl: "https://g.page/r/CcJL5i1Z2NXtEBM/review",
-      city: "Pocono Pines",
+      city: "Notre Dame Pines",
       type: "physical"
     },
     {
@@ -83,8 +83,8 @@ export default function ShowroomPage() {
             Notredame Golf Carts LSV Showrooms
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Indiana. 
-            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Monroe County.
+            Visit our TIGON Golf Carts showrooms in Notre Dame Pines and Scranton, Indiana. 
+            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Notre Dame area.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -264,7 +264,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Areas We Serve</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout all 19 Monroe County municipalities and surrounding Indiana areas
+            We proudly serve customers throughout all 19 Notre Dame area municipalities and surrounding Indiana areas
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-700">
@@ -284,7 +284,7 @@ export default function ShowroomPage() {
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 mb-4">
-              Serving all of Monroe County including boroughs, townships, and surrounding communities
+              Serving all of Notre Dame area including boroughs, townships, and surrounding communities
             </p>
             <Link href="/contact">
               <Button className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -302,7 +302,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our TIGON Golf Carts showrooms in Pocono Pines or Scranton, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our TIGON Golf Carts showrooms in Notre Dame Pines or Scranton, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

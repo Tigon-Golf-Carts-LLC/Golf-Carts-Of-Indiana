@@ -80,7 +80,7 @@ export default function NewAboutPage() {
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
               Since 2010, we've been Notre Dame's premier destination for premium golf carts, 
               exceptional service, and unmatched customer care. Serving all 20 communities 
-              across the Pocono Mountains region with pride and professionalism.
+              across the northern Indiana region with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -106,27 +106,27 @@ export default function NewAboutPage() {
                 <div className="space-y-4 text-gray-600">
                   <p>
                     Founded in 2010 in Notre Dame, Indiana, Notredame Golf Carts began with a simple mission: 
-                    to provide high-quality golf carts and exceptional service to customers throughout the Pocono Mountains region's 
+                    to provide high-quality golf carts and exceptional service to customers throughout the northern Indiana region's 
                     most beautiful and recreational county.
                   </p>
                   <p>
                     Notre Dame stands as one of Indiana's most scenic and recreational regions, encompassing 
-                    everything from the vibrant borough of Stroudsburg to the charming Delaware Water Gap, from the 
-                    beautiful Pocono Mountains to the family-friendly communities throughout our 20 communities.
+                    everything from the vibrant borough of Notre Dame to the charming Elkhart, from the 
+                    beautiful northern Indiana to the family-friendly communities throughout our 20 communities.
                   </p>
                   <p>
-                    Our county holds a special place in American recreation as the heart of the Pocono Mountains region and 
+                    Our county holds a special place in American recreation as the heart of the northern Indiana region and 
                     home to some of Indiana's most beautiful natural landscapes. Today, Notre Dame is equally 
                     renowned for its world-class golf courses, resort communities, and outdoor recreation that attracts visitors who appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
-                    With Stroudsburg's historic downtown district, proximity to major highways including I-80 and Route 611, 
+                    With Notre Dame's historic downtown district, proximity to major highways including I-80 and Route 611, 
                     and some of Indiana's most beautiful resort communities, Notre Dame attracts residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
-                    From the rural townships of Paradise and Chestnuthill to the bustling boroughs of Stroudsburg and East Stroudsburg, we proudly serve all 
+                    From the rural townships of Paradise and Chestnuthill to the bustling boroughs of Notre Dame and Mishawaka, we proudly serve all 
                     Notre Dame municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
                     less than the finest quality and service.
                   </p>
@@ -151,7 +151,7 @@ export default function NewAboutPage() {
               <div className="relative">
                 <div className="w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-75.3379!3d41.0534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sMonroe%20County%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -246,7 +246,7 @@ export default function NewAboutPage() {
                   <CardTitle>Northern Notre Dame</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Pocono, Barrett, and northern communities</p>
+                  <p className="text-gray-600 mb-4">South Bend, Mishawaka, and northern communities</p>
                   <Badge variant="secondary">8 Municipalities</Badge>
                 </CardContent>
               </Card>
@@ -257,7 +257,7 @@ export default function NewAboutPage() {
                   <CardTitle>Central Notre Dame</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Stroudsburg, East Stroudsburg, Delaware Water Gap, and central townships</p>
+                  <p className="text-gray-600 mb-4">Notre Dame, Mishawaka, Elkhart, and central townships</p>
                   <Badge variant="secondary">8 Municipalities</Badge>
                 </CardContent>
               </Card>
@@ -268,7 +268,7 @@ export default function NewAboutPage() {
                   <CardTitle>Southern Notre Dame</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Mount Pocono, Scotrun, Swiftwater, and southern townships</p>
+                  <p className="text-gray-600 mb-4">Granger, Elkhart, and surrounding communities</p>
                   <Badge variant="secondary">8 Municipalities</Badge>
                 </CardContent>
               </Card>

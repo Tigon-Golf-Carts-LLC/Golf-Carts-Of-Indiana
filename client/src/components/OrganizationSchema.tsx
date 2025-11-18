@@ -12,14 +12,14 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "Notredame Golf Carts",
       "description": "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
       "url": "https://notredamegolfcarts.com",
-      "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
-      "image": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
+      "logo": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts_1753809066045.png",
+      "image": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
       "email": "info@notredamegolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Stroudsburg",
+        "addressLocality": "Notre Dame",
         "addressRegion": "IN",
         "postalCode": "46556",
         "addressCountry": "US"

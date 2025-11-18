@@ -43,7 +43,7 @@ export default function DeliveryPolicyPage() {
               <p className="mb-4">Complimentary delivery within:</p>
               <ul className="list-disc pl-6 mb-6">
                 <li>All Notre Dame municipalities (39 locations)</li>
-                <li>20-mile radius from TIGON Golf Carts Pocono location</li>
+                <li>20-mile radius from TIGON Golf Carts Notre Dame location</li>
                 <li>15-mile radius from TIGON Golf Carts Scranton location</li>
                 <li>Minimum purchase of $5,000 for golf cart sales</li>
                 <li>All rental deliveries within city limits</li>

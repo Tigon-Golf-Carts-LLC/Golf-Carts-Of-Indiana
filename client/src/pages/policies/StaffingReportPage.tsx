@@ -53,7 +53,7 @@ export default function StaffingReportPage() {
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Location Distribution</h3>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>TIGON Golf Carts Pocono Pines:</strong> 18 employees</li>
+                <li><strong>TIGON Golf Carts Notre Dame Pines:</strong> 18 employees</li>
                 <li><strong>TIGON Golf Carts Scranton-Wilkes-Barre:</strong> 14 employees</li>
                 <li><strong>Mobile Service Teams:</strong> 6 employees</li>
               </ul>
