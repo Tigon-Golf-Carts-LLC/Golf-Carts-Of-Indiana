@@ -24,22 +24,22 @@ interface LocalBusinessSchemaProps {
 }
 
 export default function LocalBusinessSchema({
-  name = "Monroe County Golf Carts",
-  description = "Premier golf cart dealership in Monroe County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+  name = "Notredame Golf Carts",
+  description = "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
-    streetAddress: "1040 PA-611",
-    addressLocality: "Stroudsburg",
-    addressRegion: "PA",
-    postalCode: "18360",
+    streetAddress: "",
+    addressLocality: "Notre Dame",
+    addressRegion: "IN",
+    postalCode: "46556",
     addressCountry: "US"
   },
   geo = {
-    latitude: "40.9856",
-    longitude: "-75.1946"
+    latitude: "41.7033",
+    longitude: "-86.2389"
   },
   telephone = "1-844-844-6638",
-  email = "info@monroegolfcarts.com",
-  url = "https://monroegolfcarts.com",
+  email = "info@notredamegolfcarts.com",
+  url = "https://notredamegolfcarts.com",
   openingHours = [
     "Mo-Fr 09:00-18:00",
     "Sa 09:00-17:00",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Monroe County, PA"
+  areaServed = "Notre Dame, IN"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
         "width": 400,
         "height": 400
       },

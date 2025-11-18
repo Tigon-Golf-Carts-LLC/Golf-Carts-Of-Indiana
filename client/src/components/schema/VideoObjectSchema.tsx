@@ -21,7 +21,7 @@ export default function VideoObjectSchema({
   contentUrl, 
   embedUrl, 
   publisher = {
-    name: "Monroe County Golf Carts",
+    name: "Notredame Golf Carts",
     logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
   }
 }: VideoObjectSchemaProps) {

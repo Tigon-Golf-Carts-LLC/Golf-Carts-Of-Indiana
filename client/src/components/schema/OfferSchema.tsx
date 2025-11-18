@@ -34,11 +34,11 @@ export default function OfferSchema({
   validFrom,
   validThrough,
   seller = {
-    name: "Monroe County Golf Carts",
+    name: "Notredame Golf Carts",
     telephone: "1-844-844-6638",
-    email: "info@monroegolfcarts.com"
+    email: "info@notredamegolfcarts.com"
   },
-  eligibleRegion = "Monroe County, PA",
+  eligibleRegion = "Notre Dame, IN",
   priceSpecification = []
 }: OfferSchemaProps) {
   useEffect(() => {
@@ -63,8 +63,8 @@ export default function OfferSchema({
         ...(seller.email && { "email": seller.email }),
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Monroe County",
-          "addressRegion": "PA",
+          "addressLocality": "Notre Dame",
+          "addressRegion": "IN",
           "addressCountry": "US"
         }
       },

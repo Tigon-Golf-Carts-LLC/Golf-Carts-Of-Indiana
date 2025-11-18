@@ -7,9 +7,9 @@ interface WebsiteSchemaProps {
 }
 
 export default function WebsiteSchema({ 
-  url = "https://monroegolfcarts.com",
-  name = "Monroe County Golf Carts",
-  description = "Premier golf cart dealership in Monroe County, Pennsylvania"
+  url = "https://notredamegolfcarts.com",
+  name = "Notredame Golf Carts",
+  description = "Premier golf cart dealership in Notre Dame, Indiana"
 }: WebsiteSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -20,10 +20,10 @@ export default function WebsiteSchema({
       "url": url,
       "publisher": {
         "@type": "Organization",
-        "name": "Monroe County Golf Carts",
+        "name": "Notredame Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+          "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
           "width": 400,
           "height": 400
         }

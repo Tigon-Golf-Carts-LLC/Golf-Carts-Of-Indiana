@@ -12,13 +12,13 @@ interface SiteNavigationSchemaProps {
 
 export default function SiteNavigationSchema({ 
   navigationItems = [
-    { name: "Home", url: "https://monroegolfcarts.com/", description: "Monroe County Golf Carts homepage" },
-    { name: "Inventory", url: "https://monroegolfcarts.com/inventory", description: "Browse our golf cart inventory" },
-    { name: "Rentals", url: "https://monroegolfcarts.com/rentals", description: "Golf cart rental services" },
-    { name: "Services", url: "https://monroegolfcarts.com/services", description: "Golf cart maintenance and repair services" },
-    { name: "Showroom", url: "https://monroegolfcarts.com/showroom", description: "Visit our showroom locations" },
-    { name: "About", url: "https://monroegolfcarts.com/about", description: "About Monroe County Golf Carts" },
-    { name: "Contact", url: "https://monroegolfcarts.com/contact", description: "Contact information and locations" }
+    { name: "Home", url: "https://notredamegolfcarts.com/", description: "Notredame Golf Carts homepage" },
+    { name: "Inventory", url: "https://notredamegolfcarts.com/inventory", description: "Browse our golf cart inventory" },
+    { name: "Rentals", url: "https://notredamegolfcarts.com/rentals", description: "Golf cart rental services" },
+    { name: "Services", url: "https://notredamegolfcarts.com/services", description: "Golf cart maintenance and repair services" },
+    { name: "Showroom", url: "https://notredamegolfcarts.com/showroom", description: "Visit our showroom locations" },
+    { name: "About", url: "https://notredamegolfcarts.com/about", description: "About Notredame Golf Carts" },
+    { name: "Contact", url: "https://notredamegolfcarts.com/contact", description: "Contact information and locations" }
   ]
 }: SiteNavigationSchemaProps) {
   useEffect(() => {
@@ -28,8 +28,8 @@ export default function SiteNavigationSchema({
       "name": "Main Navigation",
       "about": {
         "@type": "WebSite",
-        "name": "Monroe County Golf Carts",
-        "url": "https://monroegolfcarts.com"
+        "name": "Notredame Golf Carts",
+        "url": "https://notredamegolfcarts.com"
       },
       "hasPart": navigationItems.map((item, index) => ({
         "@type": "WebPageElement",

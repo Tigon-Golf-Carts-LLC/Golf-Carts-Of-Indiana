@@ -91,8 +91,8 @@ export default function VehicleSchema({
       "availability": `https://schema.org/${offers?.availability || availability}`,
       "seller": offers?.seller || {
         "@type": "Organization",
-        "name": "Monroe County Golf Carts",
-        "url": "https://monroegolfcarts.com"
+        "name": "Notredame Golf Carts",
+        "url": "https://notredamegolfcarts.com"
       }
     }
   };
