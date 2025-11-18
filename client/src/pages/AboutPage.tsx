@@ -103,9 +103,9 @@ export default function AboutPage() {
             About Notre Dame Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Since 2008, we've been Notre Dame's premier destination for premium golf carts, 
-            exceptional service, and unmatched customer care. Serving Notre Dame, South Bend, 
-            Mishawaka, and surrounding Indiana communities with pride and professionalism.
+            Since 2008, we've been St. Joseph County's premier destination for premium golf carts, 
+            exceptional service, and unmatched customer care. Serving all 22 municipalities 
+            across St. Joseph County, Indiana with pride and professionalism.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -126,12 +126,12 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Founded in 2008 in Notre Dame, Indiana, Notre Dame Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the Notre Dame and greater South Bend area.
+                to provide high-quality golf carts and exceptional service to customers throughout St. Joseph County and the greater South Bend area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Notre Dame is home to the world-renowned University of Notre Dame, along with vibrant communities like 
-                South Bend, Mishawaka, Elkhart, and Granger. Our location in the heart of St. Joseph County, Indiana drives our commitment to excellence 
-                and serves both campus communities and residential neighborhoods throughout the area.
+                St. Joseph County is home to the world-renowned University of Notre Dame, along with vibrant communities like 
+                South Bend, Mishawaka, Osceola, and New Carlisle. Our location in the heart of St. Joseph County drives our commitment to excellence 
+                and serves all 22 municipalities including 2 cities, 7 towns, and 13 townships throughout the county.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Our region is known for its university heritage, thriving business community, and strong sense of community pride. 
@@ -139,8 +139,8 @@ export default function AboutPage() {
                 combine cutting-edge technology with personalized customer care.
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                Today, we're proud to serve the diverse communities across the St. Joseph County, from South Bend 
-                to Mishawaka, from Granger to Elkhart, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
+                Today, we're proud to serve all St. Joseph County municipalities, from South Bend 
+                to Mishawaka, from Walkerton to Roseland, as authorized dealers for EVOLUTION and DENAGO electric golf carts.
               </p>
               <Button className="bg-theme-orange hover:bg-orange-600 text-white w-full sm:w-auto">
                 Learn More About Our Services
@@ -158,7 +158,7 @@ export default function AboutPage() {
                     <div className="text-gray-700">Years Experience</div>
                   </div>
                   <div>
-                    <div className="text-4xl font-bold text-theme-orange mb-2">20</div>
+                    <div className="text-4xl font-bold text-theme-orange mb-2">22</div>
                     <div className="text-gray-700">Municipalities Served</div>
                   </div>
                   <div>
@@ -272,11 +272,11 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving Notre Dame</h2>
+              <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving St. Joseph County</h2>
               <p className="text-lg text-gray-600 mb-6">
                 From our location in Notre Dame, we proudly serve customers throughout 
-                St. Joseph County, Indiana. Our commitment to quality service extends across our 
-                entire service area with convenient access to all communities.
+                all of St. Joseph County, Indiana. Our commitment to quality service extends across 
+                all 22 municipalities with convenient access to every community.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-4">
@@ -285,11 +285,11 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Serving South Bend</span>
+                  <span className="text-gray-700 font-medium">Serving South Bend & Mishawaka</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Serving Mishawaka</span>
+                  <span className="text-gray-700 font-medium">All St. Joseph County Municipalities</span>
                 </div>
               </div>
               <div className="flex items-center gap-4 mb-6">
@@ -317,12 +317,14 @@ export default function AboutPage() {
 
           {/* Towns List Below Map */}
           <div className="mt-12 bg-blue-50 p-8 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-center">Notre Dame Area Communities We Serve</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">All 22 St. Joseph County Municipalities We Serve</h3>
+            <div className="mb-4 text-center text-sm text-gray-600">2 Cities • 7 Towns • 13 Townships</div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 text-sm text-gray-700">
               {[
-                "South Bend", "Mishawaka", "Elkhart", "Granger", "Notre Dame", "Penn Township", "Clay Township", "Centre Township",
-                "Portage Township", "German Township", "Liberty Township", "Union Township", "Warren Township", "Greene Township",
-                "Madison Township", "Harris Township", "Olive Township", "Baugo Township", "Concord Township", "Washington Township"
+                "South Bend", "Mishawaka", "Indian Village", "Lakeville", "New Carlisle", "North Liberty",
+                "Osceola", "Roseland", "Walkerton", "Centre Township", "Clay Township", "German Township",
+                "Greene Township", "Harris Township", "Liberty Township", "Lincoln Township", "Madison Township",
+                "Olive Township", "Penn Township", "Portage Township", "Union Township", "Warren Township"
               ].map((town, index) => (
                 <div key={index} className="py-1">
                   {town}
@@ -340,7 +342,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Notre Dame Golf Carts difference in Notre Dame, Indiana
+            Experience the Notre Dame Golf Carts difference throughout St. Joseph County, Indiana
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
