@@ -78,19 +78,19 @@ export default function AboutPage() {
               name: "Mike Johnson",
               jobTitle: "General Manager",
               description: "Leading our team with passion for customer service and golf cart expertise with 15+ years experience",
-              image: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
             },
             {
               name: "Sarah Davis",
               jobTitle: "Service Manager", 
               description: "Certified technician ensuring quality service and customer satisfaction with 12+ years experience",
-              image: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
             },
             {
               name: "Tom Wilson",
               jobTitle: "Sales Director",
               description: "Helping customers find the perfect golf cart for their needs with 10+ years experience",
-              image: "/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
+              image: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
             }
           ]
         }}

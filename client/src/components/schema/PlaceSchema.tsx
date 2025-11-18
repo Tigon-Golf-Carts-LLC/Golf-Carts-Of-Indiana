@@ -64,7 +64,7 @@ export default function PlaceSchema({
       }),
       "image": {
         "@type": "ImageObject",
-        "url": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts (1)_1756141613254.png"
+        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       }
     };
     

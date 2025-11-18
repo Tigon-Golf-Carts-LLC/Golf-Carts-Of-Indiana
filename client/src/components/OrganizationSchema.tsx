@@ -12,8 +12,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "Notredame Golf Carts",
       "description": "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
       "url": "https://notredamegolfcarts.com",
-      "logo": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts_1753809066045.png",
-      "image": "https://notredamegolfcarts.com/attached_assets/Notredame Golf Carts_1753809066045.png",
+      "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
+      "image": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
       "email": "info@notredamegolfcarts.com",
       "address": {
