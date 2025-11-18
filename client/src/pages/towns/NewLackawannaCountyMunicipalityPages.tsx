@@ -42,7 +42,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         description={metaDescription}
         keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, Notre Dame golf cart sales, electric golf carts ${municipality.name}`}
         canonicalUrl={`https://notredamegolfcarts.com${municipality.url}`}
-        ogImage="https://notredamegolfcarts.com/attached_assets/Notre Dame Golf Carts (1)_1756141613254.png"
+        ogImage="https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}
