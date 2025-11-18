@@ -18,7 +18,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts Monroe County PA, electric golf carts Pennsylvania, DENAGO EVOLUTION golf cart sales service", 
+  keywords = "Notredame Golf Carts, Golf Carts In Notredame, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service", 
   canonicalUrl,
   townName,
   ogImage,
@@ -46,18 +46,18 @@ export default function SEOHead({
   const getOptimalOGImage = (): string => {
     // 1. Use explicitly provided ogImage if available
     if (ogImage) {
-      return ogImage.startsWith('http') ? ogImage : `https://monroegolfcarts.com${ogImage}`;
+      return ogImage.startsWith('http') ? ogImage : `https://notredamegolfcarts.com${ogImage}`;
     }
     
     // 2. Use hero background image based on page type or seed
     if (heroBackgroundSeed || pageType) {
       const seed = heroBackgroundSeed || pageType;
       const heroImage = getRandomBackgroundImage(seed);
-      return `https://monroegolfcarts.com${heroImage}`;
+      return `https://notredamegolfcarts.com${heroImage}`;
     }
     
     // 3. Fallback to logo
-    return "https://monroegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png";
+    return "https://notredamegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png";
   };
   
   const finalOGImage = getOptimalOGImage();
@@ -142,7 +142,7 @@ export default function SEOHead({
     updateOGTag("og:image", finalOGImage);
     updateOGTag("og:image:width", ogImageWidth.toString());
     updateOGTag("og:image:height", ogImageHeight.toString());
-    updateOGTag("og:site_name", "Monroe County Golf Carts");
+    updateOGTag("og:site_name", "Notredame Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -171,19 +171,19 @@ export default function SEOHead({
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Monroe County Golf Carts - ${townName}`,
+        "name": `Notredame Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
           "addressLocality": townName,
-          "addressRegion": "NJ",
+          "addressRegion": "IN",
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@monroegolfcarts.com",
+        "email": "info@notredamegolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://monroegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-        "image": `https://monroegolfcarts.com${ogImage}`,
+        "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "image": `https://notredamegolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

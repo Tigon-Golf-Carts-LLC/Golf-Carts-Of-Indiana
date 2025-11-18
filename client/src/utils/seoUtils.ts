@@ -52,8 +52,9 @@ export function generateSEOMetadata(options: {
 
   // Generate keywords
   const defaultKeywords = [
-    'golf carts Monroe County PA',
-    'electric golf carts Pennsylvania', 
+    'Notredame Golf Carts',
+    'Golf Carts In Notredame',
+    'electric golf carts Indiana', 
     'DENAGO golf carts',
     'EVOLUTION golf carts',
     'golf cart sales service rentals'
@@ -63,7 +64,7 @@ export function generateSEOMetadata(options: {
   const finalKeywords = [...defaultKeywords, ...pageSpecificKeywords, ...keywords].join(', ');
 
   // Generate canonical URL
-  const canonicalUrl = `https://monroegolfcarts.com${canonicalPath}`;
+  const canonicalUrl = `https://notredamegolfcarts.com${canonicalPath}`;
 
   // Determine OG type
   const ogType = getOGType(pageType);
@@ -109,9 +110,9 @@ function getPageSpecificKeywords(
   switch (pageType) {
     case 'home':
       keywords.push(
-        'Monroe County golf cart dealership',
-        'Pennsylvania golf cart dealer',
-        'electric vehicle sales PA',
+        'Notredame golf cart dealership',
+        'Indiana golf cart dealer',
+        'electric vehicle sales IN',
         'golf cart financing'
       );
       break;
@@ -129,16 +130,16 @@ function getPageSpecificKeywords(
     case 'contact':
       keywords.push(
         'golf cart dealership contact',
-        'Monroe County showroom',
-        'Pennsylvania golf cart service',
+        'Notredame showroom',
+        'Indiana golf cart service',
         'golf cart support'
       );
       break;
     case 'about':
       keywords.push(
-        'golf cart company Monroe County',
+        'golf cart company Notredame',
         'electric vehicle expertise',
-        'Pennsylvania golf cart history'
+        'Indiana golf cart history'
       );
       break;
     case 'municipality':
@@ -146,19 +147,19 @@ function getPageSpecificKeywords(
         keywords.push(
           `${townName} golf carts`,
           `golf cart sales ${townName}`,
-          `${townName} PA electric vehicles`
+          `${townName} IN electric vehicles`
         );
       }
       break;
     case 'rental':
       keywords.push(
         'golf cart rentals',
-        'Monroe County rentals',
-        'electric vehicle rental PA'
+        'Notredame rentals',
+        'electric vehicle rental IN'
       );
       break;
     case 'policy':
-      keywords.push('golf cart dealer policies', 'Monroe County terms');
+      keywords.push('golf cart dealer policies', 'Notredame terms');
       break;
   }
 
@@ -208,9 +209,9 @@ export function extractPageTitle(options: {
 
   if (explicitTitle) return explicitTitle;
   if (vehicleName) return vehicleName;
-  if (townName) return `${townName} Golf Cart Sales & Rentals - Monroe County Golf Carts`;
+  if (townName) return `${townName} Golf Cart Sales & Rentals - Notredame Golf Carts`;
   if (fileName) return fileNameToTitle(fileName);
   if (pageType) return fileNameToTitle(pageType);
   
-  return 'Monroe County Golf Carts';
+  return 'Notredame Golf Carts';
 }
