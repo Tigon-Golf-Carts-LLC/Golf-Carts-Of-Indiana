@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png",
+        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png",
+        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
         "width": 400,
         "height": 400
       },

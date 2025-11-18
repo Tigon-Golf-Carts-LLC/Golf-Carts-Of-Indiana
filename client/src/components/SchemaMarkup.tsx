@@ -19,9 +19,9 @@ export const generateOrganizationSchema = () => ({
   "alternateName": "MCGC",
   "description": "Premier golf cart dealer in Notre Dame, Indiana specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
   "url": "https://notredamegolfcarts.com",
-  "logo": "https://notredamegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
+  "logo": "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20area%20Golf%20Carts_1753809066045.png",
   "image": [
-    "https://notredamegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts_1753809066045.png",
+    "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20area%20Golf%20Carts_1753809066045.png",
     "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
   ],
   "telephone": "1-844-844-6638",

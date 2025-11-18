@@ -22,7 +22,7 @@ export default function VideoObjectSchema({
   embedUrl, 
   publisher = {
     name: "Notredame Golf Carts",
-    logo: "/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png"
+    logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
   }
 }: VideoObjectSchemaProps) {
   const videoSchema = {

@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logoImage from "@assets/Notre Dame area Golf Carts (1)_1756141613254.png";
+import logoImage from "@assets/Monroe County Golf Carts (1)_1756141613254.png";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -43,7 +43,7 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-xl font-bold text-theme-primary">MONROE COUNTY</div>
+                <div className="text-xl font-bold text-theme-primary">NOTREDAME</div>
                 <div className="text-xl font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>

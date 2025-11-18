@@ -22,7 +22,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
   const metaDescription = `Rent electric golf carts in ${municipality.name}, Notre Dame, IN. Daily, weekly & monthly rates. Street-legal carts with professional delivery service. Reserve today!`;
 
   // Google Maps embed URL for the specific municipality in Notre Dame area
-  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Monroe%20County%2C%20IN!5e0!3m2!1sen!2sus!4v1753817600000`;
+  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Notre%20Dame%20area%2C%20IN!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   // Why Choose Our Golf Cart Rentals Features
   const whyChooseFeatures = [
@@ -176,7 +176,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
         description={metaDescription}
         keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Notre Dame golf cart rental, electric golf cart rental ${municipality.name}`}
         canonicalUrl={`https://notredamegolfcarts.com/rentals/${municipality.slug}`}
-        ogImage="https://notredamegolfcarts.com/attached_assets/Notre Dame area Golf Carts (1)_1756141613254.png"
+        ogImage="https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}
