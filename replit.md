@@ -86,4 +86,12 @@ I want iterative development. Ask before making major changes.
 - **Geographic Targeting**: All posts optimized for Notre Dame, South Bend, St. Joseph County, and Indiana keywords
 - **Content Features**: AI-ready hero image prompts, comprehensive rental guides, game day transportation tips, campus mobility solutions
 - **Routes**: `/blog` (index) and `/blog/:slug` (individual posts) fully integrated into App.tsx routing
+
+### ✅ Contact Information Update (January 2025)
+- **New Address**: 310 S Dixie Way, South Bend, IN 46637 (updated from 52129 State Road 933)
+- **New Local Phone**: 574-402-4158 (updated from 574-703-0456)
+- **Toll-Free Phone**: 1-844-844-6638 (unchanged)
+- **Email**: info@notredamegolfcarts.com (unchanged)
+- **Update Scope**: All pages, blog posts, SEO files, schema markup, and public documentation files updated with new contact information
+- **Files Updated**: seoConfig.ts, ContactPage.tsx, ShowroomPage.tsx, SchemaMarkup.tsx, blogPosts.ts, robots.txt, schema.json, llms.txt, geo.txt, humans.txt, ai.txt, gpt.txt, claude.txt, nlp.txt, training.txt, security.txt, compliance.txt, ads.txt, accessibility.txt, crawlers.txt, seo.txt
 ```
