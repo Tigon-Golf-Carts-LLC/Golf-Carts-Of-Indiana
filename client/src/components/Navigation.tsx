@@ -20,6 +20,7 @@ export default function Navigation() {
     { path: "/inventory", label: "Inventory" },
     { path: "/rentals", label: "Rentals" },
     { path: "/services", label: "Services" },
+    { path: "/blog", label: "Blog" },
     { path: "/showroom", label: "Showroom" },
     { path: "/contact", label: "Contact" },
   ];
