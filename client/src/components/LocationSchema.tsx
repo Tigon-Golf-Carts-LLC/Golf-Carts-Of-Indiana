@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 interface LocationSchemaProps {
   municipalityName: string;
-  municipalityType: 'Borough' | 'Township';
+  municipalityType: 'City' | 'Town' | 'Township' | 'Borough';
   pageType?: 'location' | 'rental';
   latitude?: string;
   longitude?: string;
