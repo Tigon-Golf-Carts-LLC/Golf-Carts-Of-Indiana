@@ -34,13 +34,16 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Notre Dame Golf Carts offers flexible rental options to meet your transportation needs in St. Joseph County:</p>
       
       <h4>Daily Golf Cart Rentals</h4>
-      <p>Perfect for single-day events, game days, or short visits to South Bend. Our <a href="/rentals">daily rentals</a> start at $75-$150 and include full insurance coverage and delivery to your Notre Dame area location.</p>
+      <p>Perfect for single-day events, game days, or short visits to South Bend. Our <a href="/rentals">daily rentals</a> start at $245 (4-passenger) and $295 (6-passenger) and include full insurance coverage and delivery ($6/mile) to your Notre Dame area location.</p>
+
+      <h4>3-Day Golf Cart Rentals</h4>
+      <p>Perfect for long weekends and extended events. 3-day rates save 6.8-16.9% over daily rentals.</p>
 
       <h4>Weekly Golf Cart Rentals</h4>
-      <p>Ideal for extended campus visits, reunions, or summer programs. Weekly rates ($400-$900) offer better value for longer stays in the South Bend region.</p>
+      <p>Ideal for extended campus visits, reunions, or summer programs. Weekly rates ($1,050-$1,400) offer better value for longer stays in the South Bend region with savings up to 38.7%.</p>
 
       <h4>Monthly Golf Cart Rentals</h4>
-      <p>Best for semester-long needs, business operations, or extended South Bend residency. Monthly rentals ($1,200-$2,500) provide maximum flexibility and savings.</p>
+      <p>Best for semester-long needs, business operations, or extended South Bend residency. Monthly rentals ($2,800-$3,500) provide maximum flexibility and savings of 60-61.6%.</p>
 
       <h3>Available Golf Cart Models for Notre Dame Transportation</h3>
       
@@ -118,29 +121,36 @@ export const BLOG_POSTS: BlogPost[] = [
       <table>
         <tr>
           <th>Rental Duration</th>
-          <th>4-Passenger</th>
+          <th>4-Passenger / Utility</th>
           <th>6-Passenger</th>
-          <th>Street Legal</th>
+          <th>Savings</th>
         </tr>
         <tr>
           <td>Daily</td>
-          <td>$75-$100</td>
-          <td>$100-$125</td>
-          <td>$125-$150</td>
+          <td>$245</td>
+          <td>$295</td>
+          <td>-</td>
         </tr>
         <tr>
-          <td>Weekly</td>
-          <td>$400-$550</td>
-          <td>$550-$700</td>
-          <td>$700-$900</td>
+          <td>3-Day</td>
+          <td>$685</td>
+          <td>$735</td>
+          <td>Save 6.8-16.9%</td>
         </tr>
         <tr>
-          <td>Monthly</td>
-          <td>$1,200-$1,600</td>
-          <td>$1,600-$2,000</td>
-          <td>$2,000-$2,500</td>
+          <td>Weekly (7 days)</td>
+          <td>$1,050</td>
+          <td>$1,400</td>
+          <td>Save 32.2-38.7%</td>
+        </tr>
+        <tr>
+          <td>Monthly (30 days)</td>
+          <td>$2,800</td>
+          <td>$3,500</td>
+          <td>Save 60.4-61.6%</td>
         </tr>
       </table>
+      <p><em>*Delivery fee: $6/mile. All rentals include full insurance coverage.</em></p>
 
       <h2>Contact Notre Dame Golf Carts for Transportation Services</h2>
       <p>Located in South Bend, Indiana, we serve the entire St. Joseph County area including all Notre Dame campus transportation needs. Call <strong>1-844-844-6638</strong> or visit our <a href="/contact">contact page</a> to reserve your golf cart rental today.</p>
