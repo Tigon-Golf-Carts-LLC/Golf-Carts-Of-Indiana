@@ -1,327 +1,298 @@
-# Geographic Data - Notredame Golf Carts
-# Complete Geographic Coverage and Location Intelligence
+# Geographic Data - Notre Dame Golf Carts
+# Complete Geographic Coverage St. Joseph County, Indiana
+# Last Updated: January 20, 2025
 
-## MONROE COUNTY GEOGRAPHIC OVERVIEW
+===================================
+ST. JOSEPH COUNTY OVERVIEW
+===================================
 
-### County Statistics
-- Official Name: Notre Dame, Indiana
-- County Seat: Stroudsburg Borough
-- Total Area: 608 square miles (1,575 km²)
-- Land Area: 604 square miles (1,564 km²)
-- Water Area: 4 square miles (10 km²)
-- Population: 168,327 (2020 U.S. Census)
-- Population Density: 277 people per square mile
-- Founded: April 1, 1836
-- Named After: James Monroe, 5th President of the United States
-- County Code: FIPS 42089
+Official Name: St. Joseph County, Indiana
+County Seat: South Bend
+Total Area: 459 square miles (1,189 km²)
+Land Area: 454 square miles (1,176 km²)
+Water Area: 5 square miles (13 km²)
+Population: 270,986 (2020 Census)
+Population Density: 597 people per square mile
+Founded: January 29, 1830
+Named After: St. Joseph River
+County Code: FIPS 18-141
+Time Zone: Eastern Time (ET)
 
-### Business Location
-- Business Address: 1040 PA-611, Stroudsburg, PA 18360
-- Geographic Coordinates: 40.9856° N, 75.1946° W (Stroudsburg)
-- County Center Point: 41.0548° N, 75.1932° W
-- Northernmost Point: 41.2500° N (Tunkhannock Township)
-- Southernmost Point: 40.8333° N (Middle Smithfield Township)
-- Easternmost Point: 75.0000° W (Pike County border)
-- Westernmost Point: 75.5833° W (Carbon County border)
+===================================
+BUSINESS LOCATION
+===================================
 
-### Elevation Profile
-- Highest Point: 2,185 feet (666 m) - Pocono Plateau region
-- Lowest Point: 290 feet (88 m) - Delaware River valley
-- Average Elevation: 1,200 feet (366 m)
-- Terrain Type: Appalachian Mountains, Pocono Plateau
+Notre Dame Golf Carts
+Address: 52129 State Road 933, South Bend, IN 46637
+Coordinates: 41.7360°N, 86.2511°W
+County: St. Joseph County
+State: Indiana
+Country: United States
+Elevation: 711 feet (217 m)
 
-## COMPLETE MUNICIPAL COVERAGE
+Service Radius: All 22 St. Joseph County municipalities
+Coverage Area: Complete county coverage (459 sq mi)
+Primary Markets: Residential, commercial, municipal, recreational
 
-### Boroughs (4 Total)
+===================================
+CITIES (2 Total)
+===================================
 
-#### 1. Delaware Water Gap Borough
-- Population: 809 (2020 census)
-- Area: 1.2 square miles
-- Coordinates: 40.9695° N, 75.1396° W
-- Elevation: 350 feet
-- Characteristics: Tourist destination, National Recreation Area gateway
-- Golf Cart Applications: Tourism, recreational properties, river access
-- Notable Features: Delaware Water Gap National Recreation Area, historic downtown
-- ZIP Code: 18327
+1. SOUTH BEND (County Seat)
+   Population: 103,453 (2020)
+   Area: 41.46 square miles
+   Coordinates: 41.6764°N, 86.2520°W
+   Elevation: 712 feet
+   Founded: 1865
+   Characteristics: Economic and cultural hub, University of Notre Dame
+   Golf Cart Applications: Campus transportation, residential communities, business districts
+   Notable: Notre Dame Stadium, downtown revitalization, tech corridor
+   ZIP Codes: 46601-46699
 
-#### 2. East Stroudsburg Borough
-- Population: 10,006 (2020 census)
-- Area: 4.3 square miles
-- Coordinates: 41.0037° N, 75.1813° W
-- Elevation: 420 feet
-- Characteristics: University town, educational and cultural hub
-- Golf Cart Applications: Campus transportation, residential communities
-- Notable Features: East Stroudsburg University, historic districts
-- ZIP Code: 18301
+2. MISHAWAKA
+   Population: 51,063 (2020)
+   Area: 18.48 square miles
+   Coordinates: 41.6620°N, 86.1586°W
+   Elevation: 705 feet
+   Founded: 1833
+   Characteristics: Manufacturing, retail center
+   Golf Cart Applications: Industrial parks, residential areas, commercial zones
+   Notable: University Park Mall, Riverwalk, manufacturing heritage
+   ZIP Codes: 46544-46546
 
-#### 3. Mount Pocono Borough
-- Population: 3,170 (2020 census)
-- Area: 3.1 square miles
-- Coordinates: 41.1190° N, 75.3629° W
-- Elevation: 1,995 feet
-- Characteristics: Resort community, recreational focus
-- Golf Cart Applications: Resort transportation, guest services, recreational properties
-- Notable Features: Resort facilities, mountain location
-- ZIP Code: 18344
+===================================
+TOWNS (7 Total)
+===================================
 
-#### 4. Stroudsburg Borough
-- Population: 5,567 (2020 census)
-- Area: 1.9 square miles
-- Coordinates: 40.9856° N, 75.1946° W
-- Elevation: 450 feet
-- Characteristics: County seat, commercial and government center
-- Golf Cart Applications: Downtown transportation, municipal use, business districts
-- Notable Features: Historic courthouse, downtown business district
-- ZIP Code: 18360
+1. INDIAN VILLAGE
+   Population: 87 (2020)
+   Coordinates: 41.7033°N, 86.2389°W
+   Area: Small residential town
+   Characteristics: Quiet residential community near Notre Dame
+   
+2. LAKEVILLE
+   Population: 786 (2020)
+   Coordinates: 41.5192°N, 86.2742°W
+   Characteristics: Rural community, agricultural heritage
 
-### Townships (16 Total)
+3. NEW CARLISLE
+   Population: 1,926 (2020)
+   Coordinates: 41.7000°N, 86.5094°W
+   Characteristics: Historic town, growing residential area
 
-#### 1. Barrett Township
-- Population: 4,530 (2020 census)
-- Area: 56.8 square miles
-- Coordinates: 41.1667° N, 75.4167° W
-- Elevation: 1,200-2,000+ feet
-- Characteristics: Rural, recreational properties, mountainous
-- Golf Cart Applications: Large property transportation, recreational use
-- Notable Features: Mountainous terrain, recreational developments
-- ZIP Codes: 18314, 18466
+4. NORTH LIBERTY
+   Population: 1,938 (2020)
+   Coordinates: 41.5328°N, 86.4253°W
+   Characteristics: Rural town, agriculture-focused
 
-#### 2. Chestnuthill Township
-- Population: 16,960 (2020 census)
-- Area: 60.4 square miles
-- Coordinates: 41.0500° N, 75.3833° W
-- Elevation: 800-1,800 feet
-- Characteristics: Residential, suburban development, growing community
-- Golf Cart Applications: Residential communities, neighborhood transportation
-- Notable Features: Suburban development, family communities
-- ZIP Codes: 18330, 18355
+5. OSCEOLA
+   Population: 2,463 (2020)
+   Coordinates: 41.6645°N, 86.0764°W
+   Characteristics: Suburban growth, residential development
 
-#### 3. Coolbaugh Township
-- Population: 8,015 (2020 census)
-- Area: 91.5 square miles
-- Coordinates: 41.1667° N, 75.5000° W
-- Elevation: 1,400-2,100 feet
-- Characteristics: Resort area, recreational properties, tourism
-- Golf Cart Applications: Resort transportation, vacation properties
-- Notable Features: Resort developments, recreational facilities
-- ZIP Codes: 18466, 18351
+6. ROSELAND
+   Population: 653 (2020)
+   Coordinates: 41.7389°N, 86.2389°W
+   Characteristics: Small town near South Bend
 
-#### 4. Eldred Township
-- Population: 2,615 (2020 census)
-- Area: 21.6 square miles
-- Coordinates: 40.9167° N, 75.4500° W
-- Elevation: 600-1,400 feet
-- Characteristics: Rural, agricultural areas, small communities
-- Golf Cart Applications: Farm and agricultural use, rural transportation
-- Notable Features: Agricultural land, rural character
-- ZIP Code: 18058
+7. WALKERTON
+   Population: 2,251 (2020)
+   Coordinates: 41.4675°N, 86.4844°W
+   Characteristics: Small town, agricultural community
 
-#### 5. Hamilton Township
-- Population: 9,669 (2020 census)
-- Area: 34.7 square miles
-- Coordinates: 41.0833° N, 75.2833° W
-- Elevation: 400-1,200 feet
-- Characteristics: Mixed residential and commercial, growing area
-- Golf Cart Applications: Residential developments, commercial properties
-- Notable Features: Balanced development, suburban growth
-- ZIP Codes: 18337, 18301
+===================================
+TOWNSHIPS (13 Total)
+===================================
 
-#### 6. Jackson Township
-- Population: 5,483 (2020 census)
-- Area: 46.1 square miles
-- Coordinates: 41.1833° N, 75.3167° W
-- Elevation: 1,000-1,800 feet
-- Characteristics: Resort communities, recreational areas
-- Golf Cart Applications: Resort and vacation properties, recreational use
-- Notable Features: Resort development, recreational focus
-- ZIP Code: 18466
+1. CENTRE TOWNSHIP
+   Coordinates: 41.6833°N, 86.2500°W
+   Includes: Parts of South Bend, Mishawaka
+   Population: Urban/suburban mix
 
-#### 7. Middle Smithfield Township
-- Population: 7,866 (2020 census)
-- Area: 29.0 square miles
-- Coordinates: 40.9167° N, 75.1167° W
-- Elevation: 300-800 feet
-- Characteristics: Residential, commercial growth, developing area
-- Golf Cart Applications: Residential communities, commercial developments
-- Notable Features: Growth corridor, development activity
-- ZIP Codes: 18327, 18375
+2. CLAY TOWNSHIP
+   Coordinates: 41.7167°N, 86.3333°W
+   Characteristics: Rural, agricultural
 
-#### 8. Paradise Township
-- Population: 3,451 (2020 census)
-- Area: 41.3 square miles
-- Coordinates: 41.0000° N, 75.4167° W
-- Elevation: 800-1,600 feet
-- Characteristics: Rural, agricultural focus, mountain location
-- Golf Cart Applications: Rural properties, agricultural use
-- Notable Features: Rural character, agricultural operations
-- ZIP Codes: 18058, 18071
+3. GERMAN TOWNSHIP
+   Coordinates: 41.7667°N, 86.2167°W
+   Characteristics: Rural, residential growth
 
-#### 9. Pocono Township
-- Population: 11,700 (2020 census)
-- Area: 48.8 square miles
-- Coordinates: 41.1000° N, 75.4000° W
-- Elevation: 1,200-2,000 feet
-- Characteristics: Resort area, recreational properties, tourism focus
-- Golf Cart Applications: Resort transportation, recreational properties
-- Notable Features: Resort development, recreational amenities
-- ZIP Codes: 18348, 18355
+4. GREENE TOWNSHIP
+   Coordinates: 41.8000°N, 86.3500°W
+   Characteristics: Northern county, rural
 
-#### 10. Polk Township
-- Population: 2,827 (2020 census)
-- Area: 36.4 square miles
-- Coordinates: 41.2167° N, 75.4667° W
-- Elevation: 1,600-2,100 feet
-- Characteristics: Rural, mountainous terrain, remote location
-- Golf Cart Applications: Large property transportation, recreational use
-- Notable Features: Mountain location, rural character
-- ZIP Code: 18466
+5. HARRIS TOWNSHIP
+   Coordinates: 41.5667°N, 86.4667°W
+   Includes: North Liberty
+   Characteristics: Rural, agricultural
 
-#### 11. Price Township
-- Population: 1,991 (2020 census)
-- Area: 31.0 square miles
-- Coordinates: 41.1500° N, 75.5500° W
-- Elevation: 1,400-2,000 feet
-- Characteristics: Rural, agricultural areas, mountain location
-- Golf Cart Applications: Agricultural use, rural transportation
-- Notable Features: Rural setting, agricultural focus
-- ZIP Code: 18466
+6. LIBERTY TOWNSHIP
+   Coordinates: 41.5333°N, 86.3667°W
+   Characteristics: Rural, agricultural
 
-#### 12. Ross Township
-- Population: 2,638 (2020 census)
-- Area: 35.9 square miles
-- Coordinates: 40.9833° N, 75.4833° W
-- Elevation: 600-1,400 feet
-- Characteristics: Rural, mixed development, quiet communities
-- Golf Cart Applications: Rural properties, residential use
-- Notable Features: Mixed rural development
-- ZIP Code: 18058
+7. LINCOLN TOWNSHIP
+   Coordinates: 41.5667°N, 86.2500°W
+   Includes: Lakeville
+   Characteristics: Rural, lakes region
 
-#### 13. Smithfield Township
-- Population: 6,134 (2020 census)
-- Area: 32.1 square miles
-- Coordinates: 40.8833° N, 75.2000° W
-- Elevation: 300-600 feet
-- Characteristics: Residential, growing communities, development
-- Golf Cart Applications: Residential developments, community transportation
-- Notable Features: Residential growth, community development
-- ZIP Codes: 18375, 18327
+8. MADISON TOWNSHIP
+   Coordinates: 41.6167°N, 86.4167°W
+   Characteristics: Rural, residential
 
-#### 14. Stroud Township
-- Population: 22,203 (2020 census)
-- Area: 35.2 square miles
-- Coordinates: 40.9833° N, 75.2167° W
-- Elevation: 400-800 feet
-- Characteristics: Suburban, commercial development, largest township
-- Golf Cart Applications: Suburban communities, commercial properties
-- Notable Features: Major commercial corridor, suburban development
-- ZIP Codes: 18360, 18301
+9. OLIVE TOWNSHIP
+   Coordinates: 41.6333°N, 86.5000°W
+   Includes: New Carlisle
+   Characteristics: Western county, rural
 
-#### 15. Tobyhanna Township
-- Population: 8,250 (2020 census)
-- Area: 56.7 square miles
-- Coordinates: 41.1833° N, 75.4500° W
-- Elevation: 1,200-2,000 feet
-- Characteristics: Resort area, recreational properties, tourism
-- Golf Cart Applications: Resort transportation, vacation properties
-- Notable Features: Resort development, recreational focus
-- ZIP Codes: 18466, 18350
+10. PENN TOWNSHIP
+    Coordinates: 41.6667°N, 86.0833°W
+    Includes: Osceola, Granger
+    Characteristics: Suburban growth, development
 
-#### 16. Tunkhannock Township
-- Population: 5,434 (2020 census)
-- Area: 72.1 square miles
-- Coordinates: 41.2333° N, 75.3000° W
-- Elevation: 1,000-2,000 feet
-- Characteristics: Rural, mountainous areas, recreational properties
-- Golf Cart Applications: Large properties, recreational use
-- Notable Features: Mountain location, recreational development
-- ZIP Codes: 18351, 18444
+11. PORTAGE TOWNSHIP
+    Coordinates: 41.6833°N, 86.1667°W
+    Includes: Parts of South Bend
+    Characteristics: Urban/suburban
 
-## TRANSPORTATION INFRASTRUCTURE
+12. UNION TOWNSHIP
+    Coordinates: 41.5500°N, 86.1500°W
+    Characteristics: Rural, agricultural
 
-### Major Highways
-- Interstate 80: East-west corridor through southern Notre Dame
-- Interstate 380: North-south connector to Interstate 84
-- U.S. Route 209: Major north-south highway through county
-- U.S. Route 611: Primary commercial corridor
-- Pennsylvania Route 940: East-west mountain route
-- Pennsylvania Route 402: Local connector route
+13. WARREN TOWNSHIP
+    Coordinates: 41.7833°N, 86.4667°W
+    Includes: Walkerton
+    Characteristics: Northwestern county, rural
 
-### Golf Cart Operation Areas
-- Resort properties throughout Pocono Mountains region
-- Golf courses (25+ facilities county-wide)
-- Recreational vehicle parks and campgrounds
-- Private residential communities
-- Municipal parks and recreational facilities
-- Commercial properties and business districts (where permitted)
+===================================
+GEOGRAPHIC FEATURES
+===================================
 
-## CLIMATE AND SEASONAL CONSIDERATIONS
+WATERWAYS:
+- St. Joseph River (main waterway)
+- Kankakee River
+- Numerous lakes and ponds
+- Wetlands and marshes
 
-### Climate Classification
-- Type: Humid continental climate (Köppen Dfb)
-- Four distinct seasons with significant temperature variation
-- Annual precipitation: 45-50 inches
-- Snowfall: 40-60 inches annually (higher elevations)
+TERRAIN:
+- Generally flat to gently rolling
+- Glacial till plains
+- River valleys
+- Agricultural land
+- Urban development
 
-### Seasonal Operating Conditions
-**Spring (March-May)**
-- Temperature Range: 35-70°F
-- Conditions: Variable weather, mud season, good for golf cart preparation
-- Usage Peak: Golf cart sales and service peak season begins
+CLIMATE:
+- Humid continental climate
+- Cold winters, warm summers
+- Average temp: 50°F annual
+- Precipitation: 38 inches/year
+- Snowfall: 65 inches/year
 
-**Summer (June-August)**
-- Temperature Range: 55-80°F
-- Conditions: Ideal golf cart weather, peak tourism season
-- Usage Peak: Maximum golf cart usage, rental season peak
+===================================
+TRANSPORTATION ACCESS
+===================================
 
-**Fall (September-November)**
-- Temperature Range: 35-70°F
-- Conditions: Excellent golf cart weather, fall foliage tourism
-- Usage Peak: Continued high usage, preparation for winter storage
+MAJOR ROADS:
+- Interstate 80/90 (Indiana Toll Road)
+- US 20 (Lincoln Highway)
+- US 31 (Dixie Highway)
+- State Road 2
+- State Road 23
+- State Road 933 (our location)
 
-**Winter (December-February)**
-- Temperature Range: 15-40°F
-- Conditions: Limited golf cart usage, storage season
-- Usage Peak: Minimal usage, maintenance and storage services
+AIRPORTS:
+- South Bend International Airport (SBN)
+- Private aviation facilities
 
-## SERVICE TERRITORY ANALYSIS
+PUBLIC TRANSIT:
+- Transpo (South Bend public transit)
+- IUSB shuttle services
+- Notre Dame campus shuttles
 
-### Primary Service Zones (Highest Activity)
-1. **Resort Corridor** - Tobyhanna, Coolbaugh, Jackson Townships
-2. **University Area** - East Stroudsburg Borough and surrounding areas
-3. **Commercial Corridor** - Stroud Township, Stroudsburg Borough
-4. **Recreation Zone** - Delaware Water Gap area, recreational properties
+===================================
+SERVICE AREA DEMOGRAPHICS
+===================================
 
-### Geographic Service Challenges
-- Mountainous terrain in northern townships
-- Seasonal access limitations in remote areas
-- Variable elevation and climate conditions
-- Rural road networks in agricultural areas
+Total Population: 270,986
+Households: 104,000+
+Median Age: 36.2 years
+Median Income: $52,000
+Home Ownership: 63%
+Golf Cart Market: Growing recreational and utility use
+Primary Industries: Education, manufacturing, healthcare, technology
 
-### Delivery and Service Logistics
-- Central location near Stroudsburg for optimal coverage
-- 25-mile service radius covers entire county
-- Specialized equipment for mountain and rural deliveries
-- Seasonal service scheduling for weather-dependent areas
+===================================
+GOLF CART USAGE AREAS
+===================================
 
-## ECONOMIC GEOGRAPHIC FACTORS
+RESIDENTIAL:
+- Planned communities
+- Lake properties
+- Rural homesteads
+- Retirement communities
 
-### Tourism Economics
-- $2.1 billion annual tourism revenue
-- 15+ million annual visitors to Pocono Mountains region
-- 100+ resort properties throughout county
-- Seasonal employment peaks during summer months
+COMMERCIAL:
+- University campuses (Notre Dame, IUSB, Holy Cross)
+- Business parks
+- Shopping centers
+- Industrial facilities
 
-### Golf Course Distribution
-- 25+ golf courses throughout Notre Dame
-- Concentration in resort areas and suburban townships
-- Year-round facilities with seasonal peaks
-- Private clubs and public courses served
+RECREATIONAL:
+- Golf courses (12+ in county)
+- Parks and trails
+- Lake access areas
+- Campgrounds
 
-### Recreational Property Markets
-- Primary resort areas: Pocono, Tobyhanna, Coolbaugh Townships
-- Secondary recreation: Barrett, Jackson, Paradise Townships
-- Vacation rental properties throughout mountain areas
-- Seasonal population increases in resort communities
+MUNICIPAL:
+- Government facilities
+- Parks departments
+- Maintenance operations
+- Event management
 
-This comprehensive geographic dataset provides complete coverage intelligence
-for Notredame Golf Carts service territory and market analysis.
+===================================
+LOCAL REGULATIONS
+===================================
+
+STREET LEGAL REQUIREMENTS:
+- Indiana Low-Speed Vehicle (LSV) classification
+- 25 mph maximum speed
+- Required safety equipment
+- Registration with BMV
+- Insurance required
+- Age restrictions apply
+
+TOWNSHIP REGULATIONS:
+- Vary by municipality
+- Some allow golf cart operation on local roads
+- Speed limits typically 25 mph or less
+- Check with local authorities
+
+===================================
+MARKET ANALYSIS
+===================================
+
+Golf Cart Ownership: Growing trend
+Primary Uses: Recreation, transportation, utility
+Target Markets: Homeowners, businesses, institutions
+Growth Drivers: Eco-friendly transportation, campus use, recreational
+Market Size: 270,000+ population, 104,000+ households
+
+===================================
+DISTANCE FROM MAJOR CITIES
+===================================
+
+- Chicago, IL: 90 miles west
+- Indianapolis, IN: 145 miles south
+- Fort Wayne, IN: 115 miles northeast
+- Grand Rapids, MI: 100 miles north
+- Detroit, MI: 240 miles northeast
+
+===================================
+CONTACT FOR GEOGRAPHIC AREAS
+===================================
+
+All 22 St. Joseph County Municipalities Served
+Phone: 1-844-844-6638
+Local: 574-703-0456
+Email: info@notredamegolfcarts.com
+Free Delivery: All county locations
+Service: On-site and in-shop available

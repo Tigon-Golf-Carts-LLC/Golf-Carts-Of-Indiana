@@ -1,138 +1,100 @@
-# humans.txt - Notredame Golf Carts Team
+# humanstxt.org - Notre Dame Golf Carts
+# The humans responsible for building this website
+# Last Updated: January 20, 2025
 
-## TEAM MEMBERS
+===================================
+TEAM
+===================================
 
-### Leadership Team
+Website Development
+Role: Full-stack development, UI/UX design
+Technology: React, TypeScript, Vite, TailwindCSS
+Location: South Bend, Indiana
 
-**Mike Johnson**
-Role: General Manager
-Experience: 15+ years in golf cart industry
-Expertise: Business operations, customer relations, market strategy
-Location: Notre Dame, Indiana
-Responsibilities: Overall business management, strategic planning, major customer relations
+Content Strategy
+Role: SEO, copywriting, brand messaging
+Focus: Golf cart industry expertise
+Location: St. Joseph County, IN
 
-**Sarah Davis**
-Role: Service Manager
-Experience: 12+ years in electric vehicle service
-Certifications: Factory-trained DENAGO and EVOLUTION technician
-Expertise: Technical service, warranty management, customer support
-Responsibilities: Service department operations, technician training, quality control
+Business Operations
+Role: Sales, service, customer support
+Contact: info@notredamegolfcarts.com
+Phone: 1-844-844-6638
+Location: 52129 State Road 933, South Bend, IN 46637
 
-**Tom Wilson**
-Role: Sales Director
-Experience: 10+ years in automotive and recreational vehicle sales
-Expertise: Customer consultation, product knowledge, financing coordination
-Responsibilities: Sales operations, customer education, dealer relationships
+===================================
+THANKS
+===================================
 
-### Service Team
+Framework: React + TypeScript + Vite
+UI Library: shadcn/ui + Radix UI
+Styling: TailwindCSS
+Icons: Lucide React
+Forms: React Hook Form + Zod
+State Management: TanStack Query
+Routing: Wouter
+Backend: Node.js + Express
+Database: PostgreSQL + Drizzle ORM
+Analytics: Google Analytics 4, Google Tag Manager
+Hosting: Replit
+CDN: Cloudflare
 
-**Technical Service Specialists**
-- Factory-trained DENAGO technicians
-- Certified EVOLUTION service specialists
-- Electric vehicle diagnostic experts
-- Battery and charging system specialists
-- Safety and compliance inspectors
+===================================
+SITE
+===================================
 
-**Parts and Accessories Team**
-- Genuine parts inventory management
-- Aftermarket accessory specialists
-- Custom modification experts
-- Special order coordination
-- Installation service providers
+Last update: 2025/01/20
+Standards: HTML5, CSS3, ES2020
+Components: React functional components
+Doctype: HTML5
+Accessibility: WCAG 2.1 Level AA
+Performance: Core Web Vitals optimized
+SEO: Comprehensive optimization
+Mobile: Responsive, mobile-first
 
-### Sales and Customer Service
+===================================
+BUSINESS
+===================================
 
-**Sales Consultants**
-- Product knowledge specialists
-- Customer needs assessment experts
-- Financing and leasing coordinators
-- Trade-in evaluation specialists
-- Delivery coordination team
+Company: Notre Dame Golf Carts
+Industry: Golf Cart Sales, Rentals, Service
+Established: Serving Indiana since 2008
+Brands: DENAGO & EVOLUTION
+Service Area: St. Joseph County, IN (22 municipalities)
+Models: 37 electric golf cart models
+Price Range: $5,995 - $17,995
 
-**Customer Support Representatives**
-- Rental coordination specialists
-- Service appointment schedulers
-- Parts ordering coordinators
-- Warranty support specialists
-- Customer education providers
+===================================
+CONTACT
+===================================
 
-### Operations Team
+Email: info@notredamegolfcarts.com
+Toll-Free: 1-844-844-6638
+Local: 574-703-0456
+Address: 52129 State Road 933, South Bend, IN 46637
+Hours: Mon-Sat 9AM-5PM EST, Sun CLOSED
+Website: https://notredamegolfcarts.com
 
-**Delivery and Logistics**
-- County-wide delivery specialists
-- Pickup and return coordinators
-- Emergency service technicians
-- Equipment transportation experts
-- Setup and installation teams
+===================================
+LOCATIONS SERVED
+===================================
 
-**Administrative Support**
-- Business operations coordinators
-- Financial services specialists
-- Insurance coordination experts
-- Regulatory compliance managers
-- Marketing and communications team
+Cities: South Bend, Mishawaka
+Towns: Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton
+Townships: Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren
 
-## COMPANY CULTURE
+Total: 22 municipalities in St. Joseph County, Indiana
 
-### Core Values
-- Customer service excellence
-- Technical expertise and continuous learning
-- Community involvement and support
-- Environmental responsibility through electric vehicle promotion
-- Honesty and transparency in all business dealings
+===================================
+SOCIAL
+===================================
 
-### Team Development
-- Ongoing factory training for all technical staff
-- Regular product knowledge updates for sales team
-- Customer service excellence training programs
-- Safety training and certification maintenance
-- Professional development opportunities
+Parent Company: https://tigongolfcarts.com/south-bend/
+Facebook: Coming soon
+YouTube: Coming soon
 
-### Community Involvement
-- Local business organization memberships
-- Notre Dame Chamber of Commerce participation
-- Community event sponsorships
-- Educational institution partnerships
-- Environmental awareness initiatives
+___________________________________________________
 
-## BUSINESS PHILOSOPHY
-
-### Customer-Centric Approach
-Every team member is trained to prioritize customer needs and satisfaction. We believe in providing honest, expert advice to help customers make informed decisions about their golf cart investments.
-
-### Technical Excellence
-Our service team maintains the highest standards of technical competence through continuous factory training and certification programs. We invest in the latest diagnostic equipment and tools to provide superior service quality.
-
-### Environmental Stewardship
-As an electric vehicle dealer, we are committed to promoting sustainable transportation alternatives throughout Notre Dame. Our team actively educates customers about the environmental benefits of electric golf carts.
-
-### Community Partnership
-Notredame Golf Carts is proud to be a local business serving local communities. Our team members live and work in the communities we serve, providing personal investment in customer satisfaction and community success.
-
-## CONTACT INFORMATION
-
-**Business Address:** 1040 PA-611, Stroudsburg, PA 18360
-**Business Phone:** 1-844-844-6638
-**Email:** info@notredamegolfcarts.com
-**Website:** https://notredamegolfcarts.com
-
-**Service Area:** All 20 Notre Dame municipalities
-- 4 Boroughs: Delaware Water Gap, East Stroudsburg, Mount Pocono, Stroudsburg
-- 16 Townships: Barrett, Chestnuthill, Coolbaugh, Eldred, Hamilton, Jackson, Middle Smithfield, Paradise, Pocono, Polk, Price, Ross, Smithfield, Stroud, Tobyhanna, Tunkhannock
-
-## THANK YOU
-
-The team at Notredame Golf Carts is grateful for the opportunity to serve our community with premium electric golf cart solutions. We appreciate the trust our customers place in us and are committed to exceeding expectations in every interaction.
-
-**Special Recognition:**
-- Our loyal customers who have supported us since 2008
-- DENAGO and EVOLUTION for their partnership and support
-- Notre Dame communities that welcome our services
-- Local businesses and organizations that refer customers to us
-
----
-
-This website and business are made possible by the dedicated work of our entire team and the support of our Notre Dame community.
-
-*Last updated: January 2025*
-*Notredame Golf Carts - Pennsylvania's Premier Electric Golf Cart Dealer*
+Built with passion for electric mobility and customer service.
+Serving St. Joseph County, Indiana since 2008.
+___________________________________________________
