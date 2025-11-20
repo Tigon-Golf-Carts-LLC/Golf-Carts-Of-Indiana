@@ -51,9 +51,13 @@ export default function Footer() {
           {/* Mobile: Contact Info */}
           <div className="md:hidden">
             <div className="space-y-2">
-              <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-              <p className="text-gray-600 text-sm">Email: info@notredamegolfcarts.com</p>
-              <div className="text-gray-600 text-sm">
+              <h4 className="text-gray-900 font-semibold text-sm">Notre Dame Golf Carts</h4>
+              <p className="text-gray-600 text-sm">310 S Dixie Way<br/>South Bend, IN 46637</p>
+              <p className="text-gray-600 text-sm">Local Phone: <a href="tel:574-402-4158" className="hover:text-blue-600">574-402-4158</a></p>
+              <p className="text-gray-600 text-sm">Toll-Free: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
+              <p className="text-gray-600 text-sm">Email: <a href="mailto:info@notredamegolfcarts.com" className="hover:text-blue-600">info@notredamegolfcarts.com</a></p>
+              <p className="text-gray-600 text-sm">Website: <a href="https://notredamegolfcarts.com" className="hover:text-blue-600">notredamegolfcarts.com</a></p>
+              <div className="text-gray-600 text-sm mt-2">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
                 <p>Sun: Closed</p>
@@ -127,9 +131,13 @@ export default function Footer() {
                 <li><Link href="/policies/staffing-report" className="text-gray-600 hover:text-gray-900 text-sm">Staffing Report</Link></li>
               </ul>
               <div className="space-y-2">
-                <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-                <p className="text-gray-600 text-sm">Email: info@notredamegolfcarts.com</p>
-                <div className="text-gray-600 text-sm">
+                <h4 className="text-gray-900 font-semibold text-sm">Notre Dame Golf Carts</h4>
+                <p className="text-gray-600 text-sm">310 S Dixie Way<br/>South Bend, IN 46637</p>
+                <p className="text-gray-600 text-sm">Local Phone: <a href="tel:574-402-4158" className="hover:text-blue-600">574-402-4158</a></p>
+                <p className="text-gray-600 text-sm">Toll-Free: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
+                <p className="text-gray-600 text-sm">Email: <a href="mailto:info@notredamegolfcarts.com" className="hover:text-blue-600">info@notredamegolfcarts.com</a></p>
+                <p className="text-gray-600 text-sm">Website: <a href="https://notredamegolfcarts.com" className="hover:text-blue-600">notredamegolfcarts.com</a></p>
+                <div className="text-gray-600 text-sm mt-2">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
                   <p>Sun: Closed</p>
