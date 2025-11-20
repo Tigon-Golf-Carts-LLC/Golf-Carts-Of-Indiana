@@ -718,18 +718,32 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>4-Passenger Rental Pricing for Notre Dame</h2>
       
-      <h3>Daily Rental Rates</h3>
+      <h3>Daily Rental Rate</h3>
       <ul>
-        <li><strong>Standard Models:</strong> $75-$90 per day</li>
-        <li><strong>Premium Models:</strong> $90-$100 per day</li>
+        <li><strong>Daily Rate:</strong> $245</li>
+        <li>Delivery Fee: $6/mile</li>
         <li>Full insurance included</li>
-        <li>Free South Bend delivery</li>
       </ul>
 
-      <h3>Weekly and Monthly Options</h3>
+      <h3>3-Day Rental - Save 6.8%</h3>
       <ul>
-        <li><strong>Weekly:</strong> $400-$550</li>
-        <li><strong>Monthly:</strong> $1,200-$1,600</li>
+        <li><strong>3-Day Rate:</strong> $685 total ($228.34/day effective)</li>
+        <li>Perfect for long weekends</li>
+        <li>Delivery Fee: $6/mile</li>
+      </ul>
+
+      <h3>Weekly Rental - Save 38.7%</h3>
+      <ul>
+        <li><strong>Weekly Rate:</strong> $1,050 ($150/day effective)</li>
+        <li>Best value for week-long visits</li>
+        <li>Delivery Fee: $6/mile</li>
+      </ul>
+
+      <h3>Monthly Rental - Save 61.6%</h3>
+      <ul>
+        <li><strong>Monthly Rate:</strong> $2,800 ($94/day effective)</li>
+        <li>Maximum savings for extended stays</li>
+        <li>Delivery Fee: $6/mile</li>
       </ul>
 
       <h2>Reserve Your 4-Passenger Golf Cart</h2>
