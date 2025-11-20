@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png"/>
+      <square150x150logo src="/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png"/>
+      <square310x310logo src="/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png"/>
+      <wide310x150logo src="/attached_assets/Notre%20Dame%20Golf%20Carts_1763645467658.png"/>
+      <TileColor>#0e2e55</TileColor>
+    </tile>
+    <notification>
+      <polling-uri src="https://notredamegolfcarts.com/api/notifications/1"/>
+      <polling-uri2 src="https://notredamegolfcarts.com/api/notifications/2"/>
+      <polling-uri3 src="https://notredamegolfcarts.com/api/notifications/3"/>
+      <polling-uri4 src="https://notredamegolfcarts.com/api/notifications/4"/>
+      <polling-uri5 src="https://notredamegolfcarts.com/api/notifications/5"/>
+      <frequency>30</frequency>
+      <cycle>1</cycle>
+    </notification>
+    <badge>
+      <polling-uri src="https://notredamegolfcarts.com/api/badge"/>
+      <frequency>30</frequency>
+    </badge>
+  </msapplication>
+</browserconfig>

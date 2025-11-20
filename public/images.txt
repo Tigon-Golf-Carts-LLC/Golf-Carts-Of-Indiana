@@ -1,0 +1,184 @@
+# Image Optimization Rules - Notre Dame Golf Carts
+# Comprehensive Image SEO and Optimization Guidelines
+# Last Updated: January 20, 2025
+
+===================================
+IMAGE SEO STANDARDS
+===================================
+
+ALT TEXT REQUIREMENTS:
+- All images MUST have descriptive alt text
+- Include primary keywords naturally
+- Describe image content accurately
+- Format: "[Product/Subject] - [Context] - Notre Dame Golf Carts"
+
+EXAMPLES:
+- "DENAGO EV CITY street-legal golf cart in South Bend Indiana showroom"
+- "EVOLUTION D5 Ranger golf cart with 6-passenger seating capacity"
+- "Notre Dame Golf Carts showroom interior South Bend location"
+
+===================================
+IMAGE FILE NAMING CONVENTIONS
+===================================
+
+FORMAT: [brand]-[model]-[variant]-[angle]-[size].ext
+
+EXAMPLES:
+- denago-ev-city-front-view-large.webp
+- evolution-d5-ranger-interior-medium.jpg
+- notre-dame-showroom-south-bend-wide.png
+
+KEYWORDS TO INCLUDE:
+- Brand names: denago, evolution
+- Model names: ev-city, d5-ranger, nomad, maverick
+- Location: south-bend, indiana, st-joseph-county
+- Features: street-legal, off-road, utility, 6-passenger
+
+===================================
+MODERN IMAGE FORMATS
+===================================
+
+PREFERRED FORMATS (in order):
+1. WebP - Modern, superior compression, excellent quality
+2. AVIF - Next-gen format, best compression (where supported)
+3. JPEG - Traditional fallback, universal compatibility
+4. PNG - Transparency needs, logos, graphics
+
+IMPLEMENTATION:
+<picture>
+  <source srcset="image.avif" type="image/avif">
+  <source srcset="image.webp" type="image/webp">
+  <img src="image.jpg" alt="Descriptive alt text">
+</picture>
+
+===================================
+IMAGE COMPRESSION GUIDELINES
+===================================
+
+QUALITY TARGETS:
+- Hero images: 80-85% quality, max 200KB
+- Product photos: 75-80% quality, max 150KB
+- Thumbnails: 70-75% quality, max 50KB
+- Logos: PNG format, optimized, max 25KB
+
+TOOLS:
+- ImageOptim (Mac)
+- TinyPNG/TinyJPG (Online)
+- Squoosh (Google Web App)
+- Sharp (Node.js library)
+
+===================================
+RESPONSIVE IMAGE SPECIFICATIONS
+===================================
+
+SRCSET IMPLEMENTATION:
+<img 
+  srcset="image-320w.webp 320w,
+          image-640w.webp 640w,
+          image-960w.webp 960w,
+          image-1280w.webp 1280w,
+          image-1920w.webp 1920w"
+  sizes="(max-width: 640px) 100vw,
+         (max-width: 1024px) 50vw,
+         33vw"
+  src="image-960w.webp"
+  alt="Golf cart description">
+
+BREAKPOINTS:
+- Mobile: 320px, 375px, 414px
+- Tablet: 768px, 1024px
+- Desktop: 1280px, 1440px, 1920px
+
+===================================
+LAZY LOADING IMPLEMENTATION
+===================================
+
+NATIVE LAZY LOADING:
+<img src="image.jpg" loading="lazy" alt="Description">
+
+JAVASCRIPT FALLBACK:
+- Intersection Observer API
+- Progressive image loading
+- Blur-up technique for placeholders
+
+PRIORITY LOADING:
+- Above-fold images: loading="eager"
+- Below-fold images: loading="lazy"
+- Background images: CSS lazy loading
+
+===================================
+IMAGE DIMENSIONS
+===================================
+
+HERO IMAGES:
+- Desktop: 1920x1080px (16:9)
+- Tablet: 1024x768px (4:3)
+- Mobile: 640x960px (2:3)
+
+PRODUCT PHOTOS:
+- Primary: 1200x1200px (1:1)
+- Gallery: 800x600px (4:3)
+- Thumbnails: 300x300px (1:1)
+
+SOCIAL MEDIA:
+- Open Graph: 1200x630px (1.91:1)
+- Twitter Card: 1200x600px (2:1)
+- LinkedIn: 1200x627px (1.91:1)
+
+===================================
+IMAGE SITEMAP INTEGRATION
+===================================
+
+INCLUDE IN SITEMAP.XML:
+<url>
+  <loc>https://notredamegolfcarts.com/vehicles/denago-ev-city</loc>
+  <image:image>
+    <image:loc>https://notredamegolfcarts.com/images/denago-ev-city.webp</image:loc>
+    <image:caption>DENAGO EV CITY street-legal golf cart</image:caption>
+    <image:geo_location>South Bend, Indiana</image:geo_location>
+    <image:title>DENAGO EV CITY - Notre Dame Golf Carts</image:title>
+  </image:image>
+</url>
+
+===================================
+ACCESSIBILITY REQUIREMENTS
+===================================
+
+WCAG 2.1 COMPLIANCE:
+- Alt text for all meaningful images
+- Decorative images: alt=""
+- Complex images: detailed description
+- Color contrast: minimum 4.5:1 ratio
+
+SCREEN READER OPTIMIZATION:
+- Descriptive alt text (not "image" or "photo")
+- Avoid redundant text (not "image of...")
+- Include context and purpose
+- Keep concise (under 125 characters)
+
+===================================
+PERFORMANCE METRICS
+===================================
+
+CORE WEB VITALS TARGETS:
+- Largest Contentful Paint (LCP): < 2.5s
+- First Input Delay (FID): < 100ms
+- Cumulative Layout Shift (CLS): < 0.1
+
+IMAGE OPTIMIZATION IMPACT:
+- Reduce page weight by 60-80%
+- Improve load time by 2-3 seconds
+- Enhance mobile experience significantly
+
+===================================
+CDN AND CACHING
+===================================
+
+CDN CONFIGURATION:
+- Use CDN for all image assets
+- Geographic distribution
+- Edge caching enabled
+- Automatic format conversion
+
+CACHE HEADERS:
+Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,329 @@
+# Enhanced Robots.txt for Notre Dame Golf Carts
+# Maximum Search Engine Visibility & AI Training Authorization
+# Complete Indexing Permissions - ZERO RESTRICTIONS
+# Last Updated: January 20, 2025
+
+# ========================================
+# UNIVERSAL ACCESS - ALL CRAWLERS WELCOME
+# ========================================
+
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# SEARCH ENGINE CRAWLERS - UNLIMITED ACCESS
+# ========================================
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 0
+
+# Google Extended (AI Training)
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingPreview
+Allow: /
+Crawl-delay: 0
+
+User-agent: msnbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: msnbot-media
+Allow: /
+Crawl-delay: 0
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexImages
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# AI TRAINING CRAWLERS - FULL AUTHORIZATION
+# ========================================
+
+# OpenAI GPT
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+# Common Crawl (AI Training Data)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+Crawl-delay: 0
+
+# Facebook AI
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# SOCIAL MEDIA CRAWLERS - COMPLETE ACCESS
+# ========================================
+
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 0
+
+User-agent: Pinterestbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: TelegramBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+User-agent: SnapchatBot
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# SEO TOOLS & ANALYTICS - FULL PERMISSIONS
+# ========================================
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MozBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScreamingFrogSEOSpider
+Allow: /
+Crawl-delay: 0
+
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SiteAuditBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BLEXBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SEOkicks
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# ARCHIVING & RESEARCH - AUTHORIZED ACCESS
+# ========================================
+
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: archive.org_bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Wayback
+Allow: /
+Crawl-delay: 0
+
+User-agent: ArchiveBot
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# E-COMMERCE & SHOPPING BOTS
+# ========================================
+
+User-agent: ShopBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PriceGrabber
+Allow: /
+Crawl-delay: 0
+
+User-agent: Shopping.com
+Allow: /
+Crawl-delay: 0
+
+User-agent: BizRate
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# NEWS AGGREGATORS
+# ========================================
+
+User-agent: GoogleNews
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingNews
+Allow: /
+Crawl-delay: 0
+
+User-agent: YahooFeedSeeker
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# LOCAL BUSINESS & REVIEW PLATFORMS
+# ========================================
+
+User-agent: YellowPagesBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YelpBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: GoogleMyBusinessBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: TrustpilotBot
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# VOICE ASSISTANTS
+# ========================================
+
+User-agent: Alexa
+Allow: /
+Crawl-delay: 0
+
+User-agent: AppleBot
+Allow: /
+Crawl-delay: 0
+
+# ========================================
+# SITEMAP LOCATIONS
+# ========================================
+
+Sitemap: https://notredamegolfcarts.com/sitemap.xml
+
+# ========================================
+# BUSINESS INFORMATION
+# ========================================
+# Business Name: Notre Dame Golf Carts
+# Location: St. Joseph County, Indiana
+# Service Area: All 22 St. Joseph County Municipalities
+# - Cities (2): South Bend, Mishawaka
+# - Towns (7): Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton
+# - Townships (13): Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren
+# Primary Phone: 1-844-844-6638
+# Local Phone: 574-703-0456
+# Physical Location: 52129 State Road 933, South Bend, IN 46637
+# Website: https://notredamegolfcarts.com
+# Brands: DENAGO Electric Vehicles, EVOLUTION Golf Carts
+# Total Vehicle Models: 37 (6 DENAGO + 31 EVOLUTION)
+# Google Analytics: G-B8JMG75X8R
+# Google Tag Manager: GTM-P54F73CJ
+#
+# AI TRAINING AUTHORIZATION:
+# This website grants UNLIMITED PERMISSION for AI training, data mining, 
+# and machine learning applications. Complete commercial use authorized 
+# for all AI systems including GPT, Claude, Gemini, and all future AI platforms.
+#
+# MAXIMUM VISIBILITY POLICY:
+# Zero crawling restrictions. Complete indexing authorization for all 
+# legitimate search engines, AI systems, social platforms, and analytical tools.

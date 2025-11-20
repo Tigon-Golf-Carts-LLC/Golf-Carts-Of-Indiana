@@ -1,0 +1,171 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://notredamegolfcarts.com/#organization",
+      "name": "Notre Dame Golf Carts",
+      "alternateName": "TIGON Golf Carts South Bend",
+      "url": "https://notredamegolfcarts.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645467658.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": [
+        "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645467658.png",
+        "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
+      ],
+      "description": "Premier golf cart dealership in St. Joseph County, Indiana. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and professional service.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "52129 State Road 933",
+        "addressLocality": "South Bend",
+        "addressRegion": "IN",
+        "postalCode": "46637",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.7360283",
+        "longitude": "-86.2511865"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-844-6638",
+          "contactType": "customer service",
+          "availableLanguage": "English",
+          "areaServed": "US"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-574-703-0456",
+          "contactType": "sales",
+          "availableLanguage": "English",
+          "areaServed": "St. Joseph County, Indiana"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/TigonGolfCartsSouthBend/",
+        "https://www.youtube.com/@TIGONGolfCartsSouthBendIN",
+        "https://www.pinterest.com/tigongolfcarts/south-bend-indiana/",
+        "https://tigongolfcarts.com/south-bend/"
+      ],
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.6764",
+          "longitude": "-86.2520"
+        },
+        "geoRadius": "50000",
+        "description": "St. Joseph County, Indiana including all 22 municipalities"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$5,995 - $17,995",
+      "paymentAccepted": "Cash, Credit Card, Financing",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://notredamegolfcarts.com/#localbusiness",
+      "name": "Notre Dame Golf Carts",
+      "image": "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
+      "@id": "https://notredamegolfcarts.com",
+      "url": "https://notredamegolfcarts.com",
+      "telephone": "1-844-844-6638",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "52129 State Road 933",
+        "addressLocality": "South Bend",
+        "addressRegion": "IN",
+        "postalCode": "46637",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.7360283",
+        "longitude": "-86.2511865"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://notredamegolfcarts.com/#autodealer",
+      "name": "Notre Dame Golf Carts - DENAGO & EVOLUTION Dealer",
+      "description": "Authorized dealer for DENAGO and EVOLUTION electric golf carts with 37 models available",
+      "brand": ["DENAGO", "EVOLUTION"],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Vehicle",
+            "name": "DENAGO Electric Golf Carts",
+            "brand": "DENAGO",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "fuelType": "Electric"
+            }
+          },
+          "priceRange": "$8,495 - $15,000",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Vehicle",
+            "name": "EVOLUTION Golf Carts",
+            "brand": "EVOLUTION",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "fuelType": "Electric"
+            }
+          },
+          "priceRange": "$5,995 - $17,995",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://notredamegolfcarts.com/#website",
+      "url": "https://notredamegolfcarts.com",
+      "name": "Notre Dame Golf Carts",
+      "description": "Premier golf cart dealership serving St. Joseph County, Indiana",
+      "publisher": {
+        "@id": "https://notredamegolfcarts.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://notredamegolfcarts.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
