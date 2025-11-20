@@ -28,10 +28,10 @@ export const generateOrganizationSchema = () => ({
   "email": "info@notredamegolfcarts.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1040 IN-611",
-    "addressLocality": "Notre Dame",
+    "streetAddress": "310 S Dixie Way",
+    "addressLocality": "South Bend",
     "addressRegion": "IN",
-    "postalCode": "46556",
+    "postalCode": "46637",
     "addressCountry": "US"
   },
   "areaServed": {
@@ -42,8 +42,8 @@ export const generateOrganizationSchema = () => ({
     "@type": "GeoCircle",
     "geoMidpoint": {
       "@type": "GeoCoordinates",
-      "latitude": 40.9856,
-      "longitude": -75.1946
+      "latitude": 41.7033,
+      "longitude": -86.2389
     },
     "geoRadius": "50000"
   },
@@ -52,8 +52,8 @@ export const generateOrganizationSchema = () => ({
   "slogan": "Professional golf cart services delivered to your town",
   "brand": ["DENAGO", "EVOLUTION"],
   "sameAs": [
-    "https://www.facebook.com/monroegolfcarts",
-    "https://www.instagram.com/monroegolfcarts"
+    "https://www.facebook.com/notredamegolfcarts",
+    "https://www.instagram.com/notredamegolfcarts"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -102,10 +102,10 @@ export const generateLocalBusinessSchema = () => ({
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1040 IN-611",
-    "addressLocality": "Notre Dame",
+    "streetAddress": "310 S Dixie Way",
+    "addressLocality": "South Bend",
     "addressRegion": "IN",
-    "postalCode": "46556",
+    "postalCode": "46637",
     "addressCountry": "US"
   },
   "geo": {
