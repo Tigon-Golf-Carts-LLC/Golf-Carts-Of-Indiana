@@ -527,29 +527,38 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>6-Passenger Golf Cart Rental Pricing for Notre Dame</h2>
       
-      <h3>Daily Rental Rates</h3>
+      <h3>Daily Rental Rate</h3>
       <p>Perfect for single game days or weekend events:</p>
       <ul>
-        <li><strong>Standard Models:</strong> $100-$125 per day</li>
-        <li><strong>Premium Models:</strong> $125-$150 per day</li>
-        <li>Includes full insurance coverage</li>
+        <li><strong>Daily Rate:</strong> $295</li>
+        <li>Delivery Fee: $6/mile</li>
+        <li>Full insurance coverage included</li>
         <li>Free delivery in South Bend and St. Joseph County</li>
       </ul>
 
-      <h3>Weekly Rental Savings</h3>
-      <p>Better value for extended Notre Dame visits:</p>
+      <h3>3-Day Rental - Save 16.9%</h3>
+      <p>Great for long weekend events:</p>
       <ul>
-        <li><strong>Weekly Rate:</strong> $550-$700</li>
-        <li>Perfect for commencement week or long reunions</li>
-        <li>Unlimited mileage within rental period</li>
+        <li><strong>3-Day Rate:</strong> $735 total ($245/day effective)</li>
+        <li>Perfect for extended game weekends</li>
+        <li>Delivery Fee: $6/mile</li>
       </ul>
 
-      <h3>Monthly Rentals</h3>
+      <h3>Weekly Rental - Save 32.2%</h3>
+      <p>Better value for extended Notre Dame visits:</p>
+      <ul>
+        <li><strong>Weekly Rate:</strong> $1,400 ($200/day effective)</li>
+        <li>Perfect for commencement week or long reunions</li>
+        <li>Delivery Fee: $6/mile</li>
+      </ul>
+
+      <h3>Monthly Rental - Save 60.4%</h3>
       <p>Maximum savings for semester or summer programs:</p>
       <ul>
-        <li><strong>Monthly Rate:</strong> $1,600-$2,000</li>
+        <li><strong>Monthly Rate:</strong> $3,500 ($116.67/day effective)</li>
         <li>Ideal for research projects or extended campus work</li>
         <li>Includes maintenance during rental period</li>
+        <li>Delivery Fee: $6/mile</li>
       </ul>
 
       <h2>How to Reserve Your 6-Passenger Golf Cart for Notre Dame</h2>
