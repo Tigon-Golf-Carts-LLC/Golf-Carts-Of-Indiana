@@ -20,7 +20,7 @@
       "description": "Premier golf cart dealership in St. Joseph County, Indiana. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and professional service.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "52129 State Road 933",
+        "streetAddress": "310 S Dixie Way",
         "addressLocality": "South Bend",
         "addressRegion": "IN",
         "postalCode": "46637",
@@ -41,7 +41,7 @@
         },
         {
           "@type": "ContactPoint",
-          "telephone": "+1-574-703-0456",
+          "telephone": "+1-574-402-4158",
           "contactType": "sales",
           "availableLanguage": "English",
           "areaServed": "St. Joseph County, Indiana"
@@ -91,7 +91,7 @@
       "telephone": "1-844-844-6638",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "52129 State Road 933",
+        "streetAddress": "310 S Dixie Way",
         "addressLocality": "South Bend",
         "addressRegion": "IN",
         "postalCode": "46637",

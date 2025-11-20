@@ -24,6 +24,6 @@ google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
 
 # BUSINESS INFORMATION
 # Company: Notre Dame Golf Carts
-# Location: 52129 State Road 933, South Bend, IN 46637
+# Location: 310 S Dixie Way, South Bend, IN 46637
 # Industry: Golf Cart Sales, Rentals, and Service
 # Service Area: St. Joseph County, Indiana
