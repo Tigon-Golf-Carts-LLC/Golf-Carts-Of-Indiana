@@ -1385,18 +1385,30 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Notre Dame Event and Game Day Rentals</h3>
       <p>We specialize in <a href="/blog/game-days-tailgating-golf-cart-rental">Notre Dame football transportation</a> and campus event rentals:</p>
 
-      <h4>Daily Rentals ($75-$150)</h4>
+      <h4>Daily Rentals</h4>
       <ul>
         <li>Perfect for single-day events and football games</li>
-        <li><a href="/blog/notre-dame-4-passenger-golf-cart-rental">4-passenger models</a>: $75-$100</li>
-        <li><a href="/blog/notre-dame-6-passenger-golf-cart-rental">6-passenger models</a>: $100-$125</li>
-        <li>Street legal models: $125-$150</li>
+        <li><a href="/blog/notre-dame-4-passenger-golf-cart-rental">4-passenger models</a>: $245/day</li>
+        <li><a href="/blog/notre-dame-6-passenger-golf-cart-rental">6-passenger models</a>: $295/day</li>
+        <li>Delivery Fee: $6/mile</li>
       </ul>
 
-      <h4>Weekly and Monthly Rentals</h4>
+      <h4>3-Day Rentals (Save 6.8-16.9%)</h4>
       <ul>
-        <li><strong>Weekly:</strong> $400-$900 (commencement, reunions)</li>
-        <li><strong>Monthly:</strong> $1,200-$2,500 (semester-long, business)</li>
+        <li>4-passenger: $685 total</li>
+        <li>6-passenger: $735 total</li>
+      </ul>
+
+      <h4>Weekly Rentals (Save 32.2-38.7%)</h4>
+      <ul>
+        <li>4-passenger / Utility: $1,050</li>
+        <li>6-passenger: $1,400</li>
+      </ul>
+
+      <h4>Monthly Rentals (Save 60.4-61.6%)</h4>
+      <ul>
+        <li>4-passenger / Utility: $2,800</li>
+        <li>6-passenger: $3,500</li>
       </ul>
 
       <h3>Rental Features and Benefits</h3>
@@ -1586,9 +1598,10 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h3>Football Weekend Rental Options</h3>
       <ul>
-        <li><strong>Single game day:</strong> $75-$150 per day</li>
-        <li><strong>Weekend package:</strong> Friday-Sunday coverage</li>
-        <li><strong>Season packages:</strong> All home games with priority booking</li>
+        <li><strong>Single game day:</strong> $245 (4-passenger) or $295 (6-passenger) per day + $6/mile delivery</li>
+        <li><strong>3-Day package:</strong> $685 (4-pass) or $735 (6-pass) - Save 6.8-16.9%</li>
+        <li><strong>Weekly package:</strong> $1,050 (4-pass) or $1,400 (6-pass) - Save 32.2-38.7%</li>
+        <li><strong>Season packages:</strong> All home games with priority booking - call for pricing</li>
       </ul>
 
       <h2>Frequently Asked Questions</h2>
@@ -1670,10 +1683,11 @@ export const BLOG_POSTS: BlogPost[] = [
       
       <h3>Flexible Rental Periods</h3>
       <ul>
-        <li><strong>Hourly:</strong> Short-term event needs (4-hour minimum)</li>
-        <li><strong>Daily:</strong> $75-$150 depending on model</li>
-        <li><strong>Weekly:</strong> $400-$900 discounted rates</li>
-        <li><strong>Monthly:</strong> $1,200-$2,500 maximum savings</li>
+        <li><strong>Hourly:</strong> Short-term event needs (4-hour minimum) - call for pricing</li>
+        <li><strong>Daily:</strong> $245 (4-passenger/Utility) or $295 (6-passenger) + $6/mile delivery</li>
+        <li><strong>3-Day:</strong> $685 (4-pass) or $735 (6-pass) - Save 6.8-16.9%</li>
+        <li><strong>Weekly:</strong> $1,050 (4-pass) or $1,400 (6-pass) - Save 32.2-38.7%</li>
+        <li><strong>Monthly:</strong> $2,800 (4-pass) or $3,500 (6-pass) - Save 60.4-61.6%</li>
       </ul>
 
       <h2>St. Joseph County Service Area</h2>
