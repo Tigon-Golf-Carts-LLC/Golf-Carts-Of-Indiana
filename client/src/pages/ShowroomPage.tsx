@@ -11,53 +11,29 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function ShowroomPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Notre Dame Golf Carts LSV Showrooms",
-    baseDescription: "Visit our TIGON Golf Carts showrooms in Notre Dame Pines and Scranton, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving St. Joseph County with expert sales and service.",
+    pageTitle: "Notre Dame Golf Carts LSV Showroom - South Bend, IN",
+    baseDescription: "Visit our TIGON Golf Carts showroom in South Bend, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving St. Joseph County with expert sales and service.",
     pageType: "general",
     canonicalPath: "/showroom",
-    keywords: ["TIGON Golf Carts showroom", "Notre Dame golf cart dealership", "Notre Dame Pines golf carts", "Scranton golf carts"],
+    keywords: ["TIGON Golf Carts showroom", "South Bend golf cart dealership", "Notre Dame golf carts", "St. Joseph County golf carts"],
     ogImage: "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
     heroBackgroundSeed: "showroom"
   });
   
   const locations = [
     {
-      name: "TIGON GOLF CARS POCONO IN",
-      address: "1712 Indiana 940, Notre Dame Pines, IN 18350",
-      phone: "570-643-0152",
-      coordinates: "41.10286354605563, -75.48758590250345",
-      googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsNotre Dames/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsNotre DamesPA",
-      websiteUrl: "https://tigongolfcarts.com/pocono/",
-      reviewUrl: "https://g.page/r/CcJL5i1Z2NXtEBM/review",
-      city: "Notre Dame Pines",
+      name: "TIGON GOLF CARTS SOUTH BEND IN",
+      address: "52129 State Road 933, South Bend, IN 46637",
+      phone: "574-703-0456",
+      coordinates: "41.7360283,-86.2511865",
+      googleMapsUrl: "https://www.google.com/maps?cid=17532455648086849827",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsSouthBend/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsSouthBendIN",
+      websiteUrl: "https://tigongolfcarts.com/south-bend/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/south-bend-indiana/",
+      reviewUrl: "https://g.page/r/CSP5gWCFy0_zEBM/review",
+      city: "South Bend",
       type: "physical"
-    },
-    {
-      name: "TIGON GOLF CARS SCRANTON-WILKES-BARRE IN",
-      address: "1225 N Keyser Ave #2, Scranton, IN 18504",
-      phone: "570-344-4443",
-      coordinates: "41.4374075,-75.6835104",
-      googleMapsUrl: "https://www.google.com/maps?cid=13243686786001524416",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsScranton/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsScrantonWilkesPA",
-      websiteUrl: "https://tigongolfcarts.com/scranton-wilkes-barre/",
-      reviewUrl: "https://g.page/r/CcDWJ7z2Bsu3EBM/review",
-      city: "Scranton",
-      type: "physical"
-    },
-    {
-      name: "TIGON GOLF CARTS PENNSYLVANIA",
-      address: "Indiana",
-      phone: "1-844-844-6638",
-      coordinates: "41.1169824,-77.6047047",
-      googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsIndiana",
-      websiteUrl: "https://tigongolfcarts.com/pennsylvania/",
-      reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
-      city: "Indiana",
-      type: "online"
     }
   ];
 
@@ -80,10 +56,10 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Notre Dame Golf Carts LSV Showrooms
+            Notre Dame Golf Carts LSV Showroom - South Bend, IN
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Carts showrooms in Notre Dame Pines and Scranton, Indiana. 
+            Visit our TIGON Golf Carts showroom in South Bend, Indiana. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving St. Joseph County.
           </p>
           <div className="flex justify-center">
@@ -99,11 +75,11 @@ export default function ShowroomPage() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Three convenient locations serving all of Indiana</p>
+            <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Location</h2>
+            <p className="text-xl text-gray-600">Conveniently serving all of St. Joseph County, Indiana</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-2xl mx-auto">
             {locations.map((location, index) => (
               <Card key={index} className="hover:shadow-xl transition-shadow border border-gray-200 hover:border-theme-orange h-full">
                 <CardHeader className="pb-3">
@@ -302,7 +278,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our TIGON Golf Carts showrooms in Notre Dame Pines or Scranton, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our TIGON Golf Carts showroom in South Bend, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
