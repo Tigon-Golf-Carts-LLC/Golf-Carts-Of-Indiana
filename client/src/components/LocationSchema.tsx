@@ -20,7 +20,7 @@ export default function LocationSchema({
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": `Notre Dame Golf Carts - ${municipalityName} ${municipalityType}`,
-      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Notre Dame, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
+      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, St. Joseph County, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
       "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
       "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
       "image": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
@@ -38,11 +38,11 @@ export default function LocationSchema({
         "longitude": longitude
       },
       "areaServed": {
-        "@type": "City",
+        "@type": municipalityType === "City" ? "City" : "Place",
         "name": `${municipalityName} ${municipalityType}`,
         "containedInPlace": {
           "@type": "AdministrativeArea",
-          "name": "Notre Dame",
+          "name": "St. Joseph County",
           "containedInPlace": {
             "@type": "State",
             "name": "Indiana"

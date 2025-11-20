@@ -18,6 +18,12 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
   
   const { data: vehicles = [] } = useQuery({
     queryKey: ['/api/vehicles'],
+    queryFn: async () => {
+      const res = await fetch('/api/vehicles');
+      if (!res.ok) throw new Error('Failed to fetch vehicles');
+      const data = await res.json();
+      return data.vehicles || [];
+    },
     staleTime: 1000 * 60 * 5,
   });
 

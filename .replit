@@ -54,9 +54,5 @@ externalPort = 3000
 localPort = 41625
 externalPort = 3003
 
-[[ports]]
-localPort = 44969
-externalPort = 4200
-
 [agent]
 integrations = ["javascript_google_analytics==1.0.0"]
