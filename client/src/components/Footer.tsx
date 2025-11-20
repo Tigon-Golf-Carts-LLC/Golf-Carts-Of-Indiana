@@ -25,6 +25,7 @@ export default function Footer() {
                 <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
                 <li><Link href="/rentals" className="text-gray-600 hover:text-gray-900 text-sm">Rentals</Link></li>
                 <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
+                <li><Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm">Blog</Link></li>
                 <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link></li>
@@ -78,6 +79,7 @@ export default function Footer() {
                 <li><Link href="/inventory" className="text-gray-600 hover:text-gray-900 text-sm">Inventory</Link></li>
                 <li><Link href="/rentals" className="text-gray-600 hover:text-gray-900 text-sm">Rentals</Link></li>
                 <li><Link href="/services" className="text-gray-600 hover:text-gray-900 text-sm">Services</Link></li>
+                <li><Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm">Blog</Link></li>
                 <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link></li>
