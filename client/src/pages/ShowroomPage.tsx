@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "lucide-react";
+import { SiPinterest } from "react-icons/si";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
@@ -11,11 +12,11 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function ShowroomPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Notre Dame Golf Carts LSV Showroom - South Bend, IN",
-    baseDescription: "Visit our TIGON Golf Carts showroom in South Bend, Indiana. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving St. Joseph County with expert sales and service.",
+    pageTitle: "Notre Dame Golf Carts LSV Showrooms - South Bend & Indiana",
+    baseDescription: "Visit our TIGON Golf Carts showroom in South Bend or shop online state-wide. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving all of Indiana with expert sales and service.",
     pageType: "general",
     canonicalPath: "/showroom",
-    keywords: ["TIGON Golf Carts showroom", "South Bend golf cart dealership", "Notre Dame golf carts", "St. Joseph County golf carts"],
+    keywords: ["TIGON Golf Carts showroom", "South Bend golf cart dealership", "Indiana golf carts", "Notre Dame golf carts"],
     ogImage: "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
     heroBackgroundSeed: "showroom"
   });
@@ -34,6 +35,18 @@ export default function ShowroomPage() {
       reviewUrl: "https://g.page/r/CSP5gWCFy0_zEBM/review",
       city: "South Bend",
       type: "physical"
+    },
+    {
+      name: "TIGON GOLF CARTS INDIANA",
+      address: "Indiana",
+      phone: "1-844-844-6638",
+      coordinates: "",
+      googleMapsUrl: "https://www.google.com/maps?cid=6765774483345438799",
+      websiteUrl: "https://tigongolfcarts.com/indiana/",
+      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/indiana/",
+      reviewUrl: "https://g.page/r/CU_4NMYL3ORdEBM/review",
+      city: "Indiana",
+      type: "online"
     }
   ];
 
@@ -56,11 +69,11 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Notre Dame Golf Carts LSV Showroom - South Bend, IN
+            Notre Dame Golf Carts LSV Showrooms
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Carts showroom in South Bend, Indiana. 
-            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving St. Joseph County.
+            Visit our TIGON Golf Carts showroom in South Bend or shop online state-wide. 
+            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving all of Indiana.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -75,11 +88,11 @@ export default function ShowroomPage() {
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Location</h2>
-            <p className="text-xl text-gray-600">Conveniently serving all of St. Joseph County, Indiana</p>
+            <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
+            <p className="text-xl text-gray-600">Physical showroom in South Bend plus state-wide online service</p>
           </div>
 
-          <div className="max-w-2xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {locations.map((location, index) => (
               <Card key={index} className="hover:shadow-xl transition-shadow border border-gray-200 hover:border-theme-orange h-full">
                 <CardHeader className="pb-3">
@@ -166,6 +179,12 @@ export default function ShowroomPage() {
                         <a href={location.youtubeUrl} target="_blank" rel="noopener noreferrer"
                            className="text-gray-500 hover:text-red-600 transition-colors">
                           <Youtube className="w-4 h-4" />
+                        </a>
+                      )}
+                      {location.pinterestUrl && (
+                        <a href={location.pinterestUrl} target="_blank" rel="noopener noreferrer"
+                           className="text-gray-500 hover:text-red-500 transition-colors">
+                          <SiPinterest className="w-4 h-4" />
                         </a>
                       )}
                       <a href={location.reviewUrl} target="_blank" rel="noopener noreferrer"
@@ -278,7 +297,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our TIGON Golf Carts showroom in South Bend, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our TIGON Golf Carts showroom in South Bend or contact us online to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
