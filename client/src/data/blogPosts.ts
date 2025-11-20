@@ -837,17 +837,31 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Street Legal Golf Cart Rental Pricing</h2>
       
-      <h3>Daily Rates</h3>
+      <p><em>Street legal golf carts include DOT-compliant safety equipment and can operate on South Bend public roads with 35 mph speed limits or less.</em></p>
+
+      <h3>Daily Rate</h3>
       <ul>
-        <li><strong>DENAGO EV CITY:</strong> $125-$150 per day</li>
-        <li>Full DOT compliance and insurance</li>
-        <li>Free delivery in South Bend</li>
+        <li><strong>Daily Rate:</strong> $295</li>
+        <li>Full DOT compliance and insurance included</li>
+        <li>Delivery Fee: $6/mile</li>
       </ul>
 
-      <h3>Weekly and Monthly Options</h3>
+      <h3>3-Day Rental - Save 16.9%</h3>
       <ul>
-        <li><strong>Weekly:</strong> $700-$900</li>
-        <li><strong>Monthly:</strong> $2,000-$2,500</li>
+        <li><strong>3-Day Rate:</strong> $735 total ($245/day effective)</li>
+        <li>Delivery Fee: $6/mile</li>
+      </ul>
+
+      <h3>Weekly Rental - Save 32.2%</h3>
+      <ul>
+        <li><strong>Weekly Rate:</strong> $1,400 ($200/day effective)</li>
+        <li>Delivery Fee: $6/mile</li>
+      </ul>
+
+      <h3>Monthly Rental - Save 60.4%</h3>
+      <ul>
+        <li><strong>Monthly Rate:</strong> $3,500 ($116.67/day effective)</li>
+        <li>Delivery Fee: $6/mile</li>
       </ul>
 
       <h2>Safety and Legal Requirements</h2>
