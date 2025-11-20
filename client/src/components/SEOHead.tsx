@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { getRandomBackgroundImage } from "@/utils/backgroundImages";
+import { SEO_CONFIG, getModifiedTime } from "@/config/seoConfig";
 
 interface SEOHeadProps {
   title: string;
@@ -13,6 +14,8 @@ interface SEOHeadProps {
   ogType?: string;
   heroBackgroundSeed?: string;
   pageType?: 'home' | 'vehicle' | 'contact' | 'about' | 'policy' | 'municipality' | 'rental' | 'general';
+  modifiedTime?: Date; // Optional: Last modified timestamp for article:modified_time
+  isArticle?: boolean; // Optional: Set to true for blog posts to use article-specific meta tags
 }
 
 export default function SEOHead({ 
@@ -26,7 +29,9 @@ export default function SEOHead({
   ogImageHeight = 630,
   ogType = "website",
   heroBackgroundSeed,
-  pageType = 'general'
+  pageType = 'general',
+  modifiedTime,
+  isArticle = false
 }: SEOHeadProps) {
   
   // Enhanced description formatting - ensure it ends with the phone number call-to-action
@@ -56,8 +61,10 @@ export default function SEOHead({
       return `https://notredamegolfcarts.com${heroImage}`;
     }
     
-    // 3. Fallback to logo
-    return "https://notredamegolfcarts.com/attached_assets/Monroe%20County%20Golf%20Carts%20(1)_1756141613254.png";
+    // 3. Fallback to default configured image
+    return SEO_CONFIG.defaultImage.startsWith('http') 
+      ? SEO_CONFIG.defaultImage 
+      : `${SEO_CONFIG.siteUrl}${SEO_CONFIG.defaultImage}`;
   };
   
   const finalOGImage = getOptimalOGImage();
@@ -100,26 +107,52 @@ export default function SEOHead({
       }
     }
 
-    // Set favicon
-    const existingFavicon = document.querySelector('link[rel="icon"]');
+    // Set favicon - now using configurable paths from SEO_CONFIG
+    const existingFavicon = document.querySelector('link[rel="icon"]:not([sizes])');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png");
+      existingFavicon.setAttribute("href", SEO_CONFIG.favicon.primary);
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png";
+      favicon.href = SEO_CONFIG.favicon.primary;
       document.head.appendChild(favicon);
     }
 
-    // Set apple touch icon
+    // Set favicon 32x32
+    const existingFavicon32 = document.querySelector('link[rel="icon"][sizes="32x32"]');
+    if (existingFavicon32) {
+      existingFavicon32.setAttribute("href", SEO_CONFIG.favicon.size32);
+    } else {
+      const favicon32 = document.createElement("link");
+      favicon32.rel = "icon";
+      favicon32.type = "image/png";
+      favicon32.setAttribute("sizes", "32x32");
+      favicon32.href = SEO_CONFIG.favicon.size32;
+      document.head.appendChild(favicon32);
+    }
+
+    // Set favicon 16x16
+    const existingFavicon16 = document.querySelector('link[rel="icon"][sizes="16x16"]');
+    if (existingFavicon16) {
+      existingFavicon16.setAttribute("href", SEO_CONFIG.favicon.size16);
+    } else {
+      const favicon16 = document.createElement("link");
+      favicon16.rel = "icon";
+      favicon16.type = "image/png";
+      favicon16.setAttribute("sizes", "16x16");
+      favicon16.href = SEO_CONFIG.favicon.size16;
+      document.head.appendChild(favicon16);
+    }
+
+    // Set apple touch icon - now using configurable path
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png");
+      existingAppleIcon.setAttribute("href", SEO_CONFIG.favicon.appleTouchIcon);
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png";
+      appleIcon.href = SEO_CONFIG.favicon.appleTouchIcon;
       document.head.appendChild(appleIcon);
     }
 
@@ -142,8 +175,8 @@ export default function SEOHead({
     updateOGTag("og:image", finalOGImage);
     updateOGTag("og:image:width", ogImageWidth.toString());
     updateOGTag("og:image:height", ogImageHeight.toString());
-    updateOGTag("og:site_name", "Notre Dame Golf Carts");
-    updateOGTag("og:locale", "en_US");
+    updateOGTag("og:site_name", SEO_CONFIG.siteName);
+    updateOGTag("og:locale", SEO_CONFIG.defaults.locale);
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
     }
@@ -165,6 +198,74 @@ export default function SEOHead({
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", formattedDescription);
     updateTwitterTag("twitter:image", finalOGImage);
+    updateTwitterTag("twitter:site", SEO_CONFIG.social.twitterHandle);
+
+    // Additional Open Graph tags for enhanced social sharing
+    // Determine image type based on file extension
+    const imageType = finalOGImage.match(/\.(jpg|jpeg)$/i) ? "image/jpeg" : 
+                      finalOGImage.match(/\.png$/i) ? "image/png" : 
+                      finalOGImage.match(/\.gif$/i) ? "image/gif" : 
+                      finalOGImage.match(/\.webp$/i) ? "image/webp" : 
+                      SEO_CONFIG.defaults.ogImageType;
+    updateOGTag("og:image:type", imageType);
+
+    // Article-specific meta tags for blog posts
+    if (isArticle || ogType === "article") {
+      // Facebook Page for article publisher
+      updateOGTag("article:publisher", SEO_CONFIG.social.facebookPage);
+      
+      // Last modified time for articles
+      const articleModifiedTime = modifiedTime ? getModifiedTime(modifiedTime) : getModifiedTime();
+      updateOGTag("article:modified_time", articleModifiedTime);
+    }
+
+    // Search Engine Verification Meta Tags
+    // These tags are added once globally for site verification with search engines
+    if (SEO_CONFIG.verification.google) {
+      updateTwitterTag("google-site-verification", SEO_CONFIG.verification.google);
+    }
+    
+    if (SEO_CONFIG.verification.bing) {
+      updateTwitterTag("msvalidate.01", SEO_CONFIG.verification.bing);
+    }
+    
+    if (SEO_CONFIG.verification.pinterest) {
+      updateTwitterTag("p:domain_verify", SEO_CONFIG.verification.pinterest);
+    }
+    
+    if (SEO_CONFIG.verification.yandex) {
+      updateTwitterTag("yandex-verification", SEO_CONFIG.verification.yandex);
+    }
+
+    // Social Profile Verification (rel="me" links)
+    // Add social profile links for identity verification
+    const addRelMeLink = (href: string, platform: string) => {
+      const existingLink = document.querySelector(`link[rel="me"][href="${href}"]`);
+      if (!existingLink && href) {
+        const link = document.createElement("link");
+        link.rel = "me";
+        link.href = href;
+        link.setAttribute("data-platform", platform);
+        document.head.appendChild(link);
+      }
+    };
+
+    if (SEO_CONFIG.social.twitterHandle && SEO_CONFIG.social.twitterHandle.startsWith('@')) {
+      const twitterUsername = SEO_CONFIG.social.twitterHandle.replace('@', '');
+      addRelMeLink(`https://twitter.com/${twitterUsername}`, "twitter");
+    }
+    
+    if (SEO_CONFIG.social.facebookPage) {
+      addRelMeLink(SEO_CONFIG.social.facebookPage, "facebook");
+    }
+    
+    if (SEO_CONFIG.social.linkedInProfile) {
+      addRelMeLink(SEO_CONFIG.social.linkedInProfile, "linkedin");
+    }
+    
+    if (SEO_CONFIG.social.instagramProfile) {
+      addRelMeLink(SEO_CONFIG.social.instagramProfile, "instagram");
+    }
 
     // Structured Data (JSON-LD)
     if (townName) {
@@ -254,7 +355,7 @@ export default function SEOHead({
         document.head.appendChild(script);
       }
     }
-  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogImageWidth, ogImageHeight, ogType, heroBackgroundSeed, pageType, formattedDescription, finalOGImage]);
+  }, [title, description, keywords, canonicalUrl, townName, ogImage, ogImageWidth, ogImageHeight, ogType, heroBackgroundSeed, pageType, formattedDescription, finalOGImage, modifiedTime, isArticle]);
 
   return null;
 }
