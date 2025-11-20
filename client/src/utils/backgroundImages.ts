@@ -1,15 +1,12 @@
 // Background image utility for Notre Dame Golf Carts
-// Uses the 8 professional showroom images featuring the modern Notre Dame Golf Carts dealership
+// Uses 5 new professional showroom images featuring the Notre Dame Golf Carts dealership with professional staff
 
 const BACKGROUND_IMAGES = [
-  '/attached_assets/a-photograph-of-a-friendly-young-woman-s_vxGUqvxjTKqX67SqAuIYoQ_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
-  '/attached_assets/a-photograph-of-a-bright-and-modern-golf_pF3v8kw8Q_CCFrRRipQyig_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_gMwZuNW8SpiOsfQ6mcoCCg_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_fmehWSauQrinHDrywbR60g_qzVPvjrjTDOU46rfqSxBtw_1756144157631.jpeg',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_kA-1uaPYQxue-dWWF09jAA_ulrDQA1xRFu_IwpRZWDCMA_1756144157632.jpeg',
-  '/attached_assets/a-photograph-of-a-bright-and-modern-golf_TciWfI5yRyKjC7lfTXIFgw_ulrDQA1xRFu_IwpRZWDCMA_1756144157632.jpeg',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_LEr7iX5jS4yIeV5y6WLfOw_ulrDQA1xRFu_IwpRZWDCMA_1756144157632.jpeg',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_IiyNE3PAQS25DrWciibG2g_ulrDQA1xRFu_IwpRZWDCMA_1756144157633.jpeg'
+  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts_1763663922417.jpeg',
+  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts Rentals_1763663922417.jpeg',
+  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts Game Day_1763663922417.jpeg',
+  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts -South Bend_1763663922418.jpeg',
+  '/attached_assets/Notre Dame Golf Carts - South Bend Indiana_1763663922418.jpeg'
 ];
 
 // Simple hash function to ensure consistent randomization based on seed
