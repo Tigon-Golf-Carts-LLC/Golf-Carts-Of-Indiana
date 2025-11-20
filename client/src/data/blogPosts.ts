@@ -1,5 +1,7 @@
 import type { BlogPost } from "@shared/schema";
 
+export type { BlogPost };
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: "1",
