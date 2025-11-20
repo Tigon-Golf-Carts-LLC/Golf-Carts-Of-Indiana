@@ -25,7 +25,7 @@ export default function ContactPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Contact Notre Dame Golf Carts",
-    baseDescription: "Get in touch with Notre Dame Golf Carts for expert golf cart sales, service, and support. Located at 1040 IN-611, Notre Dame, IN 46556. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
+    baseDescription: "Get in touch with Notre Dame Golf Carts for expert golf cart sales, service, and support. Located at 310 S Dixie Way, South Bend, IN 46637. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
     pageType: "contact",
     canonicalPath: "/contact",
     keywords: ["Notre Dame showroom", "Notre Dame location", "golf cart consultation", "Indiana service center"],
@@ -86,12 +86,17 @@ export default function ContactPage() {
     {
       icon: MapPin,
       label: "Notre Dame Golf Carts",
-      value: "1040 IN-611, Notre Dame, IN 46556",
-      phone: "1-844-844-6638",
+      value: "310 S Dixie Way, South Bend, IN 46637",
+      phone: "574-402-4158",
     },
     {
       icon: Phone,
-      label: "Indiana Main Line",
+      label: "Local Phone",
+      value: "574-402-4158",
+    },
+    {
+      icon: Phone,
+      label: "Toll-Free",
       value: "1-844-844-6638",
     },
     {

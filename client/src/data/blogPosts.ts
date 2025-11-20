@@ -155,7 +155,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Contact Notre Dame Golf Carts for Transportation Services</h2>
       <p>Located in South Bend, Indiana, we serve the entire St. Joseph County area including all Notre Dame campus transportation needs. Call <strong>1-844-844-6638</strong> or visit our <a href="/contact">contact page</a> to reserve your golf cart rental today.</p>
 
-      <p>Our showroom at <strong>52129 State Road 933, South Bend, IN 46637</strong> is open Monday-Saturday, 9AM-5PM EST. We're your trusted partner for Notre Dame golf cart rentals and South Bend transportation services.</p>
+      <p>Our showroom at <strong>310 S Dixie Way, South Bend, IN 46637</strong> is open Monday-Saturday, 9AM-5PM EST. We're your trusted partner for Notre Dame golf cart rentals and South Bend transportation services.</p>
 
       <h3>Additional Resources</h3>
       <ul>
@@ -393,7 +393,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Contact Notre Dame Golf Carts for Transportation Services</h2>
       <p>Serving University of Notre Dame students, faculty, visitors, and South Bend residents since 2008. Our South Bend location provides convenient access for all St. Joseph County transportation needs.</p>
       
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
       <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
@@ -626,7 +626,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Based in South Bend, we specialize in University of Notre Dame event transportation and St. Joseph County golf cart services.</p>
 
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
       <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
 
@@ -749,7 +749,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Reserve Your 4-Passenger Golf Cart</h2>
       <p>Book through our <a href="/blog/golf-cart-rental-request-form">online rental form</a> or call <strong>1-844-844-6638</strong>.</p>
 
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
 
       <h3>Related Resources</h3>
@@ -885,7 +885,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Reserve Your Street Legal Golf Cart</h2>
       <p>Book through our <a href="/blog/golf-cart-rental-request-form">online form</a> or call <strong>1-844-844-6638</strong>.</p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
 
       <h3>Additional Resources</h3>
       <ul>
@@ -1127,7 +1127,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Don't let transportation challenges diminish your Fighting Irish football experience. Reserve your golf cart rental for the ultimate Notre Dame game day.</p>
 
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Online:</strong> <a href="/blog/golf-cart-rental-request-form">Request rental form</a></p>
 
       <h3>Additional Game Day Resources</h3>
@@ -1305,7 +1305,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
       <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
 
       <h3>Next Steps After Your Request</h3>
@@ -1356,10 +1356,10 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>St. Joseph County:</strong> Central location for all 22 municipalities</li>
       </ul>
 
-      <p><strong>Address:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Address:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST, Sunday Closed</p>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
-      <p><strong>Local:</strong> 574-703-0456</p>
+      <p><strong>Local:</strong> 574-402-4158</p>
 
       <h2>Complete Golf Cart Sales Inventory</h2>
       
@@ -1528,9 +1528,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h3>Contact Notre Dame Golf Carts Today</h3>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
-      <p><strong>Local:</strong> 574-703-0456</p>
+      <p><strong>Local:</strong> 574-402-4158</p>
       <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
 
       <h3>Additional Resources</h3>
@@ -1580,7 +1580,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Contact for Football Weekend Rentals</h2>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><a href="/blog/golf-cart-rental-request-form">Request your game day cart online</a></p>
     </div>`
   },
@@ -1637,7 +1637,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Don't wait! Notre Dame football weekends fill quickly.</p>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
       <p><strong>Online:</strong> <a href="/blog/golf-cart-rental-request-form">Submit rental request</a></p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
     </div>`
   },
   // Post 11 - General vehicle rental
@@ -1701,7 +1701,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Reserve Your Vehicle Rental</h2>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><a href="/blog/golf-cart-rental-request-form">Submit online rental request</a></p>
     </div>`
   },
@@ -1795,7 +1795,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Visit Our South Bend Showroom</h2>
       <p>See our complete inventory of 37 models in person:</p>
-      <p><strong>Location:</strong> 52129 State Road 933, South Bend, IN 46637</p>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
 

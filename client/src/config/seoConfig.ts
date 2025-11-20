@@ -34,10 +34,11 @@ export const SEO_CONFIG = {
   // Business Information
   business: {
     name: "Notre Dame Golf Carts",
-    phone: "1-844-844-6638",
+    phone: "574-402-4158", // Local South Bend number
+    phoneTollFree: "1-844-844-6638", // Toll-free number
     email: "info@notredamegolfcarts.com",
     address: {
-      street: "52129 State Road 933",
+      street: "310 S Dixie Way",
       city: "South Bend",
       state: "IN",
       zip: "46637",

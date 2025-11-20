@@ -23,27 +23,27 @@ export default function ShowroomPage() {
   
   const locations = [
     {
-      name: "TIGON GOLF CARTS SOUTH BEND IN",
-      address: "52129 State Road 933, South Bend, IN 46637",
-      phone: "574-703-0456",
+      name: "NOTRE DAME GOLF CARTS SOUTH BEND",
+      address: "310 S Dixie Way, South Bend, IN 46637",
+      phone: "574-402-4158",
       coordinates: "41.7360283,-86.2511865",
       googleMapsUrl: "https://www.google.com/maps?cid=17532455648086849827",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsSouthBend/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsSouthBendIN",
-      websiteUrl: "https://tigongolfcarts.com/south-bend/",
-      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/south-bend-indiana/",
+      facebookUrl: "https://www.facebook.com/notredamegolfcarts/",
+      youtubeUrl: "https://www.youtube.com/@notredamegolfcarts",
+      websiteUrl: "https://notredamegolfcarts.com/",
+      pinterestUrl: "https://www.pinterest.com/notredamegolfcarts/",
       reviewUrl: "https://g.page/r/CSP5gWCFy0_zEBM/review",
       city: "South Bend",
       type: "physical"
     },
     {
-      name: "TIGON GOLF CARTS INDIANA",
+      name: "NOTRE DAME GOLF CARTS INDIANA",
       address: "Indiana",
       phone: "1-844-844-6638",
       coordinates: "",
       googleMapsUrl: "https://www.google.com/maps?cid=6765774483345438799",
-      websiteUrl: "https://tigongolfcarts.com/indiana/",
-      pinterestUrl: "https://www.pinterest.com/tigongolfcarts/indiana/",
+      websiteUrl: "https://notredamegolfcarts.com/",
+      pinterestUrl: "https://www.pinterest.com/notredamegolfcarts/",
       reviewUrl: "https://g.page/r/CU_4NMYL3ORdEBM/review",
       city: "Indiana",
       type: "online"
