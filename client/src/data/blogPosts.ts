@@ -603,7 +603,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Alternative Golf Cart Options for Notre Dame</h2>
       
       <h3>4-Passenger Golf Carts</h3>
-      <p>For smaller groups, our <a href="/blog/notre-dame-4-passenger-golf-cart-rental">4-passenger models</a> offer compact efficiency at lower rates ($75-$100 daily).</p>
+      <p>For smaller groups, our <a href="/blog/notre-dame-4-passenger-golf-cart-rental">4-passenger models</a> offer compact efficiency at $245/day + $6/mile delivery.</p>
 
       <h3>8-Passenger Options</h3>
       <p>Very large groups can upgrade to EVOLUTION Carrier 8 Plus models with extended capacity for maximum passenger transport.</p>
@@ -1011,7 +1011,9 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>4-Passenger Golf Carts</h3>
       <p>Perfect for couples and small groups:</p>
       <ul>
-        <li><strong>Price:</strong> $75-$100 per day</li>
+        <li><strong>Daily Price:</strong> $245 + $6/mile delivery</li>
+        <li><strong>3-Day:</strong> $685 (Save 6.8%)</li>
+        <li><strong>Weekly:</strong> $1,050 (Save 38.7%)</li>
         <li><strong>Capacity:</strong> 2-4 adults plus moderate cargo</li>
         <li><strong>Best for:</strong> Couples, small families, efficient transport</li>
         <li>See full <a href="/blog/notre-dame-4-passenger-golf-cart-rental">4-passenger details</a></li>
@@ -1020,7 +1022,9 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>6-Passenger Golf Carts</h3>
       <p>Ideal for families and larger groups:</p>
       <ul>
-        <li><strong>Price:</strong> $100-$125 per day</li>
+        <li><strong>Daily Price:</strong> $295 + $6/mile delivery</li>
+        <li><strong>3-Day:</strong> $735 (Save 16.9%)</li>
+        <li><strong>Weekly:</strong> $1,400 (Save 32.2%)</li>
         <li><strong>Capacity:</strong> 6 adults plus extended cargo space</li>
         <li><strong>Best for:</strong> Families, friend groups, heavy tailgate supplies</li>
         <li>See full <a href="/blog/notre-dame-6-passenger-golf-cart-rental">6-passenger details</a></li>
@@ -1029,8 +1033,10 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Street Legal Models</h3>
       <p>Maximum mobility including South Bend streets:</p>
       <ul>
-        <li><strong>Price:</strong> $125-$150 per day</li>
-        <li><strong>Benefits:</strong> Hotel-to-campus routes, downtown access</li>
+        <li><strong>Daily Price:</strong> $295 + $6/mile delivery</li>
+        <li><strong>3-Day:</strong> $735 (Save 16.9%)</li>
+        <li><strong>Weekly:</strong> $1,400 (Save 32.2%)</li>
+        <li><strong>Benefits:</strong> Hotel-to-campus routes, downtown access, DOT-compliant</li>
         <li>See <a href="/blog/notre-dame-street-legal-golf-cart-rental">street legal options</a></li>
       </ul>
 
