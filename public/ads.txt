@@ -1,0 +1,29 @@
+# ads.txt - Authorized Digital Sellers
+# Notre Dame Golf Carts - notredamegolfcarts.com
+# Last Updated: 2025-01-20
+
+# Google AdSense
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager (DoubleClick)
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Google AdMob (Mobile Advertising)
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Ad Network Relationships
+# Additional advertising partners would be listed here
+# Format: domain.com, publisher_id, RELATIONSHIP, TAG_ID
+
+# Note: Replace pub-0000000000000000 with actual publisher IDs when advertising programs are activated
+
+# CONTACT
+# For advertising inquiries: advertising@notredamegolfcarts.com
+# For general business: info@notredamegolfcarts.com
+# Phone: 1-844-844-6638
+
+# BUSINESS INFORMATION
+# Company: Notre Dame Golf Carts
+# Location: 52129 State Road 933, South Bend, IN 46637
+# Industry: Golf Cart Sales, Rentals, and Service
+# Service Area: St. Joseph County, Indiana
