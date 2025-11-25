@@ -18,8 +18,8 @@ export default function ServiceSchema({
   serviceName,
   description,
   serviceType = "Golf Cart Service",
-  provider = "Notre Dame Golf Carts",
-  areaServed = "Notre Dame, IN",
+  provider = "Golf Carts Of Indiana",
+  areaServed = "Indiana",
   availableChannel = ["https://schema.org/OnlineChannel", "https://schema.org/InStoreChannel"],
   offers = []
 }: ServiceSchemaProps) {
@@ -34,16 +34,16 @@ export default function ServiceSchema({
         "@type": "LocalBusiness",
         "name": provider,
         "telephone": "1-844-844-6638",
-        "email": "info@notredamegolfcarts.com",
+        "email": "info@golfcartsofindiana.com",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Notre Dame",
+          "addressLocality": "Indiana",
           "addressRegion": "IN",
           "addressCountry": "US"
         },
         "logo": {
           "@type": "ImageObject",
-          "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+          "url": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
         }
       },
       "areaServed": {
@@ -52,7 +52,7 @@ export default function ServiceSchema({
       },
       "availableChannel": availableChannel.map(channel => ({
         "@type": "ServiceChannel",
-        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://notredamegolfcarts.com" : undefined,
+        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://golfcartsofindiana.com" : undefined,
         "serviceSmsNumber": channel === "https://schema.org/InStoreChannel" ? "1-844-844-6638" : undefined
       })),
       ...(offers.length > 0 && {

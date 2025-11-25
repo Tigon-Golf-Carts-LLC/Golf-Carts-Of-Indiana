@@ -1,7 +1,7 @@
-# Notre Dame Golf Carts - SEO Configuration Guide
+# Golf Carts Of Indiana - SEO Configuration Guide
 
 ## Overview
-This guide explains how to configure and use the comprehensive SEO meta tag system implemented for Notre Dame Golf Carts website.
+This guide explains how to configure and use the comprehensive SEO meta tag system implemented for Golf Carts Of Indiana website.
 
 ## Configuration File Location
 All SEO settings are centralized in: `client/src/config/seoConfig.ts`
@@ -10,7 +10,7 @@ All SEO settings are centralized in: `client/src/config/seoConfig.ts`
 
 ### Google Search Console
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add your property: `notredamegolfcarts.com`
+2. Add your property: `golfcartsofindiana.com`
 3. Choose "HTML tag" verification method
 4. Copy the verification code (e.g., `abc123xyz456`)
 5. Add to `seoConfig.ts`:
@@ -57,9 +57,9 @@ function MyPage() {
   return (
     <>
       <SEOHead
-        title="Page Title - Notre Dame Golf Carts"
+        title="Page Title - Golf Carts Of Indiana"
         description="Page description for search engines and social media"
-        canonicalUrl="https://notredamegolfcarts.com/my-page"
+        canonicalUrl="https://golfcartsofindiana.com/my-page"
         pageType="general"
       />
       {/* Your page content */}
@@ -71,9 +71,9 @@ function MyPage() {
 ### Blog Post Setup (with Article Tags)
 ```typescript
 <SEOHead
-  title="Blog Post Title - Notre Dame Golf Carts"
+  title="Blog Post Title - Golf Carts Of Indiana"
   description="Blog post description"
-  canonicalUrl="https://notredamegolfcarts.com/blog/my-post"
+  canonicalUrl="https://golfcartsofindiana.com/blog/my-post"
   ogType="article"
   isArticle={true}  // Enables article:publisher and article:modified_time
   modifiedTime={new Date("2025-01-20")}  // Optional: Last update time
@@ -85,9 +85,9 @@ function MyPage() {
 ### Vehicle Detail Page
 ```typescript
 <SEOHead
-  title="Evolution D5 Maverick - $12,995 | Notre Dame Golf Carts"
+  title="Evolution D5 Maverick - $12,995 | Golf Carts Of Indiana"
   description="Premium 4-passenger golf cart with advanced features"
-  canonicalUrl="https://notredamegolfcarts.com/vehicle/evolution-d5-maverick"
+  canonicalUrl="https://golfcartsofindiana.com/vehicle/evolution-d5-maverick"
   ogImage="/attached_assets/vehicle-image.jpg"
   ogImageWidth={1200}
   ogImageHeight={800}
@@ -101,42 +101,42 @@ function MyPage() {
 The SEOHead component now automatically adds these meta tags to every page:
 
 ### Open Graph Tags (Facebook/LinkedIn)
-- ✅ `og:title` - Page title
-- ✅ `og:description` - Page description
-- ✅ `og:url` - Canonical URL
-- ✅ `og:site_name` - "Notre Dame Golf Carts"
-- ✅ `og:locale` - "en_US"
-- ✅ `og:type` - "website" or "article"
-- ✅ `og:image` - Featured image (auto-detected from hero backgrounds or specified)
-- ✅ `og:image:width` - Image width (default: 1200)
-- ✅ `og:image:height` - Image height (default: 630)
-- ✅ `og:image:type` - Image MIME type (auto-detected: image/png, image/jpeg, etc.)
+- `og:title` - Page title
+- `og:description` - Page description
+- `og:url` - Canonical URL
+- `og:site_name` - "Golf Carts Of Indiana"
+- `og:locale` - "en_US"
+- `og:type` - "website" or "article"
+- `og:image` - Featured image (auto-detected from hero backgrounds or specified)
+- `og:image:width` - Image width (default: 1200)
+- `og:image:height` - Image height (default: 630)
+- `og:image:type` - Image MIME type (auto-detected: image/png, image/jpeg, etc.)
 
 ### Article-Specific Tags (for Blog Posts)
-- ✅ `article:publisher` - Facebook page URL
-- ✅ `article:modified_time` - ISO 8601 timestamp of last update
+- `article:publisher` - Facebook page URL
+- `article:modified_time` - ISO 8601 timestamp of last update
 
 ### Twitter Card Tags
-- ✅ `twitter:card` - "summary_large_image"
-- ✅ `twitter:title` - Page title
-- ✅ `twitter:description` - Page description
-- ✅ `twitter:image` - Featured image
-- ✅ `twitter:site` - @NotreDameGolfIN (configurable in seoConfig.ts)
+- `twitter:card` - "summary_large_image"
+- `twitter:title` - Page title
+- `twitter:description` - Page description
+- `twitter:image` - Featured image
+- `twitter:site` - @GolfCartsIN (configurable in seoConfig.ts)
 
 ### Search Engine Verification
-- ✅ `google-site-verification` - Google Search Console (when configured)
-- ✅ `msvalidate.01` - Bing Webmaster Tools (when configured)
-- ✅ `p:domain_verify` - Pinterest (when configured)
-- ✅ `yandex-verification` - Yandex Webmaster (when configured)
+- `google-site-verification` - Google Search Console (when configured)
+- `msvalidate.01` - Bing Webmaster Tools (when configured)
+- `p:domain_verify` - Pinterest (when configured)
+- `yandex-verification` - Yandex Webmaster (when configured)
 
 ### Social Profile Verification
-- ✅ `<link rel="me">` - Links to Facebook, Twitter, LinkedIn, Instagram profiles
+- `<link rel="me">` - Links to Facebook, Twitter, LinkedIn, Instagram profiles
 - These links help verify ownership of social media profiles
 
 ### Favicon
-- ✅ Multiple sizes for different devices (16x16, 32x32, 180x180)
-- ✅ Apple touch icon
-- ✅ Configurable in `seoConfig.ts`
+- Multiple sizes for different devices (16x16, 32x32, 180x180)
+- Apple touch icon
+- Configurable in `seoConfig.ts`
 
 ## Updating Social Media Handles
 
@@ -144,10 +144,10 @@ Edit `client/src/config/seoConfig.ts`:
 
 ```typescript
 social: {
-  facebookPage: "https://www.facebook.com/notredamegolfcarts",
-  twitterHandle: "@NotreDameGolfIN",  // Must include @
-  instagramProfile: "https://www.instagram.com/notredamegolfcarts",
-  linkedInProfile: "https://www.linkedin.com/company/notredamegolfcarts"
+  facebookPage: "https://www.facebook.com/golfcartsofindiana",
+  twitterHandle: "@GolfCartsIN",  // Must include @
+  instagramProfile: "https://www.instagram.com/golfcartsofindiana",
+  linkedInProfile: "https://www.linkedin.com/company/golfcartsofindiana"
 }
 ```
 
@@ -168,7 +168,7 @@ social: {
 - Enter your page URL
 
 ### 4. View Page Source
-- Right-click on any page → "View Page Source"
+- Right-click on any page -> "View Page Source"
 - Search for `<meta property="og:` to see all Open Graph tags
 - Search for `<meta name="twitter:` to see all Twitter tags
 - Verify all tags are present and correct
@@ -229,7 +229,7 @@ const blogPost = {
 ## Support
 
 For questions or issues:
-- Email: info@notredamegolfcarts.com
+- Email: info@golfcartsofindiana.com
 - Phone: 1-844-844-6638
 
 ## Version History

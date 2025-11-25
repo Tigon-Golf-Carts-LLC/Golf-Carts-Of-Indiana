@@ -23,8 +23,8 @@ export default function EvolutionD5Maverick4PlusPage() {
         "Comfortable Seating",
         "Reliable Power"
       ]}
-      description="Sport-oriented 4-passenger vehicle with enhanced performance and agility. The EVOLUTION D5 MAVERICK 4 PLUS combines sporty design with practical functionality for Notre Dame enthusiasts. Call 1-844-844-6638."
-      tigoUrl="https://tigongolfcarts.com/evolution/d5-maverick/4-plus/"
+      description="Sport-oriented 4-passenger vehicle with enhanced performance and agility. The EVOLUTION D5 MAVERICK 4 PLUS combines sporty design with practical functionality for Indiana enthusiasts. Call 1-844-844-6638."
+      tigoUrl="https://golfcartsofindiana.com/evolution/d5-maverick/4-plus/"
     />
   );
 }

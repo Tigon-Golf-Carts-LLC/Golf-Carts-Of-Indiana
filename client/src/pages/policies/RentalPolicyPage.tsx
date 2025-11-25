@@ -5,9 +5,9 @@ export default function RentalPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Rental Policy | Notre Dame Golf Carts"
-        description="Complete golf cart rental policy for Notre Dame Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Indiana golf cart rentals."
-        keywords="rental policy, golf cart rental, Notre Dame rentals, Indiana golf cart rental policy"
+        title="Rental Policy | Golf Carts Of Indiana"
+        description="Complete golf cart rental policy for Golf Carts Of Indiana. Learn about rental requirements, responsibilities, insurance, and terms for Indiana golf cart rentals."
+        keywords="rental policy, golf cart rental, Indiana rentals, Indiana golf cart rental policy"
       />
       
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function RentalPolicyPage() {
             Rental Policy
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Complete golf cart rental terms, requirements, and responsibilities for Notre Dame, Indiana.
+            Complete golf cart rental terms, requirements, and responsibilities for Indiana.
           </p>
         </div>
       </section>
@@ -146,14 +146,14 @@ export default function RentalPolicyPage() {
                 <li>Cancellations within 24 hours: 50% refund</li>
                 <li>No-shows: No refund</li>
                 <li>Weather cancellations: Full refund or rescheduling available</li>
-                <li>Notre Dame Golf Carts may cancel due to vehicle unavailability with full refund</li>
+                <li>Golf Carts Of Indiana may cancel due to vehicle unavailability with full refund</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Emergency Procedures</h2>
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Accidents</h3>
               <ul className="list-disc pl-6 mb-6">
                 <li>Contact 911 if anyone is injured</li>
-                <li>Call Notre Dame Golf Carts immediately: 1-844-844-6638</li>
+                <li>Call Golf Carts Of Indiana immediately: 1-844-844-6638</li>
                 <li>Do not admit fault or make statements about the incident</li>
                 <li>Take photos of damage and scene if safe to do so</li>
                 <li>Obtain contact information from other parties involved</li>
@@ -172,11 +172,11 @@ export default function RentalPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Rental Department</strong></p>
-                <p className="mb-2">Notre Dame Golf Carts</p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
+                <p className="mb-2">Golf Carts Of Indiana</p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638 (24/7 Support)</p>
-                <p className="mb-2">Serving Notre Dame, Indiana</p>
-                <p>Website: notredamegolfcarts.com</p>
+                <p className="mb-2">Serving Indiana</p>
+                <p>Website: golfcartsofindiana.com</p>
               </div>
             </div>
           </div>

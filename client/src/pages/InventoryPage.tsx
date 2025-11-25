@@ -23,7 +23,7 @@ export default function InventoryPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Golf Cart Inventory",
-    baseDescription: "Browse our extensive collection of premium electric golf carts from DENAGO and EVOLUTION. Quality vehicles available in Notre Dame, Indiana with expert sales support and competitive pricing.",
+    baseDescription: "Browse our extensive collection of premium electric golf carts from DENAGO and EVOLUTION. Quality vehicles available in Indiana with expert sales support and competitive pricing.",
     pageType: "general",
     canonicalPath: "/inventory",
     keywords: ["golf cart inventory", "electric vehicles for sale", "DENAGO EVOLUTION models", "Indiana golf cart dealer"],
@@ -59,8 +59,8 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://notredamegolfcarts.com" },
-    { name: "Inventory", url: "https://notredamegolfcarts.com/inventory" }
+    { name: "Home", url: "https://golfcartsofindiana.com" },
+    { name: "Inventory", url: "https://golfcartsofindiana.com/inventory" }
   ];
 
   return (
@@ -80,13 +80,13 @@ export default function InventoryPage() {
       <AllSchemas 
         pageType="inventory" 
         pageData={{
-          title: "Golf Cart Inventory - Notre Dame Golf Carts",
-          description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Notre Dame, Indiana with expert service.",
-          url: "https://notredamegolfcarts.com/inventory",
+          title: "Golf Cart Inventory - Golf Carts Of Indiana",
+          description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Indiana with expert service.",
+          url: "https://golfcartsofindiana.com/inventory",
           breadcrumbs: breadcrumbItems,
           collectionItems: vehicles?.map(vehicle => ({
             name: vehicle.name,
-            url: `https://notredamegolfcarts.com/vehicle/${vehicle.id}`,
+            url: `https://golfcartsofindiana.com/vehicle/${vehicle.id}`,
             description: `${vehicle.brand} ${vehicle.name} electric golf cart`,
             image: vehicle.images[0]
           })) || [],

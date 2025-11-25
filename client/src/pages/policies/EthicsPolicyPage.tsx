@@ -5,9 +5,9 @@ export default function EthicsPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Ethics Policy | Notre Dame Golf Carts"
-        description="Learn about Notre Dame Golf Carts' code of ethics and business conduct standards for employees, customers, and partners in Indiana."
-        keywords="ethics policy, business ethics, Notre Dame golf carts, code of conduct Indiana"
+        title="Ethics Policy | Golf Carts Of Indiana"
+        description="Learn about Golf Carts Of Indiana's code of ethics and business conduct standards for employees, customers, and partners in Indiana."
+        keywords="ethics policy, business ethics, Indiana golf carts, code of conduct Indiana"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function EthicsPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Our Ethical Foundation</h2>
               <p className="mb-6">
-                Notre Dame Golf Carts operates with the highest standards of integrity, honesty, 
+                Golf Carts Of Indiana operates with the highest standards of integrity, honesty, 
                 and ethical behavior. Our commitment to ethical business practices guides every 
                 interaction with customers, employees, suppliers, and the Indiana communities we serve.
               </p>
@@ -239,11 +239,11 @@ export default function EthicsPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Ethics Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Ethics and Compliance</strong></p>
-                <p className="mb-2">Notre Dame Golf Carts</p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com (Confidential Ethics Reports)</p>
+                <p className="mb-2">Golf Carts Of Indiana</p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com (Confidential Ethics Reports)</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Notre Dame, Indiana</p>
-                <p className="mb-2">Website: notredamegolfcarts.com</p>
+                <p className="mb-2">Serving Indiana</p>
+                <p className="mb-2">Website: golfcartsofindiana.com</p>
                 <p>Confidential and anonymous reporting available</p>
               </div>
             </div>

@@ -34,11 +34,11 @@ export default function OfferSchema({
   validFrom,
   validThrough,
   seller = {
-    name: "Notre Dame Golf Carts",
+    name: "Golf Carts Of Indiana",
     telephone: "1-844-844-6638",
-    email: "info@notredamegolfcarts.com"
+    email: "info@golfcartsofindiana.com"
   },
-  eligibleRegion = "Notre Dame, IN",
+  eligibleRegion = "Indiana",
   priceSpecification = []
 }: OfferSchemaProps) {
   useEffect(() => {
@@ -63,7 +63,7 @@ export default function OfferSchema({
         ...(seller.email && { "email": seller.email }),
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Notre Dame",
+          "addressLocality": "Indiana",
           "addressRegion": "IN",
           "addressCountry": "US"
         }

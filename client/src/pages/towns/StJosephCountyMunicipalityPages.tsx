@@ -33,7 +33,7 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Notre Dame Golf Carts`;
+  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Golf Carts Of Indiana`;
   const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, St. Joseph County, IN. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
   
   const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d${municipality.coordinates.lng}!3d${municipality.coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20St.%20Joseph%20County%2C%20IN!5e0!3m2!1sen!2sus!4v1763668400000`;
@@ -44,8 +44,8 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
         title={pageTitle}
         description={metaDescription}
         keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, St. Joseph County golf cart sales, electric golf carts ${municipality.name}`}
-        canonicalUrl={`https://notredamegolfcarts.com${municipality.url}`}
-        ogImage="https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
+        canonicalUrl={`https://golfcartsofindiana.com${municipality.url}`}
+        ogImage="https://golfcartsofindiana.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
       />
 
       {/* Hero Section */}
@@ -53,7 +53,7 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4 bg-theme-orange text-white">
-              Notre Dame Golf Carts
+              Golf Carts Of Indiana
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Golf Carts in {municipality.name} {municipality.type}
@@ -83,7 +83,7 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Notre Dame Golf Carts for {municipality.name}?
+              Why Choose Golf Carts Of Indiana for {municipality.name}?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We deliver premium electric golf cart solutions throughout St. Joseph County, 
@@ -278,7 +278,7 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
             Ready to Get Started in {municipality.name}?
           </h2>
           <p className="text-xl mb-8 text-gray-100">
-            Contact Notre Dame Golf Carts today for expert advice, competitive pricing, and professional service in {municipality.name} {municipality.type}.
+            Contact Golf Carts Of Indiana today for expert advice, competitive pricing, and professional service in {municipality.name} {municipality.type}.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <a href="tel:1-844-844-6638" className="flex items-center text-white hover:text-theme-orange transition-colors" data-testid="link-phone">
@@ -297,11 +297,11 @@ export function StJosephCountyMunicipalityPage({ municipalitySlug }: StJosephCou
       <SchemaMarkup schema={{
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Notre Dame Golf Carts - ${municipality.name} ${municipality.type}`,
+        "name": `Golf Carts Of Indiana - ${municipality.name} ${municipality.type}`,
         "description": `Professional golf cart sales, service, and rentals serving ${municipality.name} ${municipality.type}, St. Joseph County, Indiana. Premium DENAGO and EVOLUTION electric golf carts available.`,
-        "url": `https://notredamegolfcarts.com${municipality.url}`,
+        "url": `https://golfcartsofindiana.com${municipality.url}`,
         "telephone": "1-844-844-6638",
-        "email": "info@notredamegolfcarts.com",
+        "email": "info@golfcartsofindiana.com",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": municipality.name,

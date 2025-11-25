@@ -9,7 +9,6 @@ import VehicleCard from "@/components/VehicleCard";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { generateSEOMetadata } from "@/utils/seoUtils";
 
-// Import EVOLUTION vehicle images
 import evolutionD5Ranger6Image from "@assets/EVOLUTIOND5RANGER6_1751893159004_1753135350623.jpg";
 import evolutionD5Ranger4PlusImage from "@assets/EVOLUTIOND5RANGER4PLUS_1751893115782_1753135350622.jpg";
 import evolutionForester4PlusImage from "@assets/EVOLUTIONFORESTER4PLUS_1751893159005_1753135437836.jpg";
@@ -45,18 +44,16 @@ export default function EvolutionPage() {
     queryKey: ["/api/vehicles"],
   });
 
-  // Filter EVOLUTION vehicles
   const evolutionVehicles = vehicles?.filter(vehicle => 
     vehicle.brand.toLowerCase().includes('evolution')
   ) || [];
   
-  // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "EVOLUTION®",
-    baseDescription: "Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver premium quality, innovative design, and reliable performance for Notre Dame, Indiana. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series.",
+    baseDescription: "Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver premium quality, innovative design, and reliable performance throughout Indiana. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series.",
     pageType: "general",
     canonicalPath: "/evolution",
-    keywords: ["EVOLUTION golf carts", "premium electric vehicles", "D5 RANGER", "EVOLUTION MAVERICK", "golf cart sales St. Joseph County"],
+    keywords: ["EVOLUTION golf carts", "premium electric vehicles", "D5 RANGER", "EVOLUTION MAVERICK", "golf cart sales Indiana"],
     ogImage: "/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg",
     heroBackgroundSeed: "evolution"
   });
@@ -129,7 +126,6 @@ export default function EvolutionPage() {
     }
   ];
 
-  // All EVOLUTION vehicles for complete lineup section - matching DENAGO layout
   const allEvolutionVehicles = [
     {
       name: "EVOLUTION D5 RANGER 4 PLUS",
@@ -265,7 +261,7 @@ export default function EvolutionPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the evolution of electric vehicle excellence. EVOLUTION golf carts deliver 
-              premium quality, innovative design, and reliable performance for Notre Dame, Indiana.
+              premium quality, innovative design, and reliable performance throughout Indiana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -295,7 +291,7 @@ export default function EvolutionPage() {
                   EVOLUTION represents the perfect balance of innovation, quality, and value in 
                   electric vehicle manufacturing. With a comprehensive lineup ranging from classic 
                   golf carts to high-performance utility vehicles, EVOLUTION delivers solutions 
-                  for every need in St. Joseph County's diverse campus and residential communities.
+                  for every need throughout Indiana's diverse campus and residential communities.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {evolutionFeatures.map((feature, index) => (
@@ -329,7 +325,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the full range of EVOLUTION electric vehicles available in St. Joseph County
+                Discover the full range of EVOLUTION electric vehicles available throughout Indiana
               </p>
             </div>
 
@@ -395,7 +391,7 @@ export default function EvolutionPage() {
                 Complete EVOLUTION Vehicle Lineup  
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 EVOLUTION electric vehicle models available in St. Joseph County
+                Explore all 6 EVOLUTION electric vehicle models available throughout Indiana
               </p>
             </div>
 
@@ -420,7 +416,7 @@ export default function EvolutionPage() {
                     </div>
                   </div>
                   <CardHeader>
-                    <CardTitle className="text-xl text-gray-900">{vehicle.name}</CardTitle>
+                    <CardTitle className="text-xl text-gray-900">{vehicle.name} | Golf Carts Of Indiana</CardTitle>
                     <div className="grid grid-cols-2 gap-4 text-sm text-gray-600">
                       <div>
                         <span className="font-semibold">Seats:</span> {vehicle.specs.seats}
@@ -469,7 +465,7 @@ export default function EvolutionPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose EVOLUTION in St. Joseph County?
+                Why Choose EVOLUTION in Indiana?
               </h2>
             </div>
 
@@ -505,7 +501,7 @@ export default function EvolutionPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Support</h3>
                 <p className="text-gray-600">
-                  Expert EVOLUTION service and genuine parts support right here in St. Joseph County 
+                  Expert EVOLUTION service and genuine parts support throughout Indiana 
                   with factory-trained technicians and comprehensive warranties.
                 </p>
               </div>
@@ -520,7 +516,7 @@ export default function EvolutionPage() {
               Ready to Experience EVOLUTION?
             </h2>
             <p className="text-xl mb-8">
-              Contact Notre Dame Golf Carts today to explore the complete EVOLUTION lineup 
+              Contact Golf Carts Of Indiana today to explore the complete EVOLUTION lineup 
               and find the perfect electric vehicle for your needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

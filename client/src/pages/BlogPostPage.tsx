@@ -32,8 +32,8 @@ export default function BlogPostPage() {
       <SEOHead 
         title={post.seoTitle}
         description={post.metaDescription}
-        keywords={`Notre Dame golf carts, South Bend Indiana, ${post.title}`}
-        canonicalUrl={`https://notredamegolfcarts.com/blog/${post.slug}`}
+        keywords={`Indiana golf carts, South Bend Indiana, ${post.title}`}
+        canonicalUrl={`https://golfcartsofindiana.com/blog/${post.slug}`}
         ogImage={post.heroImage}
         ogImageWidth={1200}
         ogImageHeight={600}
@@ -145,7 +145,7 @@ export default function BlogPostPage() {
       {/* CTA Section */}
       <section className="py-16 px-4 bg-theme-primary text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Experience Notre Dame Golf Carts?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Experience Golf Carts Of Indiana?</h2>
           <p className="text-xl mb-8 text-gray-100">
             Professional golf cart sales, rentals, and service in South Bend, Indiana
           </p>

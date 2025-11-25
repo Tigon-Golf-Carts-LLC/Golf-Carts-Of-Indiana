@@ -91,8 +91,8 @@ export default function VehicleSchema({
       "availability": `https://schema.org/${offers?.availability || availability}`,
       "seller": offers?.seller || {
         "@type": "Organization",
-        "name": "Notre Dame Golf Carts",
-        "url": "https://notredamegolfcarts.com"
+        "name": "Golf Carts Of Indiana",
+        "url": "https://golfcartsofindiana.com"
       }
     }
   };

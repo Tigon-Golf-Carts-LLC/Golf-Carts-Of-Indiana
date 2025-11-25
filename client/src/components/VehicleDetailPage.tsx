@@ -62,14 +62,14 @@ export default function VehicleDetailPage({
     vehicleName,
     `${brand} golf cart`,
     `${series} series`,
-    `electric golf cart Notre Dame`,
+    `electric golf cart Indiana`,
     `${brand} ${series}`,
     "golf cart sales Indiana"
   ];
   
   const seoData = generateSEOMetadata({
     pageTitle: vehicleName, // This matches the H1 text exactly
-    baseDescription: `Discover the ${vehicleName} electric golf cart in Notre Dame, IN. ${description} Expert sales, service, and delivery available.`,
+    baseDescription: `Discover the ${vehicleName} electric golf cart in Indiana. ${description} Expert sales, service, and delivery available.`,
     pageType: "vehicle",
     canonicalPath: canonicalUrl ? new URL(canonicalUrl).pathname : defaultCanonicalPath,
     keywords: seoKeywords ? seoKeywords.split(', ') : defaultKeywords,
@@ -111,8 +111,8 @@ export default function VehicleDetailPage({
           description: seoData.description,
           url: seoData.canonicalUrl,
           breadcrumbs: [
-            { name: "Home", url: "https://notredamegolfcarts.com/" },
-            { name: "Inventory", url: "https://notredamegolfcarts.com/inventory" },
+            { name: "Home", url: "https://golfcartsofindiana.com/" },
+            { name: "Inventory", url: "https://golfcartsofindiana.com/inventory" },
             { name: vehicleName, url: seoData.canonicalUrl }
           ],
           vehicleName,
@@ -132,7 +132,7 @@ export default function VehicleDetailPage({
             },
             {
               author: "Susan Rodriguez",
-              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Notre Dame Golf Carts.`,
+              reviewBody: `Purchased the ${vehicleName} and couldn't be happier. The features and performance exceed expectations. Great service from Golf Carts Of Indiana.`,
               reviewRating: 5,
               datePublished: "2025-01-18",
               headline: "Excellent purchase experience"
@@ -294,12 +294,12 @@ export default function VehicleDetailPage({
           </div>
         </section>
 
-        {/* Why Choose Notre Dame Golf Carts */}
+        {/* Why Choose Golf Carts Of Indiana */}
         <section className="py-16 px-4 bg-theme-primary text-white">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4">
-                Why Choose Notre Dame Golf Carts?
+                Why Choose Golf Carts Of Indiana?
               </h2>
             </div>
 
@@ -308,7 +308,7 @@ export default function VehicleDetailPage({
                 <Shield className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-4">Expert Service</h3>
                 <p className="text-blue-100">
-                  Professional installation, maintenance, and warranty support for all {brand} vehicles in Notre Dame, New Jersey.
+                  Professional installation, maintenance, and warranty support for all {brand} vehicles in Indiana.
                 </p>
               </div>
 
@@ -324,7 +324,7 @@ export default function VehicleDetailPage({
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold mb-4">Local Expertise</h3>
                 <p className="text-blue-100">
-                  Deep knowledge of Notre Dame's communities and terrain to help you choose the perfect vehicle for your needs.
+                  Deep knowledge of Indiana's communities and terrain to help you choose the perfect vehicle for your needs.
                 </p>
               </div>
             </div>
@@ -338,7 +338,7 @@ export default function VehicleDetailPage({
               Ready to Experience the {vehicleName}?
             </h2>
             <p className="text-xl mb-8">
-              Contact Notre Dame Golf Carts today for pricing, availability, and to schedule your test drive.
+              Contact Golf Carts Of Indiana today for pricing, availability, and to schedule your test drive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">

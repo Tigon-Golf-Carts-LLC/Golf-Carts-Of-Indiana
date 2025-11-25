@@ -11,9 +11,9 @@ export default function DenagoEvRoverXL6() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Notre Dame Golf Carts"
+        title="DENAGO® EV Rover XL6 - Luxury Electric Vehicle | Golf Carts Of Indiana"
         description="Experience the DENAGO® EV Rover XL6 with premium luxury features and 6-passenger seating. Ultimate comfort and performance for discerning customers."
-        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Notre Dame"
+        keywords="DENAGO EV Rover XL6, luxury electric vehicle, 6-passenger golf cart, premium comfort, DENAGO dealer Indiana"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -76,7 +76,7 @@ export default function DenagoEvRoverXL6() {
                       Get Quote
                     </Button>
                   </Link>
-                  <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://golfcartsofindiana.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" variant="outline" className="w-full sm:w-auto border-theme-orange text-theme-primary hover:bg-orange-50">
                       Finance Options
                     </Button>
@@ -226,7 +226,7 @@ export default function DenagoEvRoverXL6() {
               Experience Luxury Transportation
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today to schedule a test drive or get a personalized quote for your DENAGO EV Rover XL6.
+              Contact Golf Carts Of Indiana today to schedule a test drive or get a personalized quote for your DENAGO EV Rover XL6.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -235,7 +235,7 @@ export default function DenagoEvRoverXL6() {
                   Get Quote Today
                 </Button>
               </Link>
-              <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
+              <a href="https://golfcartsofindiana.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
                   <MapPin className="w-5 h-5 mr-2" />
                   Visit Showroom

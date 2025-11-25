@@ -5,9 +5,9 @@ export default function CorrectionsPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Corrections Policy | Notre Dame Golf Carts"
-        description="Learn about Notre Dame Golf Carts' commitment to accuracy and our process for handling corrections to published content and information."
-        keywords="corrections policy, content accuracy, Notre Dame golf carts, information corrections"
+        title="Corrections Policy | Golf Carts Of Indiana"
+        description="Learn about Golf Carts Of Indiana's commitment to accuracy and our process for handling corrections to published content and information."
+        keywords="corrections policy, content accuracy, Indiana golf carts, information corrections"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function CorrectionsPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Our Commitment to Accuracy</h2>
               <p className="mb-6">
-                Notre Dame Golf Carts is committed to providing accurate, up-to-date information across 
+                Golf Carts Of Indiana is committed to providing accurate, up-to-date information across 
                 all our communications channels. When errors occur, we take immediate action to correct 
                 them transparently and prevent similar issues in the future.
               </p>
@@ -69,7 +69,7 @@ export default function CorrectionsPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">How to Report Corrections</h2>
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Reporting Channels</h3>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>Email:</strong> info@notredamegolfcarts.com with "Correction Request" in subject</li>
+                <li><strong>Email:</strong> info@golfcartsofindiana.com with "Correction Request" in subject</li>
                 <li><strong>Phone:</strong> 1-844-844-6638 - ask for corrections department</li>
                 <li><strong>Website:</strong> Contact form with correction details</li>
                 <li><strong>In-Person:</strong> Report to any TIGON Golf Carts location</li>
@@ -201,11 +201,11 @@ export default function CorrectionsPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Corrections Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Corrections and Content Accuracy Team</strong></p>
-                <p className="mb-2">Notre Dame Golf Carts</p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com (Subject: Correction Request)</p>
+                <p className="mb-2">Golf Carts Of Indiana</p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com (Subject: Correction Request)</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Notre Dame, Indiana</p>
-                <p className="mb-2">Website: notredamegolfcarts.com</p>
+                <p className="mb-2">Serving Indiana</p>
+                <p className="mb-2">Website: golfcartsofindiana.com</p>
                 <p>Thank you for helping us maintain accuracy!</p>
               </div>
             </div>

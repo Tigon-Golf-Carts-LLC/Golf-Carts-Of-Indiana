@@ -11,11 +11,11 @@ import { generateSEOMetadata } from "@/utils/seoUtils";
 export default function AboutPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "About Notre Dame Golf Carts",
-    baseDescription: "Since 2008, Notre Dame Golf Carts has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving Notre Dame and surrounding Indiana communities with expert sales, service, and rentals.",
+    pageTitle: "About Golf Carts Of Indiana",
+    baseDescription: "Since 2008, Golf Carts Of Indiana has been Indiana's premier golf cart dealership. Authorized DENAGO and EVOLUTION dealer serving Indiana communities with expert sales, service, and rentals.",
     pageType: "about",
     canonicalPath: "/about",
-    keywords: ["golf cart company history", "Indiana dealership since 2008", "Notre Dame golf carts", "authorized dealer team"],
+    keywords: ["golf cart company history", "Indiana dealership since 2008", "Indiana golf carts", "authorized dealer team"],
     heroBackgroundSeed: "about"
   });
   
@@ -41,7 +41,7 @@ export default function AboutPage() {
   ];
 
   const milestones = [
-    { year: "2008", event: "Notre Dame Golf Carts founded in Notre Dame, Indiana" },
+    { year: "2008", event: "Golf Carts Of Indiana founded in Indiana" },
     { year: "2010", event: "Became authorized EVOLUTION dealer" },
     { year: "2013", event: "Expanded to serve all St. Joseph County communities" },
     { year: "2016", event: "Added DENAGO to our brand portfolio" },
@@ -66,12 +66,12 @@ export default function AboutPage() {
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Notre Dame Golf Carts",
-          description: "Learn about Notre Dame Golf Carts, Indiana's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
-          url: "https://notredamegolfcarts.com/about",
+          title: "About Golf Carts Of Indiana",
+          description: "Learn about Golf Carts Of Indiana, Indiana's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
+          url: "https://golfcartsofindiana.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://notredamegolfcarts.com/" },
-            { name: "About", url: "https://notredamegolfcarts.com/about" }
+            { name: "Home", url: "https://golfcartsofindiana.com/" },
+            { name: "About", url: "https://golfcartsofindiana.com/about" }
           ],
           people: [
             {
@@ -100,7 +100,7 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Notre Dame Golf Carts
+            About Golf Carts Of Indiana
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Since 2008, we've been St. Joseph County's premier destination for premium golf carts, 
@@ -125,7 +125,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2008 in Notre Dame, Indiana, Notre Dame Golf Carts began with a simple mission: 
+                Founded in 2008 in Indiana, Golf Carts Of Indiana began with a simple mission: 
                 to provide high-quality golf carts and exceptional service to customers throughout St. Joseph County and the greater South Bend area.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -274,14 +274,14 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Serving St. Joseph County</h2>
               <p className="text-lg text-gray-600 mb-6">
-                From our location in Notre Dame, we proudly serve customers throughout 
+                From our location in Indiana, we proudly serve customers throughout 
                 all of St. Joseph County, Indiana. Our commitment to quality service extends across 
                 all 22 municipalities with convenient access to every community.
               </p>
               <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
-                  <span className="text-gray-700 font-medium">Notre Dame Golf Carts - Notre Dame</span>
+                  <span className="text-gray-700 font-medium">Golf Carts Of Indiana - Indiana</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-theme-orange" />
@@ -342,7 +342,7 @@ export default function AboutPage() {
             Ready to Join Our Family?
           </h2>
           <p className="text-xl mb-8">
-            Experience the Notre Dame Golf Carts difference throughout St. Joseph County, Indiana
+            Experience the Golf Carts Of Indiana difference throughout St. Joseph County, Indiana
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

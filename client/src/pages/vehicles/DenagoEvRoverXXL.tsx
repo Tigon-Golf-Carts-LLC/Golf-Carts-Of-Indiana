@@ -11,9 +11,9 @@ export default function DenagoEvRoverXXL() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Notre Dame Golf Carts"
+        title="DENAGO® EV Rover XXL - Maximum Capacity Electric Vehicle | Golf Carts Of Indiana"
         description="Experience the DENAGO® EV Rover XXL with maximum seating and cargo capacity. Our largest luxury model for ultimate group transportation."
-        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Notre Dame"
+        keywords="DENAGO EV Rover XXL, 8-passenger golf cart, maximum capacity, luxury electric vehicle, DENAGO dealer Indiana"
       />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
@@ -76,7 +76,7 @@ export default function DenagoEvRoverXXL() {
                       Get Quote
                     </Button>
                   </Link>
-                  <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://golfcartsofindiana.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" variant="outline" className="w-full sm:w-auto border-theme-orange text-theme-primary hover:bg-orange-50">
                       Finance Options
                     </Button>
@@ -226,7 +226,7 @@ export default function DenagoEvRoverXXL() {
               Maximum Capacity, Maximum Luxury
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact Bucks County Golf Carts today to schedule a test drive or get a personalized quote for your DENAGO EV Rover XXL.
+              Contact Golf Carts Of Indiana today to schedule a test drive or get a personalized quote for your DENAGO EV Rover XXL.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -235,7 +235,7 @@ export default function DenagoEvRoverXXL() {
                   Get Quote Today
                 </Button>
               </Link>
-              <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
+              <a href="https://golfcartsofindiana.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="text-gray-900 bg-white border-white hover:bg-gray-100 hover:text-gray-900">
                   <MapPin className="w-5 h-5 mr-2" />
                   Visit Showroom

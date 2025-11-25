@@ -9,33 +9,33 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Notre Dame Golf Carts",
-      "description": "Premier golf cart dealership in Notre Dame, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
-      "url": "https://notredamegolfcarts.com",
-      "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-      "image": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+      "name": "Golf Carts Of Indiana",
+      "description": "Premier golf cart dealership in Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
+      "url": "https://golfcartsofindiana.com",
+      "logo": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+      "image": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
       "telephone": "1-844-844-6638",
-      "email": "info@notredamegolfcarts.com",
+      "email": "info@golfcartsofindiana.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Notre Dame",
+        "streetAddress": "310 S Dixie Way",
+        "addressLocality": "South Bend",
         "addressRegion": "IN",
-        "postalCode": "46556",
+        "postalCode": "46637",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "41.7033",
-        "longitude": "-86.2389"
+        "latitude": "39.7684",
+        "longitude": "-86.1581"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",
         "Sa 09:00-17:00"
       ],
       "serviceArea": {
-        "@type": "AdministrativeArea",
-        "name": "Notre Dame, Indiana"
+        "@type": "State",
+        "name": "Indiana"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -99,13 +99,12 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "worstRating": "1"
       },
       "sameAs": [
-        "https://www.facebook.com/monroegolfcarts",
-        "https://www.instagram.com/monroegolfcarts",
-        "https://www.linkedin.com/company/monroegolfcarts"
+        "https://www.facebook.com/golfcartsofindiana",
+        "https://www.instagram.com/golfcartsofindiana",
+        "https://www.linkedin.com/company/golfcartsofindiana"
       ]
     };
 
-    // Add page-specific schema
     let structuredData = baseStructuredData;
 
     if (pageType === "about") {
@@ -121,7 +120,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "(215) 555-0123",
+          "telephone": "1-844-844-6638",
           "contactType": "customer service",
           "availableLanguage": "English"
         }
@@ -132,7 +131,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Notre Dame Golf Carts"
+          "name": "Golf Carts Of Indiana"
         }
       } as any;
     }

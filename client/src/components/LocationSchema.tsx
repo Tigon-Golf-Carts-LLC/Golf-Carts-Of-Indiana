@@ -12,20 +12,20 @@ export default function LocationSchema({
   municipalityName, 
   municipalityType, 
   pageType = 'location',
-  latitude = "41.7033",
-  longitude = "-86.2389"
+  latitude = "39.7684",
+  longitude = "-86.1581"
 }: LocationSchemaProps) {
   useEffect(() => {
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": `Notre Dame Golf Carts - ${municipalityName} ${municipalityType}`,
-      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, St. Joseph County, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
-      "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-      "image": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+      "name": `Golf Carts Of Indiana - ${municipalityName} ${municipalityType}`,
+      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Indiana. Premium DENAGO and Evolution electric golf carts available.`,
+      "url": `https://golfcartsofindiana.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-golf-carts`,
+      "logo": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+      "image": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
       "telephone": "1-844-844-6638",
-      "email": "info@notredamegolfcarts.com",
+      "email": "info@golfcartsofindiana.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": municipalityName,
@@ -41,12 +41,8 @@ export default function LocationSchema({
         "@type": municipalityType === "City" ? "City" : "Place",
         "name": `${municipalityName} ${municipalityType}`,
         "containedInPlace": {
-          "@type": "AdministrativeArea",
-          "name": "St. Joseph County",
-          "containedInPlace": {
-            "@type": "State",
-            "name": "Indiana"
-          }
+          "@type": "State",
+          "name": "Indiana"
         }
       },
       "serviceType": [
@@ -90,14 +86,13 @@ export default function LocationSchema({
       }
     };
 
-    // Add rental-specific schema for rental pages
     if (pageType === 'rental') {
       const rentalSchema = {
         ...baseStructuredData,
         "@type": ["LocalBusiness", "RentalCarAgency"],
         "name": `Golf Cart Rentals - ${municipalityName} ${municipalityType}`,
-        "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, St. Joseph County. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
-        "url": `https://notredamegolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
+        "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, Indiana. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
+        "url": `https://golfcartsofindiana.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-rentals`,
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": `Golf Cart Rental Services in ${municipalityName} ${municipalityType}`,
@@ -112,7 +107,7 @@ export default function LocationSchema({
               },
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "75",
+                "price": "245",
                 "priceCurrency": "USD",
                 "eligibleQuantity": {
                   "@type": "QuantitativeValue",
@@ -130,7 +125,7 @@ export default function LocationSchema({
               },
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "95",
+                "price": "345",
                 "priceCurrency": "USD",
                 "eligibleQuantity": {
                   "@type": "QuantitativeValue",
@@ -148,7 +143,7 @@ export default function LocationSchema({
               },
               "priceSpecification": {
                 "@type": "PriceSpecification",
-                "price": "85",
+                "price": "195",
                 "priceCurrency": "USD",
                 "eligibleQuantity": {
                   "@type": "QuantitativeValue",

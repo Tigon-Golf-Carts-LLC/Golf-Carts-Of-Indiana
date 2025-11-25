@@ -9,7 +9,6 @@ import VehicleCard from "@/components/VehicleCard";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { generateSEOMetadata } from "@/utils/seoUtils";
 
-// Import DENAGO vehicle images
 import denagoEvCityImage from "@assets/DENAGONEVCITY_1751893047472_1753135231313.jpg";
 import denagoEvNomadImage from "@assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg";
 import denagoEvNomadXLImage from "@assets/DENAGONEVNOMADXL_1751893047472_1753135231313.jpg";
@@ -43,18 +42,16 @@ export default function DenagoPage() {
     queryKey: ["/api/vehicles"],
   });
 
-  // Filter DENAGO vehicles
   const denagoVehicles = vehicles?.filter(vehicle => 
     vehicle.brand.toLowerCase().includes('denago')
   ) || [];
   
-  // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "DENAGO®",
-    baseDescription: "Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge technology with rugged durability for unmatched adventure capability in Notre Dame, Indiana. Premium EV CITY, EV NOMAD, and EV ROVER series available.",
+    baseDescription: "Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge technology with rugged durability for unmatched adventure capability throughout Indiana. Premium EV CITY, EV NOMAD, and EV ROVER series available.",
     pageType: "general",
     canonicalPath: "/denago",
-    keywords: ["DENAGO golf carts", "electric off-road vehicles", "premium golf carts St. Joseph County", "all-wheel drive golf carts"],
+    keywords: ["DENAGO golf carts", "electric off-road vehicles", "premium golf carts Indiana", "all-wheel drive golf carts"],
     ogImage: "/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg",
     heroBackgroundSeed: "denago"
   });
@@ -95,7 +92,6 @@ export default function DenagoPage() {
     }
   ];
 
-  // Complete DENAGO vehicle lineup with specifications
   const allDenagoVehicles = [
     {
       name: "DENAGO EV CITY",
@@ -177,7 +173,7 @@ export default function DenagoPage() {
             </h1>
             <p className="text-2xl mb-8 max-w-4xl mx-auto">
               Experience the ultimate in electric off-road performance. DENAGO vehicles combine cutting-edge 
-              technology with rugged durability for unmatched adventure capability in Notre Dame, Indiana.
+              technology with rugged durability for unmatched adventure capability throughout Indiana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -207,7 +203,7 @@ export default function DenagoPage() {
                   DENAGO represents the pinnacle of electric vehicle engineering, combining innovative 
                   all-wheel drive technology with premium comfort features. Each DENAGO is built to 
                   exceed expectations on any terrain while delivering exceptional reliability for 
-                  St. Joseph County's diverse mountainous and suburban landscapes.
+                  Indiana's diverse suburban and rural landscapes.
                 </p>
                 <div className="grid grid-cols-1 gap-4">
                   {denagoFeatures.map((feature, index) => (
@@ -241,7 +237,7 @@ export default function DenagoPage() {
                 DENAGO Vehicle Series
               </h2>
               <p className="text-xl text-gray-600">
-                Discover the complete lineup of DENAGO electric vehicles available in St. Joseph County
+                Discover the complete lineup of DENAGO electric vehicles available throughout Indiana
               </p>
             </div>
 
@@ -297,7 +293,7 @@ export default function DenagoPage() {
                 Complete DENAGO Vehicle Lineup
               </h2>
               <p className="text-xl text-gray-600">
-                Explore all 6 DENAGO electric vehicle models available in St. Joseph County
+                Explore all 6 DENAGO electric vehicle models available throughout Indiana
               </p>
             </div>
 
@@ -322,7 +318,7 @@ export default function DenagoPage() {
                     </div>
                   </div>
                   <CardHeader>
-                    <CardTitle className="text-xl text-gray-900">{vehicle.name}</CardTitle>
+                    <CardTitle className="text-xl text-gray-900">{vehicle.name} | Golf Carts Of Indiana</CardTitle>
                     <div className="grid grid-cols-2 gap-4 text-sm text-gray-600">
                       <div>
                         <span className="font-semibold">Seats:</span> {vehicle.specs.seats}
@@ -389,7 +385,7 @@ export default function DenagoPage() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold mb-4 text-gray-900">
-                Why Choose DENAGO in St. Joseph County?
+                Why Choose DENAGO in Indiana?
               </h2>
             </div>
 
@@ -398,7 +394,7 @@ export default function DenagoPage() {
                 <Shield className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Built to Last</h3>
                 <p className="text-gray-600">
-                  DENAGO vehicles are engineered for Indiana's challenging terrain with 
+                  DENAGO vehicles are engineered for Indiana's diverse terrain with 
                   military-grade components and weather-resistant construction.
                 </p>
               </div>
@@ -416,7 +412,7 @@ export default function DenagoPage() {
                 <MapPin className="w-16 h-16 text-theme-orange mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Local Service</h3>
                 <p className="text-gray-600">
-                  Expert DENAGO service and support right here in St. Joseph County with 
+                  Expert DENAGO service and support throughout Indiana with 
                   genuine parts and factory-trained technicians.
                 </p>
               </div>
@@ -431,7 +427,7 @@ export default function DenagoPage() {
               Ready to Experience DENAGO?
             </h2>
             <p className="text-xl mb-8">
-              Contact Notre Dame Golf Carts today to schedule a test drive or learn more 
+              Contact Golf Carts Of Indiana today to schedule a test drive or learn more 
               about DENAGO's revolutionary electric vehicle technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

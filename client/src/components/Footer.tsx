@@ -1,7 +1,9 @@
 import { Link } from "wouter";
-import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
+import { INDIANA_MUNICIPALITIES } from "@/data/indianaTowns";
 
 export default function Footer() {
+  const featuredLocations = INDIANA_MUNICIPALITIES.slice(0, 24);
+  
   return (
     <footer className="bg-gray-50 py-12 px-4">
       <div className="max-w-7xl mx-auto">
@@ -10,8 +12,8 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
-              Notre Dame's premier golf cart dealership serving customers across 
-              the region with quality carts and expert service.
+              Indiana's premier golf cart dealership serving customers across 
+              the state with quality carts and expert service.
             </p>
           </div>
 
@@ -51,12 +53,12 @@ export default function Footer() {
           {/* Mobile: Contact Info */}
           <div className="md:hidden">
             <div className="space-y-2">
-              <h4 className="text-gray-900 font-semibold text-sm">Notre Dame Golf Carts</h4>
+              <h4 className="text-gray-900 font-semibold text-sm">Golf Carts Of Indiana</h4>
               <p className="text-gray-600 text-sm">310 S Dixie Way<br/>South Bend, IN 46637</p>
               <p className="text-gray-600 text-sm">Local Phone: <a href="tel:574-402-4158" className="hover:text-blue-600">574-402-4158</a></p>
               <p className="text-gray-600 text-sm">Toll-Free: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-              <p className="text-gray-600 text-sm">Email: <a href="mailto:info@notredamegolfcarts.com" className="hover:text-blue-600">info@notredamegolfcarts.com</a></p>
-              <p className="text-gray-600 text-sm">Website: <a href="https://notredamegolfcarts.com" className="hover:text-blue-600">notredamegolfcarts.com</a></p>
+              <p className="text-gray-600 text-sm">Email: <a href="mailto:info@golfcartsofindiana.com" className="hover:text-blue-600">info@golfcartsofindiana.com</a></p>
+              <p className="text-gray-600 text-sm">Website: <a href="https://golfcartsofindiana.com" className="hover:text-blue-600">golfcartsofindiana.com</a></p>
               <div className="text-gray-600 text-sm mt-2">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
@@ -70,8 +72,8 @@ export default function Footer() {
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
-                Notre Dame's premier golf cart dealership serving customers across 
-                the region with quality carts and expert service.
+                Indiana's premier golf cart dealership serving customers across 
+                the state with quality carts and expert service.
               </p>
             </div>
 
@@ -131,12 +133,12 @@ export default function Footer() {
                 <li><Link href="/policies/staffing-report" className="text-gray-600 hover:text-gray-900 text-sm">Staffing Report</Link></li>
               </ul>
               <div className="space-y-2">
-                <h4 className="text-gray-900 font-semibold text-sm">Notre Dame Golf Carts</h4>
+                <h4 className="text-gray-900 font-semibold text-sm">Golf Carts Of Indiana</h4>
                 <p className="text-gray-600 text-sm">310 S Dixie Way<br/>South Bend, IN 46637</p>
                 <p className="text-gray-600 text-sm">Local Phone: <a href="tel:574-402-4158" className="hover:text-blue-600">574-402-4158</a></p>
                 <p className="text-gray-600 text-sm">Toll-Free: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-                <p className="text-gray-600 text-sm">Email: <a href="mailto:info@notredamegolfcarts.com" className="hover:text-blue-600">info@notredamegolfcarts.com</a></p>
-                <p className="text-gray-600 text-sm">Website: <a href="https://notredamegolfcarts.com" className="hover:text-blue-600">notredamegolfcarts.com</a></p>
+                <p className="text-gray-600 text-sm">Email: <a href="mailto:info@golfcartsofindiana.com" className="hover:text-blue-600">info@golfcartsofindiana.com</a></p>
+                <p className="text-gray-600 text-sm">Website: <a href="https://golfcartsofindiana.com" className="hover:text-blue-600">golfcartsofindiana.com</a></p>
                 <div className="text-gray-600 text-sm mt-2">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
@@ -147,19 +149,19 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Towns Served - Notre Dame Area */}
+        {/* Towns Served - Indiana */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Notre Dame Area Locations We Serve
+            Indiana Locations We Serve
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
-            {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality) => (
+            {featuredLocations.map((municipality) => (
               <Link 
                 key={municipality.slug}
                 href={municipality.url} 
                 className="text-gray-600 text-sm hover:text-blue-600 transition-colors"
               >
-                {municipality.name} {municipality.type} Golf Carts
+                {municipality.name} Golf Carts
               </Link>
             ))}
           </div>
@@ -169,12 +171,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Notre Dame Golf Carts. All rights reserved. | 
+              © 2025 Golf Carts Of Indiana. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Notre Dame Golf Carts - Serving Notre Dame locations with premium golf carts and exceptional service.
+              Golf Carts Of Indiana - Serving all Indiana locations with premium golf carts and exceptional service.
             </div>
           </div>
         </div>

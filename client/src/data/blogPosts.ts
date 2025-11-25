@@ -31,7 +31,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </ul>
 
       <h3>Golf Cart Rental Options Available in South Bend, Indiana</h3>
-      <p>Notre Dame Golf Carts offers flexible rental options to meet your transportation needs in St. Joseph County:</p>
+      <p>Golf Carts Of Indiana offers flexible rental options to meet your transportation needs in St. Joseph County:</p>
       
       <h4>Daily Golf Cart Rentals</h4>
       <p>Perfect for single-day events, game days, or short visits to South Bend. Our <a href="/rentals">daily rentals</a> start at $245 (4-passenger) and $295 (6-passenger) and include full insurance coverage and delivery ($6/mile) to your Notre Dame area location.</p>
@@ -152,7 +152,7 @@ export const BLOG_POSTS: BlogPost[] = [
       </table>
       <p><em>*Delivery fee: $6/mile. All rentals include full insurance coverage.</em></p>
 
-      <h2>Contact Notre Dame Golf Carts for Transportation Services</h2>
+      <h2>Contact Golf Carts Of Indiana for Transportation Services</h2>
       <p>Located in South Bend, Indiana, we serve the entire St. Joseph County area including all Notre Dame campus transportation needs. Call <strong>1-844-844-6638</strong> or visit our <a href="/contact">contact page</a> to reserve your golf cart rental today.</p>
 
       <p>Our showroom at <strong>310 S Dixie Way, South Bend, IN 46637</strong> is open Monday-Saturday, 9AM-5PM EST. We're your trusted partner for Notre Dame golf cart rentals and South Bend transportation services.</p>
@@ -160,7 +160,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Additional Resources</h3>
       <ul>
         <li><a href="/inventory">View our complete golf cart inventory</a></li>
-        <li><a href="/blog/notre-dame-golf-carts">About Notre Dame Golf Carts dealership</a></li>
+        <li><a href="/blog/notre-dame-golf-carts">About Golf Carts Of Indiana dealership</a></li>
         <li><a href="/services">Professional service and maintenance</a></li>
         <li><a href="/blog/notre-dame-golf-carts-for-sale">Golf carts for sale in South Bend</a></li>
       </ul>
@@ -197,7 +197,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Golf Cart Rental Services for Notre Dame Campus</h2>
       
       <h3>When Golf Carts Enhance Notre Dame Transportation</h3>
-      <p>Golf cart rentals from <a href="/blog/notre-dame-golf-carts">Notre Dame Golf Carts</a> serve various campus transportation needs:</p>
+      <p>Golf cart rentals from <a href="/blog/notre-dame-golf-carts">Golf Carts Of Indiana</a> serve various campus transportation needs:</p>
 
       <h4>Student and Faculty Use</h4>
       <ul>
@@ -320,7 +320,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Accessibility and Mobility Services</h2>
       
       <h3>ADA-Compliant Transportation Options</h3>
-      <p>Notre Dame Golf Carts offers accessibility-enhanced golf cart rentals:</p>
+      <p>Golf Carts Of Indiana offers accessibility-enhanced golf cart rentals:</p>
       <ul>
         <li>Wheelchair-accessible models available</li>
         <li>Hand controls for mobility-limited drivers</li>
@@ -390,13 +390,13 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Monthly: $2,800-$3,500 (save 60.4-61.6%)</li>
       </ul>
 
-      <h2>Contact Notre Dame Golf Carts for Transportation Services</h2>
+      <h2>Contact Golf Carts Of Indiana for Transportation Services</h2>
       <p>Serving University of Notre Dame students, faculty, visitors, and South Bend residents since 2008. Our South Bend location provides convenient access for all St. Joseph County transportation needs.</p>
       
       <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
-      <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
 
       <h3>Additional Notre Dame Transportation Resources</h3>
       <ul>
@@ -622,13 +622,13 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Are 6-passenger carts street legal in South Bend?</h3>
       <p>Standard 6-passenger models are approved for campus and private property. For South Bend street use, upgrade to our <a href="/blog/notre-dame-street-legal-golf-cart-rental">street legal models</a> with DOT compliance.</p>
 
-      <h2>Contact Notre Dame Golf Carts for 6-Passenger Rentals</h2>
+      <h2>Contact Golf Carts Of Indiana for 6-Passenger Rentals</h2>
       <p>Based in South Bend, we specialize in University of Notre Dame event transportation and St. Joseph County golf cart services.</p>
 
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
       <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
-      <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
 
       <h3>Additional Resources</h3>
       <ul>
@@ -1133,7 +1133,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Additional Game Day Resources</h3>
       <ul>
         <li><a href="/blog/can-one-rent-golf-cart-football-weekends">Football weekend FAQ</a></li>
-        <li><a href="/blog/notre-dame-golf-carts">About Notre Dame Golf Carts</a></li>
+        <li><a href="/blog/notre-dame-golf-carts">About Golf Carts Of Indiana</a></li>
         <li><a href="/rentals">Complete rental fleet</a></li>
         <li><a href="/inventory">Golf carts for purchase</a></li>
       </ul>
@@ -1300,11 +1300,11 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>What if weather forces event cancellation?</h3>
       <p>University-cancelled events receive full refund. Voluntary cancellations follow standard cancellation policy.</p>
 
-      <h2>Contact Notre Dame Golf Carts for Rental Requests</h2>
+      <h2>Contact Golf Carts Of Indiana for Rental Requests</h2>
       <p>Submit your online rental request or call for immediate assistance with your Notre Dame and South Bend golf cart transportation needs.</p>
 
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
-      <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
       <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
 
@@ -1321,21 +1321,21 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: "8",
     slug: "notre-dame-golf-carts",
-    title: "Notre Dame Golf Carts",
-    seoTitle: "Notre Dame Golf Carts | Premier Dealer South Bend IN | Sales, Rentals & Service",
-    metaDescription: "Notre Dame Golf Carts - South Bend's premier DENAGO & EVOLUTION dealer. Sales, rentals, service for campus & St. Joseph County. Call 1-844-844-6638 today!",
+    title: "Golf Carts Of Indiana",
+    seoTitle: "Golf Carts Of Indiana | Premier Dealer South Bend IN | Sales, Rentals & Service",
+    metaDescription: "Golf Carts Of Indiana - South Bend's premier DENAGO & EVOLUTION dealer. Sales, rentals, service for campus & St. Joseph County. Call 1-844-844-6638 today!",
     publishDate: "2025-01-17",
-    excerpt: "Complete guide to Notre Dame Golf Carts dealership in South Bend, Indiana. Authorized DENAGO and EVOLUTION dealer serving University of Notre Dame and all St. Joseph County with sales, rentals, and professional service.",
+    excerpt: "Complete guide to Golf Carts Of Indiana dealership in South Bend, Indiana. Authorized DENAGO and EVOLUTION dealer serving University of Notre Dame and all St. Joseph County with sales, rentals, and professional service.",
     heroImage: "/attached_assets/generated_images/dealership_showroom_interior.png",
-    heroImageAlt: "Notre Dame Golf Carts dealership showroom in South Bend Indiana with DENAGO and EVOLUTION electric golf carts on display",
-    heroImagePrompt: "Professional photograph of Notre Dame Golf Carts dealership showroom in South Bend Indiana with multiple DENAGO and EVOLUTION electric golf carts on display, clean modern facility, Notre Dame campus visible in distance, professional automotive dealership setting",
-    h1: "Notre Dame Golf Carts: South Bend's Premier Golf Cart Dealer Serving University of Notre Dame & St. Joseph County",
+    heroImageAlt: "Golf Carts Of Indiana dealership showroom in South Bend Indiana with DENAGO and EVOLUTION electric golf carts on display",
+    heroImagePrompt: "Professional photograph of Golf Carts Of Indiana dealership showroom in South Bend Indiana with multiple DENAGO and EVOLUTION electric golf carts on display, clean modern facility, Notre Dame campus visible in distance, professional automotive dealership setting",
+    h1: "Golf Carts Of Indiana: South Bend's Premier Golf Cart Dealer Serving University of Notre Dame & St. Joseph County",
     featured: false,
     content: `<div class="blog-content">
-      <h2>About Notre Dame Golf Carts - South Bend, Indiana</h2>
-      <p>Notre Dame Golf Carts is St. Joseph County's premier authorized dealer for <a href="/denago">DENAGO</a> and <a href="/evolution">EVOLUTION</a> electric golf carts. Located at 52129 State Road 933 in South Bend, Indiana, we've served University of Notre Dame students, faculty, visitors, and South Bend residents since 2008 with comprehensive golf cart sales, rentals, and professional service.</p>
+      <h2>About Golf Carts Of Indiana - South Bend, Indiana</h2>
+      <p>Golf Carts Of Indiana is St. Joseph County's premier authorized dealer for <a href="/denago">DENAGO</a> and <a href="/evolution">EVOLUTION</a> electric golf carts. Located at 52129 State Road 933 in South Bend, Indiana, we've served University of Notre Dame students, faculty, visitors, and South Bend residents since 2008 with comprehensive golf cart sales, rentals, and professional service.</p>
 
-      <h3>Why Choose Notre Dame Golf Carts?</h3>
+      <h3>Why Choose Golf Carts Of Indiana?</h3>
       <ul>
         <li><strong>Authorized dealer status:</strong> Factory-certified DENAGO and EVOLUTION dealership</li>
         <li><strong>Complete inventory:</strong> 37 models from $5,995 to $17,995</li>
@@ -1500,7 +1500,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Apply online or in-person</li>
       </ul>
 
-      <h2>Why South Bend Chooses Notre Dame Golf Carts</h2>
+      <h2>Why South Bend Chooses Golf Carts Of Indiana</h2>
       
       <h3>Local Expertise Since 2008</h3>
       <ul>
@@ -1526,10 +1526,10 @@ export const BLOG_POSTS: BlogPost[] = [
         <li>Discuss <a href="/blog/golf-cart-rental-request-form">rental needs</a></li>
       </ul>
 
-      <h3>Contact Notre Dame Golf Carts Today</h3>
+      <h3>Contact Golf Carts Of Indiana Today</h3>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
       <p><strong>Local:</strong> 574-402-4158</p>
-      <p><strong>Email:</strong> <a href="mailto:info@notredamegolfcarts.com">info@notredamegolfcarts.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
       <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
 
@@ -1600,7 +1600,7 @@ export const BLOG_POSTS: BlogPost[] = [
     featured: false,
     content: `<div class="blog-content">
       <h2>Can You Rent Golf Carts for Notre Dame Football Weekends?</h2>
-      <p><strong>Yes!</strong> Notre Dame Golf Carts specializes in <a href="/blog/football-getting-around">football weekend rentals</a> in South Bend, Indiana. We provide daily, weekend, and seasonal golf cart rentals specifically for Notre Dame game days.</p>
+      <p><strong>Yes!</strong> Golf Carts Of Indiana specializes in <a href="/blog/football-getting-around">football weekend rentals</a> in South Bend, Indiana. We provide daily, weekend, and seasonal golf cart rentals specifically for Notre Dame game days.</p>
 
       <h3>Football Weekend Rental Options</h3>
       <ul>
@@ -1651,12 +1651,12 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: "Complete vehicle rental and transportation services for University of Notre Dame, South Bend businesses, and St. Joseph County residents. Electric golf cart rentals for all occasions.",
     heroImage: "/attached_assets/generated_images/golf_cart_rental_lineup.png",
     heroImageAlt: "Electric golf cart vehicle rental fleet for Notre Dame and South Bend Indiana transportation services",
-    heroImagePrompt: "Professional photograph showing lineup of electric golf cart rental vehicles at Notre Dame Golf Carts in South Bend Indiana, various models and capacities, clean professional dealership setting",
+    heroImagePrompt: "Professional photograph showing lineup of electric golf cart rental vehicles at Golf Carts Of Indiana in South Bend Indiana, various models and capacities, clean professional dealership setting",
     h1: "Vehicle Rental & Transportation Services: Complete Golf Cart Solutions for Notre Dame & South Bend",
     featured: false,
     content: `<div class="blog-content">
       <h2>Professional Vehicle Rental Services in South Bend, Indiana</h2>
-      <p>Notre Dame Golf Carts provides comprehensive vehicle rental and <a href="/blog/transportation-services-university-notre-dame">transportation services</a> for University of Notre Dame, South Bend businesses, and St. Joseph County residents. Our fleet of 37 electric golf cart models serves diverse transportation needs across the region.</p>
+      <p>Golf Carts Of Indiana provides comprehensive vehicle rental and <a href="/blog/transportation-services-university-notre-dame">transportation services</a> for University of Notre Dame, South Bend businesses, and St. Joseph County residents. Our fleet of 37 electric golf cart models serves diverse transportation needs across the region.</p>
 
       <h3>Vehicle Rental Applications</h3>
       <ul>
@@ -1710,20 +1710,20 @@ export const BLOG_POSTS: BlogPost[] = [
     id: "12",
     slug: "notre-dame-golf-carts-for-sale",
     title: "notre dame golf carts for sale",
-    seoTitle: "Notre Dame Golf Carts For Sale | DENAGO & EVOLUTION Dealer South Bend IN",
+    seoTitle: "Golf Carts Of Indiana For Sale | DENAGO & EVOLUTION Dealer South Bend IN",
     metaDescription: "New golf carts for sale in South Bend IN. 37 DENAGO & EVOLUTION models $5,995-$17,995. Authorized dealer, financing available. Call 1-844-844-6638 today!",
     publishDate: "2025-01-15",
     excerpt: "Complete inventory of new golf carts for sale in South Bend, Indiana. DENAGO and EVOLUTION electric models from $5,995. Authorized dealer serving Notre Dame and St. Joseph County.",
     heroImage: "/attached_assets/generated_images/golf_carts_for_sale_showroom.png",
-    heroImageAlt: "New DENAGO and EVOLUTION golf carts for sale at Notre Dame Golf Carts dealership in South Bend Indiana",
-    heroImagePrompt: "Showroom photograph of new DENAGO and EVOLUTION golf carts for sale at Notre Dame Golf Carts in South Bend Indiana, modern electric vehicles on display, price tags visible, professional dealership environment",
-    h1: "New Golf Carts For Sale in South Bend: 37 DENAGO & EVOLUTION Models at Notre Dame Golf Carts",
+    heroImageAlt: "New DENAGO and EVOLUTION golf carts for sale at Golf Carts Of Indiana dealership in South Bend Indiana",
+    heroImagePrompt: "Showroom photograph of new DENAGO and EVOLUTION golf carts for sale at Golf Carts Of Indiana in South Bend Indiana, modern electric vehicles on display, price tags visible, professional dealership environment",
+    h1: "New Golf Carts For Sale in South Bend: 37 DENAGO & EVOLUTION Models at Golf Carts Of Indiana",
     featured: false,
     content: `<div class="blog-content">
       <h2>Golf Carts For Sale in South Bend, Indiana</h2>
-      <p>Notre Dame Golf Carts offers 37 new electric golf cart models for sale in South Bend, Indiana. As an authorized <a href="/denago">DENAGO</a> and <a href="/evolution">EVOLUTION</a> dealer, we provide complete selection, competitive pricing, and professional service for University of Notre Dame area and St. Joseph County residents.</p>
+      <p>Golf Carts Of Indiana offers 37 new electric golf cart models for sale in South Bend, Indiana. As an authorized <a href="/denago">DENAGO</a> and <a href="/evolution">EVOLUTION</a> dealer, we provide complete selection, competitive pricing, and professional service for University of Notre Dame area and St. Joseph County residents.</p>
 
-      <h3>Why Buy From Notre Dame Golf Carts?</h3>
+      <h3>Why Buy From Golf Carts Of Indiana?</h3>
       <ul>
         <li><strong>Authorized dealer:</strong> Factory-certified DENAGO and EVOLUTION sales</li>
         <li><strong>Complete selection:</strong> 37 models from $5,995 to $17,995</li>

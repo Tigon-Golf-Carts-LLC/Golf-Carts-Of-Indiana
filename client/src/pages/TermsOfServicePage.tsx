@@ -2,13 +2,12 @@ import SEOHead from '@/components/SEOHead';
 import { generateSEOMetadata } from '@/utils/seoUtils';
 
 export function TermsOfServicePage() {
-  // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Terms of Service",
-    baseDescription: "Terms of Service for Notre Dame Golf Carts. Review our comprehensive terms and conditions for purchasing golf carts, rental services, and using our website.",
+    baseDescription: "Terms of Service for Golf Carts Of Indiana. Review our comprehensive terms and conditions for purchasing golf carts, rental services, and using our website.",
     pageType: "policy",
     canonicalPath: "/terms-of-service",
-    keywords: ["terms of service", "terms and conditions", "golf cart purchase", "rental agreement", "Notre Dame Golf Carts"],
+    keywords: ["terms of service", "terms and conditions", "golf cart purchase", "rental agreement", "Golf Carts Of Indiana"],
     heroBackgroundSeed: "policy"
   });
   
@@ -36,7 +35,7 @@ export function TermsOfServicePage() {
               </p>
               
               <p className="mb-6">
-                Welcome to Notre Dame Golf Carts. These Terms of Service ("Terms") govern your use of our website notredamegolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
+                Welcome to Golf Carts Of Indiana. These Terms of Service ("Terms") govern your use of our website golfcartsofindiana.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Acceptance of Terms</h2>
@@ -45,13 +44,13 @@ export function TermsOfServicePage() {
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">About Our Services</h2>
-              <p className="mb-4">Notre Dame Golf Carts provides:</p>
+              <p className="mb-4">Golf Carts Of Indiana provides:</p>
               <ul className="list-disc pl-6 mb-6">
                 <li>New and used golf cart sales</li>
                 <li>Golf cart rentals for various durations</li>
                 <li>Maintenance and repair services</li>
                 <li>Parts and accessories</li>
-                <li>Delivery and pickup services throughout Notre Dame, Indiana</li>
+                <li>Delivery and pickup services throughout Indiana</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Website Use and Restrictions</h2>
@@ -131,12 +130,12 @@ export function TermsOfServicePage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Limitation of Liability</h2>
               <p className="mb-6">
-                To the fullest extent permitted by law, Notre Dame Golf Carts shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services or products. Our total liability shall not exceed the amount you paid for the specific product or service.
+                To the fullest extent permitted by law, Golf Carts Of Indiana shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services or products. Our total liability shall not exceed the amount you paid for the specific product or service.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Indemnification</h2>
               <p className="mb-6">
-                You agree to indemnify and hold harmless Notre Dame Golf Carts from any claims, damages, or expenses arising from your use of our products or services, violation of these Terms, or violation of any rights of another party.
+                You agree to indemnify and hold harmless Golf Carts Of Indiana from any claims, damages, or expenses arising from your use of our products or services, violation of these Terms, or violation of any rights of another party.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Privacy Policy</h2>
@@ -146,7 +145,7 @@ export function TermsOfServicePage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Governing Law</h2>
               <p className="mb-6">
-                These Terms are governed by the laws of the Commonwealth of Indiana. Any disputes shall be resolved in the courts of Notre Dame, Indiana.
+                These Terms are governed by the laws of the State of Indiana. Any disputes shall be resolved in the courts of the State of Indiana.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Changes to Terms</h2>
@@ -162,12 +161,11 @@ export function TermsOfServicePage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <p className="mb-4">If you have questions about these Terms of Service, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Notre Dame Golf Carts</strong></p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
+                <p className="mb-2"><strong>Golf Carts Of Indiana</strong></p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, IN 19440 | (215) 595-8736</p>
-                <p className="mb-2">TIGON Golf Carts Notre Dames: 1712 Indiana 940, Notre Dame Pines, IN 18350 | (570) 643-0152</p>
-                <p>Website: notredamegolfcarts.com</p>
+                <p className="mb-2">South Bend Showroom: 310 S Dixie Way, South Bend, IN 46637 | (574) 402-4158</p>
+                <p>Website: golfcartsofindiana.com</p>
               </div>
 
               <p className="mt-8 text-sm text-gray-600">

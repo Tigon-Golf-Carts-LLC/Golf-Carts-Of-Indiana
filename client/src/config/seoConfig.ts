@@ -1,18 +1,18 @@
-// SEO Configuration for Notre Dame Golf Carts
+// SEO Configuration for Golf Carts Of Indiana
 // This file contains site-wide SEO settings for meta tags, verification codes, and social profiles
 
 export const SEO_CONFIG = {
   // Site Information
-  siteName: "Notre Dame Golf Carts",
-  siteUrl: "https://notredamegolfcarts.com",
+  siteName: "Golf Carts Of Indiana",
+  siteUrl: "https://golfcartsofindiana.com",
   defaultImage: "/attached_assets/Notre Dame Golf Carts_1763645528375.png",
   
   // Social Media
   social: {
-    facebookPage: "https://www.facebook.com/notredamegolfcarts",
-    twitterHandle: "@NotreDameGolfIN", // Notre Dame Golf Carts Indiana Twitter handle
-    instagramProfile: "https://www.instagram.com/notredamegolfcarts",
-    linkedInProfile: "https://www.linkedin.com/company/notredamegolfcarts"
+    facebookPage: "https://www.facebook.com/golfcartsofindiana",
+    twitterHandle: "@GolfCartsIN",
+    instagramProfile: "https://www.instagram.com/golfcartsofindiana",
+    linkedInProfile: "https://www.linkedin.com/company/golfcartsofindiana"
   },
   
   // Search Engine Verification Codes
@@ -33,10 +33,10 @@ export const SEO_CONFIG = {
   
   // Business Information
   business: {
-    name: "Notre Dame Golf Carts",
-    phone: "574-402-4158", // Local South Bend number
-    phoneTollFree: "1-844-844-6638", // Toll-free number
-    email: "info@notredamegolfcarts.com",
+    name: "Golf Carts Of Indiana",
+    phone: "574-402-4158",
+    phoneTollFree: "1-844-844-6638",
+    email: "info@golfcartsofindiana.com",
     address: {
       street: "310 S Dixie Way",
       city: "South Bend",
@@ -45,8 +45,8 @@ export const SEO_CONFIG = {
       country: "US"
     },
     coordinates: {
-      latitude: "41.7033",
-      longitude: "-86.2389"
+      latitude: "39.7684",
+      longitude: "-86.1581"
     }
   },
   

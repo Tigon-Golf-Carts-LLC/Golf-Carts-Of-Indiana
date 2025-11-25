@@ -28,9 +28,9 @@ export default function ImageObjectSchema({
   contentUrl,
   thumbnailUrl,
   caption,
-  copyrightHolder = "Notre Dame Golf Carts",
+  copyrightHolder = "Golf Carts Of Indiana",
   creditText,
-  creator = "Notre Dame Golf Carts",
+  creator = "Golf Carts Of Indiana",
   datePublished,
   license,
   acquireLicensePage
@@ -39,13 +39,13 @@ export default function ImageObjectSchema({
     const structuredData = {
       "@context": "https://schema.org",
       "@type": "ImageObject",
-      "url": url.startsWith('http') ? url : `https://notredamegolfcarts.com${url}`,
+      "url": url.startsWith('http') ? url : `https://golfcartsofindiana.com${url}`,
       ...(name && { "name": name }),
       ...(description && { "description": description }),
       ...(width && { "width": width }),
       ...(height && { "height": height }),
       "encodingFormat": encodingFormat,
-      "contentUrl": contentUrl || (url.startsWith('http') ? url : `https://notredamegolfcarts.com${url}`),
+      "contentUrl": contentUrl || (url.startsWith('http') ? url : `https://golfcartsofindiana.com${url}`),
       ...(thumbnailUrl && { "thumbnailUrl": thumbnailUrl }),
       ...(caption && { "caption": caption }),
       "copyrightHolder": {

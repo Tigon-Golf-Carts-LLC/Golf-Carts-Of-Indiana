@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import { NEW_MONROE_COUNTY_MUNICIPALITIES, type Municipality } from "../data/newMonroeCountyMunicipalities";
+import { INDIANA_MUNICIPALITIES, type Municipality } from "../data/indianaTowns";
 import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
@@ -14,7 +14,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing Notre Dame with the best golf cart experience."
+      description: "Passionate about providing Indiana with the best golf cart experience."
     },
     {
       name: "Sarah Martinez",
@@ -49,8 +49,8 @@ export default function NewAboutPage() {
     },
     {
       icon: Target,
-      title: "Local Focus",
-      description: "Proud to serve Notre Dame with personalized, community-focused service."
+      title: "Statewide Focus",
+      description: "Proud to serve all of Indiana with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -59,13 +59,15 @@ export default function NewAboutPage() {
     }
   ];
 
+  const featuredLocations = INDIANA_MUNICIPALITIES.slice(0, 24);
+
   return (
     <>
       <SEOHead 
-        title="About Notre Dame Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Notre Dame Golf Carts, Indiana's trusted golf cart dealer serving all 22 municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Notre Dame golf carts, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer"
-        canonicalUrl="https://notredamegolfcarts.com/about"
+        title="About Golf Carts Of Indiana - Your Premier Statewide Golf Cart Dealer"
+        description="Learn about Golf Carts Of Indiana, Indiana's trusted statewide golf cart dealer serving communities across the state with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Golf Carts Of Indiana, about us, golf cart dealer Indiana, DENAGO dealer, EVOLUTION dealer, statewide service"
+        canonicalUrl="https://golfcartsofindiana.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -75,12 +77,12 @@ export default function NewAboutPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={getHeroBackgroundStyle("about")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Notre Dame Golf Carts
+              About Golf Carts Of Indiana
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
-              Since 2010, we've been Notre Dame's premier destination for premium golf carts, 
-              exceptional service, and unmatched customer care. Serving all 22 municipalities 
-              across the St. Joseph County, Indiana region with pride and professionalism.
+              Since 2010, we've been Indiana's premier destination for premium golf carts, 
+              exceptional service, and unmatched customer care. Serving communities 
+              across the entire state of Indiana with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -105,29 +107,28 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010 in Notre Dame, Indiana, Notre Dame Golf Carts began with a simple mission: 
-                    to provide high-quality golf carts and exceptional service to customers throughout the St. Joseph County, Indiana region's 
-                    most beautiful and recreational county.
+                    Founded in 2010 in South Bend, Indiana, Golf Carts Of Indiana began with a simple mission: 
+                    to provide high-quality golf carts and exceptional service to customers throughout 
+                    the entire state of Indiana.
                   </p>
                   <p>
-                    Notre Dame stands as one of Indiana's most scenic and recreational regions, encompassing 
-                    everything from the vibrant borough of Notre Dame to the charming Elkhart, from the 
-                    beautiful St. Joseph County, Indiana to the family-friendly communities throughout our 22 municipalities.
+                    Indiana stands as one of America's most diverse and beautiful states, encompassing 
+                    everything from the vibrant city of Indianapolis to the charming lakeside communities, 
+                    from the rolling farmlands to the bustling urban centers throughout our great state.
                   </p>
                   <p>
-                    Our county holds a special place in American recreation as the heart of the St. Joseph County, Indiana region and 
-                    home to some of Indiana's most beautiful natural landscapes. Today, Notre Dame is equally 
-                    renowned for its world-class golf courses, resort communities, and outdoor recreation that attracts visitors who appreciate 
+                    Our state holds a special place in American recreation with world-class golf courses, 
+                    resort communities, and outdoor recreation that attracts visitors who appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
-                    With Notre Dame's historic downtown district, proximity to major highways including I-80 and Route 611, 
-                    and some of Indiana's most beautiful resort communities, Notre Dame attracts residents and visitors who 
+                    With Indiana's historic downtown districts, proximity to major highways including I-65, I-70, and I-69, 
+                    and some of America's most beautiful communities, Indiana attracts residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
-                    From the rural townships of Paradise and Chestnuthill to the bustling boroughs of Notre Dame and Mishawaka, we proudly serve all 
-                    Notre Dame municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
+                    From Indianapolis to Fort Wayne, from South Bend to Evansville, we proudly serve all 
+                    Indiana communities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
                     less than the finest quality and service.
                   </p>
                 </div>
@@ -135,15 +136,15 @@ export default function NewAboutPage() {
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">15+</div>
-                    <div className="text-sm text-gray-600">Years Serving Notre Dame</div>
+                    <div className="text-sm text-gray-600">Years Serving Indiana</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">500+</div>
                     <div className="text-sm text-gray-600">Satisfied Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">20</div>
-                    <div className="text-sm text-gray-600">Municipalities Served</div>
+                    <div className="text-2xl font-bold text-theme-orange">100+</div>
+                    <div className="text-sm text-gray-600">Communities Served</div>
                   </div>
                 </div>
               </div>
@@ -151,24 +152,24 @@ export default function NewAboutPage() {
               <div className="relative">
                 <div className="w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sNotre%20Dame%20area%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066000!2d-86.1581!3d39.7684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50ffa7796a03%3A0xd68e9df640b9ea7c!2sIndiana%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Notre Dame Service Area Map"
+                    title="Indiana Service Area Map"
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Notre Dame Golf Carts Service</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Golf Carts Of Indiana Service</h3>
                   <div className="grid md:grid-cols-1 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Notre Dame Golf Carts</h4>
-                      <p className="text-gray-600">Serving all Notre Dame, IN</p>
+                      <h4 className="font-semibold text-theme-orange">Golf Carts Of Indiana</h4>
+                      <p className="text-gray-600">Serving all of Indiana</p>
                       <p className="text-gray-700">1-844-844-6638</p>
-                      <p className="text-gray-600">info@notredamegolfcarts.com</p>
+                      <p className="text-gray-600">info@golfcartsofindiana.com</p>
                     </div>
                   </div>
                 </div>
@@ -236,52 +237,52 @@ export default function NewAboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Service Area</h2>
-              <p className="text-lg text-gray-600">Proudly serving all of Notre Dame, Indiana</p>
+              <p className="text-lg text-gray-600">Proudly serving all of Indiana</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Northern Notre Dame</CardTitle>
+                  <CardTitle>Northern Indiana</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">South Bend, Mishawaka, and northern communities</p>
-                  <Badge variant="secondary">8 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">South Bend, Fort Wayne, Elkhart, and northern communities</p>
+                  <Badge variant="secondary">30+ Communities</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Central Notre Dame</CardTitle>
+                  <CardTitle>Central Indiana</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Notre Dame, Mishawaka, Elkhart, and central townships</p>
-                  <Badge variant="secondary">8 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Indianapolis, Carmel, Fishers, and central townships</p>
+                  <Badge variant="secondary">40+ Communities</Badge>
                 </CardContent>
               </Card>
 
               <Card className="text-center">
                 <CardHeader>
                   <MapPin className="w-12 h-12 text-theme-orange mx-auto mb-4" />
-                  <CardTitle>Southern Notre Dame</CardTitle>
+                  <CardTitle>Southern Indiana</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Granger, Elkhart, and surrounding communities</p>
-                  <Badge variant="secondary">8 Municipalities</Badge>
+                  <p className="text-gray-600 mb-4">Evansville, Bloomington, and surrounding communities</p>
+                  <Badge variant="secondary">30+ Communities</Badge>
                 </CardContent>
               </Card>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-center mb-6">Complete Notre Dame Coverage</h3>
+              <h3 className="text-2xl font-bold text-center mb-6">Complete Indiana Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
-                {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality, index: number) => (
+                {featuredLocations.map((municipality: Municipality, index: number) => (
                   <div key={index} className="text-center py-2">
                     <Link href={municipality.url}>
                       <span className="text-theme-orange font-medium hover:text-orange-600 cursor-pointer transition-colors">
-                        {municipality.name} {municipality.type}
+                        {municipality.name}
                       </span>
                     </Link>
                   </div>
@@ -295,7 +296,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Notre Dame Golf Carts Difference?
+              Ready to Experience the Golf Carts Of Indiana Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.
@@ -336,7 +337,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@notredamegolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@golfcartsofindiana.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>
@@ -361,7 +362,7 @@ export default function NewAboutPage() {
                   <CardTitle>Service Area</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600">All 20 Notre Dame municipalities plus delivery service</p>
+                  <p className="text-gray-600">All Indiana communities plus statewide delivery service</p>
                 </CardContent>
               </Card>
             </div>

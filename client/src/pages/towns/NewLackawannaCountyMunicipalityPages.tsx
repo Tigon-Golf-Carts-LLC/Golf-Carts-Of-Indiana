@@ -29,8 +29,8 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
     return <div>Municipality not found</div>;
   }
 
-  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Notre Dame Golf Carts`;
-  const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Notre Dame, IN. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
+  const pageTitle = `${municipality.name} ${municipality.type} Golf Carts | Golf Carts Of Indiana`;
+  const metaDescription = `Golf cart sales, rentals & service in ${municipality.name} ${municipality.type}, Indiana. EVOLUTION & DENAGO electric golf carts. Professional installation & maintenance.`;
 
   // Google Maps embed URL for the specific municipality in Notre Dame
   const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Notre%20Dame%20area%2C%20IN!5e0!3m2!1sen!2sus!4v1753817600000`;
@@ -40,9 +40,9 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
       <SEOHead 
         title={pageTitle}
         description={metaDescription}
-        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, Notre Dame golf cart sales, electric golf carts ${municipality.name}`}
-        canonicalUrl={`https://notredamegolfcarts.com${municipality.url}`}
-        ogImage="https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        keywords={`${municipality.name} golf carts, ${municipality.name} ${municipality.type} IN, Indiana golf cart sales, electric golf carts ${municipality.name}`}
+        canonicalUrl={`https://golfcartsofindiana.com${municipality.url}`}
+        ogImage="https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
       />
 
       {/* Hero Section */}
@@ -50,14 +50,14 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <Badge variant="secondary" className="mb-4 bg-theme-orange text-white">
-              Notre Dame Golf Carts
+              Golf Carts Of Indiana
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Golf Carts in {municipality.name} {municipality.type}
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto">
               Premium electric golf carts, professional service, and expert maintenance 
-              delivered directly to {municipality.name} {municipality.type}, Notre Dame, Indiana.
+              delivered directly to {municipality.name} {municipality.type}, Indiana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/inventory">
@@ -80,10 +80,10 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Notre Dame Golf Carts for {municipality.name}?
+              Why Choose Golf Carts Of Indiana for {municipality.name}?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We deliver premium electric golf cart solutions throughout Notre Dame, 
+              We deliver premium electric golf cart solutions throughout Indiana, 
               including {municipality.name} {municipality.type}.
             </p>
           </div>
@@ -204,7 +204,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
                 Professional Service in {municipality.name} {municipality.type}
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Our team provides comprehensive golf cart services throughout Notre Dame, 
+                Our team provides comprehensive golf cart services throughout Indiana, 
                 including dedicated service routes to {municipality.name} {municipality.type}. 
                 From sales to maintenance, we're your trusted local partner.
               </p>
@@ -275,7 +275,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
           </h2>
           <p className="text-xl text-gray-100 mb-8">
             Contact us today for golf cart sales, rentals, and service in {municipality.name} {municipality.type}, 
-            Notre Dame, Indiana.
+            Indiana.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Card className="bg-white text-gray-900 border-0">
@@ -312,9 +312,9 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
         schema={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: `Notre Dame Golf Carts - ${municipality.name} Service`,
+          name: `Golf Carts Of Indiana - ${municipality.name} Service`,
           description: metaDescription,
-          url: `https://notredamegolfcarts.com${municipality.url}`,
+          url: `https://golfcartsofindiana.com${municipality.url}`,
           telephone: "1-844-844-6638",
           address: {
             "@type": "PostalAddress",
@@ -327,7 +327,7 @@ export function NewLackawannaCountyMunicipalityPage({ municipalitySlug }: NewLac
             latitude: 41.4993,
             longitude: -75.6649
           },
-          areaServed: `${municipality.name} ${municipality.type}, Notre Dame, Indiana`
+          areaServed: `${municipality.name} ${municipality.type}, Indiana`
         }}
       />
     </div>

@@ -22,13 +22,12 @@ export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [, setLocation] = useLocation();
   
-  // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Contact Notre Dame Golf Carts",
-    baseDescription: "Get in touch with Notre Dame Golf Carts for expert golf cart sales, service, and support. Located at 310 S Dixie Way, South Bend, IN 46637. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
+    pageTitle: "Contact Golf Carts Of Indiana",
+    baseDescription: "Get in touch with Golf Carts Of Indiana for expert golf cart sales, service, and support. Located at 310 S Dixie Way, South Bend, IN 46637. Professional team ready to help with DENAGO and EVOLUTION electric vehicles.",
     pageType: "contact",
     canonicalPath: "/contact",
-    keywords: ["Notre Dame showroom", "Notre Dame location", "golf cart consultation", "Indiana service center"],
+    keywords: ["Indiana showroom", "Indiana location", "golf cart consultation", "Indiana service center"],
     heroBackgroundSeed: "contact"
   });
 
@@ -64,7 +63,6 @@ export default function ContactPage() {
     onSuccess: () => {
       form.reset();
       setIsSubmitting(false);
-      // Redirect to thank you page
       setLocation("/thank-you");
     },
     onError: (error) => {
@@ -85,7 +83,7 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Notre Dame Golf Carts",
+      label: "Golf Carts Of Indiana",
       value: "310 S Dixie Way, South Bend, IN 46637",
       phone: "574-402-4158",
     },
@@ -102,13 +100,13 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@notredamegolfcarts.com",
+      value: "info@golfcartsofindiana.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "notredamegolfcarts.com",
-      link: "https://notredamegolfcarts.com",
+      value: "golfcartsofindiana.com",
+      link: "https://golfcartsofindiana.com",
     },
   ];
 
@@ -138,11 +136,11 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Notre Dame Golf Carts
+              Contact Golf Carts Of Indiana
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get in touch with our team for sales, service, and support throughout Notre Dame, Indiana. 
-              Visit our showrooms or call us today.
+              Get in touch with our team for sales, service, and support throughout Indiana. 
+              Visit our showroom or call us today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -151,7 +149,7 @@ export default function ContactPage() {
                   Call 1-844-844-6638
                 </Button>
               </a>
-              <a href="mailto:info@notredamegolfcarts.com">
+              <a href="mailto:info@golfcartsofindiana.com">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                   <Mail className="w-5 h-5 mr-2" />
                   Email Us

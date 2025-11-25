@@ -40,17 +40,29 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// St. Joseph County Municipality Pages (22 Total - 2 Cities + 7 Towns + 13 Townships)
+// Indiana Municipality Pages
 import {
-  SouthBendCityPage, MishawakaCityPage,
-  IndianVillageTownPage, LakevilleTownPage, NewCarlisleTownPage, NorthLibertyTownPage,
-  OsceolaTownPage, RoselandTownPage, WalkertonTownPage,
-  CentreTownshipPage, ClayTownshipPage, GermanTownshipPage, GreeneTownshipPage,
-  HarrisTownshipPage, LibertyTownshipPage, LincolnTownshipPage, MadisonTownshipPage,
-  OliveTownshipPage, PennTownshipPage, PortageTownshipPage, UnionTownshipPage, WarrenTownshipPage
-} from "@/pages/towns/StJosephCountyMunicipalityPages";
-
-// Note: Individual vehicle detail pages removed - using dynamic VehicleDetailPage instead
+  IndianapolisPage, FortWaynePage, EvansvillePage, SouthBendPage, CarmelPage, FishersPage,
+  BloomingtonPage, HammondPage, GaryPage, LafayettePage, MunciePage, TerreHautePage,
+  KokomoPage, NoblesvillePage, AndersonPage, GreenwoodPage, ElkhartPage, MishawakaPage,
+  LawrencePage, JeffersonvillePage, ColumbusPage, PortagePage, NewAlbanyPage, RichmondPage,
+  WestfieldPage, ValparaisoPage, MichiganCityPage, MarionPage, EastChicagoPage, HobartPage,
+  CrownPointPage, FranklinPage, LaPortePage, GoshenPage, MerrillvillePage, SchervillePage,
+  GrangerPage, PlainfieldPage, BrownsburgPage, HighlandPage, MunsterPage, ClarksvillePage,
+  AvonPage, ZionsvillePage, DyerPage, CedarLakePage, StJohnPage, ShelbyvillePage, SeymourPage,
+  MartinsvillePage, ConnersvillePage, LogansportPage, NewCastlePage, WashingtonPage,
+  VincennesPage, BedfordPage, JasperPage, CrawfordsvillePage, HuntingtonPage, WabashPage,
+  AuburnPage, PeruPage, WarsawPage, FrankfortPage, LebanonPage, GreenfieldPage, GreensburgPage,
+  MadisonPage, PlymouthPage, DecaturPage, BlufftonPage, KendallvillePage, TellCityPage,
+  PrincetonPage, MountVernonPage, AngolaPage, PortlandPage, HartfordCityPage, LintonPage,
+  NorthVernonPage, ScottsburgPage, BrazilPage, BoonvillePage, SalemPage, BatesvillePage,
+  RushvillePage, RochesterPage, MonticelloPage, SullivanPage, RensselaerPage, ElwoodPage,
+  AlexandriaPage, GasCityPage, LigonierPage, NappaneePage, BremenPage, CulverPage,
+  SyracusePage, WinonaLakePage, ColumbiaCityPage, GarrettPage, WaterlooPage, ButlerPage,
+  KnoxPage, WalkertonPage, NorthLibertyPage, LakevillePage, OsceolaPage, NewCarlislePage,
+  ChestertonPage, WhitingPage, LakeStationPage, LowellPage, GriffithPage, WinfieldPage,
+  WestLafayettePage, DelphiPage, TiptonPage, CiceroPage, CovingtonPage, AtticaPage
+} from "@/pages/towns/IndianaMunicipalityPages";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -114,35 +126,128 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
 
-            {/* St. Joseph County Municipality Pages - Cities (2) */}
-            <Route path="/south-bend-city-golf-carts" component={SouthBendCityPage} />
-            <Route path="/mishawaka-city-golf-carts" component={MishawakaCityPage} />
-            
-            {/* St. Joseph County Municipality Pages - Towns (7) */}
-            <Route path="/indian-village-town-golf-carts" component={IndianVillageTownPage} />
-            <Route path="/lakeville-town-golf-carts" component={LakevilleTownPage} />
-            <Route path="/new-carlisle-town-golf-carts" component={NewCarlisleTownPage} />
-            <Route path="/north-liberty-town-golf-carts" component={NorthLibertyTownPage} />
-            <Route path="/osceola-town-golf-carts" component={OsceolaTownPage} />
-            <Route path="/roseland-town-golf-carts" component={RoselandTownPage} />
-            <Route path="/walkerton-town-golf-carts" component={WalkertonTownPage} />
-
-            {/* St. Joseph County Municipality Pages - Townships (13) */}
-            <Route path="/centre-township-golf-carts" component={CentreTownshipPage} />
-            <Route path="/clay-township-golf-carts" component={ClayTownshipPage} />
-            <Route path="/german-township-golf-carts" component={GermanTownshipPage} />
-            <Route path="/greene-township-golf-carts" component={GreeneTownshipPage} />
-            <Route path="/harris-township-golf-carts" component={HarrisTownshipPage} />
-            <Route path="/liberty-township-golf-carts" component={LibertyTownshipPage} />
-            <Route path="/lincoln-township-golf-carts" component={LincolnTownshipPage} />
-            <Route path="/madison-township-golf-carts" component={MadisonTownshipPage} />
-            <Route path="/olive-township-golf-carts" component={OliveTownshipPage} />
-            <Route path="/penn-township-golf-carts" component={PennTownshipPage} />
-            <Route path="/portage-township-golf-carts" component={PortageTownshipPage} />
-            <Route path="/union-township-golf-carts" component={UnionTownshipPage} />
-            <Route path="/warren-township-golf-carts" component={WarrenTownshipPage} />
-
-            {/* All vehicle detail pages handled by dynamic VehicleDetailPage component */}
+            {/* Indiana Municipality Pages - Major Cities */}
+            <Route path="/indianapolis-golf-carts" component={IndianapolisPage} />
+            <Route path="/fort-wayne-golf-carts" component={FortWaynePage} />
+            <Route path="/evansville-golf-carts" component={EvansvillePage} />
+            <Route path="/south-bend-golf-carts" component={SouthBendPage} />
+            <Route path="/carmel-golf-carts" component={CarmelPage} />
+            <Route path="/fishers-golf-carts" component={FishersPage} />
+            <Route path="/bloomington-golf-carts" component={BloomingtonPage} />
+            <Route path="/hammond-golf-carts" component={HammondPage} />
+            <Route path="/gary-golf-carts" component={GaryPage} />
+            <Route path="/lafayette-golf-carts" component={LafayettePage} />
+            <Route path="/muncie-golf-carts" component={MunciePage} />
+            <Route path="/terre-haute-golf-carts" component={TerreHautePage} />
+            <Route path="/kokomo-golf-carts" component={KokomoPage} />
+            <Route path="/noblesville-golf-carts" component={NoblesvillePage} />
+            <Route path="/anderson-golf-carts" component={AndersonPage} />
+            <Route path="/greenwood-golf-carts" component={GreenwoodPage} />
+            <Route path="/elkhart-golf-carts" component={ElkhartPage} />
+            <Route path="/mishawaka-golf-carts" component={MishawakaPage} />
+            <Route path="/lawrence-golf-carts" component={LawrencePage} />
+            <Route path="/jeffersonville-golf-carts" component={JeffersonvillePage} />
+            <Route path="/columbus-golf-carts" component={ColumbusPage} />
+            <Route path="/portage-golf-carts" component={PortagePage} />
+            <Route path="/new-albany-golf-carts" component={NewAlbanyPage} />
+            <Route path="/richmond-golf-carts" component={RichmondPage} />
+            <Route path="/westfield-golf-carts" component={WestfieldPage} />
+            <Route path="/valparaiso-golf-carts" component={ValparaisoPage} />
+            <Route path="/michigan-city-golf-carts" component={MichiganCityPage} />
+            <Route path="/marion-golf-carts" component={MarionPage} />
+            <Route path="/east-chicago-golf-carts" component={EastChicagoPage} />
+            <Route path="/hobart-golf-carts" component={HobartPage} />
+            <Route path="/crown-point-golf-carts" component={CrownPointPage} />
+            <Route path="/franklin-golf-carts" component={FranklinPage} />
+            <Route path="/la-porte-golf-carts" component={LaPortePage} />
+            <Route path="/goshen-golf-carts" component={GoshenPage} />
+            <Route path="/merrillville-golf-carts" component={MerrillvillePage} />
+            <Route path="/schererville-golf-carts" component={SchervillePage} />
+            <Route path="/granger-golf-carts" component={GrangerPage} />
+            <Route path="/plainfield-golf-carts" component={PlainfieldPage} />
+            <Route path="/brownsburg-golf-carts" component={BrownsburgPage} />
+            <Route path="/highland-golf-carts" component={HighlandPage} />
+            <Route path="/munster-golf-carts" component={MunsterPage} />
+            <Route path="/clarksville-golf-carts" component={ClarksvillePage} />
+            <Route path="/avon-golf-carts" component={AvonPage} />
+            <Route path="/zionsville-golf-carts" component={ZionsvillePage} />
+            <Route path="/dyer-golf-carts" component={DyerPage} />
+            <Route path="/cedar-lake-golf-carts" component={CedarLakePage} />
+            <Route path="/st-john-golf-carts" component={StJohnPage} />
+            <Route path="/shelbyville-golf-carts" component={ShelbyvillePage} />
+            <Route path="/seymour-golf-carts" component={SeymourPage} />
+            <Route path="/martinsville-golf-carts" component={MartinsvillePage} />
+            <Route path="/connersville-golf-carts" component={ConnersvillePage} />
+            <Route path="/logansport-golf-carts" component={LogansportPage} />
+            <Route path="/new-castle-golf-carts" component={NewCastlePage} />
+            <Route path="/washington-golf-carts" component={WashingtonPage} />
+            <Route path="/vincennes-golf-carts" component={VincennesPage} />
+            <Route path="/bedford-golf-carts" component={BedfordPage} />
+            <Route path="/jasper-golf-carts" component={JasperPage} />
+            <Route path="/crawfordsville-golf-carts" component={CrawfordsvillePage} />
+            <Route path="/huntington-golf-carts" component={HuntingtonPage} />
+            <Route path="/wabash-golf-carts" component={WabashPage} />
+            <Route path="/auburn-golf-carts" component={AuburnPage} />
+            <Route path="/peru-golf-carts" component={PeruPage} />
+            <Route path="/warsaw-golf-carts" component={WarsawPage} />
+            <Route path="/frankfort-golf-carts" component={FrankfortPage} />
+            <Route path="/lebanon-golf-carts" component={LebanonPage} />
+            <Route path="/greenfield-golf-carts" component={GreenfieldPage} />
+            <Route path="/greensburg-golf-carts" component={GreensburgPage} />
+            <Route path="/madison-golf-carts" component={MadisonPage} />
+            <Route path="/plymouth-golf-carts" component={PlymouthPage} />
+            <Route path="/decatur-golf-carts" component={DecaturPage} />
+            <Route path="/bluffton-golf-carts" component={BlufftonPage} />
+            <Route path="/kendallville-golf-carts" component={KendallvillePage} />
+            <Route path="/tell-city-golf-carts" component={TellCityPage} />
+            <Route path="/princeton-golf-carts" component={PrincetonPage} />
+            <Route path="/mount-vernon-golf-carts" component={MountVernonPage} />
+            <Route path="/angola-golf-carts" component={AngolaPage} />
+            <Route path="/portland-golf-carts" component={PortlandPage} />
+            <Route path="/hartford-city-golf-carts" component={HartfordCityPage} />
+            <Route path="/linton-golf-carts" component={LintonPage} />
+            <Route path="/north-vernon-golf-carts" component={NorthVernonPage} />
+            <Route path="/scottsburg-golf-carts" component={ScottsburgPage} />
+            <Route path="/brazil-golf-carts" component={BrazilPage} />
+            <Route path="/boonville-golf-carts" component={BoonvillePage} />
+            <Route path="/salem-golf-carts" component={SalemPage} />
+            <Route path="/batesville-golf-carts" component={BatesvillePage} />
+            <Route path="/rushville-golf-carts" component={RushvillePage} />
+            <Route path="/rochester-golf-carts" component={RochesterPage} />
+            <Route path="/monticello-golf-carts" component={MonticelloPage} />
+            <Route path="/sullivan-golf-carts" component={SullivanPage} />
+            <Route path="/rensselaer-golf-carts" component={RensselaerPage} />
+            <Route path="/elwood-golf-carts" component={ElwoodPage} />
+            <Route path="/alexandria-golf-carts" component={AlexandriaPage} />
+            <Route path="/gas-city-golf-carts" component={GasCityPage} />
+            <Route path="/ligonier-golf-carts" component={LigonierPage} />
+            <Route path="/nappanee-golf-carts" component={NappaneePage} />
+            <Route path="/bremen-golf-carts" component={BremenPage} />
+            <Route path="/culver-golf-carts" component={CulverPage} />
+            <Route path="/syracuse-golf-carts" component={SyracusePage} />
+            <Route path="/winona-lake-golf-carts" component={WinonaLakePage} />
+            <Route path="/columbia-city-golf-carts" component={ColumbiaCityPage} />
+            <Route path="/garrett-golf-carts" component={GarrettPage} />
+            <Route path="/waterloo-golf-carts" component={WaterlooPage} />
+            <Route path="/butler-golf-carts" component={ButlerPage} />
+            <Route path="/knox-golf-carts" component={KnoxPage} />
+            <Route path="/walkerton-golf-carts" component={WalkertonPage} />
+            <Route path="/north-liberty-golf-carts" component={NorthLibertyPage} />
+            <Route path="/lakeville-golf-carts" component={LakevillePage} />
+            <Route path="/osceola-golf-carts" component={OsceolaPage} />
+            <Route path="/new-carlisle-golf-carts" component={NewCarlislePage} />
+            <Route path="/chesterton-golf-carts" component={ChestertonPage} />
+            <Route path="/whiting-golf-carts" component={WhitingPage} />
+            <Route path="/lake-station-golf-carts" component={LakeStationPage} />
+            <Route path="/lowell-golf-carts" component={LowellPage} />
+            <Route path="/griffith-golf-carts" component={GriffithPage} />
+            <Route path="/winfield-golf-carts" component={WinfieldPage} />
+            <Route path="/west-lafayette-golf-carts" component={WestLafayettePage} />
+            <Route path="/delphi-golf-carts" component={DelphiPage} />
+            <Route path="/tipton-golf-carts" component={TiptonPage} />
+            <Route path="/cicero-golf-carts" component={CiceroPage} />
+            <Route path="/covington-golf-carts" component={CovingtonPage} />
+            <Route path="/attica-golf-carts" component={AtticaPage} />
 
             {/* 404 Page */}
             <Route component={NotFound} />

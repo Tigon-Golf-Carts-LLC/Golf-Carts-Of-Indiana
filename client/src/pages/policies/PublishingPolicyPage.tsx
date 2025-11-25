@@ -5,9 +5,9 @@ export default function PublishingPolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Publishing Policy | Notre Dame Golf Carts"
-        description="Learn about Notre Dame Golf Carts' content publishing standards, guidelines for user-generated content, and editorial policies for our Indiana website."
-        keywords="publishing policy, content policy, Notre Dame golf carts, editorial guidelines"
+        title="Publishing Policy | Golf Carts Of Indiana"
+        description="Learn about Golf Carts Of Indiana's content publishing standards, guidelines for user-generated content, and editorial policies for our Indiana website."
+        keywords="publishing policy, content policy, Indiana golf carts, editorial guidelines"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function PublishingPolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Content Publishing Standards</h2>
               <p className="mb-6">
-                Notre Dame Golf Carts maintains high standards for all content published on our website, 
+                Golf Carts Of Indiana maintains high standards for all content published on our website, 
                 social media channels, and marketing materials. This policy ensures accuracy, professionalism, 
                 and compliance with Indiana business regulations.
               </p>
@@ -173,11 +173,11 @@ export default function PublishingPolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Content Team</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Content and Marketing Department</strong></p>
-                <p className="mb-2">Notre Dame Golf Carts</p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
+                <p className="mb-2">Golf Carts Of Indiana</p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">For content corrections or suggestions</p>
-                <p className="mb-2">Website: notredamegolfcarts.com</p>
+                <p className="mb-2">Website: golfcartsofindiana.com</p>
                 <p>Response time: 24-48 hours for content inquiries</p>
               </div>
             </div>

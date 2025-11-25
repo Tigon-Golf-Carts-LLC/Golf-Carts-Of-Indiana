@@ -89,26 +89,26 @@ export default function VehicleDetailPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://notredamegolfcarts.com" },
-    { name: "Inventory", url: "https://notredamegolfcarts.com/inventory" },
-    { name: vehicle.name, url: `https://notredamegolfcarts.com/vehicle/${vehicle.id}` }
+    { name: "Home", url: "https://golfcartsofindiana.com" },
+    { name: "Inventory", url: "https://golfcartsofindiana.com/inventory" },
+    { name: vehicle.name, url: `https://golfcartsofindiana.com/vehicle/${vehicle.id}` }
   ];
 
   return (
     <>
       {/* Dynamic SEO Head */}
       <Helmet>
-        <title>{vehicle.name} - ${vehicle.price.toLocaleString()} | Notre Dame Golf Carts</title>
-        <meta name="description" content={`${vehicle.name} for sale at Notre Dame Golf Carts. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
-        <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Notre Dame golf carts, TIGON dealer Indiana, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
-        <link rel="canonical" href={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
+        <title>{vehicle.name} | Golf Carts Of Indiana - ${vehicle.price.toLocaleString()}</title>
+        <meta name="description" content={`${vehicle.name} for sale at Golf Carts Of Indiana. ${vehicle.description} Price: $${vehicle.price.toLocaleString()}. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart available now.`} />
+        <meta name="keywords" content={`${vehicle.name}, ${vehicle.brand} golf cart, ${vehicle.category} golf cart, Golf Carts Of Indiana, Indiana golf cart dealer, electric golf cart ${vehicle.specifications.seatingCapacity} seater`} />
+        <link rel="canonical" href={`https://golfcartsofindiana.com/vehicle/${vehicle.id}`} />
         
         {/* Open Graph */}
-        <meta property="og:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()} | Notre Dame Golf Carts`} />
-        <meta property="og:description" content={`${vehicle.description} Available now at Notre Dame Golf Carts. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart with ${vehicle.specifications.range} range.`} />
-        <meta property="og:url" content={`https://notredamegolfcarts.com/vehicle/${vehicle.id}`} />
+        <meta property="og:title" content={`${vehicle.name} | Golf Carts Of Indiana - $${vehicle.price.toLocaleString()}`} />
+        <meta property="og:description" content={`${vehicle.description} Available now at Golf Carts Of Indiana. ${vehicle.specifications.seatingCapacity}-passenger ${vehicle.brand} golf cart with ${vehicle.specifications.range} range.`} />
+        <meta property="og:url" content={`https://golfcartsofindiana.com/vehicle/${vehicle.id}`} />
         <meta property="og:type" content="product" />
-        <meta property="og:image" content={`https://notredamegolfcarts.com${vehicle.images[0]}`} />
+        <meta property="og:image" content={`https://golfcartsofindiana.com${vehicle.images[0]}`} />
         <meta property="product:price:amount" content={vehicle.price.toString()} />
         <meta property="product:price:currency" content="USD" />
         <meta property="product:availability" content={vehicle.inStock ? "in stock" : "out of stock"} />
@@ -116,9 +116,9 @@ export default function VehicleDetailPage() {
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${vehicle.name} - $${vehicle.price.toLocaleString()}`} />
+        <meta name="twitter:title" content={`${vehicle.name} | Golf Carts Of Indiana - $${vehicle.price.toLocaleString()}`} />
         <meta name="twitter:description" content={vehicle.description} />
-        <meta name="twitter:image" content={`https://notredamegolfcarts.com${vehicle.images[0]}`} />
+        <meta name="twitter:image" content={`https://golfcartsofindiana.com${vehicle.images[0]}`} />
       </Helmet>
 
       {/* Schema Markup */}
@@ -157,7 +157,7 @@ export default function VehicleDetailPage() {
         <div>
           <div className="mb-4">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-              {vehicle.name}
+              {vehicle.name} | Golf Carts Of Indiana
             </h1>
             <p className="text-xl text-gray-600 mb-4">{vehicle.description}</p>
             <div className="text-3xl font-bold text-theme-primary mb-4">

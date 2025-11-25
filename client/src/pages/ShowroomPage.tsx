@@ -6,49 +6,50 @@ import { SiPinterest } from "react-icons/si";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
-import { NEW_MONROE_COUNTY_MUNICIPALITIES } from "@/data/newMonroeCountyMunicipalities";
+import { INDIANA_MUNICIPALITIES } from "@/data/indianaTowns";
 import { generateSEOMetadata } from "@/utils/seoUtils";
 
 export default function ShowroomPage() {
-  // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Notre Dame Golf Carts LSV Showrooms - South Bend & Indiana",
-    baseDescription: "Visit our TIGON Golf Carts showroom in South Bend or shop online state-wide. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving all of Indiana with expert sales and service.",
+    pageTitle: "Golf Carts Of Indiana Showrooms - South Bend & Statewide",
+    baseDescription: "Visit our Golf Carts Of Indiana showroom in South Bend or shop online state-wide. Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving all of Indiana with expert sales and service.",
     pageType: "general",
     canonicalPath: "/showroom",
-    keywords: ["TIGON Golf Carts showroom", "South Bend golf cart dealership", "Indiana golf carts", "Notre Dame golf carts"],
+    keywords: ["Golf Carts Of Indiana showroom", "South Bend golf cart dealership", "Indiana golf carts", "DENAGO dealer Indiana"],
     ogImage: "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
     heroBackgroundSeed: "showroom"
   });
   
   const locations = [
     {
-      name: "NOTRE DAME GOLF CARTS SOUTH BEND",
+      name: "GOLF CARTS OF INDIANA SOUTH BEND",
       address: "310 S Dixie Way, South Bend, IN 46637",
       phone: "574-402-4158",
       coordinates: "41.7360283,-86.2511865",
       googleMapsUrl: "https://www.google.com/maps?cid=17532455648086849827",
-      facebookUrl: "https://www.facebook.com/notredamegolfcarts/",
-      youtubeUrl: "https://www.youtube.com/@notredamegolfcarts",
-      websiteUrl: "https://notredamegolfcarts.com/",
-      pinterestUrl: "https://www.pinterest.com/notredamegolfcarts/",
+      facebookUrl: "https://www.facebook.com/golfcartsofindiana/",
+      youtubeUrl: "https://www.youtube.com/@golfcartsofindiana",
+      websiteUrl: "https://golfcartsofindiana.com/",
+      pinterestUrl: "https://www.pinterest.com/golfcartsofindiana/",
       reviewUrl: "https://g.page/r/CSP5gWCFy0_zEBM/review",
       city: "South Bend",
       type: "physical"
     },
     {
-      name: "NOTRE DAME GOLF CARTS INDIANA",
-      address: "Indiana",
+      name: "GOLF CARTS OF INDIANA STATEWIDE",
+      address: "Serving All of Indiana",
       phone: "1-844-844-6638",
       coordinates: "",
       googleMapsUrl: "https://www.google.com/maps?cid=6765774483345438799",
-      websiteUrl: "https://notredamegolfcarts.com/",
-      pinterestUrl: "https://www.pinterest.com/notredamegolfcarts/",
+      websiteUrl: "https://golfcartsofindiana.com/",
+      pinterestUrl: "https://www.pinterest.com/golfcartsofindiana/",
       reviewUrl: "https://g.page/r/CU_4NMYL3ORdEBM/review",
       city: "Indiana",
       type: "online"
     }
   ];
+
+  const featuredLocations = INDIANA_MUNICIPALITIES.slice(0, 20);
 
   return (
     <>
@@ -69,10 +70,10 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Notre Dame Golf Carts LSV Showrooms
+            Golf Carts Of Indiana Showrooms
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Carts showroom in South Bend or shop online state-wide. 
+            Visit our showroom in South Bend or shop online state-wide. 
             Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving all of Indiana.
           </p>
           <div className="flex justify-center">
@@ -89,7 +90,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Physical showroom in South Bend plus state-wide online service</p>
+            <p className="text-xl text-gray-600">Physical showroom in South Bend plus statewide online service</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -259,18 +260,18 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Areas We Serve</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout all 19 St. Joseph County municipalities and surrounding Indiana areas
+            We proudly serve customers throughout all of Indiana with statewide delivery
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-700">
-            {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality, index) => (
+            {featuredLocations.map((municipality, index) => (
               <Link key={index} href={municipality.url}>
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-200 hover:border-theme-orange">
                   <div className="font-medium text-theme-primary hover:text-theme-orange transition-colors">
                     {municipality.name}
                   </div>
                   <div className="text-sm text-gray-500 mt-1">
-                    {municipality.type}
+                    {municipality.county} County
                   </div>
                 </div>
               </Link>
@@ -279,7 +280,7 @@ export default function ShowroomPage() {
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 mb-4">
-              Serving all of St. Joseph County including boroughs, townships, and surrounding communities
+              Serving all of Indiana including cities, towns, and surrounding communities
             </p>
             <Link href="/contact">
               <Button className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -297,7 +298,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our TIGON Golf Carts showroom in South Bend or contact us online to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our showroom in South Bend or contact us online to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

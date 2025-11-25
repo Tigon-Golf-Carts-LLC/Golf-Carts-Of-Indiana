@@ -15,17 +15,17 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Notre Dame Golf Carts",
-  "alternateName": "MCGC",
-  "description": "Premier golf cart dealer in Notre Dame, Indiana specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://notredamegolfcarts.com",
-  "logo": "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20area%20Golf%20Carts_1753809066045.png",
+  "name": "Golf Carts Of Indiana",
+  "alternateName": "GCOI",
+  "description": "Premier golf cart dealer in Indiana specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "url": "https://golfcartsofindiana.com",
+  "logo": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
   "image": [
-    "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20area%20Golf%20Carts_1753809066045.png",
-    "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+    "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+    "https://golfcartsofindiana.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "info@notredamegolfcarts.com",
+  "email": "info@golfcartsofindiana.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "310 S Dixie Way",
@@ -42,18 +42,18 @@ export const generateOrganizationSchema = () => ({
     "@type": "GeoCircle",
     "geoMidpoint": {
       "@type": "GeoCoordinates",
-      "latitude": 41.7033,
-      "longitude": -86.2389
+      "latitude": 39.7684,
+      "longitude": -86.1581
     },
-    "geoRadius": "50000"
+    "geoRadius": "200000"
   },
   "foundingDate": "2008",
   "numberOfEmployees": "15-25",
-  "slogan": "Professional golf cart services delivered to your town",
+  "slogan": "Professional golf cart services delivered throughout Indiana",
   "brand": ["DENAGO", "EVOLUTION"],
   "sameAs": [
-    "https://www.facebook.com/notredamegolfcarts",
-    "https://www.instagram.com/notredamegolfcarts"
+    "https://www.facebook.com/golfcartsofindiana",
+    "https://www.instagram.com/golfcartsofindiana"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -87,12 +87,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://notredamegolfcarts.com/#localbusiness",
-  "name": "Notre Dame Golf Carts",
-  "description": "Premier golf cart dealer serving Notre Dame, Indiana communities with electric vehicle sales, service, and rentals.",
-  "url": "https://notredamegolfcarts.com",
+  "@id": "https://golfcartsofindiana.com/#localbusiness",
+  "name": "Golf Carts Of Indiana",
+  "description": "Premier golf cart dealer serving Indiana communities with electric vehicle sales, service, and rentals.",
+  "url": "https://golfcartsofindiana.com",
   "telephone": "1-844-844-6638",
-  "email": "info@notredamegolfcarts.com",
+  "email": "info@golfcartsofindiana.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -110,14 +110,13 @@ export const generateLocalBusinessSchema = () => ({
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 40.9856,
-    "longitude": -75.1946
+    "latitude": 39.7684,
+    "longitude": -86.1581
   },
   "areaServed": [
-    "Notre Dame", "Mishawaka", "Granger", "Elkhart", "Barrett Township", "Chestnuthill Township",
-    "Coolbaugh Township", "Eldred Township", "Hamilton Township", "Jackson Township", "Middle Smithfield Township",
-    "Paradise Township", "Notre Dame Township", "Polk Township", "Price Township", "Ross Township",
-    "Smithfield Township", "Stroud Township", "Granger Township", "Tunkhannock Township"
+    "Indianapolis", "Fort Wayne", "Evansville", "South Bend", "Carmel", "Fishers",
+    "Bloomington", "Hammond", "Gary", "Lafayette", "Muncie", "Terre Haute",
+    "Kokomo", "Noblesville", "Anderson", "Greenwood", "Elkhart", "Mishawaka"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -146,21 +145,21 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://notredamegolfcarts.com/#website",
-  "name": "Notre Dame Golf Carts",
-  "description": "Official website for Notre Dame Golf Carts - Indiana's premier electric golf cart dealer",
-  "url": "https://notredamegolfcarts.com",
+  "@id": "https://golfcartsofindiana.com/#website",
+  "name": "Golf Carts Of Indiana",
+  "description": "Official website for Golf Carts Of Indiana - Indiana's premier electric golf cart dealer",
+  "url": "https://golfcartsofindiana.com",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://notredamegolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": "https://golfcartsofindiana.com/inventory?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Notre Dame Golf Carts"
+    "name": "Golf Carts Of Indiana"
   }
 });
 
@@ -178,7 +177,7 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://notredamegolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": `https://golfcartsofindiana.com/vehicles/${vehicle.id}#product`,
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -186,7 +185,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://notredamegolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => `https://golfcartsofindiana.com${img}`) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -194,11 +193,11 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Notre Dame Golf Carts",
+      "name": "Golf Carts Of Indiana",
       "telephone": "1-844-844-6638",
-      "email": "info@notredamegolfcarts.com"
+      "email": "info@golfcartsofindiana.com"
     },
-    "url": `https://notredamegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://golfcartsofindiana.com/vehicles/${vehicle.id}`
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -239,10 +238,10 @@ export const generateServiceSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Service",
   "name": "Golf Cart Services",
-  "description": "Comprehensive golf cart sales, service, repair, and rental services in Notre Dame, Indiana",
+  "description": "Comprehensive golf cart sales, service, repair, and rental services in Indiana",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Notre Dame Golf Carts"
+    "name": "Golf Carts Of Indiana"
   },
   "areaServed": {
     "@type": "State",
@@ -299,24 +298,24 @@ export const generateOfferCatalogSchema = (vehicles: any[]) => ({
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://notredamegolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? `https://golfcartsofindiana.com${vehicle.images[0]}` : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://notredamegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://golfcartsofindiana.com/vehicles/${vehicle.id}`
   }))
 });
 
 export const generateContactPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "name": "Contact Notre Dame Golf Carts",
-  "description": "Get in touch with Notre Dame Golf Carts for sales, service, rentals, and support",
-  "url": "https://notredamegolfcarts.com/contact",
+  "name": "Contact Golf Carts Of Indiana",
+  "description": "Get in touch with Golf Carts Of Indiana for sales, service, rentals, and support",
+  "url": "https://golfcartsofindiana.com/contact",
   "mainEntity": {
     "@type": "Organization",
-    "name": "Notre Dame Golf Carts",
+    "name": "Golf Carts Of Indiana",
     "contactPoint": [
       {
         "@type": "ContactPoint",
@@ -327,7 +326,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@notredamegolfcarts.com",
+        "email": "info@golfcartsofindiana.com",
         "contactType": "sales",
         "areaServed": "US"
       }
@@ -339,21 +338,17 @@ export const generateTownPageSchema = (townName: string) => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
-  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Notre Dame, Indiana`,
-  "url": `https://notredamegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
+  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Indiana`,
+  "url": `https://golfcartsofindiana.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Notre Dame Golf Carts",
+    "name": "Golf Carts Of Indiana",
     "areaServed": {
       "@type": "City",
       "name": townName,
       "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Notre Dame",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Indiana"
-        }
+        "@type": "State",
+        "name": "Indiana"
       }
     }
   },
@@ -364,13 +359,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://notredamegolfcarts.com"
+        "item": "https://golfcartsofindiana.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://notredamegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://golfcartsofindiana.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }

@@ -8,7 +8,7 @@ import { Link } from "wouter";
 
 interface MunicipalityRentalPageProps {
   municipalityName: string;
-  municipalityType: 'City' | 'Borough' | 'Township';
+  municipalityType: 'City' | 'Town' | 'Township';
   slug: string;
 }
 
@@ -17,20 +17,19 @@ export default function MunicipalityRentalPage({
   municipalityType, 
   slug 
 }: MunicipalityRentalPageProps) {
-  const fullLocationName = `${municipalityName} ${municipalityType}`;
-  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, IN | Notre Dame Golf Carts`;
-  const pageDescription = `Rent premium golf carts in ${fullLocationName}, Notre Dame, IN. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery within ${fullLocationName}.`;
-  const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Notre Dame golf cart rental, Indiana golf cart rental, street legal golf cart rental`;
+  const fullLocationName = `${municipalityName}`;
+  const pageTitle = `Golf Cart Rentals in ${fullLocationName}, IN | Golf Carts Of Indiana`;
+  const pageDescription = `Rent premium golf carts in ${fullLocationName}, Indiana. Daily, weekly, monthly rentals available. 4-seater, 6-seater, and utility golf carts. Professional delivery throughout Indiana.`;
+  const keywords = `golf cart rental ${municipalityName}, ${fullLocationName} golf cart rental, Indiana golf cart rental, Golf Carts Of Indiana rental, street legal golf cart rental`;
 
   const rentalFeatures = [
     "Street legal with seat belts and safety features",
     "Flexible pickup and return scheduling",
     "Fully charged and ready to drive",
-    "Fully charged and ready to drive",
     "Comprehensive insurance coverage included",
     "24/7 customer support and emergency assistance",
     "No hidden fees or surprise charges",
-    `Professional delivery within ${fullLocationName} limits`,
+    `Professional delivery within ${fullLocationName}`,
     "Professional maintenance and cleaning"
   ];
 
@@ -208,13 +207,13 @@ export default function MunicipalityRentalPage({
         title={pageTitle}
         description={pageDescription}
         keywords={keywords}
-        canonicalUrl={`https://notredamegolfcarts.com/${slug}`}
+        canonicalUrl={`https://golfcartsofindiana.com/${slug}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
       <LocationSchema 
         municipalityName={municipalityName}
-        municipalityType={municipalityType as 'Borough' | 'Township'}
+        municipalityType={municipalityType}
         pageType="rental"
       />
 
@@ -226,7 +225,7 @@ export default function MunicipalityRentalPage({
               Golf Cart Rentals in {fullLocationName}
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Premium golf cart rentals delivered to your door in {fullLocationName}, St. Joseph County. 
+              Premium golf cart rentals delivered to your door in {fullLocationName}, Indiana. 
               Street legal, fully insured, and ready for adventure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -254,7 +253,7 @@ export default function MunicipalityRentalPage({
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 We provide the most reliable and convenient golf cart rental service in {fullLocationName} 
-                and throughout Notre Dame, Indiana.
+                and throughout Indiana.
               </p>
             </div>
 
@@ -275,7 +274,7 @@ export default function MunicipalityRentalPage({
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Proudly serving {fullLocationName} and the entire St. Joseph County with personalized, 
+                    Proudly serving {fullLocationName} and all of Indiana with personalized, 
                     local customer service you can trust.
                   </p>
                 </CardContent>
@@ -337,7 +336,7 @@ export default function MunicipalityRentalPage({
                 6-Seater Golf Cart Rentals in {fullLocationName}
               </h2>
               <p className="text-lg text-gray-600">
-                Ideal for larger families and groups exploring {fullLocationName} and Berks County together
+                Ideal for larger families and groups exploring {fullLocationName} and Indiana together
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -375,7 +374,7 @@ export default function MunicipalityRentalPage({
                 Serving {fullLocationName} with Pride
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                As your local Berks County golf cart rental specialists, we're proud to serve the residents 
+                As your local Indiana golf cart rental specialists, we're proud to serve the residents 
                 and visitors of {fullLocationName} with reliable, professional service.
               </p>
             </div>
@@ -451,7 +450,7 @@ export default function MunicipalityRentalPage({
               Start Your {fullLocationName} Golf Cart Adventure Today
             </h2>
             <p className="text-xl mb-8">
-              Join hundreds of satisfied customers who trust Berks County Golf Carts for their rental needs in {fullLocationName}.
+              Join hundreds of satisfied customers who trust Golf Carts Of Indiana for their rental needs in {fullLocationName}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${businessPhone}`}>

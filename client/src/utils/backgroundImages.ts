@@ -1,5 +1,5 @@
-// Background image utility for Notre Dame Golf Carts
-// Uses 5 new professional showroom images featuring the Notre Dame Golf Carts dealership with professional staff
+// Background image utility for Golf Carts Of Indiana
+// Uses 5 new professional showroom images featuring the Golf Carts Of Indiana dealership with professional staff
 
 const BACKGROUND_IMAGES = [
   '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts_1763663922417.jpeg',

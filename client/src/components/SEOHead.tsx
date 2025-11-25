@@ -21,7 +21,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "Notre Dame Golf Carts, Golf Carts In Notre Dame, St. Joseph County golf carts, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service", 
+  keywords = "Golf Carts Of Indiana, electric golf carts Indiana, DENAGO EVOLUTION golf cart sales service, Indiana golf cart dealer", 
   canonicalUrl,
   townName,
   ogImage,
@@ -51,14 +51,14 @@ export default function SEOHead({
   const getOptimalOGImage = (): string => {
     // 1. Use explicitly provided ogImage if available
     if (ogImage) {
-      return ogImage.startsWith('http') ? ogImage : `https://notredamegolfcarts.com${ogImage}`;
+      return ogImage.startsWith('http') ? ogImage : `https://golfcartsofindiana.com${ogImage}`;
     }
     
     // 2. Use hero background image based on page type or seed
     if (heroBackgroundSeed || pageType) {
       const seed = heroBackgroundSeed || pageType;
       const heroImage = getRandomBackgroundImage(seed);
-      return `https://notredamegolfcarts.com${heroImage}`;
+      return `https://golfcartsofindiana.com${heroImage}`;
     }
     
     // 3. Fallback to default configured image
@@ -272,7 +272,7 @@ export default function SEOHead({
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Notre Dame Golf Carts - ${townName}`,
+        "name": `Golf Carts Of Indiana - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
@@ -281,10 +281,10 @@ export default function SEOHead({
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@notredamegolfcarts.com",
+        "email": "info@golfcartsofindiana.com",
         "url": canonicalUrl,
-        "logo": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-        "image": `https://notredamegolfcarts.com${ogImage}`,
+        "logo": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "image": `https://golfcartsofindiana.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

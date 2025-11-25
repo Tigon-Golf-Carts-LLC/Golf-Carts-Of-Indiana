@@ -11,10 +11,10 @@ export default function DenagoEvNomad() {
   return (
     <>
       <SEOHead 
-        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Notre Dame Golf Carts"
+        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Golf Carts Of Indiana"
         description="Discover the DENAGO® EV NOMAD designed for outdoor adventures and off-road capability. Perfect for camping, hunting, and recreational activities."
-        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Notre Dame"
-        canonicalUrl="https://notredamegolfcarts.com/vehicles/denago-ev-nomad"
+        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Indiana"
+        canonicalUrl="https://golfcartsofindiana.com/vehicles/denago-ev-nomad"
         ogImage="/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"
         ogType="product"
       />
@@ -79,12 +79,12 @@ export default function DenagoEvNomad() {
                       Get Quote
                     </Button>
                   </Link>
-                  <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://golfcartsofindiana.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" variant="outline" className="w-full sm:w-auto border-theme-orange text-theme-orange hover:bg-orange-50">
                       Finance Options
                     </Button>
                   </a>
-                  <a href="https://tigongolfcarts.com/denago-ev/nomad/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://golfcartsofindiana.com/denago-ev/nomad/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="w-full sm:w-auto bg-theme-orange hover:bg-orange-600 text-white">
                       View More Details
                     </Button>

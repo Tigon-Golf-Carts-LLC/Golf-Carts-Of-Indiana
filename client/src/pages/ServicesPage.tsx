@@ -12,7 +12,7 @@ export default function ServicesPage() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "Golf Cart Services in St. Joseph County",
-    baseDescription: "Professional golf cart maintenance, repair, customization, and warranty services in Notre Dame, Indiana. Certified technicians using genuine parts with comprehensive care for all golf cart brands.",
+    baseDescription: "Professional golf cart maintenance, repair, customization, and warranty services in Indiana. Certified technicians using genuine parts with comprehensive care for all golf cart brands.",
     pageType: "general",
     canonicalPath: "/services",
     keywords: ["golf cart maintenance IN", "certified technicians", "warranty service", "battery replacement", "customization services"],
@@ -112,14 +112,14 @@ export default function ServicesPage() {
         pageType="services" 
         pageData={{
           title: "St. Joseph County Golf Cart Services",
-          description: "Professional golf cart maintenance, repair, customization, and warranty services in Notre Dame, Indiana. Certified technicians, quality parts, and comprehensive care.",
-          url: "https://notredamegolfcarts.com/services",
+          description: "Professional golf cart maintenance, repair, customization, and warranty services in Indiana. Certified technicians, quality parts, and comprehensive care.",
+          url: "https://golfcartsofindiana.com/services",
           breadcrumbs: [
-            { name: "Home", url: "https://notredamegolfcarts.com/" },
-            { name: "Services", url: "https://notredamegolfcarts.com/services" }
+            { name: "Home", url: "https://golfcartsofindiana.com/" },
+            { name: "Services", url: "https://golfcartsofindiana.com/services" }
           ],
           serviceName: "Golf Cart Services",
-          serviceDescription: "Comprehensive golf cart maintenance, repair, customization, and warranty services in Notre Dame, Indiana",
+          serviceDescription: "Comprehensive golf cart maintenance, repair, customization, and warranty services in Indiana",
           serviceOffers: [
             { price: "Contact for pricing", description: "Maintenance & Repair Services" },
             { price: "Contact for pricing", description: "Battery Service & Replacement" },
@@ -136,7 +136,7 @@ export default function ServicesPage() {
               Golf Cart Services in St. Joseph County
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Professional maintenance, repair, and customization services for all golf cart brands throughout Notre Dame, Indiana.
+              Professional maintenance, repair, and customization services for all golf cart brands throughout Indiana.
             </p>
           <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
             Schedule Service

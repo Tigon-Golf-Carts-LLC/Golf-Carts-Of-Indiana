@@ -52,9 +52,9 @@ export function generateSEOMetadata(options: {
 
   // Generate keywords
   const defaultKeywords = [
-    'Notre Dame Golf Carts',
-    'Golf Carts In Notre Dame',
-    'St. Joseph County golf carts',
+    'Golf Carts Of Indiana',
+    'Golf Carts In Indiana',
+    'Indiana golf carts',
     'electric golf carts Indiana', 
     'DENAGO golf carts',
     'EVOLUTION golf carts',
@@ -65,7 +65,7 @@ export function generateSEOMetadata(options: {
   const finalKeywords = [...defaultKeywords, ...pageSpecificKeywords, ...keywords].join(', ');
 
   // Generate canonical URL
-  const canonicalUrl = `https://notredamegolfcarts.com${canonicalPath}`;
+  const canonicalUrl = `https://golfcartsofindiana.com${canonicalPath}`;
 
   // Determine OG type
   const ogType = getOGType(pageType);
@@ -111,8 +111,8 @@ function getPageSpecificKeywords(
   switch (pageType) {
     case 'home':
       keywords.push(
-        'Notre Dame golf cart dealership',
-        'St. Joseph County golf carts',
+        'Indiana golf cart dealership',
+        'Indiana golf carts',
         'Indiana golf cart dealer',
         'electric vehicle sales IN',
         'golf cart financing'
@@ -132,16 +132,16 @@ function getPageSpecificKeywords(
     case 'contact':
       keywords.push(
         'golf cart dealership contact',
-        'Notre Dame showroom',
-        'St. Joseph County golf cart service',
+        'Indiana showroom',
+        'Indiana golf cart service',
         'Indiana golf cart service',
         'golf cart support'
       );
       break;
     case 'about':
       keywords.push(
-        'golf cart company Notre Dame',
-        'St. Joseph County dealership',
+        'golf cart company Indiana',
+        'Indiana dealership',
         'electric vehicle expertise',
         'Indiana golf cart history'
       );
@@ -158,13 +158,13 @@ function getPageSpecificKeywords(
     case 'rental':
       keywords.push(
         'golf cart rentals',
-        'Notre Dame rentals',
-        'St. Joseph County rentals',
+        'Indiana rentals',
+        'Indiana rentals',
         'electric vehicle rental IN'
       );
       break;
     case 'policy':
-      keywords.push('golf cart dealer policies', 'Notre Dame terms');
+      keywords.push('golf cart dealer policies', 'Indiana terms');
       break;
   }
 
@@ -214,9 +214,9 @@ export function extractPageTitle(options: {
 
   if (explicitTitle) return explicitTitle;
   if (vehicleName) return vehicleName;
-  if (townName) return `${townName} Golf Cart Sales & Rentals - Notre Dame Golf Carts`;
+  if (townName) return `${townName} Golf Cart Sales & Rentals - Golf Carts Of Indiana`;
   if (fileName) return fileNameToTitle(fileName);
   if (pageType) return fileNameToTitle(pageType);
   
-  return 'Notre Dame Golf Carts';
+  return 'Golf Carts Of Indiana';
 }

@@ -23,8 +23,8 @@ export default function DenagoEvRoverXxlPage() {
         "Luxury Seating",
         "State-of-Art Features"
       ]}
-      description="Maximum capacity with ultra-premium interior and advanced technology suite. The DENAGO EV ROVER XXL is the ultimate in electric vehicle luxury, accommodating 8 passengers with superior performance in Notre Dame. Call 1-844-844-6638."
-      tigoUrl="https://tigongolfcarts.com/denago-ev/rover-xxl/"
+      description="Maximum capacity with ultra-premium interior and advanced technology suite. The DENAGO EV ROVER XXL is the ultimate in electric vehicle luxury, accommodating 8 passengers with superior performance in Indiana. Call 1-844-844-6638."
+      tigoUrl="https://golfcartsofindiana.com/denago-ev/rover-xxl/"
     />
   );
 }

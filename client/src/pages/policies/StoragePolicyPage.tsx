@@ -5,9 +5,9 @@ export default function StoragePolicyPage() {
   return (
     <>
       <SEOHead 
-        title="Storage Policy | Notre Dame Golf Carts"
-        description="Learn about golf cart storage services and policies at Notre Dame Golf Carts. Seasonal storage, maintenance, and security information for Indiana customers."
-        keywords="golf cart storage, storage policy, Notre Dame storage, Indiana golf cart storage"
+        title="Storage Policy | Golf Carts Of Indiana"
+        description="Learn about golf cart storage services and policies at Golf Carts Of Indiana. Seasonal storage, maintenance, and security information for Indiana customers."
+        keywords="golf cart storage, storage policy, Indiana storage, Indiana golf cart storage"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function StoragePolicyPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Storage Services Overview</h2>
               <p className="mb-6">
-                Notre Dame Golf Carts provides secure, climate-controlled storage services for golf carts 
+                Golf Carts Of Indiana provides secure, climate-controlled storage services for golf carts 
                 at our Indiana facilities. Our storage policy ensures the protection and maintenance 
                 of your investment during storage periods.
               </p>
@@ -193,11 +193,11 @@ export default function StoragePolicyPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Storage Department</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Storage Services</strong></p>
-                <p className="mb-2">Notre Dame Golf Carts</p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
+                <p className="mb-2">Golf Carts Of Indiana</p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Notre Dame, Indiana</p>
-                <p>Website: notredamegolfcarts.com</p>
+                <p className="mb-2">Serving Indiana</p>
+                <p>Website: golfcartsofindiana.com</p>
               </div>
             </div>
           </div>

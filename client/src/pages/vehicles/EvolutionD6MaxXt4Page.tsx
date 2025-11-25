@@ -23,8 +23,8 @@ export default function EvolutionD6MaxXt4Page() {
         "Premium Interior",
         "All-Wheel Drive"
       ]}
-      description="High-performance 4-passenger vehicle with advanced technology and premium features. The EVOLUTION D6 MAX XT4 represents the pinnacle of electric golf cart performance for Notre Dame enthusiasts. Call 1-844-844-6638."
-      tigoUrl="https://tigongolfcarts.com/evolution/d6-max/xt4/"
+      description="High-performance 4-passenger vehicle with advanced technology and premium features. The EVOLUTION D6 MAX XT4 represents the pinnacle of electric golf cart performance for Indiana enthusiasts. Call 1-844-844-6638."
+      tigoUrl="https://golfcartsofindiana.com/evolution/d6-max/xt4/"
     />
   );
 }

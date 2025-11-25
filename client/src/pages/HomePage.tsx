@@ -10,7 +10,7 @@ import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { NEW_MONROE_COUNTY_MUNICIPALITIES, type Municipality } from "@/data/newMonroeCountyMunicipalities";
+import { INDIANA_MUNICIPALITIES, type Municipality } from "@/data/indianaTowns";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { generateSEOMetadata } from "@/utils/seoUtils";
 
@@ -20,14 +20,14 @@ export default function HomePage() {
   });
 
   const featuredVehicles = vehicles?.slice(0, 3) || [];
+  const featuredLocations = INDIANA_MUNICIPALITIES.slice(0, 24);
   
-  // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
-    pageTitle: "Notre Dame Golf Carts - Premier Indiana Dealership",
-    baseDescription: "Serving Notre Dame, Indiana with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the area.",
+    pageTitle: "Golf Carts Of Indiana - Premier Statewide Dealership",
+    baseDescription: "Serving all of Indiana with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the state.",
     pageType: "home",
     canonicalPath: "/",
-    keywords: ["premium golf cart dealer", "Indiana electric vehicles", "Notre Dame showroom"],
+    keywords: ["premium golf cart dealer", "Indiana electric vehicles", "Indiana showroom"],
     heroBackgroundSeed: "home"
   });
 
@@ -49,21 +49,21 @@ export default function HomePage() {
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Notre Dame Golf Carts - Premier Electric Golf Cart Dealership in Indiana",
-          description: "Discover premium electric golf carts from Denago and Evolution at Notre Dame Golf Carts. Expert sales, service, rentals, and financing throughout Notre Dame, IN.",
-          url: "https://notredamegolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://notredamegolfcarts.com/" }],
+          title: "Golf Carts Of Indiana - Premier Electric Golf Cart Dealership",
+          description: "Discover premium electric golf carts from Denago and Evolution at Golf Carts Of Indiana. Expert sales, service, rentals, and financing throughout Indiana.",
+          url: "https://golfcartsofindiana.com/",
+          breadcrumbs: [{ name: "Home", url: "https://golfcartsofindiana.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Notre Dame Golf Carts helped me find the perfect cart for my needs.",
+              reviewBody: "Excellent service and quality golf carts. The team at Golf Carts Of Indiana helped me find the perfect cart for my needs.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
             },
             {
               author: "Maria Garcia",
-              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Notre Dame.",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Indiana.",
               reviewRating: 5,
               datePublished: "2025-01-20",
               headline: "Professional and affordable"
@@ -84,10 +84,10 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Notre Dame Golf Carts - Premier Indiana Dealership
+                Golf Carts Of Indiana - Premier Statewide Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving Notre Dame, Indiana and all surrounding communities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the area.
+                Serving all of Indiana with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions throughout the state.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -117,7 +117,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Notre Dame Golf Carts?
+            Why Choose Golf Carts Of Indiana?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -172,7 +172,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Notre Dame Golf Carts - Top Golf Cart and LSV Brands
+            Golf Carts Of Indiana - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -246,7 +246,7 @@ export default function HomePage() {
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
                 <img 
                   src="/attached_assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135350621.jpg" 
-                  alt="Evolution D5 Maverick 4 Plus"
+                  alt="Evolution D5 Maverick 4 Plus - Golf Carts Of Indiana"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 right-4">
@@ -254,7 +254,7 @@ export default function HomePage() {
                 </div>
               </div>
               <CardHeader className="pb-3">
-                <CardTitle className="text-xl font-semibold">Evolution D5 Maverick 4 Plus</CardTitle>
+                <CardTitle className="text-xl font-semibold">Evolution D5 Maverick 4 Plus | Golf Carts Of Indiana</CardTitle>
                 <CardDescription className="text-left text-gray-600 text-sm">
                   Premium electric golf cart with advanced features and superior performance. Seats 4 passengers with extended range capability.
                 </CardDescription>
@@ -278,7 +278,7 @@ export default function HomePage() {
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
                 <img 
                   src="/attached_assets/EVOLUTIOND6MAXGT4_1751893159004_1753135350620.jpg" 
-                  alt="Evolution D6 Max XT4"
+                  alt="Evolution D6 Max XT4 - Golf Carts Of Indiana"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 right-4">
@@ -286,7 +286,7 @@ export default function HomePage() {
                 </div>
               </div>
               <CardHeader className="pb-3">
-                <CardTitle className="text-xl font-semibold">Evolution D6 Max XT4</CardTitle>
+                <CardTitle className="text-xl font-semibold">Evolution D6 Max XT4 | Golf Carts Of Indiana</CardTitle>
                 <CardDescription className="text-left text-gray-600 text-sm">
                   High-performance 4-passenger golf cart with cutting-edge technology and sporty design.
                 </CardDescription>
@@ -310,7 +310,7 @@ export default function HomePage() {
               <div className="aspect-video bg-gray-200 relative overflow-hidden">
                 <img 
                   src="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg" 
-                  alt="Denago EV City"
+                  alt="Denago EV City - Golf Carts Of Indiana"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-4 right-4">
@@ -318,7 +318,7 @@ export default function HomePage() {
                 </div>
               </div>
               <CardHeader className="pb-3">
-                <CardTitle className="text-xl font-semibold">Denago EV City</CardTitle>
+                <CardTitle className="text-xl font-semibold">Denago EV City | Golf Carts Of Indiana</CardTitle>
                 <CardDescription className="text-left text-gray-600 text-sm">
                   Urban mobility solution with street-legal capabilities and modern design for city transportation.
                 </CardDescription>
@@ -346,16 +346,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Montgomery County Golf Carts Section */}
+      {/* About Golf Carts Of Indiana Section */}
       <section className="py-12 md:py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
-                About Notre Dame Golf Carts
+                About Golf Carts Of Indiana
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout St. Joseph County and surrounding Indiana areas.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout Indiana.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -379,13 +379,13 @@ export default function HomePage() {
             <div className="relative order-1 lg:order-2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98084.82!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c539d3b455555f%3A0x1c7e1e8e8e8e8e8e!2sNotre%20Dame%20area%2C%20PA%2C%20USA!5e0!3m2!1sen!2sus!4v1753472406041!5m2!1sen!2sus" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066000!2d-86.1581!3d39.7684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b50ffa7796a03%3A0xd68e9df640b9ea7c!2sIndiana%2C%20USA!5e0!3m2!1sen!2sus!4v1753472406041!5m2!1sen!2sus" 
                   className="w-full h-64 md:h-80 lg:h-96"
                   style={{border: 0}} 
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Notre Dame, IN Map"
+                  title="Indiana Map"
                 />
               </div>
             </div>
@@ -393,18 +393,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* St. Joseph County Municipalities Section */}
+      {/* Indiana Municipalities Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every St. Joseph County Municipality
+            Golf Carts for Every Indiana Community
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional golf cart services delivered to your city, borough, or township
+            Professional golf cart services delivered throughout the state of Indiana
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Complete St. Joseph County Municipality List - dynamically generated */}
-            {NEW_MONROE_COUNTY_MUNICIPALITIES.map((municipality: Municipality) => (
+            {featuredLocations.map((municipality: Municipality) => (
               <Link 
                 key={municipality.slug} 
                 href={municipality.url} 
@@ -418,7 +417,7 @@ export default function HomePage() {
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all {NEW_MONROE_COUNTY_MUNICIPALITIES.length} St. Joseph County communities! Professional golf cart sales, service, and rentals delivered throughout the region.
+            Serving all {INDIANA_MUNICIPALITIES.length}+ Indiana communities! Professional golf cart sales, service, and rentals delivered throughout the state.
           </p>
         </div>
       </section>
@@ -436,29 +435,29 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Notre Dame</h3>
-              <p className="text-sm text-gray-600 mb-2">Notre Dame, IN 46556</p>
-              <p className="text-theme-orange font-semibold">(574) 555-0152</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Golf Carts Of Indiana - Indianapolis</h3>
+              <p className="text-sm text-gray-600 mb-2">Indianapolis, IN 46204</p>
+              <p className="text-theme-orange font-semibold">1-844-844-6638</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts South Bend</h3>
-              <p className="text-sm text-gray-600 mb-2">South Bend, IN 46601</p>
-              <p className="text-theme-orange font-semibold">(574) 555-8736</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Golf Carts Of Indiana - Fort Wayne</h3>
+              <p className="text-sm text-gray-600 mb-2">Fort Wayne, IN 46802</p>
+              <p className="text-theme-orange font-semibold">1-844-844-6638</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">TIGON Golf Carts Mishawaka</h3>
-              <p className="text-sm text-gray-600 mb-2">Mishawaka, IN 46545</p>
-              <p className="text-theme-orange font-semibold">(574) 555-4443</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Golf Carts Of Indiana - South Bend</h3>
+              <p className="text-sm text-gray-600 mb-2">South Bend, IN 46601</p>
+              <p className="text-theme-orange font-semibold">574-402-4158</p>
             </div>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout St. Joseph County</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout Indiana</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
               <Link href="/contact">

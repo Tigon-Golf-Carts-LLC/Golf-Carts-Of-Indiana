@@ -23,8 +23,8 @@ export default function EvolutionD5Ranger6PlusPage() {
         "Reliable Operation",
         "Quality Craftsmanship"
       ]}
-      description="Extended 6-passenger seating with premium comfort and enhanced features. The EVOLUTION D5 RANGER 6 PLUS provides spacious family transportation with reliable performance for Notre Dame adventures. Call 1-844-844-6638."
-      tigoUrl="https://tigongolfcarts.com/evolution/d5-ranger/6-plus/"
+      description="Extended 6-passenger seating with premium comfort and enhanced features. The EVOLUTION D5 RANGER 6 PLUS provides spacious family transportation with reliable performance for Indiana adventures. Call 1-844-844-6638."
+      tigoUrl="https://golfcartsofindiana.com/evolution/d5-ranger/6-plus/"
     />
   );
 }

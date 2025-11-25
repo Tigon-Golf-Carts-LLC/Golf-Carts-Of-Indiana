@@ -23,8 +23,8 @@ export default function EvolutionD5Ranger4PlusPage() {
         "Weather Protection",
         "Quality Materials"
       ]}
-      description="Premium 4-passenger golf cart with enhanced comfort and performance features. The EVOLUTION D5 RANGER 4 PLUS delivers reliable performance with premium appointments for Notre Dame families. Call 1-844-844-6638."
-      tigoUrl="https://tigongolfcarts.com/evolution/d5-ranger/4-plus/"
+      description="Premium 4-passenger golf cart with enhanced comfort and performance features. The EVOLUTION D5 RANGER 4 PLUS delivers reliable performance with premium appointments for Indiana families. Call 1-844-844-6638."
+      tigoUrl="https://golfcartsofindiana.com/evolution/d5-ranger/4-plus/"
     />
   );
 }

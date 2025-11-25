@@ -12,13 +12,13 @@ interface SiteNavigationSchemaProps {
 
 export default function SiteNavigationSchema({ 
   navigationItems = [
-    { name: "Home", url: "https://notredamegolfcarts.com/", description: "Notre Dame Golf Carts homepage" },
-    { name: "Inventory", url: "https://notredamegolfcarts.com/inventory", description: "Browse our golf cart inventory" },
-    { name: "Rentals", url: "https://notredamegolfcarts.com/rentals", description: "Golf cart rental services" },
-    { name: "Services", url: "https://notredamegolfcarts.com/services", description: "Golf cart maintenance and repair services" },
-    { name: "Showroom", url: "https://notredamegolfcarts.com/showroom", description: "Visit our showroom locations" },
-    { name: "About", url: "https://notredamegolfcarts.com/about", description: "About Notre Dame Golf Carts" },
-    { name: "Contact", url: "https://notredamegolfcarts.com/contact", description: "Contact information and locations" }
+    { name: "Home", url: "https://golfcartsofindiana.com/", description: "Golf Carts Of Indiana homepage" },
+    { name: "Inventory", url: "https://golfcartsofindiana.com/inventory", description: "Browse our golf cart inventory" },
+    { name: "Rentals", url: "https://golfcartsofindiana.com/rentals", description: "Golf cart rental services" },
+    { name: "Services", url: "https://golfcartsofindiana.com/services", description: "Golf cart maintenance and repair services" },
+    { name: "Showroom", url: "https://golfcartsofindiana.com/showroom", description: "Visit our showroom locations" },
+    { name: "About", url: "https://golfcartsofindiana.com/about", description: "About Golf Carts Of Indiana" },
+    { name: "Contact", url: "https://golfcartsofindiana.com/contact", description: "Contact information and locations" }
   ]
 }: SiteNavigationSchemaProps) {
   useEffect(() => {
@@ -28,8 +28,8 @@ export default function SiteNavigationSchema({
       "name": "Main Navigation",
       "about": {
         "@type": "WebSite",
-        "name": "Notre Dame Golf Carts",
-        "url": "https://notredamegolfcarts.com"
+        "name": "Golf Carts Of Indiana",
+        "url": "https://golfcartsofindiana.com"
       },
       "hasPart": navigationItems.map((item, index) => ({
         "@type": "WebPageElement",

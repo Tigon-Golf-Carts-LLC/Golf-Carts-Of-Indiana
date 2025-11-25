@@ -23,8 +23,8 @@ export default function DenagoEvRoverXlPage() {
         "Enhanced Comfort",
         "Smart Technology"
       ]}
-      description="Luxury family transportation with maximum comfort and capacity. The DENAGO EV ROVER XL features 6-passenger seating with premium interior and advanced safety systems for Notre Dame families. Call 1-844-844-6638."
-      tigoUrl="https://tigongolfcarts.com/denago-ev/rover-xl/"
+      description="Luxury family transportation with maximum comfort and capacity. The DENAGO EV ROVER XL features 6-passenger seating with premium interior and advanced safety systems for Indiana families. Call 1-844-844-6638."
+      tigoUrl="https://golfcartsofindiana.com/denago-ev/rover-xl/"
     />
   );
 }

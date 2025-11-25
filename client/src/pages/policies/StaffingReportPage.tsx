@@ -5,9 +5,9 @@ export default function StaffingReportPage() {
   return (
     <>
       <SEOHead 
-        title="Staffing Report | Notre Dame Golf Carts"
-        description="Learn about Notre Dame Golf Carts' staffing structure, employment practices, and workforce development in Indiana."
-        keywords="staffing report, employment, Notre Dame golf carts, workforce Indiana"
+        title="Staffing Report | Golf Carts Of Indiana"
+        description="Learn about Golf Carts Of Indiana's staffing structure, employment practices, and workforce development in Indiana."
+        keywords="staffing report, employment, Indiana golf carts, workforce Indiana"
       />
       
       {/* Hero Section */}
@@ -33,7 +33,7 @@ export default function StaffingReportPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Executive Summary</h2>
               <p className="mb-6">
-                Notre Dame Golf Carts maintains a dedicated workforce committed to providing 
+                Golf Carts Of Indiana maintains a dedicated workforce committed to providing 
                 exceptional golf cart sales, rental, and service throughout Indiana. This 
                 annual staffing report provides transparency on our employment practices, 
                 workforce composition, and professional development initiatives.
@@ -53,7 +53,7 @@ export default function StaffingReportPage() {
 
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Location Distribution</h3>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>TIGON Golf Carts Notre Dame Pines:</strong> 18 employees</li>
+                <li><strong>TIGON Golf Carts Indiana Pines:</strong> 18 employees</li>
                 <li><strong>TIGON Golf Carts Scranton-Wilkes-Barre:</strong> 14 employees</li>
                 <li><strong>Mobile Service Teams:</strong> 6 employees</li>
               </ul>
@@ -219,7 +219,7 @@ export default function StaffingReportPage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Community Impact</h2>
               <ul className="list-disc pl-6 mb-6">
-                <li><strong>Local Hiring:</strong> 85% of employees are Notre Dame residents</li>
+                <li><strong>Local Hiring:</strong> 85% of employees are Indiana residents</li>
                 <li><strong>Economic Impact:</strong> $2.1 million in local payroll annually</li>
                 <li><strong>Volunteer Hours:</strong> 240 hours of community service by employees</li>
                 <li><strong>Educational Partnerships:</strong> Internship programs with 3 local schools</li>
@@ -229,11 +229,11 @@ export default function StaffingReportPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Human Resources</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Human Resources Department</strong></p>
-                <p className="mb-2">Notre Dame Golf Carts</p>
-                <p className="mb-2">Email: info@notredamegolfcarts.com</p>
+                <p className="mb-2">Golf Carts Of Indiana</p>
+                <p className="mb-2">Email: info@golfcartsofindiana.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Notre Dame, Indiana</p>
-                <p className="mb-2">Website: notredamegolfcarts.com</p>
+                <p className="mb-2">Serving Indiana</p>
+                <p className="mb-2">Website: golfcartsofindiana.com</p>
                 <p>Career opportunities and employment inquiries welcome</p>
               </div>
             </div>

@@ -57,7 +57,7 @@ export default function ProductSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": `https://notredamegolfcarts.com/attached_assets/${image}`,
+        "url": `https://golfcartsofindiana.com/attached_assets/${image}`,
         "width": 800,
         "height": 600
       },
@@ -79,12 +79,12 @@ export default function ProductSchema({
         ...(priceValidUntil && { "priceValidUntil": priceValidUntil }),
         "seller": {
           "@type": "Organization",
-          "name": "Notre Dame Golf Carts",
+          "name": "Golf Carts Of Indiana",
           "telephone": "1-844-844-6638",
-          "email": "info@notredamegolfcarts.com",
+          "email": "info@golfcartsofindiana.com",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Notre Dame",
+            "addressLocality": "Indiana",
             "addressRegion": "IN",
             "addressCountry": "US"
           }

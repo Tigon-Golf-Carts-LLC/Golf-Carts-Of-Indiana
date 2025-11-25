@@ -24,13 +24,13 @@ interface LocalBusinessSchemaProps {
 }
 
 export default function LocalBusinessSchema({
-  name = "Notre Dame Golf Carts",
-  description = "Premier golf cart dealership serving St. Joseph County, Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
+  name = "Golf Carts Of Indiana",
+  description = "Premier golf cart dealership serving all of Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
-    streetAddress: "",
-    addressLocality: "Notre Dame",
+    streetAddress: "310 S Dixie Way",
+    addressLocality: "South Bend",
     addressRegion: "IN",
-    postalCode: "46556",
+    postalCode: "46637",
     addressCountry: "US"
   },
   geo = {
@@ -38,8 +38,8 @@ export default function LocalBusinessSchema({
     longitude: "-86.2389"
   },
   telephone = "1-844-844-6638",
-  email = "info@notredamegolfcarts.com",
-  url = "https://notredamegolfcarts.com",
+  email = "info@golfcartsofindiana.com",
+  url = "https://golfcartsofindiana.com",
   openingHours = [
     "Mo-Fr 09:00-18:00",
     "Sa 09:00-17:00",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "St. Joseph County, Indiana"
+  areaServed = "Indiana"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "url": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+        "url": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
         "width": 400,
         "height": 400
       },
@@ -106,9 +106,9 @@ export default function LocalBusinessSchema({
         "name": areaServed
       },
       "sameAs": [
-        "https://www.facebook.com/notredamegolfcarts",
-        "https://twitter.com/notredamegolfcarts",
-        "https://www.instagram.com/notredamegolfcarts"
+        "https://www.facebook.com/golfcartsofindiana",
+        "https://twitter.com/golfcartsofin",
+        "https://www.instagram.com/golfcartsofindiana"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",

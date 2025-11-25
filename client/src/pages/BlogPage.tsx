@@ -13,11 +13,11 @@ export default function BlogPage() {
   const regularPosts = BLOG_POSTS.filter((post: BlogPost) => !post.featured);
   
   const seoData = generateSEOMetadata({
-    pageTitle: "Blog - Notre Dame Golf Carts & South Bend Transportation Guides",
-    baseDescription: "Expert guides for Notre Dame golf cart rentals, football game day transportation, campus mobility, and South Bend area travel. Tips for Fighting Irish fans and visitors.",
+    pageTitle: "Blog - Golf Carts Of Indiana & South Bend Transportation Guides",
+    baseDescription: "Expert guides for Indiana golf cart rentals, football game day transportation, campus mobility, and South Bend area travel. Tips for fans and visitors.",
     pageType: "general",
     canonicalPath: "/blog",
-    keywords: ["Notre Dame golf carts", "South Bend transportation", "football game day guide", "campus rentals", "Fighting Irish tailgating"],
+    keywords: ["Indiana golf carts", "South Bend transportation", "football game day guide", "campus rentals", "tailgating"],
     heroBackgroundSeed: "home"
   });
 
@@ -40,10 +40,10 @@ export default function BlogPage() {
       <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("blog")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Notre Dame Golf Carts Blog
+            Golf Carts Of Indiana Blog
           </h1>
           <p className="text-xl mb-8 text-gray-100 max-w-3xl mx-auto">
-            Expert guides for Notre Dame football game days, campus transportation, golf cart rentals, and exploring South Bend & St. Joseph County, Indiana.
+            Expert guides for Indiana football game days, campus transportation, golf cart rentals, and exploring South Bend & St. Joseph County, Indiana.
           </p>
         </div>
       </section>
@@ -128,7 +128,7 @@ export default function BlogPage() {
       {/* CTA Section */}
       <section className="py-16 px-4 bg-theme-primary text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Rent a Golf Cart for Notre Dame?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Rent a Golf Cart in Indiana?</h2>
           <p className="text-xl mb-8 text-gray-100">
             Perfect for football game days, campus events, and exploring South Bend, Indiana
           </p>

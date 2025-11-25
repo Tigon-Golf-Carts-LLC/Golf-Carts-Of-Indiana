@@ -7,9 +7,9 @@ interface WebsiteSchemaProps {
 }
 
 export default function WebsiteSchema({ 
-  url = "https://notredamegolfcarts.com",
-  name = "Notre Dame Golf Carts",
-  description = "Premier golf cart dealership in Notre Dame, Indiana"
+  url = "https://golfcartsofindiana.com",
+  name = "Golf Carts Of Indiana",
+  description = "Premier golf cart dealership serving all of Indiana"
 }: WebsiteSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -20,10 +20,10 @@ export default function WebsiteSchema({
       "url": url,
       "publisher": {
         "@type": "Organization",
-        "name": "Notre Dame Golf Carts",
+        "name": "Golf Carts Of Indiana",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://notredamegolfcarts.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
+          "url": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
           "width": 400,
           "height": 400
         }
@@ -37,9 +37,9 @@ export default function WebsiteSchema({
         "query-input": "required name=search_term_string"
       },
       "sameAs": [
-        "https://www.facebook.com/notredamegolfcarts",
-        "https://twitter.com/notredamegolfcarts",
-        "https://www.instagram.com/notredamegolfcarts"
+        "https://www.facebook.com/golfcartsofindiana",
+        "https://twitter.com/golfcartsofin",
+        "https://www.instagram.com/golfcartsofindiana"
       ]
     };
     

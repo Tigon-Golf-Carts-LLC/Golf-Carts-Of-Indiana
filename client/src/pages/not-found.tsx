@@ -7,10 +7,10 @@ export default function NotFound() {
   // Generate SEO metadata that matches the H1 on this page
   const seoData = generateSEOMetadata({
     pageTitle: "404 Page Not Found",
-    baseDescription: "The page you're looking for doesn't exist. Visit Notre Dame Golf Carts for premium electric golf carts, sales, service, and rentals throughout Indiana.",
+    baseDescription: "The page you're looking for doesn't exist. Visit Golf Carts Of Indiana for premium electric golf carts, sales, service, and rentals throughout Indiana.",
     pageType: "general",
     canonicalPath: "/404",
-    keywords: ["404 error", "page not found", "Notre Dame Golf Carts"],
+    keywords: ["404 error", "page not found", "Golf Carts Of Indiana"],
     heroBackgroundSeed: "404"
   });
   
