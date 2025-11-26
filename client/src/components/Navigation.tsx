@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import logoImage from "@assets/Notre Dame Golf Carts_1763645467658.png";
+import logoImage from "@assets/Golf Carts OF Indiana_1764172383192.png";
 
 export default function Navigation() {
   const [location] = useLocation();

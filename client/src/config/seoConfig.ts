@@ -5,7 +5,7 @@ export const SEO_CONFIG = {
   // Site Information
   siteName: "Golf Carts Of Indiana",
   siteUrl: "https://golfcartsofindiana.com",
-  defaultImage: "/attached_assets/Notre Dame Golf Carts_1763645528375.png",
+  defaultImage: "/logo.png",
   
   // Social Media
   social: {
@@ -25,10 +25,10 @@ export const SEO_CONFIG = {
   
   // Favicon Settings
   favicon: {
-    primary: "/attached_assets/Notre Dame Golf Carts_1763645528375.png",
-    appleTouchIcon: "/attached_assets/Notre Dame Golf Carts_1763645528375.png",
-    size32: "/attached_assets/Notre Dame Golf Carts_1763645528375.png",
-    size16: "/attached_assets/Notre Dame Golf Carts_1763645528375.png"
+    primary: "/logo.png",
+    appleTouchIcon: "/logo.png",
+    size32: "/logo.png",
+    size16: "/logo.png"
   },
   
   // Business Information

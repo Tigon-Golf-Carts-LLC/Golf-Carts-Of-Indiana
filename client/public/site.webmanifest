@@ -1,7 +1,7 @@
 {
-  "name": "Lackawanna County Golf Carts",
-  "short_name": "LackawannaGolfCarts",
-  "description": "Pennsylvania's premier golf cart dealership serving all Lackawanna County municipalities with DENAGO and EVOLUTION electric vehicles",
+  "name": "Golf Carts Of Indiana",
+  "short_name": "GolfCartsIN",
+  "description": "Indiana's premier golf cart dealership serving all 568 Indiana communities with DENAGO and EVOLUTION electric vehicles",
   "icons": [
     {
       "src": "/logo.png",
@@ -37,7 +37,7 @@
     {
       "name": "Contact Us",
       "short_name": "Contact",
-      "description": "Get in touch with Lackawanna County Golf Carts",
+      "description": "Get in touch with Golf Carts Of Indiana",
       "url": "/contact",
       "icons": [{ "src": "/logo.png", "sizes": "96x96" }]
     },
