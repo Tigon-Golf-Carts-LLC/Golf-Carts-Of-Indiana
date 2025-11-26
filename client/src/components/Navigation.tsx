@@ -44,8 +44,8 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-xl font-bold text-theme-primary">GOLF CARTS OF</div>
-                <div className="text-xl font-bold text-theme-primary -mt-1">INDIANA</div>
+                <div className="text-xl font-bold text-theme-primary">GOLF CARTS</div>
+                <div className="text-xl font-bold text-theme-primary -mt-1">OF INDIANA</div>
               </div>
             </Link>
           </div>
