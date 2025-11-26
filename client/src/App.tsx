@@ -23,6 +23,7 @@ import NewAboutPage from "@/pages/NewAboutPage";
 import EcoImpactPage from "@/pages/EcoImpactPage";
 import BlogPage from "@/pages/BlogPage";
 import BlogPostPage from "@/pages/BlogPostPage";
+import AllTownsPage from "@/pages/AllTownsPage";
 
 import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
@@ -92,6 +93,9 @@ export default function App() {
             {/* Blog Pages */}
             <Route path="/blog" component={BlogPage} />
             <Route path="/blog/:slug" component={BlogPostPage} />
+
+            {/* All Towns Page */}
+            <Route path="/towns" component={AllTownsPage} />
 
             {/* Policy Pages */}
             <Route path="/policies/terms-conditions" component={TermsConditionsPage} />

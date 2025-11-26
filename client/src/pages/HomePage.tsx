@@ -419,6 +419,12 @@ export default function HomePage() {
           <p className="text-gray-600 mb-8">
             Serving all {INDIANA_MUNICIPALITIES.length}+ Indiana communities! Professional golf cart sales, service, and rentals delivered throughout the state.
           </p>
+          
+          <Link href="/towns">
+            <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white" data-testid="btn-see-all-towns">
+              See All Towns
+            </Button>
+          </Link>
         </div>
       </section>
 
