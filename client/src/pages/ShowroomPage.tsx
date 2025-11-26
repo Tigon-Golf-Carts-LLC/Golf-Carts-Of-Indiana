@@ -24,7 +24,7 @@ export default function ShowroomPage() {
     {
       name: "GOLF CARTS OF INDIANA SOUTH BEND",
       address: "310 S Dixie Way, South Bend, IN 46637",
-      phone: "574-402-4158",
+      phone: "1-844-844-6638",
       coordinates: "41.7360283,-86.2511865",
       googleMapsUrl: "https://www.google.com/maps?cid=17532455648086849827",
       facebookUrl: "https://www.facebook.com/golfcartsofindiana/",

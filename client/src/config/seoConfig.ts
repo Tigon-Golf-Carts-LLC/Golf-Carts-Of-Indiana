@@ -34,7 +34,7 @@ export const SEO_CONFIG = {
   // Business Information
   business: {
     name: "Golf Carts Of Indiana",
-    phone: "574-402-4158",
+    phone: "1-844-844-6638",
     phoneTollFree: "1-844-844-6638",
     email: "info@golfcartsofindiana.com",
     address: {

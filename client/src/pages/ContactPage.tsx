@@ -85,12 +85,12 @@ export default function ContactPage() {
       icon: MapPin,
       label: "Golf Carts Of Indiana",
       value: "310 S Dixie Way, South Bend, IN 46637",
-      phone: "574-402-4158",
+      phone: "1-844-844-6638",
     },
     {
       icon: Phone,
       label: "Local Phone",
-      value: "574-402-4158",
+      value: "1-844-844-6638",
     },
     {
       icon: Phone,

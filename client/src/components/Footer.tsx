@@ -55,7 +55,7 @@ export default function Footer() {
             <div className="space-y-2">
               <h4 className="text-gray-900 font-semibold text-sm">Golf Carts Of Indiana</h4>
               <p className="text-gray-600 text-sm">310 S Dixie Way<br/>South Bend, IN 46637</p>
-              <p className="text-gray-600 text-sm">Local Phone: <a href="tel:574-402-4158" className="hover:text-blue-600">574-402-4158</a></p>
+              <p className="text-gray-600 text-sm">Local Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
               <p className="text-gray-600 text-sm">Toll-Free: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
               <p className="text-gray-600 text-sm">Email: <a href="mailto:info@golfcartsofindiana.com" className="hover:text-blue-600">info@golfcartsofindiana.com</a></p>
               <p className="text-gray-600 text-sm">Website: <a href="https://golfcartsofindiana.com" className="hover:text-blue-600">golfcartsofindiana.com</a></p>
@@ -135,7 +135,7 @@ export default function Footer() {
               <div className="space-y-2">
                 <h4 className="text-gray-900 font-semibold text-sm">Golf Carts Of Indiana</h4>
                 <p className="text-gray-600 text-sm">310 S Dixie Way<br/>South Bend, IN 46637</p>
-                <p className="text-gray-600 text-sm">Local Phone: <a href="tel:574-402-4158" className="hover:text-blue-600">574-402-4158</a></p>
+                <p className="text-gray-600 text-sm">Local Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
                 <p className="text-gray-600 text-sm">Toll-Free: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
                 <p className="text-gray-600 text-sm">Email: <a href="mailto:info@golfcartsofindiana.com" className="hover:text-blue-600">info@golfcartsofindiana.com</a></p>
                 <p className="text-gray-600 text-sm">Website: <a href="https://golfcartsofindiana.com" className="hover:text-blue-600">golfcartsofindiana.com</a></p>

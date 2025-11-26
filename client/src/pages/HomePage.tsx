@@ -457,7 +457,7 @@ export default function HomePage() {
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
               <h3 className="font-semibold text-gray-900 mb-2">Golf Carts Of Indiana - South Bend</h3>
               <p className="text-sm text-gray-600 mb-2">South Bend, IN 46601</p>
-              <p className="text-theme-orange font-semibold">574-402-4158</p>
+              <p className="text-theme-orange font-semibold">1-844-844-6638</p>
             </div>
           </div>
 

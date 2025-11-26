@@ -89,7 +89,7 @@ I want iterative development. Ask before making major changes.
 
 ### ✅ Contact Information Update (January 2025)
 - **New Address**: 310 S Dixie Way, South Bend, IN 46637 (updated from 52129 State Road 933)
-- **New Local Phone**: 574-402-4158 (updated from 574-703-0456)
+- **New Local Phone**: 1-844-844-6638 (updated from 574-703-0456)
 - **Toll-Free Phone**: 1-844-844-6638 (unchanged)
 - **Email**: info@notredamegolfcarts.com (unchanged)
 - **Update Scope**: All pages, blog posts, SEO files, schema markup, and public documentation files updated with new contact information

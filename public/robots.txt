@@ -311,7 +311,7 @@ Sitemap: https://notredamegolfcarts.com/sitemap.xml
 # - Towns (7): Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton
 # - Townships (13): Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren
 # Primary Phone: 1-844-844-6638
-# Local Phone: 574-402-4158
+# Local Phone: 1-844-844-6638
 # Physical Location: 310 S Dixie Way, South Bend, IN 46637
 # Website: https://notredamegolfcarts.com
 # Brands: DENAGO Electric Vehicles, EVOLUTION Golf Carts

@@ -1359,7 +1359,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p><strong>Address:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST, Sunday Closed</p>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
-      <p><strong>Local:</strong> 574-402-4158</p>
+      <p><strong>Local:</strong> 1-844-844-6638</p>
 
       <h2>Complete Golf Cart Sales Inventory</h2>
       
@@ -1528,7 +1528,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h3>Contact Golf Carts Of Indiana Today</h3>
       <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a> (Toll-Free)</p>
-      <p><strong>Local:</strong> 574-402-4158</p>
+      <p><strong>Local:</strong> 1-844-844-6638</p>
       <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
       <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
       <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
