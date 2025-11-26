@@ -1,12 +1,18 @@
 // Background image utility for Golf Carts Of Indiana
-// Uses 5 new professional showroom images featuring the Golf Carts Of Indiana dealership with professional staff
+// Uses 10 new professional showroom images featuring the Golf Carts Of Indiana dealership with professional staff
 
 const BACKGROUND_IMAGES = [
-  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts_1763663922417.jpeg',
-  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts Rentals_1763663922417.jpeg',
-  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts Game Day_1763663922417.jpeg',
-  '/attached_assets/Notre Dame Golf Carts -Indiana Golf Carts -South Bend_1763663922418.jpeg',
-  '/attached_assets/Notre Dame Golf Carts - South Bend Indiana_1763663922418.jpeg'
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL_1764176169813.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 1_1764176169814.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 2_1764176169814.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 3_1764176169814.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 4_1764176169815.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 5_1764176169815.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 6_1764176169815.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 7_1764176169816.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 8_1764176169816.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 9_1764176169816.jpeg',
+  '/attached_assets/Golf Carts Of Indiana - Indiana Golf Carts - LSV-NEV-MSV-PTV-UTV- STREET LEGAL 10_1764176169816.jpeg'
 ];
 
 // Simple hash function to ensure consistent randomization based on seed
