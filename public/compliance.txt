@@ -1,6 +1,6 @@
-# Compliance & Standards Documentation - Notre Dame Golf Carts
+# Compliance & Standards Documentation - Golf Carts Of Indiana
 # Regulatory, Industry, and Accessibility Compliance
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 ===================================
 GDPR COMPLIANCE (General Data Protection Regulation)
@@ -31,7 +31,7 @@ IMPLEMENTATION:
 - Secure data storage and encryption
 - Regular data audits
 - Data breach notification procedures
-- DPO (Data Protection Officer) contact: privacy@notredamegolfcarts.com
+- DPO (Data Protection Officer) contact: privacy@golfcartsofindiana.com
 
 ===================================
 WCAG 2.1 ACCESSIBILITY COMPLIANCE
@@ -89,7 +89,7 @@ IMPLEMENTATION:
 - Verification procedures for consumer requests
 - 45-day response timeframe
 - Designated methods for submitting requests
-- Contact: privacy@notredamegolfcarts.com
+- Contact: privacy@golfcartsofindiana.com
 
 ===================================
 AUTOMOTIVE INDUSTRY STANDARDS
@@ -107,11 +107,11 @@ LOW-SPEED VEHICLE (LSV) REGULATIONS:
 
 INDIANA GOLF CART REGULATIONS:
 - Street-legal certification requirements
-- Local ordinance compliance (St. Joseph County)
+- Local ordinance compliance (all 92 counties)
 - Insurance requirements
 - Registration with BMV
 - Age restrictions for operators
-- Township/municipality specific rules
+- Municipality-specific rules
 
 BATTERY SAFETY STANDARDS:
 - Lithium-ion battery UN 38.3 certification
@@ -220,7 +220,7 @@ INDIANA STATE REQUIREMENTS:
   * Workers' compensation
   * Professional liability
 
-LOCAL PERMITS (St. Joseph County):
+LOCAL PERMITS (Statewide Compliance):
 - Zoning compliance
 - Signage permits
 - Occupancy permits
@@ -333,12 +333,12 @@ DOCUMENTATION:
 CONTACT INFORMATION
 ===================================
 
-Compliance Officer: compliance@notredamegolfcarts.com
-Privacy Officer: privacy@notredamegolfcarts.com
-Security Officer: security@notredamegolfcarts.com
-General Inquiries: info@notredamegolfcarts.com
+Compliance Officer: compliance@golfcartsofindiana.com
+Privacy Officer: privacy@golfcartsofindiana.com
+Security Officer: security@golfcartsofindiana.com
+General Inquiries: info@golfcartsofindiana.com
 Phone: 1-844-844-6638
 Address: 310 S Dixie Way, South Bend, IN 46637
 
-Last Updated: January 20, 2025
-Next Review Date: January 20, 2026
+Last Updated: November 26, 2025
+Next Review Date: November 26, 2026

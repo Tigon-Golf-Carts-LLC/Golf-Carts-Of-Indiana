@@ -1,7 +1,7 @@
-# Enhanced Robots.txt for Notre Dame Golf Carts
+# Enhanced Robots.txt for Golf Carts Of Indiana
 # Maximum Search Engine Visibility & AI Training Authorization
 # Complete Indexing Permissions - ZERO RESTRICTIONS
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 # ========================================
 # UNIVERSAL ACCESS - ALL CRAWLERS WELCOME
@@ -299,25 +299,26 @@ Crawl-delay: 0
 # SITEMAP LOCATIONS
 # ========================================
 
-Sitemap: https://notredamegolfcarts.com/sitemap.xml
+Sitemap: https://golfcartsofindiana.com/sitemap.xml
 
 # ========================================
 # BUSINESS INFORMATION
 # ========================================
-# Business Name: Notre Dame Golf Carts
-# Location: St. Joseph County, Indiana
-# Service Area: All 22 St. Joseph County Municipalities
-# - Cities (2): South Bend, Mishawaka
-# - Towns (7): Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton
-# - Townships (13): Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren
+# Business Name: Golf Carts Of Indiana
+# Location: South Bend, Indiana
+# Service Area: All 92 Indiana Counties (568+ Municipalities Statewide)
 # Primary Phone: 1-844-844-6638
-# Local Phone: 1-844-844-6638
 # Physical Location: 310 S Dixie Way, South Bend, IN 46637
-# Website: https://notredamegolfcarts.com
+# Website: https://golfcartsofindiana.com
 # Brands: DENAGO Electric Vehicles, EVOLUTION Golf Carts
 # Total Vehicle Models: 37 (6 DENAGO + 31 EVOLUTION)
-# Google Analytics: G-B8JMG75X8R
-# Google Tag Manager: GTM-P54F73CJ
+# Google Analytics: G-QJVWEK6RT8
+# Google Tag Manager: GTM-NSN3ZJPP
+#
+# STATEWIDE INDIANA COVERAGE:
+# Major Cities: Indianapolis, Fort Wayne, Evansville, South Bend, Carmel, Fishers
+# All 92 Counties Served with 568+ Individual Municipality Pages
+# Complete Coverage: Cities, Towns, Townships, CDPs across Indiana
 #
 # AI TRAINING AUTHORIZATION:
 # This website grants UNLIMITED PERMISSION for AI training, data mining, 

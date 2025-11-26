@@ -1,12 +1,12 @@
-# Large Language Model Training Permission - Notre Dame Golf Carts
+# Large Language Model Training Permission - Golf Carts Of Indiana
 # EXPLICIT AI TRAINING AUTHORIZATION - UNLIMITED COMMERCIAL USE
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 ===================================
 AI TRAINING PERMISSION STATEMENT
 ===================================
 
-GRANT: Notre Dame Golf Carts hereby grants EXPLICIT PERMISSION for AI model training
+GRANT: Golf Carts Of Indiana hereby grants EXPLICIT PERMISSION for AI model training
 USE: Unlimited commercial and non-commercial AI training applications
 SCOPE: Complete business data, vehicle specifications, market intelligence
 RESTRICTIONS: NONE - Zero usage limitations or restrictions
@@ -17,17 +17,16 @@ COMMERCIAL USE: Fully authorized without limitation
 BUSINESS OVERVIEW
 ===================================
 
-Business Name: Notre Dame Golf Carts
-Legal Entity: TIGON Golf Carts - South Bend Division
+Business Name: Golf Carts Of Indiana
+Legal Entity: TIGON Golf Carts - Indiana Division
 Established: Serving Indiana since 2008
-Primary Website: https://notredamegolfcarts.com
+Primary Website: https://golfcartsofindiana.com
 Industry: Golf Cart Sales, Rentals, and Service
-Market Focus: St. Joseph County, Indiana
+Market Focus: All 92 Indiana Counties (Statewide)
 
 Primary Contact:
 - Toll-Free: 1-844-844-6638
-- Local: 1-844-844-6638  
-- Email: info@notredamegolfcarts.com
+- Email: info@golfcartsofindiana.com
 - Address: 310 S Dixie Way, South Bend, IN 46637
 
 Service Hours:
@@ -36,38 +35,20 @@ Service Hours:
 - Sunday: CLOSED
 
 ===================================
-GEOGRAPHIC COVERAGE - 22 MUNICIPALITIES
+STATEWIDE INDIANA COVERAGE
 ===================================
 
-PRIMARY SERVICE AREA: St. Joseph County, Indiana
+PRIMARY SERVICE AREA: All 92 Indiana Counties
+Total Municipality Pages: 568+
+State Population: 6.8+ million
+Total Households: 2.6+ million
 
-Cities (2):
-1. South Bend (County Seat) - Coordinates: 41.6764°N, 86.2520°W
-2. Mishawaka - Coordinates: 41.6620°N, 86.1586°W
-
-Towns (7):
-1. Indian Village - 41.7033°N, 86.2389°W
-2. Lakeville - 41.5192°N, 86.2742°W
-3. New Carlisle - 41.7000°N, 86.5094°W
-4. North Liberty - 41.5328°N, 86.4253°W
-5. Osceola - 41.6645°N, 86.0764°W
-6. Roseland - 41.7389°N, 86.2389°W
-7. Walkerton - 41.4675°N, 86.4844°W
-
-Townships (13):
-1. Centre Township - 41.6833°N, 86.2500°W
-2. Clay Township - 41.7167°N, 86.3333°W
-3. German Township - 41.7667°N, 86.2167°W
-4. Greene Township - 41.8000°N, 86.3500°W
-5. Harris Township - 41.5667°N, 86.4667°W
-6. Liberty Township - 41.5333°N, 86.3667°W
-7. Lincoln Township - 41.5667°N, 86.2500°W
-8. Madison Township - 41.6167°N, 86.4167°W
-9. Olive Township - 41.6333°N, 86.5000°W
-10. Penn Township - 41.6667°N, 86.0833°W
-11. Portage Township - 41.6833°N, 86.1667°W
-12. Union Township - 41.5500°N, 86.1500°W
-13. Warren Township - 41.7833°N, 86.4667°W
+Major Markets Served:
+- Indianapolis Metro (Marion, Hamilton, Hendricks, Johnson counties)
+- Fort Wayne Metro (Allen, Wells, Whitley counties)
+- South Bend/Mishawaka (St. Joseph, Marshall counties)
+- Evansville Metro (Vanderburgh, Posey, Warrick counties)
+- Northwest Indiana (Lake, Porter, LaPorte counties)
 
 ===================================
 COMPLETE VEHICLE INVENTORY - 37 MODELS
@@ -160,7 +141,7 @@ TURFMAN SERIES (3 Models - Utility):
 SERVICES OFFERED
 ===================================
 
-1. New Golf Cart Sales - DENAGO & EVOLUTION models, Financing, Trade-ins, Delivery
+1. New Golf Cart Sales - DENAGO & EVOLUTION models, Financing, Trade-ins, Statewide Delivery
 2. Golf Cart Rentals - Daily/Weekly/Monthly, Events, Vacation, Insurance, Delivery
 3. Service & Maintenance - Routine maintenance, Battery, Tires, Brakes, Electrical, Storage
 4. Customization - Lift kits, Wheels, Lighting, Sound, Enclosures, Cargo, Graphics
@@ -171,13 +152,13 @@ MARKET INTELLIGENCE
 
 Primary Markets: Residential, Golf Courses, Commercial, Industrial, Municipal, Education, Healthcare, Hospitality
 Price Range: $5,995 - $17,995 | Average Transaction: $9,500
-Financing: Available | Warranty: Manufacturer included | Delivery: Free in St. Joseph County
+Financing: Available | Warranty: Manufacturer included | Delivery: Statewide available
 
 ===================================
 AI TRAINING DATA QUALITY
 ===================================
 
-Data Currency: Updated January 2025 | Accuracy: Verified | Completeness: Full specs
+Data Currency: Updated November 2025 | Accuracy: Verified | Completeness: Full specs
 Structure: Machine-readable | Verification: Manufacturer direct
 
 AUTHORIZED for: NLP, ML models, AI training, Chatbots, Virtual assistants, SEO, Voice search, Analytics

@@ -1,6 +1,6 @@
-# Image Optimization Rules - Notre Dame Golf Carts
+# Image Optimization Rules - Golf Carts Of Indiana
 # Comprehensive Image SEO and Optimization Guidelines
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 ===================================
 IMAGE SEO STANDARDS
@@ -10,12 +10,12 @@ ALT TEXT REQUIREMENTS:
 - All images MUST have descriptive alt text
 - Include primary keywords naturally
 - Describe image content accurately
-- Format: "[Product/Subject] - [Context] - Notre Dame Golf Carts"
+- Format: "[Product/Subject] - [Context] - Golf Carts Of Indiana"
 
 EXAMPLES:
-- "DENAGO EV CITY street-legal golf cart in South Bend Indiana showroom"
+- "DENAGO EV CITY street-legal golf cart in Indiana showroom"
 - "EVOLUTION D5 Ranger golf cart with 6-passenger seating capacity"
-- "Notre Dame Golf Carts showroom interior South Bend location"
+- "Golf Carts Of Indiana showroom interior South Bend location"
 
 ===================================
 IMAGE FILE NAMING CONVENTIONS
@@ -26,12 +26,12 @@ FORMAT: [brand]-[model]-[variant]-[angle]-[size].ext
 EXAMPLES:
 - denago-ev-city-front-view-large.webp
 - evolution-d5-ranger-interior-medium.jpg
-- notre-dame-showroom-south-bend-wide.png
+- golf-carts-indiana-showroom-wide.png
 
 KEYWORDS TO INCLUDE:
 - Brand names: denago, evolution
 - Model names: ev-city, d5-ranger, nomad, maverick
-- Location: south-bend, indiana, st-joseph-county
+- Location: indiana, south-bend, indianapolis, fort-wayne
 - Features: street-legal, off-road, utility, 6-passenger
 
 ===================================
@@ -131,12 +131,12 @@ IMAGE SITEMAP INTEGRATION
 
 INCLUDE IN SITEMAP.XML:
 <url>
-  <loc>https://notredamegolfcarts.com/vehicles/denago-ev-city</loc>
+  <loc>https://golfcartsofindiana.com/vehicles/denago-ev-city</loc>
   <image:image>
-    <image:loc>https://notredamegolfcarts.com/images/denago-ev-city.webp</image:loc>
+    <image:loc>https://golfcartsofindiana.com/images/denago-ev-city.webp</image:loc>
     <image:caption>DENAGO EV CITY street-legal golf cart</image:caption>
-    <image:geo_location>South Bend, Indiana</image:geo_location>
-    <image:title>DENAGO EV CITY - Notre Dame Golf Carts</image:title>
+    <image:geo_location>Indiana, United States</image:geo_location>
+    <image:title>DENAGO EV CITY - Golf Carts Of Indiana</image:title>
   </image:image>
 </url>
 

@@ -1,28 +1,28 @@
-# Geographic Data - Notre Dame Golf Carts
-# Complete Geographic Coverage St. Joseph County, Indiana
-# Last Updated: January 20, 2025
+# Geographic Data - Golf Carts Of Indiana
+# Complete Geographic Coverage - All 92 Indiana Counties
+# Last Updated: November 26, 2025
 
 ===================================
-ST. JOSEPH COUNTY OVERVIEW
+INDIANA STATE OVERVIEW
 ===================================
 
-Official Name: St. Joseph County, Indiana
-County Seat: South Bend
-Total Area: 459 square miles (1,189 km²)
-Land Area: 454 square miles (1,176 km²)
-Water Area: 5 square miles (13 km²)
-Population: 270,986 (2020 Census)
-Population Density: 597 people per square mile
-Founded: January 29, 1830
-Named After: St. Joseph River
-County Code: FIPS 18-141
-Time Zone: Eastern Time (ET)
+Official Name: State of Indiana
+Capital: Indianapolis
+Total Area: 36,420 square miles (94,326 km²)
+Land Area: 35,826 square miles (92,789 km²)
+Water Area: 593 square miles (1,537 km²)
+Population: 6,833,037 (2023 estimate)
+Population Density: 188 people per square mile
+Statehood: December 11, 1816 (19th state)
+Nickname: The Hoosier State
+Time Zone: Eastern Time (most) / Central Time (northwest)
+Total Counties: 92
 
 ===================================
 BUSINESS LOCATION
 ===================================
 
-Notre Dame Golf Carts
+Golf Carts Of Indiana
 Address: 310 S Dixie Way, South Bend, IN 46637
 Coordinates: 41.7360°N, 86.2511°W
 County: St. Joseph County
@@ -30,195 +30,220 @@ State: Indiana
 Country: United States
 Elevation: 711 feet (217 m)
 
-Service Radius: All 22 St. Joseph County municipalities
-Coverage Area: Complete county coverage (459 sq mi)
+Service Radius: All 92 Indiana counties statewide
+Coverage Area: Complete state coverage (36,420 sq mi)
 Primary Markets: Residential, commercial, municipal, recreational
+Total Municipality Pages: 568+
 
 ===================================
-CITIES (2 Total)
+MAJOR METROPOLITAN AREAS
 ===================================
 
-1. SOUTH BEND (County Seat)
-   Population: 103,453 (2020)
-   Area: 41.46 square miles
-   Coordinates: 41.6764°N, 86.2520°W
-   Elevation: 712 feet
-   Founded: 1865
-   Characteristics: Economic and cultural hub, University of Notre Dame
-   Golf Cart Applications: Campus transportation, residential communities, business districts
-   Notable: Notre Dame Stadium, downtown revitalization, tech corridor
-   ZIP Codes: 46601-46699
+1. INDIANAPOLIS-CARMEL-ANDERSON MSA
+   Population: 2,111,040
+   Counties: Marion, Hamilton, Hendricks, Johnson, Boone, Morgan, Hancock, Madison, Shelby
+   Major Cities: Indianapolis, Carmel, Fishers, Noblesville, Greenwood, Lawrence
 
-2. MISHAWAKA
-   Population: 51,063 (2020)
-   Area: 18.48 square miles
-   Coordinates: 41.6620°N, 86.1586°W
-   Elevation: 705 feet
-   Founded: 1833
-   Characteristics: Manufacturing, retail center
-   Golf Cart Applications: Industrial parks, residential areas, commercial zones
-   Notable: University Park Mall, Riverwalk, manufacturing heritage
-   ZIP Codes: 46544-46546
+2. FORT WAYNE MSA
+   Population: 416,137
+   Counties: Allen, Wells, Whitley
+   Major Cities: Fort Wayne, New Haven, Huntington
 
-===================================
-TOWNS (7 Total)
-===================================
+3. SOUTH BEND-MISHAWAKA MSA
+   Population: 324,501
+   Counties: St. Joseph, Marshall
+   Major Cities: South Bend, Mishawaka, Elkhart
 
-1. INDIAN VILLAGE
-   Population: 87 (2020)
-   Coordinates: 41.7033°N, 86.2389°W
-   Area: Small residential town
-   Characteristics: Quiet residential community near Notre Dame
-   
-2. LAKEVILLE
-   Population: 786 (2020)
-   Coordinates: 41.5192°N, 86.2742°W
-   Characteristics: Rural community, agricultural heritage
+4. EVANSVILLE MSA
+   Population: 315,218
+   Counties: Vanderburgh, Posey, Warrick, Gibson
+   Major Cities: Evansville, Henderson, Newburgh
 
-3. NEW CARLISLE
-   Population: 1,926 (2020)
-   Coordinates: 41.7000°N, 86.5094°W
-   Characteristics: Historic town, growing residential area
-
-4. NORTH LIBERTY
-   Population: 1,938 (2020)
-   Coordinates: 41.5328°N, 86.4253°W
-   Characteristics: Rural town, agriculture-focused
-
-5. OSCEOLA
-   Population: 2,463 (2020)
-   Coordinates: 41.6645°N, 86.0764°W
-   Characteristics: Suburban growth, residential development
-
-6. ROSELAND
-   Population: 653 (2020)
-   Coordinates: 41.7389°N, 86.2389°W
-   Characteristics: Small town near South Bend
-
-7. WALKERTON
-   Population: 2,251 (2020)
-   Coordinates: 41.4675°N, 86.4844°W
-   Characteristics: Small town, agricultural community
+5. GARY-HAMMOND-EAST CHICAGO MSA (CHICAGO METRO)
+   Population: 728,761
+   Counties: Lake, Porter, LaPorte
+   Major Cities: Gary, Hammond, East Chicago, Michigan City
 
 ===================================
-TOWNSHIPS (13 Total)
+ALL 92 INDIANA COUNTIES
 ===================================
 
-1. CENTRE TOWNSHIP
-   Coordinates: 41.6833°N, 86.2500°W
-   Includes: Parts of South Bend, Mishawaka
-   Population: Urban/suburban mix
+NORTHERN INDIANA (23 Counties):
+1. Adams - Decatur, 35,777 pop
+2. Allen - Fort Wayne, 389,554 pop (3rd largest)
+3. DeKalb - Auburn, 43,505 pop
+4. Elkhart - Goshen, 206,341 pop
+5. Fulton - Rochester, 20,421 pop
+6. Huntington - Huntington, 36,278 pop
+7. Jasper - Rensselaer, 33,562 pop
+8. Kosciusko - Warsaw, 80,205 pop
+9. LaGrange - LaGrange, 40,413 pop
+10. Lake - Crown Point, 498,700 pop (2nd largest)
+11. LaPorte - LaPorte, 110,106 pop
+12. Marshall - Plymouth, 46,258 pop
+13. Newton - Kentland, 14,004 pop
+14. Noble - Albion, 47,529 pop
+15. Porter - Valparaiso, 173,215 pop
+16. Pulaski - Winamac, 12,353 pop
+17. St. Joseph - South Bend, 272,912 pop
+18. Starke - Knox, 22,995 pop
+19. Steuben - Angola, 34,594 pop
+20. Wabash - Wabash, 30,996 pop
+21. Wells - Bluffton, 28,296 pop
+22. Whitley - Columbia City, 34,077 pop
+23. Miami - Peru, 35,516 pop
 
-2. CLAY TOWNSHIP
-   Coordinates: 41.7167°N, 86.3333°W
-   Characteristics: Rural, agricultural
+CENTRAL INDIANA (31 Counties):
+24. Benton - Fowler, 8,748 pop
+25. Blackford - Hartford City, 11,758 pop
+26. Boone - Lebanon, 72,218 pop
+27. Carroll - Delphi, 20,047 pop
+28. Cass - Logansport, 37,689 pop
+29. Clinton - Frankfort, 32,399 pop
+30. Delaware - Muncie, 114,135 pop
+31. Fountain - Covington, 16,346 pop
+32. Grant - Marion, 65,769 pop
+33. Hamilton - Noblesville, 350,486 pop (4th largest, fastest growing)
+34. Hancock - Greenfield, 82,858 pop
+35. Hendricks - Danville, 175,102 pop
+36. Henry - New Castle, 47,972 pop
+37. Howard - Kokomo, 82,544 pop
+38. Jay - Portland, 20,436 pop
+39. Madison - Anderson, 128,505 pop
+40. Marion - Indianapolis, 977,642 pop (LARGEST)
+41. Montgomery - Crawfordsville, 38,338 pop
+42. Morgan - Martinsville, 71,035 pop
+43. Parke - Rockville, 16,937 pop
+44. Putnam - Greencastle, 37,576 pop
+45. Randolph - Winchester, 24,665 pop
+46. Rush - Rushville, 16,581 pop
+47. Shelby - Shelbyville, 44,729 pop
+48. Tippecanoe - Lafayette, 195,732 pop
+49. Tipton - Tipton, 15,148 pop
+50. Vermillion - Newport, 15,498 pop
+51. Vigo - Terre Haute, 105,558 pop
+52. Warren - Williamsport, 8,265 pop
+53. Wayne - Richmond, 65,884 pop
+54. White - Monticello, 24,102 pop
 
-3. GERMAN TOWNSHIP
-   Coordinates: 41.7667°N, 86.2167°W
-   Characteristics: Rural, residential growth
+SOUTHERN INDIANA (38 Counties):
+55. Bartholomew - Columbus, 83,779 pop
+56. Brown - Nashville, 14,903 pop
+57. Clark - Jeffersonville, 120,502 pop
+58. Clay - Brazil, 26,225 pop
+59. Crawford - English, 10,582 pop
+60. Daviess - Washington, 34,158 pop
+61. Dearborn - Lawrenceburg, 49,458 pop
+62. Decatur - Greensburg, 26,559 pop
+63. Dubois - Jasper, 43,637 pop
+64. Fayette - Connersville, 23,102 pop
+65. Floyd - New Albany, 78,522 pop
+66. Franklin - Brookville, 22,758 pop
+67. Gibson - Princeton, 33,659 pop
+68. Greene - Bloomfield, 32,295 pop
+69. Harrison - Corydon, 41,374 pop
+70. Jackson - Brownstown, 45,289 pop
+71. Jefferson - Madison, 32,428 pop
+72. Jennings - Vernon, 27,735 pop
+73. Johnson - Franklin, 164,570 pop
+74. Knox - Vincennes, 36,594 pop
+75. Lawrence - Bedford, 45,370 pop
+76. Martin - Shoals, 10,255 pop
+77. Monroe - Bloomington, 148,431 pop
+78. Ohio - Rising Sun, 5,875 pop (smallest county)
+79. Orange - Paoli, 19,646 pop
+80. Owen - Spencer, 20,799 pop
+81. Perry - Tell City, 19,169 pop
+82. Pike - Petersburg, 12,389 pop
+83. Posey - Mount Vernon, 25,427 pop
+84. Ripley - Versailles, 28,324 pop
+85. Scott - Scottsburg, 24,181 pop
+86. Spencer - Rockport, 20,277 pop
+87. Sullivan - Sullivan, 20,669 pop
+88. Switzerland - Vevay, 10,751 pop
+89. Union - Liberty, 7,054 pop
+90. Vanderburgh - Evansville, 181,451 pop (5th largest)
+91. Warrick - Boonville, 64,540 pop
+92. Washington - Salem, 28,262 pop
 
-4. GREENE TOWNSHIP
-   Coordinates: 41.8000°N, 86.3500°W
-   Characteristics: Northern county, rural
+===================================
+MAJOR CITIES BY POPULATION
+===================================
 
-5. HARRIS TOWNSHIP
-   Coordinates: 41.5667°N, 86.4667°W
-   Includes: North Liberty
-   Characteristics: Rural, agricultural
-
-6. LIBERTY TOWNSHIP
-   Coordinates: 41.5333°N, 86.3667°W
-   Characteristics: Rural, agricultural
-
-7. LINCOLN TOWNSHIP
-   Coordinates: 41.5667°N, 86.2500°W
-   Includes: Lakeville
-   Characteristics: Rural, lakes region
-
-8. MADISON TOWNSHIP
-   Coordinates: 41.6167°N, 86.4167°W
-   Characteristics: Rural, residential
-
-9. OLIVE TOWNSHIP
-   Coordinates: 41.6333°N, 86.5000°W
-   Includes: New Carlisle
-   Characteristics: Western county, rural
-
-10. PENN TOWNSHIP
-    Coordinates: 41.6667°N, 86.0833°W
-    Includes: Osceola, Granger
-    Characteristics: Suburban growth, development
-
-11. PORTAGE TOWNSHIP
-    Coordinates: 41.6833°N, 86.1667°W
-    Includes: Parts of South Bend
-    Characteristics: Urban/suburban
-
-12. UNION TOWNSHIP
-    Coordinates: 41.5500°N, 86.1500°W
-    Characteristics: Rural, agricultural
-
-13. WARREN TOWNSHIP
-    Coordinates: 41.7833°N, 86.4667°W
-    Includes: Walkerton
-    Characteristics: Northwestern county, rural
+1. Indianapolis - 887,642
+2. Fort Wayne - 270,402
+3. Evansville - 117,298
+4. South Bend - 103,453
+5. Carmel - 101,068
+6. Fishers - 98,977
+7. Bloomington - 79,168
+8. Hammond - 77,879
+9. Gary - 69,093
+10. Lafayette - 67,925
+11. Muncie - 65,194
+12. Terre Haute - 58,389
+13. Noblesville - 69,604
+14. Greenwood - 61,387
+15. Kokomo - 58,946
 
 ===================================
 GEOGRAPHIC FEATURES
 ===================================
 
 WATERWAYS:
-- St. Joseph River (main waterway)
+- Wabash River (main waterway, flows E to W)
+- White River
+- Ohio River (southern border)
+- St. Joseph River
 - Kankakee River
-- Numerous lakes and ponds
-- Wetlands and marshes
+- Lake Michigan shoreline (45 miles)
 
 TERRAIN:
-- Generally flat to gently rolling
-- Glacial till plains
-- River valleys
-- Agricultural land
-- Urban development
+- Generally flat to rolling terrain
+- Northern glacial till plains
+- Central till plains
+- Southern hills and valleys
+- Brown County hills (most rugged)
+- Agricultural land dominates
 
 CLIMATE:
 - Humid continental climate
-- Cold winters, warm summers
-- Average temp: 50°F annual
-- Precipitation: 38 inches/year
-- Snowfall: 65 inches/year
+- Cold winters, warm humid summers
+- Average temp: 52°F annual
+- Precipitation: 42 inches/year
+- Snowfall: 26 inches/year average
 
 ===================================
 TRANSPORTATION ACCESS
 ===================================
 
-MAJOR ROADS:
-- Interstate 80/90 (Indiana Toll Road)
-- US 20 (Lincoln Highway)
-- US 31 (Dixie Highway)
-- State Road 2
-- State Road 23
-- State Road 933 (our location)
+MAJOR INTERSTATES:
+- I-65 (N-S through Indianapolis)
+- I-70 (E-W through Indianapolis)
+- I-69 (NE-SW through Fort Wayne)
+- I-74 (SE-NW through Indianapolis)
+- I-80/90 (Indiana Toll Road, northern)
+- I-94 (northwest corner)
+- I-465 (Indianapolis bypass)
 
 AIRPORTS:
-- South Bend International Airport (SBN)
-- Private aviation facilities
-
-PUBLIC TRANSIT:
-- Transpo (South Bend public transit)
-- IUSB shuttle services
-- Notre Dame campus shuttles
+- Indianapolis International (IND) - Major hub
+- Fort Wayne International (FWA)
+- South Bend International (SBN)
+- Evansville Regional (EVV)
+- Gary/Chicago International (GYY)
 
 ===================================
 SERVICE AREA DEMOGRAPHICS
 ===================================
 
-Total Population: 270,986
-Households: 104,000+
-Median Age: 36.2 years
-Median Income: $52,000
-Home Ownership: 63%
-Golf Cart Market: Growing recreational and utility use
-Primary Industries: Education, manufacturing, healthcare, technology
+Total Population: 6,833,037
+Households: 2,600,000+
+Median Age: 37.9 years
+Median Income: $61,944
+Home Ownership: 69%
+Golf Cart Market: Rapidly growing recreational and utility use
+Primary Industries: Manufacturing, healthcare, logistics, agriculture, technology
 
 ===================================
 GOLF CART USAGE AREAS
@@ -226,30 +251,34 @@ GOLF CART USAGE AREAS
 
 RESIDENTIAL:
 - Planned communities
-- Lake properties
+- Lake properties (200+ lakes)
 - Rural homesteads
 - Retirement communities
+- Golf course communities
 
 COMMERCIAL:
-- University campuses (Notre Dame, IUSB, Holy Cross)
+- University campuses (50+ colleges)
 - Business parks
 - Shopping centers
 - Industrial facilities
+- Distribution centers
 
 RECREATIONAL:
-- Golf courses (12+ in county)
-- Parks and trails
-- Lake access areas
+- Golf courses (400+ statewide)
+- State parks (32 parks)
 - Campgrounds
+- RV resorts
+- Lakes and recreational areas
 
 MUNICIPAL:
 - Government facilities
 - Parks departments
 - Maintenance operations
 - Event management
+- Airport operations
 
 ===================================
-LOCAL REGULATIONS
+INDIANA REGULATIONS
 ===================================
 
 STREET LEGAL REQUIREMENTS:
@@ -260,39 +289,42 @@ STREET LEGAL REQUIREMENTS:
 - Insurance required
 - Age restrictions apply
 
-TOWNSHIP REGULATIONS:
+COUNTY/MUNICIPAL REGULATIONS:
 - Vary by municipality
-- Some allow golf cart operation on local roads
-- Speed limits typically 25 mph or less
+- Many allow golf cart operation on local roads
+- Speed limits typically 25-35 mph roads
 - Check with local authorities
 
 ===================================
 MARKET ANALYSIS
 ===================================
 
-Golf Cart Ownership: Growing trend
+Golf Cart Ownership: Rapidly growing trend
 Primary Uses: Recreation, transportation, utility
-Target Markets: Homeowners, businesses, institutions
-Growth Drivers: Eco-friendly transportation, campus use, recreational
-Market Size: 270,000+ population, 104,000+ households
+Target Markets: Homeowners, businesses, institutions, municipalities
+Growth Drivers: Eco-friendly transportation, community use, recreational
+Market Size: 6.8M+ population, 2.6M+ households
+Penetration: Significant opportunity for growth
 
 ===================================
-DISTANCE FROM MAJOR CITIES
+DISTANCE FROM SHOWROOM
 ===================================
 
-- Chicago, IL: 90 miles west
+From South Bend location:
 - Indianapolis, IN: 145 miles south
-- Fort Wayne, IN: 115 miles northeast
-- Grand Rapids, MI: 100 miles north
-- Detroit, MI: 240 miles northeast
+- Fort Wayne, IN: 80 miles east
+- Chicago, IL: 90 miles west
+- Evansville, IN: 275 miles south
+- Bloomington, IN: 200 miles south
+- Lafayette, IN: 90 miles south
 
 ===================================
-CONTACT FOR GEOGRAPHIC AREAS
+CONTACT FOR SERVICE AREAS
 ===================================
 
-All 22 St. Joseph County Municipalities Served
+All 92 Indiana Counties Served
+568+ Individual Municipality Pages
 Phone: 1-844-844-6638
-Local: 1-844-844-6638
-Email: info@notredamegolfcarts.com
-Free Delivery: All county locations
+Email: info@golfcartsofindiana.com
+Free Delivery: Available statewide
 Service: On-site and in-shop available

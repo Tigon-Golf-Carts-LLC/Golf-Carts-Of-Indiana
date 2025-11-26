@@ -1,7 +1,7 @@
 {
-  "name": "Notre Dame Golf Carts",
-  "short_name": "ND Golf Carts",
-  "description": "Premier golf cart dealership in St. Joseph County, Indiana. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and service.",
+  "name": "Golf Carts Of Indiana",
+  "short_name": "GC Indiana",
+  "description": "Indiana's premier golf cart dealership serving all 92 counties statewide. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and service.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e2e55",
@@ -14,13 +14,13 @@
   "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
   "icons": [
     {
-      "src": "/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+      "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+      "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -28,10 +28,10 @@
   ],
   "screenshots": [
     {
-      "src": "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
+      "src": "/attached_assets/GCI_Hero_Showroom_Interior_2025.png",
       "sizes": "1920x1080",
       "type": "image/png",
-      "label": "Notre Dame Golf Carts Showroom"
+      "label": "Golf Carts Of Indiana Showroom"
     }
   ],
   "shortcuts": [
@@ -42,7 +42,7 @@
       "url": "/inventory",
       "icons": [
         {
-          "src": "/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -55,7 +55,7 @@
       "url": "/rentals",
       "icons": [
         {
-          "src": "/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -68,7 +68,20 @@
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "All Indiana Towns",
+      "short_name": "Towns",
+      "description": "Browse service areas across Indiana",
+      "url": "/towns",
+      "icons": [
+        {
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
           "sizes": "96x96",
           "type": "image/png"
         }

@@ -3,21 +3,21 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://notredamegolfcarts.com/#organization",
-      "name": "Notre Dame Golf Carts",
-      "alternateName": "TIGON Golf Carts South Bend",
-      "url": "https://notredamegolfcarts.com",
+      "@id": "https://golfcartsofindiana.com/#organization",
+      "name": "Golf Carts Of Indiana",
+      "alternateName": "TIGON Golf Carts Indiana",
+      "url": "https://golfcartsofindiana.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645467658.png",
+        "url": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
         "width": 512,
         "height": 512
       },
       "image": [
-        "https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645467658.png",
-        "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
+        "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+        "https://golfcartsofindiana.com/attached_assets/GCI_Hero_Showroom_Interior_2025.png"
       ],
-      "description": "Premier golf cart dealership in St. Joseph County, Indiana. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and professional service.",
+      "description": "Indiana's premier golf cart dealership serving all 92 counties statewide. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and professional service.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "310 S Dixie Way",
@@ -37,31 +37,26 @@
           "telephone": "+1-844-844-6638",
           "contactType": "customer service",
           "availableLanguage": "English",
-          "areaServed": "US"
+          "areaServed": "US-IN"
         },
         {
           "@type": "ContactPoint",
-          "telephone": "+1-1-844-844-6638",
+          "telephone": "+1-844-844-6638",
           "contactType": "sales",
           "availableLanguage": "English",
-          "areaServed": "St. Joseph County, Indiana"
+          "areaServed": "Indiana"
         }
       ],
       "sameAs": [
-        "https://www.facebook.com/TigonGolfCartsSouthBend/",
-        "https://www.youtube.com/@TIGONGolfCartsSouthBendIN",
-        "https://www.pinterest.com/tigongolfcarts/south-bend-indiana/",
-        "https://tigongolfcarts.com/south-bend/"
+        "https://www.facebook.com/TigonGolfCartsIndiana/",
+        "https://www.youtube.com/@GolfCartsOfIndiana",
+        "https://www.pinterest.com/golfcartsofindiana/",
+        "https://tigongolfcarts.com/indiana/"
       ],
       "areaServed": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-          "@type": "GeoCoordinates",
-          "latitude": "41.6764",
-          "longitude": "-86.2520"
-        },
-        "geoRadius": "50000",
-        "description": "St. Joseph County, Indiana including all 22 municipalities"
+        "@type": "State",
+        "name": "Indiana",
+        "description": "All 92 Indiana counties with 568+ municipalities statewide"
       },
       "openingHoursSpecification": [
         {
@@ -83,11 +78,10 @@
     },
     {
       "@type": "LocalBusiness",
-      "@id": "https://notredamegolfcarts.com/#localbusiness",
-      "name": "Notre Dame Golf Carts",
-      "image": "https://notredamegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png",
-      "@id": "https://notredamegolfcarts.com",
-      "url": "https://notredamegolfcarts.com",
+      "@id": "https://golfcartsofindiana.com/#localbusiness",
+      "name": "Golf Carts Of Indiana",
+      "image": "https://golfcartsofindiana.com/attached_assets/GCI_Hero_Showroom_Interior_2025.png",
+      "url": "https://golfcartsofindiana.com",
       "telephone": "1-844-844-6638",
       "address": {
         "@type": "PostalAddress",
@@ -114,9 +108,9 @@
     },
     {
       "@type": "AutoDealer",
-      "@id": "https://notredamegolfcarts.com/#autodealer",
-      "name": "Notre Dame Golf Carts - DENAGO & EVOLUTION Dealer",
-      "description": "Authorized dealer for DENAGO and EVOLUTION electric golf carts with 37 models available",
+      "@id": "https://golfcartsofindiana.com/#autodealer",
+      "name": "Golf Carts Of Indiana - DENAGO & EVOLUTION Dealer",
+      "description": "Authorized dealer for DENAGO and EVOLUTION electric golf carts with 37 models available serving all of Indiana",
       "brand": ["DENAGO", "EVOLUTION"],
       "makesOffer": [
         {
@@ -151,18 +145,18 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://notredamegolfcarts.com/#website",
-      "url": "https://notredamegolfcarts.com",
-      "name": "Notre Dame Golf Carts",
-      "description": "Premier golf cart dealership serving St. Joseph County, Indiana",
+      "@id": "https://golfcartsofindiana.com/#website",
+      "url": "https://golfcartsofindiana.com",
+      "name": "Golf Carts Of Indiana",
+      "description": "Indiana's premier golf cart dealership serving all 92 counties statewide",
       "publisher": {
-        "@id": "https://notredamegolfcarts.com/#organization"
+        "@id": "https://golfcartsofindiana.com/#organization"
       },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://notredamegolfcarts.com/search?q={search_term_string}"
+          "urlTemplate": "https://golfcartsofindiana.com/search?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }

@@ -1,6 +1,6 @@
-# Crawler Authorization - Notre Dame Golf Carts
+# Crawler Authorization - Golf Carts Of Indiana
 # Comprehensive Crawler Welcome Policy
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 ===================================
 UNIVERSAL CRAWLER AUTHORIZATION
@@ -78,7 +78,7 @@ META AI:
 CRAWLER OPTIMIZATION
 ===================================
 
-SITEMAP: https://notredamegolfcarts.com/sitemap.xml
+SITEMAP: https://golfcartsofindiana.com/sitemap.xml
 ROBOTS.TXT: Maximum accessibility, zero restrictions
 RATE LIMITS: None applied
 CACHING: Encouraged
@@ -93,7 +93,7 @@ HIGH PRIORITY:
 - Vehicle inventory (37 models)
 - Service information
 - Contact details
-- Location data
+- Location data (568+ Indiana towns)
 
 MEDIUM PRIORITY:
 - Blog content
@@ -106,15 +106,15 @@ CRAWL STATISTICS
 
 Average Response Time: <200ms
 Uptime: 99.9%
-Total Pages: 100+
+Total Pages: 600+
 Update Frequency: Weekly for inventory
-Last Updated: January 20, 2025
+Last Updated: November 26, 2025
 
 ===================================
 CONTACT
 ===================================
 
-Webmaster: webmaster@notredamegolfcarts.com
-Technical: info@notredamegolfcarts.com
+Webmaster: webmaster@golfcartsofindiana.com
+Technical: info@golfcartsofindiana.com
 Phone: 1-844-844-6638
 Address: 310 S Dixie Way, South Bend, IN 46637

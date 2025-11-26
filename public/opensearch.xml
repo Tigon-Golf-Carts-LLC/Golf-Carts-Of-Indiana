@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" 
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Notre Dame Golf Carts</ShortName>
-  <Description>Search Notre Dame Golf Carts for golf cart sales, rentals, and service in St. Joseph County, Indiana</Description>
+  <ShortName>Golf Carts Of Indiana</ShortName>
+  <Description>Search Golf Carts Of Indiana for golf cart sales, rentals, and service across all 92 Indiana counties</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png</Image>
-  <Image width="64" height="64" type="image/png">https://notredamegolfcarts.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png</Image>
+  <Image width="16" height="16" type="image/x-icon">https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png</Image>
+  <Image width="64" height="64" type="image/png">https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png</Image>
   <Url type="text/html" 
-       template="https://notredamegolfcarts.com/search?q={searchTerms}"/>
+       template="https://golfcartsofindiana.com/search?q={searchTerms}"/>
   <Url type="application/x-suggestions+json" 
-       template="https://notredamegolfcarts.com/api/suggestions?q={searchTerms}"/>
-  <moz:SearchForm>https://notredamegolfcarts.com/inventory</moz:SearchForm>
+       template="https://golfcartsofindiana.com/api/suggestions?q={searchTerms}"/>
+  <moz:SearchForm>https://golfcartsofindiana.com/inventory</moz:SearchForm>
   <Query role="example" searchTerms="DENAGO EV CITY" />
-  <Developer>Notre Dame Golf Carts Development Team</Developer>
-  <Contact>info@notredamegolfcarts.com</Contact>
-  <Tags>golf carts, electric vehicles, Indiana, St. Joseph County, DENAGO, EVOLUTION</Tags>
-  <LongName>Notre Dame Golf Carts - St. Joseph County, Indiana</LongName>
+  <Developer>Golf Carts Of Indiana Development Team</Developer>
+  <Contact>info@golfcartsofindiana.com</Contact>
+  <Tags>golf carts, electric vehicles, Indiana, statewide, DENAGO, EVOLUTION, Indianapolis, Fort Wayne, South Bend</Tags>
+  <LongName>Golf Carts Of Indiana - Statewide Service</LongName>
   <SyndicationRight>open</SyndicationRight>
   <AdultContent>false</AdultContent>
   <Language>en-US</Language>

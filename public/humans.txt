@@ -1,6 +1,6 @@
-# humanstxt.org - Notre Dame Golf Carts
+# humanstxt.org - Golf Carts Of Indiana
 # The humans responsible for building this website
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 ===================================
 TEAM
@@ -14,11 +14,11 @@ Location: South Bend, Indiana
 Content Strategy
 Role: SEO, copywriting, brand messaging
 Focus: Golf cart industry expertise
-Location: St. Joseph County, IN
+Location: Indiana, USA
 
 Business Operations
 Role: Sales, service, customer support
-Contact: info@notredamegolfcarts.com
+Contact: info@golfcartsofindiana.com
 Phone: 1-844-844-6638
 Location: 310 S Dixie Way, South Bend, IN 46637
 
@@ -43,7 +43,7 @@ CDN: Cloudflare
 SITE
 ===================================
 
-Last update: 2025/01/20
+Last update: 2025/11/26
 Standards: HTML5, CSS3, ES2020
 Components: React functional components
 Doctype: HTML5
@@ -56,11 +56,11 @@ Mobile: Responsive, mobile-first
 BUSINESS
 ===================================
 
-Company: Notre Dame Golf Carts
+Company: Golf Carts Of Indiana
 Industry: Golf Cart Sales, Rentals, Service
 Established: Serving Indiana since 2008
 Brands: DENAGO & EVOLUTION
-Service Area: St. Joseph County, IN (22 municipalities)
+Service Area: All 92 Indiana Counties (Statewide Coverage)
 Models: 37 electric golf cart models
 Price Range: $5,995 - $17,995
 
@@ -68,22 +68,19 @@ Price Range: $5,995 - $17,995
 CONTACT
 ===================================
 
-Email: info@notredamegolfcarts.com
+Email: info@golfcartsofindiana.com
 Toll-Free: 1-844-844-6638
-Local: 1-844-844-6638
 Address: 310 S Dixie Way, South Bend, IN 46637
 Hours: Mon-Sat 9AM-5PM EST, Sun CLOSED
-Website: https://notredamegolfcarts.com
+Website: https://golfcartsofindiana.com
 
 ===================================
 LOCATIONS SERVED
 ===================================
 
-Cities: South Bend, Mishawaka
-Towns: Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton
-Townships: Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren
-
-Total: 22 municipalities in St. Joseph County, Indiana
+Statewide Coverage: All 92 Indiana Counties
+Major Cities: Indianapolis, Fort Wayne, Evansville, South Bend, Carmel, Fishers, Hammond, Bloomington, Muncie, Lafayette
+Total Municipalities: 568+ individual town pages
 
 ===================================
 SOCIAL
@@ -96,5 +93,5 @@ YouTube: Coming soon
 ___________________________________________________
 
 Built with passion for electric mobility and customer service.
-Serving St. Joseph County, Indiana since 2008.
+Serving all of Indiana since 2008.
 ___________________________________________________

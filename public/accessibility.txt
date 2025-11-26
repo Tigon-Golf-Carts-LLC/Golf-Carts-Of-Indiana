@@ -1,12 +1,12 @@
-# Accessibility Statement - Notre Dame Golf Carts
+# Accessibility Statement - Golf Carts Of Indiana
 # WCAG 2.1 Level AA Compliance Commitment
-# Last Updated: January 2025
+# Last Updated: November 2025
 
 ===================================
 ACCESSIBILITY COMMITMENT
 ===================================
 
-Notre Dame Golf Carts is committed to ensuring digital accessibility for people with disabilities. We continuously improve user experience for everyone and apply WCAG 2.1 Level AA standards.
+Golf Carts Of Indiana is committed to ensuring digital accessibility for people with disabilities. We continuously improve user experience for everyone and apply WCAG 2.1 Level AA standards.
 
 ===================================
 CONFORMANCE STATUS
@@ -78,8 +78,8 @@ GOLF CART MODIFICATIONS:
 CONTACT FOR ACCESSIBILITY
 ===================================
 
-Accessibility Coordinator: accessibility@notredamegolfcarts.com
-General Inquiries: info@notredamegolfcarts.com
+Accessibility Coordinator: accessibility@golfcartsofindiana.com
+General Inquiries: info@golfcartsofindiana.com
 Phone: 1-844-844-6638
 Address: 310 S Dixie Way, South Bend, IN 46637
 

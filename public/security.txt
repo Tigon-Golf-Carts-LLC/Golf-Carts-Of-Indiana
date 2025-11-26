@@ -1,30 +1,30 @@
-# Security Policy - Notre Dame Golf Carts
+# Security Policy - Golf Carts Of Indiana
 # security.txt - RFC 9116 Compliant
-# Last Updated: 2025-01-20
+# Last Updated: 2025-11-26
 
-Contact: security@notredamegolfcarts.com
-Contact: mailto:info@notredamegolfcarts.com
+Contact: security@golfcartsofindiana.com
+Contact: mailto:info@golfcartsofindiana.com
 Contact: tel:+1-844-844-6638
-Expires: 2026-01-20T23:59:59.000Z
-Encryption: https://notredamegolfcarts.com/pgp-key.txt
+Expires: 2026-11-26T23:59:59.000Z
+Encryption: https://golfcartsofindiana.com/pgp-key.txt
 Preferred-Languages: en
-Canonical: https://notredamegolfcarts.com/.well-known/security.txt
+Canonical: https://golfcartsofindiana.com/.well-known/security.txt
 
 # Security Policy
-Policy: https://notredamegolfcarts.com/policies/security-policy
+Policy: https://golfcartsofindiana.com/policies/security-policy
 
 # Acknowledgments
-Acknowledgments: https://notredamegolfcarts.com/security-acknowledgments
+Acknowledgments: https://golfcartsofindiana.com/security-acknowledgments
 
 # Hiring
-Hiring: https://notredamegolfcarts.com/careers
+Hiring: https://golfcartsofindiana.com/careers
 
 ===================================
 SECURITY REPORTING GUIDELINES
 ===================================
 
 If you discover a security vulnerability on our website or systems, 
-please report it responsibly to security@notredamegolfcarts.com
+please report it responsibly to security@golfcartsofindiana.com
 
 WHAT TO INCLUDE:
 - Description of the vulnerability
@@ -97,10 +97,9 @@ CERTIFICATIONS:
 CONTACT INFORMATION
 ===================================
 
-Security Team: security@notredamegolfcarts.com
-General Inquiries: info@notredamegolfcarts.com
+Security Team: security@golfcartsofindiana.com
+General Inquiries: info@golfcartsofindiana.com
 Phone: 1-844-844-6638 (Toll-Free)
-Local: 1-844-844-6638
 Address: 310 S Dixie Way, South Bend, IN 46637
 
 Business Hours: Monday-Saturday 9AM-5PM EST

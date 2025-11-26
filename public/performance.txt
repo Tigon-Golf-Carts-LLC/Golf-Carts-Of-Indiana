@@ -1,6 +1,6 @@
-# Performance Optimization Guidelines - Notre Dame Golf Carts
+# Performance Optimization Guidelines - Golf Carts Of Indiana
 # Core Web Vitals and Mobile-First Performance Standards
-# Last Updated: January 20, 2025
+# Last Updated: November 26, 2025
 
 ===================================
 CORE WEB VITALS TARGETS
@@ -208,8 +208,8 @@ KEY METRICS TO TRACK:
 - Total Blocking Time (TBT)
 
 ANALYTICS INTEGRATION:
-- Google Analytics 4: G-B8JMG75X8R
-- Google Tag Manager: GTM-P54F73CJ
+- Google Analytics 4: G-QJVWEK6RT8
+- Google Tag Manager: GTM-NSN3ZJPP
 - Core Web Vitals tracking
 - Error monitoring
 - Performance budgets
