@@ -1807,5 +1807,1341 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><a href="/services">Service and maintenance plans</a></li>
       </ul>
     </div>`
+  },
+  // Post 13 - Golf Carts of Indiana for Sale
+  {
+    id: "13",
+    slug: "golf-carts-of-indiana-for-sale-best-deals",
+    title: "Golf Carts of Indiana for Sale | Best Deals Across Indiana",
+    seoTitle: "Golf Carts of Indiana for Sale | Best Deals Across Indiana | Shop Now",
+    metaDescription: "Find the best golf cart deals across Indiana. Golf Carts of Indiana offers new and used electric carts from DENAGO and EVOLUTION. Statewide delivery available. Call 1-844-844-6638.",
+    publishDate: "2025-01-25",
+    excerpt: "Discover the best golf cart deals across Indiana at Golf Carts of Indiana. New and used DENAGO and EVOLUTION models available with statewide delivery. Hoosier shoppers save big with our competitive pricing.",
+    heroImage: "/attached_assets/generated_images/golf_carts_indiana_sale_deals.png",
+    heroImageAlt: "Golf carts for sale at Golf Carts of Indiana dealership showing best deals on electric carts available statewide across Indiana",
+    heroImagePrompt: "Professional showroom photograph of multiple golf carts for sale at Golf Carts of Indiana dealership, sale signs and best deal banners visible, clean modern showroom, DENAGO and EVOLUTION electric carts on display, Indiana state flag visible, bright welcoming atmosphere",
+    h1: "Golf Carts of Indiana for Sale: Best Deals Available Statewide for Hoosier Shoppers",
+    featured: true,
+    content: `<div class="blog-content">
+      <h2>Find the Best Golf Cart Deals Across Indiana</h2>
+      <p>Golf Carts of Indiana is your premier destination for exceptional golf cart deals serving all 92 Indiana counties. Whether you're in Indianapolis, Fort Wayne, Evansville, or any Hoosier community, we deliver quality electric golf carts at competitive prices.</p>
+
+      <h3>Why Indiana Shoppers Choose Golf Carts of Indiana</h3>
+      <p>Hoosier customers trust us for the <a href="/inventory">best selection and prices</a> on premium electric golf carts:</p>
+      <ul>
+        <li><strong>Statewide delivery:</strong> Free delivery across Indiana on qualifying purchases</li>
+        <li><strong>Best price guarantee:</strong> Competitive pricing on all DENAGO and EVOLUTION models</li>
+        <li><strong>37+ models available:</strong> From $5,995 to $17,995</li>
+        <li><strong>Authorized dealer:</strong> Factory-certified sales and service</li>
+      </ul>
+
+      <h4>Current Indiana Golf Cart Specials</h4>
+      <p>Take advantage of our limited-time offers available to all Indiana residents:</p>
+      <ul>
+        <li>Free delivery on purchases over $8,000</li>
+        <li>Trade-in bonuses for Indiana customers</li>
+        <li>Seasonal discounts on select models</li>
+        <li>Package deals with accessories included</li>
+      </ul>
+
+      <h3>Popular Golf Cart Models for Indiana Buyers</h3>
+      
+      <h4>Best-Selling Entry-Level Options</h4>
+      <p>Perfect for budget-conscious Hoosier shoppers:</p>
+      <ul>
+        <li><strong>EVOLUTION Turfman 200 - $5,995:</strong> Best value utility cart</li>
+        <li><strong>EVOLUTION Classic 2 Plus - $6,695:</strong> Reliable 2-passenger option</li>
+        <li><strong>EVOLUTION Classic 4 Plus - $6,995:</strong> Affordable family transportation</li>
+      </ul>
+
+      <h4>Mid-Range Performance Carts</h4>
+      <p>Ideal for Indiana neighborhoods and communities:</p>
+      <ul>
+        <li><a href="/evolution">D5 Ranger Series - $8,595-$11,595</a>: Sport-oriented performance</li>
+        <li>D5 Maverick Series - $8,595-$11,595: Maximum versatility</li>
+        <li>Forester Series - $8,995-$10,995: All-terrain capability</li>
+      </ul>
+
+      <h5>Premium Indiana Golf Cart Selection</h5>
+      <p>Top-tier models for discerning Hoosier buyers:</p>
+      <ul>
+        <li><a href="/denago">DENAGO EV CITY - $15,000</a>: Street-legal excellence</li>
+        <li>EVOLUTION D6 MAX GT6 - $17,995: Ultimate 6-passenger luxury</li>
+        <li>EVOLUTION Carrier 8 Plus - $13,995: Maximum family capacity</li>
+      </ul>
+
+      <h2>Indiana Golf Cart Financing Available</h2>
+      <p>We make golf cart ownership accessible for all Indiana residents with flexible financing options:</p>
+      <ul>
+        <li>Quick approval process for qualified buyers</li>
+        <li>Competitive interest rates</li>
+        <li>Terms from 12 to 72 months</li>
+        <li>Trade-ins reduce your financed amount</li>
+      </ul>
+
+      <h3>Visit Our Indiana Showroom</h3>
+      <p><strong>Location:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
+      <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
+
+      <h6>Related Resources</h6>
+      <ul>
+        <li><a href="/inventory">Browse our complete inventory</a></li>
+        <li><a href="/blog/indiana-golf-cart-buyers-guide">Indiana Golf Cart Buyer's Guide</a></li>
+        <li><a href="/blog/indiana-golf-cart-financing-easy-approval">Financing options for Hoosiers</a></li>
+        <li><a href="/contact">Contact our sales team</a></li>
+      </ul>
+    </div>`
+  },
+  // Post 14 - New & Used Golf Carts in Indiana
+  {
+    id: "14",
+    slug: "new-used-golf-carts-indiana-statewide-inventory",
+    title: "New & Used Golf Carts in Indiana | Statewide Inventory Available",
+    seoTitle: "New & Used Golf Carts in Indiana | Statewide Inventory | Golf Carts of Indiana",
+    metaDescription: "Shop new and used golf carts in Indiana. Statewide inventory of DENAGO and EVOLUTION models. Quality pre-owned options available. Call Golf Carts of Indiana at 1-844-844-6638.",
+    publishDate: "2025-01-24",
+    excerpt: "Explore our statewide inventory of new and used golf carts in Indiana. Golf Carts of Indiana offers quality pre-owned options alongside new DENAGO and EVOLUTION models for every budget.",
+    heroImage: "/attached_assets/generated_images/new_used_golf_carts_indiana.png",
+    heroImageAlt: "New and used golf carts available at Golf Carts of Indiana dealership with statewide inventory serving all Indiana communities",
+    heroImagePrompt: "Professional photograph of a golf cart dealership lot showing both new and certified pre-owned golf carts, mix of DENAGO and EVOLUTION models, New and Used section signs visible, Indiana dealership setting, sunny day, professional sales environment",
+    h1: "New and Used Golf Carts in Indiana: Complete Statewide Inventory for Hoosier Buyers",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Complete Golf Cart Inventory</h2>
+      <p>Golf Carts of Indiana maintains the largest selection of new and used golf carts available across the Hoosier state. Our <a href="/inventory">comprehensive inventory</a> serves buyers from Indianapolis to Fort Wayne, Evansville to South Bend.</p>
+
+      <h3>New Golf Cart Selection</h3>
+      <p>Factory-fresh electric golf carts from America's leading manufacturers:</p>
+      
+      <h4>DENAGO Electric Golf Carts (6 Models)</h4>
+      <ul>
+        <li><strong>EV CITY - $15,000:</strong> Street-legal, DOT-compliant for Indiana roads</li>
+        <li><strong>EV NOMAD - $8,495:</strong> Off-road adventure vehicle</li>
+        <li><strong>EV NOMAD XL - $8,495:</strong> Extended 4-passenger capacity</li>
+        <li><strong>EV ROVER XL - $9,995:</strong> Utility workhorse</li>
+        <li><strong>EV ROVER XL6 - $11,995:</strong> 6-passenger utility</li>
+        <li><strong>EV ROVER XXL - $11,995:</strong> Maximum payload capacity</li>
+      </ul>
+
+      <h4>EVOLUTION Electric Golf Carts (31 Models)</h4>
+      <p>View our complete <a href="/evolution">EVOLUTION lineup</a> ranging from $5,995 to $17,995.</p>
+
+      <h3>Certified Pre-Owned Golf Carts</h3>
+      <p>Quality used golf carts inspected and serviced by our Indiana technicians:</p>
+      
+      <h4>Pre-Owned Benefits</h4>
+      <ul>
+        <li>Multi-point inspection completed</li>
+        <li>Battery health verified</li>
+        <li>Mechanical components tested</li>
+        <li>Warranty options available</li>
+        <li>Significant savings vs. new</li>
+      </ul>
+
+      <h5>Popular Used Golf Cart Categories</h5>
+      <ul>
+        <li>2-4 passenger personal carts</li>
+        <li>6-8 passenger family vehicles</li>
+        <li>Utility and work carts</li>
+        <li>Street-legal models</li>
+      </ul>
+
+      <h2>Statewide Indiana Delivery</h2>
+      <p>We deliver golf carts to every Indiana county:</p>
+      <ul>
+        <li>Central Indiana: Indianapolis, Carmel, Fishers, Noblesville</li>
+        <li>Northern Indiana: South Bend, Fort Wayne, Mishawaka, Elkhart</li>
+        <li>Southern Indiana: Evansville, Bloomington, Columbus, New Albany</li>
+        <li>All 92 counties served with delivery options</li>
+      </ul>
+
+      <h3>Indiana Trade-In Program</h3>
+      <p>Upgrade your current golf cart with our generous trade-in values. We accept all makes and models, reducing your purchase price on new or pre-owned inventory.</p>
+
+      <h6>Contact Our Indiana Team</h6>
+      <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/contact">Request inventory information</a></p>
+    </div>`
+  },
+  // Post 15 - Indiana Golf Cart Superstore
+  {
+    id: "15",
+    slug: "indiana-golf-cart-superstore-shop-top-models",
+    title: "Indiana Golf Cart Superstore | Shop Top Models Today",
+    seoTitle: "Indiana Golf Cart Superstore | Shop Top Models Today | Golf Carts of Indiana",
+    metaDescription: "Shop Indiana's golf cart superstore. Top DENAGO and EVOLUTION models in stock. Largest selection, best prices, expert service. Visit Golf Carts of Indiana today!",
+    publishDate: "2025-01-23",
+    excerpt: "Indiana's golf cart superstore offers the largest selection of top models from DENAGO and EVOLUTION. Shop in-person or online with expert guidance from our Indiana team.",
+    heroImage: "/attached_assets/generated_images/indiana_golf_cart_superstore.png",
+    heroImageAlt: "Indiana Golf Cart Superstore showroom at Golf Carts of Indiana featuring top models from DENAGO and EVOLUTION on display",
+    heroImagePrompt: "Wide-angle professional photograph of a large golf cart superstore showroom, dozens of golf carts on display, modern facility with high ceilings, Golf Carts of Indiana branding, customers browsing, bright showroom lighting, Indiana location",
+    h1: "Indiana Golf Cart Superstore: Shop Top Models from DENAGO and EVOLUTION Today",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Welcome to Indiana's Premier Golf Cart Superstore</h2>
+      <p>Golf Carts of Indiana operates the state's leading golf cart superstore, featuring the most comprehensive selection of premium electric golf carts. Our superstore showroom showcases top models from DENAGO and EVOLUTION.</p>
+
+      <h3>Superstore Advantages for Indiana Shoppers</h3>
+      <ul>
+        <li><strong>Largest inventory:</strong> 37+ models always in stock</li>
+        <li><strong>Side-by-side comparisons:</strong> Compare models in person</li>
+        <li><strong>Test drives available:</strong> Try before you buy</li>
+        <li><strong>Expert consultation:</strong> Knowledgeable Indiana sales team</li>
+        <li><strong>Same-day availability:</strong> Drive home your cart today</li>
+      </ul>
+
+      <h4>Top-Selling Models at Our Indiana Superstore</h4>
+      
+      <h5>Customer Favorites</h5>
+      <ul>
+        <li><a href="/denago">DENAGO EV CITY</a> - #1 selling street-legal model</li>
+        <li>EVOLUTION D5 Maverick 4 - Top sport performance cart</li>
+        <li>EVOLUTION Forester 6 Plus - Best family value</li>
+        <li>DENAGO EV ROVER XL - Most popular utility cart</li>
+      </ul>
+
+      <h3>Superstore Services</h3>
+      <p>Our Indiana superstore offers complete golf cart services:</p>
+      <ul>
+        <li><a href="/services">Professional installation</a> of accessories</li>
+        <li>Custom configuration options</li>
+        <li>Battery upgrades and replacements</li>
+        <li>Extended warranty programs</li>
+        <li>Trade-in evaluations</li>
+      </ul>
+
+      <h4>Indiana Superstore Location</h4>
+      <p><strong>Address:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><strong>Showroom Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
+      <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+
+      <h2>Shop Our Superstore Online</h2>
+      <p>Can't visit in person? Browse our complete <a href="/inventory">online inventory</a> and schedule delivery to your Indiana location.</p>
+
+      <h6>Plan Your Visit</h6>
+      <p><a href="/contact">Schedule a showroom appointment</a> or call ahead for personalized assistance.</p>
+    </div>`
+  },
+  // Post 16 - Electric Golf Carts for Sale in Indiana
+  {
+    id: "16",
+    slug: "electric-golf-carts-sale-indiana-fast-delivery",
+    title: "Electric Golf Carts for Sale in Indiana | Fast Statewide Delivery",
+    seoTitle: "Electric Golf Carts for Sale in Indiana | Fast Statewide Delivery | Shop Now",
+    metaDescription: "Electric golf carts for sale in Indiana with fast statewide delivery. DENAGO and EVOLUTION models. Eco-friendly, zero emissions. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-22",
+    excerpt: "Shop electric golf carts for sale in Indiana with fast statewide delivery. Eco-friendly DENAGO and EVOLUTION models offer zero emissions, quiet operation, and low maintenance for Hoosier buyers.",
+    heroImage: "/attached_assets/generated_images/electric_golf_carts_indiana_delivery.png",
+    heroImageAlt: "Electric golf carts for sale in Indiana with fast statewide delivery service from Golf Carts of Indiana",
+    heroImagePrompt: "Professional photograph of a modern electric golf cart being loaded onto a delivery truck, Golf Carts of Indiana branding visible, Indiana state backdrop, green eco-friendly imagery, fast delivery theme, professional logistics",
+    h1: "Electric Golf Carts for Sale in Indiana: Fast Statewide Delivery to All 92 Counties",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Electric Golf Cart Specialists</h2>
+      <p>Golf Carts of Indiana specializes in premium electric golf carts, delivering eco-friendly transportation solutions to Hoosier communities across all 92 counties. Our <a href="/inventory">electric inventory</a> features the latest technology from DENAGO and EVOLUTION.</p>
+
+      <h3>Benefits of Electric Golf Carts for Indiana Buyers</h3>
+      <ul>
+        <li><strong>Zero emissions:</strong> Environmentally friendly for Indiana communities</li>
+        <li><strong>Quiet operation:</strong> Minimal noise for neighborhoods</li>
+        <li><strong>Low maintenance:</strong> No gas, oil changes, or tune-ups</li>
+        <li><strong>Cost savings:</strong> Pennies per charge vs. gasoline costs</li>
+        <li><strong>Reliable performance:</strong> 25-45 mile range per charge</li>
+      </ul>
+
+      <h4>Electric Golf Cart Technology</h4>
+      
+      <h5>Advanced Lithium Battery Systems</h5>
+      <p>Our electric carts feature modern lithium batteries providing:</p>
+      <ul>
+        <li>Extended range (35-45 miles per charge)</li>
+        <li>Fast charging (4-6 hours full charge)</li>
+        <li>5+ year battery lifespan</li>
+        <li>Consistent power output</li>
+      </ul>
+
+      <h3>Fast Statewide Indiana Delivery</h3>
+      <p>We deliver electric golf carts throughout Indiana:</p>
+      <ul>
+        <li><strong>Free delivery:</strong> On qualifying purchases over $8,000</li>
+        <li><strong>Quick turnaround:</strong> Most deliveries within 7-10 business days</li>
+        <li><strong>White-glove service:</strong> Professional setup at your location</li>
+        <li><strong>Orientation included:</strong> Learn your new cart's features</li>
+      </ul>
+
+      <h4>Popular Electric Models</h4>
+      <ul>
+        <li><a href="/denago">DENAGO EV Series</a> - 6 models from $8,495-$15,000</li>
+        <li><a href="/evolution">EVOLUTION Electric</a> - 31 models from $5,995-$17,995</li>
+      </ul>
+
+      <h2>Order Your Electric Golf Cart Today</h2>
+      <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Online:</strong> <a href="/inventory">Browse and order online</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+    </div>`
+  },
+  // Post 17 - Street-Legal Golf Carts Indiana
+  {
+    id: "17",
+    slug: "street-legal-golf-carts-indiana-buy-today",
+    title: "Street-Legal Golf Carts Indiana | Buy Yours Today",
+    seoTitle: "Street-Legal Golf Carts Indiana | DOT Approved | Buy Today | Golf Carts of Indiana",
+    metaDescription: "Buy street-legal golf carts in Indiana. DOT-approved models for Indiana roads. LSV compliant with all safety features. Shop Golf Carts of Indiana. Call 1-844-844-6638.",
+    publishDate: "2025-01-21",
+    excerpt: "Shop street-legal golf carts approved for Indiana roads. Our DOT-compliant LSV models feature all required safety equipment for legal operation on roads up to 35 mph.",
+    heroImage: "/attached_assets/generated_images/street_legal_golf_carts_indiana.png",
+    heroImageAlt: "Street-legal golf cart driving on Indiana road with DOT-approved safety features visible headlights and turn signals",
+    heroImagePrompt: "Professional photograph of a street-legal golf cart driving on a suburban Indiana road, visible DOT-required safety features including headlights, turn signals, mirrors, seatbelts, license plate visible, legal road operation, sunny day",
+    h1: "Street-Legal Golf Carts in Indiana: DOT-Approved LSV Models for Hoosier Roads",
+    featured: true,
+    content: `<div class="blog-content">
+      <h2>Indiana Street-Legal Golf Cart Specialists</h2>
+      <p>Golf Carts of Indiana offers DOT-approved street-legal golf carts for operation on Indiana roads. Our <a href="/inventory">LSV (Low Speed Vehicle) models</a> meet all state and federal requirements for legal road operation.</p>
+
+      <h3>Indiana Street-Legal Requirements</h3>
+      <p>Street-legal golf carts in Indiana must include:</p>
+      <ul>
+        <li><strong>DOT-approved tires:</strong> Highway-rated for road use</li>
+        <li><strong>Headlights and taillights:</strong> Required for visibility</li>
+        <li><strong>Turn signals:</strong> Front and rear directional indicators</li>
+        <li><strong>Brake lights:</strong> Safety-compliant stopping signals</li>
+        <li><strong>Mirrors:</strong> Side mirrors for visibility</li>
+        <li><strong>Seat belts:</strong> Required for all passengers</li>
+        <li><strong>Windshield:</strong> DOT-approved safety glass</li>
+        <li><strong>Horn:</strong> Audible warning device</li>
+        <li><strong>17-digit VIN:</strong> Required for registration</li>
+      </ul>
+
+      <h4>Street-Legal Models Available</h4>
+      
+      <h5>DENAGO EV CITY - $15,000</h5>
+      <p>Our top-selling <a href="/denago">street-legal model</a> features:</p>
+      <ul>
+        <li>25 mph top speed (LSV compliant)</li>
+        <li>40-mile range per charge</li>
+        <li>72V lithium battery system</li>
+        <li>All DOT-required safety equipment</li>
+        <li>Comfortable 4-passenger seating</li>
+      </ul>
+
+      <h5>EVOLUTION Street-Legal Options</h5>
+      <p>Multiple <a href="/evolution">EVOLUTION models</a> available with street-legal packages.</p>
+
+      <h3>Indiana LSV Registration Process</h3>
+      <ol>
+        <li>Purchase a DOT-compliant golf cart from Golf Carts of Indiana</li>
+        <li>Receive manufacturer's certificate of origin (MCO)</li>
+        <li>Apply for Indiana title and registration at your local BMV</li>
+        <li>Obtain license plate and registration sticker</li>
+        <li>Secure liability insurance (required)</li>
+      </ol>
+
+      <h4>Where Street-Legal Carts Can Operate in Indiana</h4>
+      <ul>
+        <li>Roads with posted speed limits of 35 mph or less</li>
+        <li>Neighborhoods and communities</li>
+        <li>Cross intersections on higher-speed roads</li>
+        <li>Designated golf cart paths</li>
+      </ul>
+
+      <h2>Buy Your Street-Legal Cart Today</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/contact">Schedule a test drive</a></p>
+    </div>`
+  },
+  // Post 18 - Top-Rated Golf Carts in Indiana
+  {
+    id: "18",
+    slug: "top-rated-golf-carts-indiana-local-prices",
+    title: "Top-Rated Golf Carts in Indiana | Local Prices and Availability",
+    seoTitle: "Top-Rated Golf Carts in Indiana | Local Prices | Golf Carts of Indiana",
+    metaDescription: "Shop top-rated golf carts in Indiana with local pricing. Customer-reviewed DENAGO and EVOLUTION models. See availability and prices. Call 1-844-844-6638.",
+    publishDate: "2025-01-20",
+    excerpt: "Discover top-rated golf carts available in Indiana with local pricing. Our customer-reviewed DENAGO and EVOLUTION models receive high marks for quality, reliability, and value.",
+    heroImage: "/attached_assets/generated_images/top_rated_golf_carts_indiana.png",
+    heroImageAlt: "Top-rated golf carts at Golf Carts of Indiana dealership with five-star customer reviews and competitive local Indiana pricing",
+    heroImagePrompt: "Professional photograph of premium golf carts in a showroom with 5-star rating badges visible, happy customers examining carts, Golf Carts of Indiana branding, price tags visible, customer testimonial boards, professional dealership environment",
+    h1: "Top-Rated Golf Carts in Indiana: Customer-Reviewed Models with Local Pricing",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Highest-Rated Golf Cart Selection</h2>
+      <p>Golf Carts of Indiana offers top-rated electric golf carts reviewed and recommended by Hoosier customers. Our <a href="/inventory">carefully curated inventory</a> features models with proven reliability and customer satisfaction.</p>
+
+      <h3>Customer Rating Criteria</h3>
+      <p>Our top-rated carts excel in:</p>
+      <ul>
+        <li><strong>Reliability:</strong> Consistent performance year after year</li>
+        <li><strong>Value:</strong> Quality features at competitive Indiana prices</li>
+        <li><strong>Comfort:</strong> Ergonomic seating and smooth ride</li>
+        <li><strong>Range:</strong> Extended battery life for Indiana properties</li>
+        <li><strong>Service:</strong> Local support and maintenance availability</li>
+      </ul>
+
+      <h4>Top-Rated DENAGO Models</h4>
+      <ul>
+        <li><strong>EV CITY (5 stars):</strong> Best street-legal option - $15,000</li>
+        <li><strong>EV ROVER XL (4.9 stars):</strong> Top utility performer - $9,995</li>
+        <li><strong>EV NOMAD XL (4.8 stars):</strong> Best off-road value - $8,495</li>
+      </ul>
+
+      <h4>Top-Rated EVOLUTION Models</h4>
+      <ul>
+        <li><strong>D6 MAX GT6 (5 stars):</strong> Premium 6-passenger - $17,995</li>
+        <li><strong>Forester 6 Plus (4.9 stars):</strong> Best family cart - $10,995</li>
+        <li><strong>D5 Maverick 4 (4.8 stars):</strong> Top sport performance - $8,595</li>
+      </ul>
+
+      <h3>Local Indiana Pricing</h3>
+      <p>We maintain competitive pricing for all Indiana customers:</p>
+      <ul>
+        <li>No hidden fees or surprise charges</li>
+        <li>Price match guarantee on comparable models</li>
+        <li>Free delivery on qualifying purchases</li>
+        <li>Trade-in credits applied to purchase price</li>
+      </ul>
+
+      <h5>Current Availability</h5>
+      <p>Check our <a href="/inventory">real-time inventory</a> for current availability and pricing on all top-rated models.</p>
+
+      <h2>Experience Top-Rated Service</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+    </div>`
+  },
+  // Post 19 - Affordable Golf Carts Indiana
+  {
+    id: "19",
+    slug: "affordable-golf-carts-indiana-best-deals",
+    title: "Affordable Golf Carts Indiana | Shop the Best Deals Near You",
+    seoTitle: "Affordable Golf Carts Indiana | Best Deals Near You | Golf Carts of Indiana",
+    metaDescription: "Shop affordable golf carts in Indiana. Best deals on quality electric carts starting at $5,995. Budget-friendly options for Hoosier families. Call 1-844-844-6638.",
+    publishDate: "2025-01-19",
+    excerpt: "Find affordable golf carts in Indiana starting at $5,995. Golf Carts of Indiana offers budget-friendly options without sacrificing quality. Financing available for Hoosier buyers.",
+    heroImage: "/attached_assets/generated_images/affordable_golf_carts_indiana.png",
+    heroImageAlt: "Affordable golf carts for sale in Indiana with budget-friendly pricing and financing options at Golf Carts of Indiana",
+    heroImagePrompt: "Professional photograph of budget-friendly golf carts in a dealership, visible affordable price tags, Best Value and Budget-Friendly signage, Indiana family examining affordable options, welcoming sales environment, financing available signs",
+    h1: "Affordable Golf Carts in Indiana: Budget-Friendly Options for Hoosier Families",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Quality Golf Carts at Affordable Indiana Prices</h2>
+      <p>Golf Carts of Indiana believes every Hoosier family deserves access to quality golf cart transportation. Our <a href="/inventory">affordable selection</a> starts at just $5,995, making golf cart ownership accessible for all budgets.</p>
+
+      <h3>Most Affordable Golf Cart Options</h3>
+      
+      <h4>Under $7,000</h4>
+      <ul>
+        <li><strong>EVOLUTION Turfman 200 - $5,995:</strong> Best entry-level value</li>
+        <li><strong>EVOLUTION Classic 2 Plus - $6,695:</strong> Affordable 2-passenger</li>
+        <li><strong>EVOLUTION Classic 4 Plus - $6,995:</strong> Budget family cart</li>
+      </ul>
+
+      <h4>Under $9,000</h4>
+      <ul>
+        <li><strong>DENAGO EV NOMAD - $8,495:</strong> Affordable adventure cart</li>
+        <li><strong>DENAGO EV NOMAD XL - $8,495:</strong> Budget 4-passenger</li>
+        <li><strong>EVOLUTION D5 Ranger 4 - $8,595:</strong> Affordable sport option</li>
+      </ul>
+
+      <h3>Affordable Financing for Indiana Buyers</h3>
+      <p>Make affordable carts even more accessible with our <a href="/blog/indiana-golf-cart-financing-easy-approval">financing options</a>:</p>
+      <ul>
+        <li>Low monthly payments starting under $150</li>
+        <li>Terms from 24 to 72 months</li>
+        <li>Quick approval process</li>
+        <li>No prepayment penalties</li>
+      </ul>
+
+      <h4>Trade-In Savings</h4>
+      <p>Trade your current golf cart or utility vehicle to reduce your purchase price. We accept all makes and models.</p>
+
+      <h5>Certified Pre-Owned Savings</h5>
+      <p>Save even more with our inspected pre-owned inventory featuring significant discounts on quality used carts.</p>
+
+      <h2>Shop Affordable Golf Carts Today</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/inventory">Browse our affordable inventory online</a></p>
+    </div>`
+  },
+  // Post 20 - Indiana Golf Cart Buyers Guide
+  {
+    id: "20",
+    slug: "indiana-golf-cart-buyers-guide",
+    title: "Indiana Golf Cart Buyers Guide | What Hoosier Shoppers Need to Know",
+    seoTitle: "Indiana Golf Cart Buyers Guide | Hoosier Shopping Tips | Golf Carts of Indiana",
+    metaDescription: "Complete Indiana golf cart buyers guide for Hoosier shoppers. Learn what to look for, pricing, regulations, and how to choose the right cart. Call 1-844-844-6638.",
+    publishDate: "2025-01-18",
+    excerpt: "Your complete Indiana golf cart buyers guide. Learn what Hoosier shoppers need to know about pricing, features, regulations, and choosing the perfect cart for your Indiana lifestyle.",
+    heroImage: "/attached_assets/generated_images/indiana_golf_cart_buyers_guide.png",
+    heroImageAlt: "Indiana golf cart buyers guide showing Hoosier shopper examining golf cart features and specifications at Golf Carts of Indiana",
+    heroImagePrompt: "Professional photograph of a knowledgeable sales consultant showing golf cart features to an Indiana family, buyers guide materials visible, Golf Carts of Indiana showroom, educational atmosphere, comparison charts visible, professional consultation",
+    h1: "Indiana Golf Cart Buyers Guide: Everything Hoosier Shoppers Need to Know",
+    featured: true,
+    content: `<div class="blog-content">
+      <h2>Your Complete Indiana Golf Cart Buying Guide</h2>
+      <p>Purchasing a golf cart in Indiana is a significant decision. This comprehensive guide from Golf Carts of Indiana helps Hoosier shoppers understand their options, requirements, and how to choose the perfect cart for their needs.</p>
+
+      <h3>Step 1: Determine Your Primary Use</h3>
+      <p>Consider how you'll primarily use your golf cart:</p>
+      <ul>
+        <li><strong>Property transportation:</strong> Farms, estates, large properties</li>
+        <li><strong>Neighborhood travel:</strong> Community transportation</li>
+        <li><strong>Street-legal operation:</strong> Road use in Indiana communities</li>
+        <li><strong>Recreation:</strong> Camping, hunting, outdoor activities</li>
+        <li><strong>Utility work:</strong> Hauling, landscaping, maintenance</li>
+      </ul>
+
+      <h4>Step 2: Choose Passenger Capacity</h4>
+      <ul>
+        <li><strong>2-passenger:</strong> Individual or couple use</li>
+        <li><strong>4-passenger:</strong> Small families, most popular choice</li>
+        <li><strong>6-passenger:</strong> Larger families, group transportation</li>
+        <li><strong>8-passenger:</strong> Maximum capacity needs</li>
+      </ul>
+
+      <h4>Step 3: Understand Indiana Regulations</h4>
+      
+      <h5>Standard Golf Carts</h5>
+      <ul>
+        <li>No registration required for private property use</li>
+        <li>Cannot operate on public roads</li>
+        <li>No insurance requirements</li>
+      </ul>
+
+      <h5>Street-Legal LSV (Low Speed Vehicles)</h5>
+      <ul>
+        <li>Must meet DOT safety requirements</li>
+        <li>Indiana title and registration required</li>
+        <li>Liability insurance mandatory</li>
+        <li>Operate on roads 35 mph or less</li>
+        <li>Valid driver's license required</li>
+      </ul>
+
+      <h3>Step 4: Set Your Budget</h3>
+      <p>Indiana golf cart pricing ranges:</p>
+      <ul>
+        <li><strong>Budget ($5,995-$7,500):</strong> Entry-level, basic features</li>
+        <li><strong>Mid-range ($7,500-$11,000):</strong> Performance, more features</li>
+        <li><strong>Premium ($11,000-$18,000):</strong> Top-tier, maximum features</li>
+      </ul>
+
+      <h4>Step 5: Consider Key Features</h4>
+      <ul>
+        <li><strong>Battery type:</strong> Lithium vs. lead-acid</li>
+        <li><strong>Range:</strong> Miles per charge (25-45+ miles)</li>
+        <li><strong>Speed:</strong> 19-25 mph standard, 25+ mph LSV</li>
+        <li><strong>Comfort:</strong> Seating, suspension, weather protection</li>
+        <li><strong>Accessories:</strong> Lights, audio, storage</li>
+      </ul>
+
+      <h3>Step 6: Choose Your Dealer</h3>
+      <p>Why choose <a href="/about">Golf Carts of Indiana</a>:</p>
+      <ul>
+        <li>Authorized DENAGO and EVOLUTION dealer</li>
+        <li>37+ models in stock</li>
+        <li>Expert Indiana sales team</li>
+        <li>Professional service department</li>
+        <li>Financing and trade-ins available</li>
+        <li>Statewide delivery</li>
+      </ul>
+
+      <h2>Ready to Buy? Contact Us</h2>
+      <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/inventory">Browse our inventory</a> | <a href="/contact">Get expert advice</a></p>
+    </div>`
+  },
+  // Post 21 - Premium Golf Carts Indiana
+  {
+    id: "21",
+    slug: "premium-golf-carts-indiana-new-models",
+    title: "Premium Golf Carts Indiana | New Models In Stock",
+    seoTitle: "Premium Golf Carts Indiana | Luxury Models In Stock | Golf Carts of Indiana",
+    metaDescription: "Shop premium golf carts in Indiana. Luxury DENAGO and EVOLUTION models with top-tier features. New inventory in stock. Visit Golf Carts of Indiana. Call 1-844-844-6638.",
+    publishDate: "2025-01-17",
+    excerpt: "Discover premium golf carts in Indiana with luxury features and top-tier performance. Golf Carts of Indiana stocks the finest DENAGO and EVOLUTION models for discerning Hoosier buyers.",
+    heroImage: "/attached_assets/generated_images/premium_golf_carts_indiana.png",
+    heroImageAlt: "Premium luxury golf carts on display at Golf Carts of Indiana featuring top-tier DENAGO and EVOLUTION models",
+    heroImagePrompt: "Professional photograph of premium luxury golf carts in an upscale showroom setting, high-end finishes visible, premium features highlighted, Golf Carts of Indiana branding, elegant lighting, VIP customer experience",
+    h1: "Premium Golf Carts in Indiana: Luxury Models Now In Stock for Hoosier Buyers",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Premier Selection of Premium Golf Carts</h2>
+      <p>Golf Carts of Indiana offers an exclusive collection of premium golf carts featuring luxury appointments, advanced technology, and superior performance. Our <a href="/inventory">premium inventory</a> satisfies the most discerning Indiana buyers.</p>
+
+      <h3>Premium DENAGO Models</h3>
+      
+      <h4>DENAGO EV CITY - $15,000</h4>
+      <p>Our flagship <a href="/denago">premium model</a> features:</p>
+      <ul>
+        <li>Street-legal DOT compliance</li>
+        <li>72V lithium battery with 40-mile range</li>
+        <li>Premium leather-style seating</li>
+        <li>Advanced digital dashboard</li>
+        <li>Integrated Bluetooth audio</li>
+        <li>LED lighting package</li>
+      </ul>
+
+      <h4>DENAGO EV ROVER XL6 - $11,995</h4>
+      <p>Premium 6-passenger utility with:</p>
+      <ul>
+        <li>1000 lb cargo capacity</li>
+        <li>Enhanced suspension system</li>
+        <li>Premium comfort features</li>
+        <li>45-mile battery range</li>
+      </ul>
+
+      <h3>Premium EVOLUTION Models</h3>
+      
+      <h4>EVOLUTION D6 MAX GT6 - $17,995</h4>
+      <p>Ultimate <a href="/evolution">premium 6-passenger</a>:</p>
+      <ul>
+        <li>Top-tier performance (30 mph)</li>
+        <li>45-mile extended range</li>
+        <li>Premium audio system</li>
+        <li>Upgraded suspension</li>
+        <li>Luxury seating for 6</li>
+      </ul>
+
+      <h4>EVOLUTION D6 MAX GT4 - $15,595</h4>
+      <p>Premium 4-passenger performance with all luxury features.</p>
+
+      <h3>Premium Features Standard</h3>
+      <ul>
+        <li>Advanced lithium battery technology</li>
+        <li>Integrated entertainment systems</li>
+        <li>Premium upholstery options</li>
+        <li>Enhanced suspension packages</li>
+        <li>Extended warranties available</li>
+      </ul>
+
+      <h2>Experience Premium Golf Carts</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/contact">Schedule a VIP showroom appointment</a></p>
+    </div>`
+  },
+  // Post 22 - Indiana Golf Cart Sales Trusted Dealer
+  {
+    id: "22",
+    slug: "indiana-golf-cart-sales-trusted-dealer",
+    title: "Indiana Golf Cart Sales | Trusted Dealer Serving the Entire State",
+    seoTitle: "Indiana Golf Cart Sales | Trusted Statewide Dealer | Golf Carts of Indiana",
+    metaDescription: "Trusted Indiana golf cart dealer serving all 92 counties. Professional sales, service, and support statewide. DENAGO and EVOLUTION authorized. Call 1-844-844-6638.",
+    publishDate: "2025-01-16",
+    excerpt: "Golf Carts of Indiana is the trusted dealer serving all 92 Indiana counties. Our professional sales team, certified technicians, and statewide delivery make us the Hoosier choice for golf carts.",
+    heroImage: "/attached_assets/generated_images/indiana_trusted_dealer.png",
+    heroImageAlt: "Golf Carts of Indiana trusted dealership team providing professional sales and service to customers across all 92 Indiana counties",
+    heroImagePrompt: "Professional photograph of a trusted golf cart dealership with friendly sales team, Golf Carts of Indiana branding prominent, customer handshake, Indiana state map showing statewide coverage, professional trustworthy atmosphere",
+    h1: "Indiana Golf Cart Sales: Your Trusted Dealer Serving All 92 Hoosier Counties",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Most Trusted Golf Cart Dealer</h2>
+      <p>Since 2008, Golf Carts of Indiana has been the trusted source for premium golf carts serving Hoosier communities across the entire state. Our commitment to quality, service, and customer satisfaction makes us the preferred dealer for Indiana buyers.</p>
+
+      <h3>Why Indiana Trusts Golf Carts of Indiana</h3>
+      <ul>
+        <li><strong>Authorized dealer:</strong> Factory-certified <a href="/denago">DENAGO</a> and <a href="/evolution">EVOLUTION</a> sales</li>
+        <li><strong>Professional team:</strong> Knowledgeable, trained sales staff</li>
+        <li><strong>Certified technicians:</strong> Factory-trained service department</li>
+        <li><strong>Statewide coverage:</strong> All 92 Indiana counties served</li>
+        <li><strong>Customer-first approach:</strong> Your satisfaction guaranteed</li>
+      </ul>
+
+      <h4>Our Indiana Commitment</h4>
+      <p>We're committed to serving every Indiana community:</p>
+      <ul>
+        <li><strong>Central Indiana:</strong> Indianapolis metro area</li>
+        <li><strong>Northern Indiana:</strong> South Bend, Fort Wayne, Elkhart</li>
+        <li><strong>Southern Indiana:</strong> Evansville, Bloomington, Columbus</li>
+        <li><strong>Eastern Indiana:</strong> Muncie, Anderson, Richmond</li>
+        <li><strong>Western Indiana:</strong> Terre Haute, Lafayette, Kokomo</li>
+      </ul>
+
+      <h3>Complete Sales and Service</h3>
+      
+      <h4>Professional Sales Process</h4>
+      <ul>
+        <li>Personalized consultation</li>
+        <li>Model recommendations based on your needs</li>
+        <li>Test drives available</li>
+        <li>Transparent pricing</li>
+        <li>Financing assistance</li>
+      </ul>
+
+      <h4>Certified Service Department</h4>
+      <ul>
+        <li>Factory-trained technicians</li>
+        <li>Genuine parts</li>
+        <li>Warranty service</li>
+        <li>Maintenance programs</li>
+        <li><a href="/services">Full service capabilities</a></li>
+      </ul>
+
+      <h2>Trust Your Golf Cart Purchase to Indiana's Best</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/about">Learn more about our dealership</a></p>
+    </div>`
+  },
+  // Post 23 - Lifted Golf Carts for Sale in Indiana
+  {
+    id: "23",
+    slug: "lifted-golf-carts-sale-indiana-custom-upgraded",
+    title: "Lifted Golf Carts for Sale in Indiana | Custom & Upgraded Options",
+    seoTitle: "Lifted Golf Carts for Sale Indiana | Custom Upgrades | Golf Carts of Indiana",
+    metaDescription: "Shop lifted golf carts in Indiana. Custom lift kits, upgraded suspensions, off-road tires. Build your perfect lifted cart. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-15",
+    excerpt: "Find lifted golf carts for sale in Indiana with custom upgrades and off-road capabilities. Golf Carts of Indiana offers lift kit installations and upgraded suspension packages for Hoosier adventurers.",
+    heroImage: "/attached_assets/generated_images/lifted_golf_carts_indiana.png",
+    heroImageAlt: "Lifted golf cart with custom suspension and off-road tires for sale in Indiana at Golf Carts of Indiana",
+    heroImagePrompt: "Professional photograph of a lifted golf cart with elevated suspension, large off-road tires, aggressive stance, outdoor Indiana setting, rugged terrain, custom modifications visible, adventure-ready appearance",
+    h1: "Lifted Golf Carts for Sale in Indiana: Custom and Upgraded Off-Road Options",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Lifted Golf Cart Specialists</h2>
+      <p>Golf Carts of Indiana offers lifted golf carts and custom lift kit installations for Hoosier adventurers. Whether you need extra ground clearance for rough terrain or want that aggressive off-road look, our team delivers.</p>
+
+      <h3>Lifted Golf Cart Benefits</h3>
+      <ul>
+        <li><strong>Increased ground clearance:</strong> 4-6+ inches of additional height</li>
+        <li><strong>Larger tire capability:</strong> Fit bigger off-road tires</li>
+        <li><strong>Improved terrain handling:</strong> Navigate rough ground with ease</li>
+        <li><strong>Enhanced visibility:</strong> Better sightlines from elevated position</li>
+        <li><strong>Aggressive appearance:</strong> Stand out from standard carts</li>
+      </ul>
+
+      <h4>Lift Kit Options Available</h4>
+      
+      <h5>Standard Lift Kits (3-4 inches)</h5>
+      <ul>
+        <li>Spindle lifts for simple installation</li>
+        <li>Compatible with larger tires</li>
+        <li>Maintains stock ride quality</li>
+        <li>Affordable upgrade option</li>
+      </ul>
+
+      <h5>Performance Lift Kits (5-6+ inches)</h5>
+      <ul>
+        <li>A-arm or long travel suspension</li>
+        <li>Maximum ground clearance</li>
+        <li>Enhanced off-road capability</li>
+        <li>Premium shock absorbers included</li>
+      </ul>
+
+      <h3>Pre-Lifted Models Available</h3>
+      <p>Several <a href="/inventory">in-stock models</a> come factory-equipped for off-road use:</p>
+      <ul>
+        <li><a href="/denago">DENAGO EV NOMAD</a> - Off-road ready from factory</li>
+        <li>DENAGO EV NOMAD XL - Extended off-road capability</li>
+        <li>EVOLUTION Forester Series - Lifted adventure models</li>
+      </ul>
+
+      <h4>Custom Lift Installations</h4>
+      <p>Our Indiana service team can install lift kits on most golf cart models:</p>
+      <ul>
+        <li>Professional installation included</li>
+        <li>Quality aftermarket components</li>
+        <li>Warranty on all work</li>
+        <li>Tire and wheel packages available</li>
+      </ul>
+
+      <h2>Build Your Lifted Golf Cart Today</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/services">Explore our customization services</a></p>
+    </div>`
+  },
+  // Post 24 - Custom Golf Carts Indiana
+  {
+    id: "24",
+    slug: "custom-golf-carts-indiana-build-your-way",
+    title: "Custom Golf Carts Indiana | Build Your Cart Your Way",
+    seoTitle: "Custom Golf Carts Indiana | Build Your Cart Your Way | Golf Carts of Indiana",
+    metaDescription: "Build custom golf carts in Indiana your way. Choose colors, features, accessories, and upgrades. Professional customization services. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-14",
+    excerpt: "Create your custom golf cart in Indiana exactly the way you want. Golf Carts of Indiana offers complete customization options from colors and seating to performance upgrades and accessories.",
+    heroImage: "/attached_assets/generated_images/custom_golf_carts_indiana.png",
+    heroImageAlt: "Custom golf cart built to customer specifications at Golf Carts of Indiana featuring personalized colors and accessories",
+    heroImagePrompt: "Professional photograph of a fully customized golf cart with unique color scheme, custom wheels, upgraded seats, LED lights, audio system, personalized accessories, Golf Carts of Indiana service bay, professional customization",
+    h1: "Custom Golf Carts in Indiana: Build Your Perfect Cart Your Way",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Your Vision, Our Expertise</h2>
+      <p>Golf Carts of Indiana helps you build the custom golf cart of your dreams. From subtle personalization to complete custom builds, our Indiana team transforms standard carts into unique creations that reflect your style.</p>
+
+      <h3>Customization Options Available</h3>
+      
+      <h4>Exterior Customization</h4>
+      <ul>
+        <li><strong>Color options:</strong> Custom paint and wraps</li>
+        <li><strong>Body kits:</strong> Front and rear designs</li>
+        <li><strong>Wheels:</strong> Alloy wheels in various sizes</li>
+        <li><strong>Tires:</strong> Street, turf, or off-road options</li>
+        <li><strong>Lighting:</strong> LED headlights, accent lights, underbody glow</li>
+      </ul>
+
+      <h4>Interior Customization</h4>
+      <ul>
+        <li><strong>Seats:</strong> Custom upholstery, colors, and patterns</li>
+        <li><strong>Dashboard:</strong> Upgraded gauges and displays</li>
+        <li><strong>Steering wheels:</strong> Premium grip options</li>
+        <li><strong>Floor mats:</strong> Custom fit and color matched</li>
+      </ul>
+
+      <h4>Performance Upgrades</h4>
+      <ul>
+        <li><strong>Motor upgrades:</strong> Increased speed and torque</li>
+        <li><strong>Battery upgrades:</strong> Extended range lithium systems</li>
+        <li><strong>Suspension:</strong> Lifted or lowered options</li>
+        <li><strong>Brakes:</strong> Enhanced stopping power</li>
+      </ul>
+
+      <h5>Accessories and Add-Ons</h5>
+      <ul>
+        <li>Audio systems with Bluetooth</li>
+        <li>Windshields and enclosures</li>
+        <li>Rear seat kits</li>
+        <li>Storage solutions</li>
+        <li>Utility beds and cargo boxes</li>
+      </ul>
+
+      <h3>Custom Build Process</h3>
+      <ol>
+        <li>Consultation with our customization specialists</li>
+        <li>Select base cart model</li>
+        <li>Choose your custom options</li>
+        <li>Receive detailed quote</li>
+        <li>Professional installation</li>
+        <li>Final inspection and delivery</li>
+      </ol>
+
+      <h2>Start Your Custom Build Today</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/contact">Schedule a customization consultation</a></p>
+    </div>`
+  },
+  // Post 25 - Family-Ready Golf Carts Indiana
+  {
+    id: "25",
+    slug: "family-ready-golf-carts-indiana-safe-reliable",
+    title: "Family-Ready Golf Carts Indiana | Safe, Reliable, Local Options",
+    seoTitle: "Family-Ready Golf Carts Indiana | Safe and Reliable | Golf Carts of Indiana",
+    metaDescription: "Shop family-ready golf carts in Indiana. Safe, reliable 4-8 passenger models for Hoosier families. Seat belts, quality construction. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-13",
+    excerpt: "Find safe, reliable family-ready golf carts in Indiana. Golf Carts of Indiana offers 4-8 passenger models with safety features designed for Hoosier families with children and multiple passengers.",
+    heroImage: "/attached_assets/generated_images/family_golf_carts_indiana.png",
+    heroImageAlt: "Family-ready golf cart with multiple passengers including children enjoying safe transportation at Golf Carts of Indiana",
+    heroImagePrompt: "Professional photograph of an Indiana family with children riding in a 6-passenger golf cart, everyone wearing seatbelts, smiling faces, safe family transportation, residential Indiana neighborhood, sunny day, family-friendly atmosphere",
+    h1: "Family-Ready Golf Carts in Indiana: Safe, Reliable Options for Hoosier Families",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Safe Golf Cart Transportation for Indiana Families</h2>
+      <p>Golf Carts of Indiana offers family-focused golf carts designed with safety and reliability in mind. Our <a href="/inventory">family-ready selection</a> features seating for 4-8 passengers with safety features Hoosier parents appreciate.</p>
+
+      <h3>Family Safety Features</h3>
+      <ul>
+        <li><strong>Seat belts:</strong> 3-point belts for all passengers</li>
+        <li><strong>Sturdy construction:</strong> Reinforced frames and bodies</li>
+        <li><strong>Low center of gravity:</strong> Stable, tip-resistant design</li>
+        <li><strong>Responsive brakes:</strong> Four-wheel braking systems</li>
+        <li><strong>Speed governors:</strong> Adjustable maximum speeds</li>
+      </ul>
+
+      <h4>Family-Size Passenger Options</h4>
+      
+      <h5>4-Passenger Family Carts</h5>
+      <ul>
+        <li>EVOLUTION Classic 4 Plus - $6,995</li>
+        <li>EVOLUTION D5 Ranger 4 - $8,595</li>
+        <li>EVOLUTION Forester 4 Plus - $8,995</li>
+      </ul>
+
+      <h5>6-Passenger Family Carts</h5>
+      <ul>
+        <li>EVOLUTION Forester 6 Plus - $10,995</li>
+        <li>DENAGO EV ROVER XL6 - $11,995</li>
+        <li><a href="/evolution">EVOLUTION D6 MAX GT6</a> - $17,995</li>
+      </ul>
+
+      <h5>8-Passenger Family Carts</h5>
+      <ul>
+        <li>EVOLUTION Carrier 8 Plus - $13,995: Maximum family capacity</li>
+      </ul>
+
+      <h3>Family Uses for Golf Carts</h3>
+      <ul>
+        <li><strong>Neighborhood transportation:</strong> Kids to friends' houses</li>
+        <li><strong>Community events:</strong> Parades, festivals, gatherings</li>
+        <li><strong>Property use:</strong> Large yards and farms</li>
+        <li><strong>Recreation:</strong> Camping, lake properties, vacation homes</li>
+        <li><strong>Daily errands:</strong> Quick trips around town</li>
+      </ul>
+
+      <h4>Safety Tips for Family Golf Cart Use</h4>
+      <ul>
+        <li>All passengers must be seated with belts fastened</li>
+        <li>Children should never operate golf carts</li>
+        <li>Follow all speed limits and traffic rules</li>
+        <li>Stay on approved paths and roads</li>
+      </ul>
+
+      <h2>Find Your Family Golf Cart</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/inventory">Browse family-friendly models</a></p>
+    </div>`
+  },
+  // Post 26 - Neighborhood Golf Carts Indiana
+  {
+    id: "26",
+    slug: "neighborhood-golf-carts-indiana-local-communities",
+    title: "Neighborhood Golf Carts Indiana | Perfect for Local Communities",
+    seoTitle: "Neighborhood Golf Carts Indiana | Community Transportation | Golf Carts of Indiana",
+    metaDescription: "Shop neighborhood golf carts for Indiana communities. Perfect for HOA-friendly transportation, quiet operation, street-legal options. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-12",
+    excerpt: "Neighborhood-friendly golf carts perfect for Indiana communities. Quiet electric operation, HOA-compliant designs, and street-legal options for Hoosier neighborhoods and planned communities.",
+    heroImage: "/attached_assets/generated_images/neighborhood_golf_carts_indiana.png",
+    heroImageAlt: "Neighborhood golf cart driving through an Indiana residential community with homes and friendly neighbors visible",
+    heroImagePrompt: "Professional photograph of an electric golf cart driving through a beautiful Indiana neighborhood, tree-lined streets, nice homes visible, friendly waves from neighbors, quiet residential community, peaceful atmosphere, HOA-friendly appearance",
+    h1: "Neighborhood Golf Carts in Indiana: Perfect Transportation for Hoosier Communities",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Golf Carts for Indiana Neighborhoods</h2>
+      <p>Golf Carts of Indiana specializes in neighborhood-friendly golf carts perfect for planned communities, HOAs, and residential areas throughout the Hoosier state. Our quiet electric models integrate seamlessly into Indiana neighborhoods.</p>
+
+      <h3>Neighborhood-Friendly Features</h3>
+      <ul>
+        <li><strong>Quiet operation:</strong> Electric motors produce minimal noise</li>
+        <li><strong>Zero emissions:</strong> No exhaust fumes in residential areas</li>
+        <li><strong>Compact size:</strong> Easy storage in garages</li>
+        <li><strong>HOA compliant:</strong> Meet community standards</li>
+        <li><strong>Clean appearance:</strong> Attractive, well-maintained look</li>
+      </ul>
+
+      <h4>Popular Neighborhood Models</h4>
+      <ul>
+        <li><a href="/evolution">EVOLUTION Classic 4 Plus</a> - $6,995: Traditional neighborhood style</li>
+        <li>EVOLUTION Forester 4 Plus - $8,995: Modern community transportation</li>
+        <li><a href="/denago">DENAGO EV CITY</a> - $15,000: Street-legal neighborhood travel</li>
+      </ul>
+
+      <h3>Indiana Community Uses</h3>
+      <ul>
+        <li><strong>Visiting neighbors:</strong> Quick trips down the street</li>
+        <li><strong>Clubhouse access:</strong> Community center transportation</li>
+        <li><strong>Pool and recreation:</strong> Easy access to amenities</li>
+        <li><strong>Shopping trips:</strong> Nearby stores and services</li>
+        <li><strong>School drop-off:</strong> Within community boundaries</li>
+      </ul>
+
+      <h4>Street-Legal Options for Indiana Roads</h4>
+      <p>For travel beyond your neighborhood, our <a href="/blog/street-legal-golf-carts-indiana-buy-today">street-legal models</a> allow operation on roads with 35 mph or lower speed limits.</p>
+
+      <h5>HOA Considerations</h5>
+      <p>Check with your Indiana community HOA regarding:</p>
+      <ul>
+        <li>Golf cart parking requirements</li>
+        <li>Designated paths and roads</li>
+        <li>Registration or permit needs</li>
+        <li>Operating hours restrictions</li>
+      </ul>
+
+      <h2>Shop Neighborhood Golf Carts</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/inventory">Browse our community-friendly selection</a></p>
+    </div>`
+  },
+  // Post 27 - Indiana Golf Cart Outlet
+  {
+    id: "27",
+    slug: "indiana-golf-cart-outlet-new-used-inventory",
+    title: "Indiana Golf Cart Outlet | New and Used Inventory",
+    seoTitle: "Indiana Golf Cart Outlet | New and Used Inventory | Golf Carts of Indiana",
+    metaDescription: "Shop Indiana's golf cart outlet for new and used inventory. Outlet pricing on quality electric carts. Best selection and value. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-11",
+    excerpt: "Indiana's golf cart outlet offers exceptional value on new and used electric carts. Find outlet-priced inventory from DENAGO and EVOLUTION with the quality Hoosier buyers expect.",
+    heroImage: "/attached_assets/generated_images/indiana_golf_cart_outlet.png",
+    heroImageAlt: "Indiana Golf Cart Outlet showing new and used golf cart inventory with outlet pricing at Golf Carts of Indiana",
+    heroImagePrompt: "Professional photograph of a golf cart outlet dealership with rows of new and used golf carts, outlet sale signage visible, value-focused atmosphere, Golf Carts of Indiana branding, clearance section visible, busy shopping environment",
+    h1: "Indiana Golf Cart Outlet: New and Used Inventory at Outlet Prices",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Welcome to Indiana's Golf Cart Outlet</h2>
+      <p>Golf Carts of Indiana operates as your Indiana golf cart outlet, offering exceptional value on both new and pre-owned electric carts. Our outlet approach means competitive pricing without sacrificing quality.</p>
+
+      <h3>Outlet Advantages</h3>
+      <ul>
+        <li><strong>Competitive pricing:</strong> Below typical dealer markups</li>
+        <li><strong>Volume discounts:</strong> Savings passed to customers</li>
+        <li><strong>Previous year models:</strong> New carts at reduced prices</li>
+        <li><strong>Demo units:</strong> Like-new with minimal use</li>
+        <li><strong>Certified pre-owned:</strong> Quality used inventory</li>
+      </ul>
+
+      <h4>New Inventory Outlet Pricing</h4>
+      <p>Shop new <a href="/inventory">DENAGO and EVOLUTION models</a> at outlet prices:</p>
+      <ul>
+        <li>Current model year inventory available</li>
+        <li>Previous year closeout specials</li>
+        <li>Factory-fresh with full warranty</li>
+        <li>Complete selection from $5,995-$17,995</li>
+      </ul>
+
+      <h4>Used Inventory Selection</h4>
+      <ul>
+        <li>Inspected and certified pre-owned carts</li>
+        <li>Trade-in inventory from Indiana customers</li>
+        <li>Refurbished units at significant savings</li>
+        <li>Various makes and models available</li>
+      </ul>
+
+      <h3>Outlet Financing Available</h3>
+      <p>Make outlet pricing even more affordable with our <a href="/blog/indiana-golf-cart-financing-easy-approval">financing options</a> featuring low monthly payments.</p>
+
+      <h5>Trade-In Program</h5>
+      <p>Trade your current golf cart for additional savings on outlet inventory. We accept all makes and models.</p>
+
+      <h2>Shop Our Indiana Outlet Today</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/inventory">Browse outlet inventory online</a></p>
+    </div>`
+  },
+  // Post 28 - High-Performance Golf Carts Indiana
+  {
+    id: "28",
+    slug: "high-performance-golf-carts-indiana-test-rides",
+    title: "High-Performance Golf Carts Indiana | Local Test Ride Options",
+    seoTitle: "High-Performance Golf Carts Indiana | Test Rides Available | Golf Carts of Indiana",
+    metaDescription: "Shop high-performance golf carts in Indiana. Fast, powerful models with local test ride options. Experience the difference. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-10",
+    excerpt: "Experience high-performance golf carts in Indiana with local test ride options. Golf Carts of Indiana offers the fastest, most powerful DENAGO and EVOLUTION models for performance enthusiasts.",
+    heroImage: "/attached_assets/generated_images/high_performance_golf_carts_indiana.png",
+    heroImageAlt: "High-performance golf cart with sporty design ready for test rides at Golf Carts of Indiana in Indiana",
+    heroImagePrompt: "Professional action photograph of a high-performance golf cart in motion, sporty aggressive design, speed blur effect, Golf Carts of Indiana test drive area, performance-focused imagery, powerful appearance, dynamic angle",
+    h1: "High-Performance Golf Carts in Indiana: Test Drive the Fastest Models",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Performance Golf Carts for Indiana Enthusiasts</h2>
+      <p>Golf Carts of Indiana offers high-performance golf carts for Hoosier drivers who demand speed, power, and responsive handling. Our <a href="/inventory">performance selection</a> includes the fastest models from DENAGO and EVOLUTION.</p>
+
+      <h3>Performance Specifications</h3>
+      <ul>
+        <li><strong>Top speeds:</strong> 25-35 mph capabilities</li>
+        <li><strong>Powerful motors:</strong> High-torque electric drive</li>
+        <li><strong>Extended range:</strong> 35-45+ miles per charge</li>
+        <li><strong>Sport suspension:</strong> Enhanced handling and ride</li>
+        <li><strong>Quick acceleration:</strong> Responsive throttle control</li>
+      </ul>
+
+      <h4>Top Performance Models</h4>
+      
+      <h5>DENAGO Performance Lineup</h5>
+      <ul>
+        <li><a href="/denago">DENAGO EV CITY</a> - 25 mph street-legal performance</li>
+        <li>DENAGO EV NOMAD - Off-road performance capability</li>
+      </ul>
+
+      <h5>EVOLUTION Performance Series</h5>
+      <ul>
+        <li>D5 Maverick Series - Sport-tuned performance</li>
+        <li>D5 Ranger Series - Athletic handling</li>
+        <li><a href="/evolution">D6 MAX GT4/GT6</a> - Premium performance (30 mph)</li>
+      </ul>
+
+      <h3>Test Rides Available in Indiana</h3>
+      <p>Experience performance before you buy:</p>
+      <ul>
+        <li>Schedule your test ride appointment</li>
+        <li>Compare multiple performance models</li>
+        <li>Experience acceleration and handling</li>
+        <li>Test different terrain capabilities</li>
+      </ul>
+
+      <h4>Performance Upgrades Available</h4>
+      <p>Our <a href="/services">service department</a> offers performance enhancements:</p>
+      <ul>
+        <li>Motor controller upgrades</li>
+        <li>High-performance battery systems</li>
+        <li>Sport suspension packages</li>
+        <li>Performance tire options</li>
+      </ul>
+
+      <h2>Schedule Your Performance Test Drive</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/contact">Book your test drive appointment</a></p>
+    </div>`
+  },
+  // Post 29 - Indiana Golf Cart Financing
+  {
+    id: "29",
+    slug: "indiana-golf-cart-financing-easy-approval",
+    title: "Indiana Golf Cart Financing | Easy Approval and Fast Processing",
+    seoTitle: "Indiana Golf Cart Financing | Easy Approval | Golf Carts of Indiana",
+    metaDescription: "Golf cart financing in Indiana with easy approval and fast processing. Flexible terms, competitive rates for Hoosier buyers. Apply today. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-09",
+    excerpt: "Easy golf cart financing for Indiana buyers. Golf Carts of Indiana offers quick approval, competitive rates, and flexible terms to make golf cart ownership accessible for all Hoosiers.",
+    heroImage: "/attached_assets/generated_images/indiana_golf_cart_financing.png",
+    heroImageAlt: "Indiana golf cart financing approval process at Golf Carts of Indiana with happy customer receiving approval",
+    heroImagePrompt: "Professional photograph of a happy Indiana customer being approved for golf cart financing, finance manager at desk, approved stamp visible, Golf Carts of Indiana office, positive transaction atmosphere, professional financing environment",
+    h1: "Indiana Golf Cart Financing: Easy Approval and Fast Processing for Hoosiers",
+    featured: true,
+    content: `<div class="blog-content">
+      <h2>Affordable Financing for Indiana Golf Cart Buyers</h2>
+      <p>Golf Carts of Indiana partners with leading lenders to offer flexible financing options for Hoosier buyers. Our streamlined process makes golf cart ownership accessible with easy approval and competitive rates.</p>
+
+      <h3>Financing Benefits</h3>
+      <ul>
+        <li><strong>Quick decisions:</strong> Same-day approval for qualified buyers</li>
+        <li><strong>Competitive rates:</strong> Low APR options available</li>
+        <li><strong>Flexible terms:</strong> 24 to 72 month options</li>
+        <li><strong>Low down payments:</strong> Get started with less upfront</li>
+        <li><strong>No prepayment penalties:</strong> Pay off early without fees</li>
+      </ul>
+
+      <h4>Financing Options Available</h4>
+      
+      <h5>Traditional Financing</h5>
+      <ul>
+        <li>Fixed monthly payments</li>
+        <li>Terms from 24-72 months</li>
+        <li>Competitive interest rates</li>
+        <li>Build ownership equity</li>
+      </ul>
+
+      <h5>Promotional Financing</h5>
+      <ul>
+        <li>Special rate promotions when available</li>
+        <li>0% APR offers (terms apply)</li>
+        <li>Seasonal incentives</li>
+      </ul>
+
+      <h3>Application Process</h3>
+      <ol>
+        <li>Choose your golf cart from our <a href="/inventory">inventory</a></li>
+        <li>Complete financing application</li>
+        <li>Receive credit decision (often same day)</li>
+        <li>Review and sign agreements</li>
+        <li>Take delivery of your new cart</li>
+      </ol>
+
+      <h4>What You'll Need</h4>
+      <ul>
+        <li>Valid Indiana driver's license</li>
+        <li>Proof of income</li>
+        <li>Proof of residence</li>
+        <li>References (for some programs)</li>
+      </ul>
+
+      <h5>Trade-In Credit</h5>
+      <p>Trade your current golf cart to reduce your financed amount and lower monthly payments.</p>
+
+      <h2>Apply for Financing Today</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Apply Online:</strong> <a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer">TIGON Financing Application</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+    </div>`
+  },
+  // Post 30 - Recreational & Property Use Golf Carts Indiana
+  {
+    id: "30",
+    slug: "recreational-property-golf-carts-indiana",
+    title: "Recreational & Property Use Golf Carts in Indiana | Shop Statewide",
+    seoTitle: "Recreational and Property Golf Carts Indiana | Golf Carts of Indiana",
+    metaDescription: "Shop recreational and property golf carts in Indiana. Perfect for farms, estates, campgrounds, and outdoor recreation. Statewide delivery. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-08",
+    excerpt: "Recreational and property-use golf carts for Indiana farms, estates, campgrounds, and outdoor recreation. Golf Carts of Indiana offers utility and recreation models for Hoosier property owners.",
+    heroImage: "/attached_assets/generated_images/recreational_property_golf_carts_indiana.png",
+    heroImageAlt: "Recreational golf cart on an Indiana farm property being used for utility and transportation purposes",
+    heroImagePrompt: "Professional photograph of a utility golf cart on a large Indiana farm or estate property, rural setting, barn visible in background, carrying equipment or supplies, outdoor recreation theme, property transportation use, Indiana countryside",
+    h1: "Recreational and Property Use Golf Carts in Indiana: Statewide Selection",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Golf Carts for Indiana Property Owners</h2>
+      <p>Golf Carts of Indiana serves Hoosier property owners with recreational and utility golf carts perfect for farms, estates, campgrounds, and outdoor recreation. Our <a href="/inventory">versatile selection</a> handles Indiana's diverse terrain and uses.</p>
+
+      <h3>Property Use Applications</h3>
+      <ul>
+        <li><strong>Farms and ranches:</strong> Daily property transportation</li>
+        <li><strong>Large estates:</strong> Navigate extensive grounds</li>
+        <li><strong>Campgrounds:</strong> Guest and staff transportation</li>
+        <li><strong>Lake properties:</strong> Waterfront access</li>
+        <li><strong>Hunting properties:</strong> Quiet field access</li>
+        <li><strong>Industrial facilities:</strong> Campus transportation</li>
+      </ul>
+
+      <h4>Utility Models for Property Use</h4>
+      <ul>
+        <li><a href="/denago">DENAGO EV ROVER XL</a> - $9,995: 800 lb payload capacity</li>
+        <li>DENAGO EV ROVER XL6 - $11,995: 1000 lb capacity, 6-passenger</li>
+        <li>DENAGO EV ROVER XXL - $11,995: Maximum 1200 lb payload</li>
+        <li>EVOLUTION Turfman 200 - $5,995: Affordable utility option</li>
+      </ul>
+
+      <h4>Recreational Models</h4>
+      <ul>
+        <li><a href="/denago">DENAGO EV NOMAD</a> - $8,495: Off-road recreation</li>
+        <li>DENAGO EV NOMAD XL - $8,495: Family adventure vehicle</li>
+        <li><a href="/evolution">EVOLUTION Forester Series</a>: Versatile recreation and utility</li>
+      </ul>
+
+      <h3>Benefits for Indiana Property Owners</h3>
+      <ul>
+        <li><strong>Quiet operation:</strong> Won't disturb wildlife or neighbors</li>
+        <li><strong>Zero emissions:</strong> Environmentally responsible</li>
+        <li><strong>Low maintenance:</strong> Less upkeep than ATVs or UTVs</li>
+        <li><strong>Cargo capacity:</strong> Haul supplies and equipment</li>
+        <li><strong>Comfortable seating:</strong> Easy on passengers</li>
+      </ul>
+
+      <h4>Delivery Across Indiana</h4>
+      <p>We deliver to rural Indiana properties statewide. Contact us for delivery arrangements to your farm, estate, or recreational property.</p>
+
+      <h2>Shop Property Golf Carts</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/inventory">Browse utility and recreation models</a></p>
+    </div>`
+  },
+  // Post 31 - Luxury Golf Carts Indiana
+  {
+    id: "31",
+    slug: "luxury-golf-carts-indiana-premium-models",
+    title: "Luxury Golf Carts Indiana | Premium Models for Sale",
+    seoTitle: "Luxury Golf Carts Indiana | Premium Models | Golf Carts of Indiana",
+    metaDescription: "Shop luxury golf carts in Indiana. Premium features, top-tier comfort, advanced technology. Exclusive models available. Call Golf Carts of Indiana 1-844-844-6638.",
+    publishDate: "2025-01-07",
+    excerpt: "Experience luxury golf carts in Indiana with premium features, superior comfort, and advanced technology. Golf Carts of Indiana offers exclusive high-end models for discerning Hoosier buyers.",
+    heroImage: "/attached_assets/generated_images/luxury_golf_carts_indiana.png",
+    heroImageAlt: "Luxury golf cart with premium features and elegant design at Golf Carts of Indiana exclusive showroom",
+    heroImagePrompt: "Professional photograph of a luxury golf cart in an elegant showroom setting, premium leather seats visible, polished chrome accents, exclusive model appearance, upscale environment, Golf Carts of Indiana VIP area, sophisticated lighting",
+    h1: "Luxury Golf Carts in Indiana: Premium Models for Discerning Hoosier Buyers",
+    featured: false,
+    content: `<div class="blog-content">
+      <h2>Indiana's Luxury Golf Cart Collection</h2>
+      <p>Golf Carts of Indiana presents an exclusive collection of luxury golf carts featuring premium materials, advanced technology, and superior craftsmanship. Our <a href="/inventory">luxury selection</a> satisfies the most discerning Indiana buyers.</p>
+
+      <h3>Luxury Features</h3>
+      <ul>
+        <li><strong>Premium seating:</strong> Leather-style upholstery with custom stitching</li>
+        <li><strong>Advanced technology:</strong> Digital displays and integrated systems</li>
+        <li><strong>Superior comfort:</strong> Enhanced suspension and ergonomics</li>
+        <li><strong>Entertainment systems:</strong> Premium audio with Bluetooth</li>
+        <li><strong>Climate comfort:</strong> Fans, heaters, and enclosure options</li>
+        <li><strong>LED lighting:</strong> Premium illumination packages</li>
+      </ul>
+
+      <h4>Luxury DENAGO Models</h4>
+      <ul>
+        <li><a href="/denago">DENAGO EV CITY</a> - $15,000: Street-legal luxury</li>
+        <li>DENAGO EV ROVER XL6 - $11,995: Premium 6-passenger utility</li>
+      </ul>
+
+      <h4>Luxury EVOLUTION Models</h4>
+      <ul>
+        <li><a href="/evolution">EVOLUTION D6 MAX GT6</a> - $17,995: Ultimate luxury 6-passenger</li>
+        <li>EVOLUTION D6 MAX GT4 - $15,595: Premium 4-passenger experience</li>
+        <li>EVOLUTION Carrier 8 Plus - $13,995: Luxury extended capacity</li>
+      </ul>
+
+      <h3>Exclusive Customization</h3>
+      <p>Personalize your luxury cart with exclusive options:</p>
+      <ul>
+        <li>Custom color combinations</li>
+        <li>Premium wheel packages</li>
+        <li>Upgraded audio systems</li>
+        <li>Climate control additions</li>
+        <li>Custom embroidery and branding</li>
+      </ul>
+
+      <h4>VIP Purchase Experience</h4>
+      <ul>
+        <li>Private showroom appointments</li>
+        <li>Dedicated sales consultant</li>
+        <li>Priority delivery scheduling</li>
+        <li>White-glove delivery service</li>
+        <li>Personal orientation session</li>
+      </ul>
+
+      <h2>Experience Luxury Golf Carts</h2>
+      <p><strong>Call:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Visit:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><a href="/contact">Schedule a VIP appointment</a></p>
+    </div>`
+  },
+  // Post 32 - Your Local Indiana Golf Cart Source
+  {
+    id: "32",
+    slug: "local-indiana-golf-cart-source",
+    title: "Your Local Indiana Golf Cart Source | Shop Golf Carts of Indiana Today",
+    seoTitle: "Your Local Indiana Golf Cart Source | Golf Carts of Indiana | Shop Today",
+    metaDescription: "Golf Carts of Indiana is your local source for quality golf carts. Statewide service, local expertise, 37+ models. Visit us today. Call 1-844-844-6638.",
+    publishDate: "2025-01-06",
+    excerpt: "Golf Carts of Indiana is your local Hoosier source for premium golf carts. Experience local expertise, statewide service, and the best selection of DENAGO and EVOLUTION models in Indiana.",
+    heroImage: "/attached_assets/generated_images/local_indiana_golf_cart_source.png",
+    heroImageAlt: "Golf Carts of Indiana local dealership serving as the source for quality golf carts across Indiana communities",
+    heroImagePrompt: "Professional photograph of Golf Carts of Indiana dealership exterior with welcoming entrance, Golf Carts of Indiana branding prominent, friendly staff visible, Indiana flag, local community business feel, professional yet approachable",
+    h1: "Your Local Indiana Golf Cart Source: Golf Carts of Indiana Serves All 92 Counties",
+    featured: true,
+    content: `<div class="blog-content">
+      <h2>Indiana's Premier Local Golf Cart Dealer</h2>
+      <p>Golf Carts of Indiana is your trusted local source for premium electric golf carts. Since 2008, we've served Hoosier communities across all 92 counties with quality products, expert service, and genuine local care.</p>
+
+      <h3>Why Choose Your Local Indiana Source?</h3>
+      <ul>
+        <li><strong>Local expertise:</strong> We understand Indiana needs and preferences</li>
+        <li><strong>Community commitment:</strong> Invested in Hoosier success</li>
+        <li><strong>Accessible service:</strong> Support when you need it</li>
+        <li><strong>Personal relationships:</strong> Know our customers by name</li>
+        <li><strong>Statewide delivery:</strong> Serving all 92 Indiana counties</li>
+      </ul>
+
+      <h4>Complete Product Selection</h4>
+      <p>As your local source, we offer:</p>
+      <ul>
+        <li><a href="/denago">DENAGO Electric Golf Carts</a> - 6 models</li>
+        <li><a href="/evolution">EVOLUTION Electric Golf Carts</a> - 31 models</li>
+        <li>New and certified pre-owned inventory</li>
+        <li>Accessories and parts</li>
+        <li>Customization options</li>
+      </ul>
+
+      <h4>Local Services Available</h4>
+      <ul>
+        <li><strong>Sales:</strong> New and used golf cart sales</li>
+        <li><strong>Rentals:</strong> <a href="/rentals">Daily, weekly, monthly options</a></li>
+        <li><strong>Service:</strong> <a href="/services">Factory-certified maintenance</a></li>
+        <li><strong>Parts:</strong> Genuine replacement components</li>
+        <li><strong>Financing:</strong> <a href="/blog/indiana-golf-cart-financing-easy-approval">Easy approval programs</a></li>
+      </ul>
+
+      <h3>Serving Indiana Communities</h3>
+      <ul>
+        <li><strong>Northern Indiana:</strong> South Bend, Fort Wayne, Elkhart, Mishawaka</li>
+        <li><strong>Central Indiana:</strong> Indianapolis, Carmel, Fishers, Noblesville</li>
+        <li><strong>Southern Indiana:</strong> Evansville, Bloomington, Columbus</li>
+        <li>All 92 Indiana counties covered</li>
+      </ul>
+
+      <h4>Visit Your Local Source</h4>
+      <p><strong>Address:</strong> 310 S Dixie Way, South Bend, IN 46637</p>
+      <p><strong>Phone:</strong> <a href="tel:1-844-844-6638">1-844-844-6638</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@golfcartsofindiana.com">info@golfcartsofindiana.com</a></p>
+      <p><strong>Hours:</strong> Monday-Saturday 9AM-5PM EST</p>
+
+      <h2>Shop Your Local Indiana Source Today</h2>
+      <p><a href="/inventory">Browse our complete inventory</a></p>
+      <p><a href="/contact">Contact our local team</a></p>
+      <p><a href="/about">Learn about our Indiana dealership</a></p>
+    </div>`
   }
 ];
