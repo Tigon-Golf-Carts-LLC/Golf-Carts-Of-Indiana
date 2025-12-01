@@ -20,7 +20,6 @@ export default function Navigation() {
     { path: "/inventory", label: "Inventory" },
     { path: "/rentals", label: "Rentals" },
     { path: "/services", label: "Services" },
-    { path: "/blog", label: "Blog" },
     { path: "/showroom", label: "Showroom" },
     { path: "/contact", label: "Contact" },
   ];
@@ -80,6 +79,11 @@ export default function Navigation() {
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
+                    <Link href="/blog" className="w-full">
+                      Blog
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
                     <Link href="/eco-impact" className="w-full">
                       Eco-Impact Calculator
                     </Link>
@@ -134,6 +138,13 @@ export default function Navigation() {
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       About Us
+                    </Link>
+                    <Link
+                      href="/blog"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      Blog
                     </Link>
                     <Link
                       href="/eco-impact"
