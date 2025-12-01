@@ -21,8 +21,8 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
   const pageTitle = `Golf Cart Rentals in ${municipality.name} ${municipality.type} | Golf Carts Of Indiana`;
   const metaDescription = `Rent electric golf carts in ${municipality.name}, Indiana. Daily, weekly & monthly rates. Street-legal carts with professional delivery service. Reserve today!`;
 
-  // Google Maps embed URL for the specific municipality in St. Joseph County
-  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Notre%20Dame%20area%2C%20IN!5e0!3m2!1sen!2sus!4v1753817600000`;
+  // Google Maps embed URL for the specific municipality in Indiana
+  const mapsUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d-86.2389!3d41.7033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${municipality.name.replace(' ', '%20')}%2C%20Indiana!5e0!3m2!1sen!2sus!4v1753817600000`;
 
   // Why Choose Our Golf Cart Rentals Features
   const whyChooseFeatures = [
@@ -176,7 +176,7 @@ export function NewLackawannaCountyMunicipalityRentalPage({ municipalitySlug }: 
         description={metaDescription}
         keywords={`${municipality.name} golf cart rentals, ${municipality.name} ${municipality.type} rentals, Indiana golf cart rental, electric golf cart rental ${municipality.name}`}
         canonicalUrl={`https://golfcartsofindiana.com/rentals/${municipality.slug}`}
-        ogImage="https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        ogImage="https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png"
       />
 
       {/* Hero Section */}

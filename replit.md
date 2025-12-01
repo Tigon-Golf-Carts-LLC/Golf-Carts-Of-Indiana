@@ -1,7 +1,7 @@
-# Notre Dame Golf Carts - Website Project
+# Golf Carts Of Indiana - Website Project
 
 ## Overview
-This project is for Notre Dame Golf Carts (https://notredamegolfcarts.com), St. Joseph County, Indiana's premier golf cart dealership. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services across St. Joseph County. Key capabilities include complete inventory management, a rental system with location-based services for all 22 municipalities (2 cities, 7 towns, 13 townships), customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across the entire county.
+This project is for Golf Carts Of Indiana (https://golfcartsofindiana.com), Indiana's premier golf cart dealership. The platform provides a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services across all 92 Indiana counties. Key capabilities include complete inventory management, a rental system with location-based services for all Indiana municipalities, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across the entire state of Indiana.
 
 ## User Preferences
 I want iterative development. Ask before making major changes.
@@ -20,14 +20,14 @@ I want iterative development. Ask before making major changes.
 - **Database**: PostgreSQL with Drizzle ORM for data persistence and PostgreSQL-backed user sessions.
 - **API**: RESTful endpoints with JSON responses.
 - **Code Structure**: Monorepo with clear separation of frontend, backend, and shared code (`shared/schema.ts` for consistent types).
-- **SEO**: Comprehensive sitemap.xml (100+ pages), robots.txt, full Schema Markup integration (Location, Vehicle, Service, Website, Person, Product, LocalBusiness, Organization), and individual pages for all 20 Notre Dame municipalities for local SEO.
-- **PWA Configuration**: Progressive Web App enabled with `site.webmanifest` for enhanced user experience and app shortcuts.
+- **SEO**: Comprehensive sitemap.xml (100+ pages), robots.txt, full Schema Markup integration (Location, Vehicle, Service, Website, Person, Product, LocalBusiness, Organization), and individual pages for Indiana municipalities for local SEO.
+- **PWA Configuration**: Progressive Web App enabled with `manifest.json` for enhanced user experience and app shortcuts.
 
 ### Feature Specifications
 - **Vehicle Inventory**: Detailed listings for DENAGO and EVOLUTION models with specifications and pricing.
-- **Rental System**: Location-specific rental services and pricing for all St. Joseph County municipalities (2 cities: South Bend, Mishawaka; 7 towns: Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton; 13 townships: Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren).
+- **Rental System**: Location-specific rental services and pricing for Indiana municipalities.
 - **Contact Management**: Forms and systems for lead capture and customer inquiries.
-- **Location-based Services**: Integration of Google Maps embeds with accurate Notre Dame, IN coordinates (41.7033, -86.2389).
+- **Location-based Services**: Integration of Google Maps embeds with accurate Indiana location coordinates.
 
 ## External Dependencies
 - **Google Tag Manager (GTM)**: Used for analytics and marketing tag deployment (GTM-NSN3ZJPP).
@@ -37,61 +37,53 @@ I want iterative development. Ask before making major changes.
 
 ## Recent Updates and Achievements
 
-### ✅ Complete Branding Transformation (January 2025)
-- **New Brand Identity**: Notre Dame Golf Carts professional logos, favicons, and showroom imagery
-- **Domain Migration**: Complete transition to notredamegolfcarts.com with full URL structure optimization
-- **Analytics Integration**: Google Tag Manager (GTM-NSN3ZJPP) and Google Analytics (G-QJVWEK6RT8)
-- **Professional Photography**: 8 new Notre Dame showroom background images implemented
-- **Location Rebrand**: Complete transition from Pennsylvania to St. Joseph County, Indiana with accurate geographic data
+### ✅ Complete Rebrand to Golf Carts Of Indiana (December 2025)
+- **Brand Identity**: Complete transition from "Notre Dame Golf Carts" to "Golf Carts Of Indiana"
+- **Domain**: golfcartsofindiana.com (with absolute URLs throughout)
+- **Logo**: Golf Carts OF Indiana_1764172383192.png
+- **Email**: info@golfcartsofindiana.com
+- **Coverage**: Expanded from St. Joseph County to all 92 Indiana counties
+- **SEO Files Updated**: All 23 public SEO files updated with new branding
+- **Schema Markup**: All schema files updated with correct logo and absolute URLs
+- **Absolute URLs**: All canonical URLs, Open Graph images, and schema markup use https://golfcartsofindiana.com
 
-### ✅ Comprehensive SEO & AI Optimization Suite - 23 Files (January 2025)  
+### ✅ Schema Markup Updates (December 2025)
+- **Updated Files**: SchemaMarkup.tsx, LocalBusinessSchema.tsx, PlaceSchema.tsx, ServiceSchema.tsx, WebsiteSchema.tsx, VideoObjectSchema.tsx, AllSchemas.tsx
+- **Logo References**: All updated to Golf Carts OF Indiana_1764172383192.png
+- **URL Structure**: All URLs converted to absolute format (https://golfcartsofindiana.com/...)
+
+### ✅ Comprehensive SEO & AI Optimization Suite - 23 Files
 - **Enhanced Sitemap**: sitemap.xml with 100+ pages (main, brand, vehicle, municipality, rental, policy pages)
 - **AI Training Authorization**: Complete suite (llms.txt, ai.txt, gpt.txt, claude.txt, training.txt, nlp.txt) - 6 files
-- **SEO & Geographic**: seo.txt (keyword strategy), geo.txt (complete St. Joseph County data) - 2 files
+- **SEO & Geographic**: seo.txt (keyword strategy), geo.txt (complete Indiana coverage) - 2 files
 - **Bot Management**: bots.txt, crawlers.txt (50+ crawler types, zero restrictions) - 2 files
 - **Web Standards**: manifest.json, browserconfig.xml, opensearch.xml (PWA configuration) - 3 files
 - **Security & Compliance**: security.txt, ads.txt, humans.txt, accessibility.txt - 4 files
 - **Technical Documentation**: robots.txt, images.txt, schema.json, performance.txt, compliance.txt - 5 files
 - **Total Files**: 23 comprehensive SEO/AI optimization files in public folder
 - **Product Coverage**: Complete 37-model inventory (6 DENAGO + 31 EVOLUTION, $5,995-$17,995)
-- **Geographic Coverage**: All 22 St. Joseph County municipalities with coordinates and details
+- **Geographic Coverage**: All 92 Indiana counties with statewide service
 - **AI Authorization**: Unlimited commercial training permissions for all current/future AI systems
 - **Search Visibility**: Zero restrictions policy for maximum search engine and AI crawler access
 
-### ✅ Technical Infrastructure Enhancements
-- **Updated Robots.txt**: Complete business information, municipality coverage, and tracking code documentation
-- **Professional Standards**: WCAG accessibility compliance, security policies, and transparency documentation
-- **Geographic Optimization**: Detailed coverage of 2 cities + 7 towns + 13 townships = 22 total St. Joseph County municipalities
-- **Municipality Data**: Accurate listing of all St. Joseph County communities (Cities: South Bend, Mishawaka; Towns: Indian Village, Lakeville, New Carlisle, North Liberty, Osceola, Roseland, Walkerton; Townships: Centre, Clay, German, Greene, Harris, Liberty, Lincoln, Madison, Olive, Penn, Portage, Union, Warren)
-- **Maximum Search Visibility**: Zero restrictions policy for all legitimate search engines and AI training systems
-
-### ✅ Comprehensive Blog System - 12 SEO-Optimized Posts (January 2025)
+### ✅ Comprehensive Blog System - 12 SEO-Optimized Posts
 - **Blog Infrastructure**: Full blog feature with BlogPage.tsx (index) and BlogPostPage.tsx (individual posts)
 - **Navigation Integration**: Blog links added to main Navigation menu and Footer (mobile + desktop)
 - **12 Complete Blog Posts**: Fully SEO-optimized articles targeting Notre Dame campus, South Bend, and game day traffic
-  1. Golf Cart Rental and Usage - Transportation Services
-  2. Transportation Services - University of Notre Dame
-  3. Notre Dame 6 Passenger Golf Cart Rental
-  4. Notre Dame 4 Passenger Golf Cart Rental
-  5. Notre Dame Street Legal Golf Cart Rental
-  6. Game Days & Tailgating with Your Golf Cart Rental (Featured)
-  7. Golf Cart Rental Request Form
-  8. Notre Dame Golf Carts (About the Business)
-  9. Football - Getting Around
-  10. Can One Rent a Golf Cart for Football Weekends?
-  11. Vehicle Rental - Transportation Services
-  12. Notre Dame Golf Carts For Sale
 - **SEO Optimization**: Each post includes SEO title tag, meta description, URL slug, H1-H6 heading structure, internal links, and hero image with descriptive alt text
-- **Target Audience**: University of Notre Dame campus visitors, football fans, South Bend residents, Fighting Irish game day attendees
-- **Geographic Targeting**: All posts optimized for Notre Dame, South Bend, St. Joseph County, and Indiana keywords
-- **Content Features**: AI-ready hero image prompts, comprehensive rental guides, game day transportation tips, campus mobility solutions
+- **Content Features**: Comprehensive rental guides, game day transportation tips, campus mobility solutions
 - **Routes**: `/blog` (index) and `/blog/:slug` (individual posts) fully integrated into App.tsx routing
 
-### ✅ Contact Information Update (January 2025)
-- **New Address**: 310 S Dixie Way, South Bend, IN 46637 (updated from 52129 State Road 933)
-- **New Local Phone**: 1-844-844-6638 (updated from 574-703-0456)
-- **Toll-Free Phone**: 1-844-844-6638 (unchanged)
-- **Email**: info@notredamegolfcarts.com (unchanged)
-- **Update Scope**: All pages, blog posts, SEO files, schema markup, and public documentation files updated with new contact information
-- **Files Updated**: seoConfig.ts, ContactPage.tsx, ShowroomPage.tsx, SchemaMarkup.tsx, blogPosts.ts, robots.txt, schema.json, llms.txt, geo.txt, humans.txt, ai.txt, gpt.txt, claude.txt, nlp.txt, training.txt, security.txt, compliance.txt, ads.txt, accessibility.txt, crawlers.txt, seo.txt
-```
+### ✅ Contact Information
+- **Address**: 310 S Dixie Way, South Bend, IN 46637
+- **Phone**: 1-844-844-6638
+- **Email**: info@golfcartsofindiana.com
+- **Website**: https://golfcartsofindiana.com
+
+## Important Files
+- **SEO Configuration**: client/src/config/seoConfig.ts (centralized SEO settings)
+- **SEO Utilities**: client/src/utils/seoUtils.ts (URL generation utilities)
+- **SEO Head Component**: client/src/components/SEOHead.tsx
+- **Schema Markup**: client/src/components/SchemaMarkup.tsx and client/src/components/schema/* directory
+- **Blog Posts**: client/src/data/blogPosts.ts
+- **Public SEO Files**: public/ directory (23 optimization files)

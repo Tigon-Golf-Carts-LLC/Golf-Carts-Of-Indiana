@@ -22,7 +22,7 @@ export default function VideoObjectSchema({
   embedUrl, 
   publisher = {
     name: "Golf Carts Of Indiana",
-    logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+    logo: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png"
   }
 }: VideoObjectSchemaProps) {
   const videoSchema = {

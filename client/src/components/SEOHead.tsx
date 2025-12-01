@@ -283,8 +283,8 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@golfcartsofindiana.com",
         "url": canonicalUrl,
-        "logo": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png",
-        "image": `https://golfcartsofindiana.com${ogImage}`,
+        "logo": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
+        "image": finalOGImage,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

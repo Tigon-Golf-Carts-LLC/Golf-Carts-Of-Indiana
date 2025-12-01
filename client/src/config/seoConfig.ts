@@ -1,11 +1,12 @@
 // SEO Configuration for Golf Carts Of Indiana
 // This file contains site-wide SEO settings for meta tags, verification codes, and social profiles
+// All URLs use absolute paths for SEO optimization
 
 export const SEO_CONFIG = {
   // Site Information
   siteName: "Golf Carts Of Indiana",
   siteUrl: "https://golfcartsofindiana.com",
-  defaultImage: "/logo.png",
+  defaultImage: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
   
   // Social Media
   social: {
@@ -23,12 +24,12 @@ export const SEO_CONFIG = {
     yandex: "" // Add Yandex Webmaster verification code here
   },
   
-  // Favicon Settings
+  // Favicon Settings - Using absolute URLs for SEO
   favicon: {
-    primary: "/logo.png",
-    appleTouchIcon: "/logo.png",
-    size32: "/logo.png",
-    size16: "/logo.png"
+    primary: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
+    appleTouchIcon: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
+    size32: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
+    size16: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png"
   },
   
   // Business Information

@@ -64,7 +64,7 @@ export default function PlaceSchema({
       }),
       "image": {
         "@type": "ImageObject",
-        "url": "https://golfcartsofindiana.com/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        "url": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png"
       }
     };
     

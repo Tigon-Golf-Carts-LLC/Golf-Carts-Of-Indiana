@@ -1,5 +1,5 @@
 /**
- * Utility functions for generating Google Maps embed URLs for Monroe County locations
+ * Utility functions for generating Google Maps embed URLs for Indiana locations
  */
 
 export function generateGoogleMapsEmbed(locationName: string, locationType?: string): string {
@@ -8,8 +8,8 @@ export function generateGoogleMapsEmbed(locationName: string, locationType?: str
   
   // Create the full location string with proper formatting for Google Maps
   const fullLocation = locationType 
-    ? `${cleanLocationName} ${locationType}, Monroe County, IN`
-    : `${cleanLocationName}, Monroe County, IN`;
+    ? `${cleanLocationName} ${locationType}, Indiana`
+    : `${cleanLocationName}, Indiana`;
   
   // Encode the location for the URL
   const encodedLocation = encodeURIComponent(fullLocation);
@@ -22,8 +22,8 @@ export function generateGoogleMapsEmbedLegacy(locationName: string, locationType
   // Alternative method using the older embed format (more reliable for some locations)
   const cleanLocationName = locationName.trim();
   const fullLocation = locationType 
-    ? `${cleanLocationName} ${locationType}, Monroe County, IN`
-    : `${cleanLocationName}, Monroe County, IN`;
+    ? `${cleanLocationName} ${locationType}, Indiana`
+    : `${cleanLocationName}, Indiana`;
   
   // Encode for legacy embed format
   const encodedLocation = encodeURIComponent(fullLocation);
@@ -36,8 +36,8 @@ export function generateSimpleGoogleMapsEmbed(locationName: string, locationType
   // Most reliable method - simple place search
   const cleanLocationName = locationName.trim();
   const searchQuery = locationType 
-    ? `${cleanLocationName} ${locationType} Monroe County PA`
-    : `${cleanLocationName} Monroe County PA`;
+    ? `${cleanLocationName} ${locationType} Indiana`
+    : `${cleanLocationName} Indiana`;
   
   const encodedQuery = encodeURIComponent(searchQuery);
   

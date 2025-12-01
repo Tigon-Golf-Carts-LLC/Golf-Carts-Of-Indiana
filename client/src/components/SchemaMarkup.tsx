@@ -17,12 +17,12 @@ export const generateOrganizationSchema = () => ({
   "@type": "Organization",
   "name": "Golf Carts Of Indiana",
   "alternateName": "GCOI",
-  "description": "Premier golf cart dealer in Indiana specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "description": "Indiana's premier statewide golf cart dealer specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals across all 92 counties.",
   "url": "https://golfcartsofindiana.com",
-  "logo": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+  "logo": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
   "image": [
-    "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
-    "https://golfcartsofindiana.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+    "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
+    "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20-%20Indiana%20Golf%20Carts%20-%20LSV-NEV-MSV-PTV-UTV-%20STREET%20LEGAL_1764176169813.jpeg"
   ],
   "telephone": "1-844-844-6638",
   "email": "info@golfcartsofindiana.com",

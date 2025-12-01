@@ -605,7 +605,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Always include main company image */}
       <ImageObjectSchema
-        url="/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+        url="https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png"
         name="Golf Carts Of Indiana Logo"
         description="Golf Carts Of Indiana company logo featuring professional golf cart branding"
         width={400}
@@ -679,13 +679,13 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           {/* <VideoObjectSchema
             name="Golf Carts Of Indiana - Electric Vehicle Showcase"
             description="Watch our showcase of premium electric golf carts from DENAGO and EVOLUTION brands"
-            thumbnailUrl="/attached_assets/image_1753728346042.png"
+            thumbnailUrl="https://golfcartsofindiana.com/attached_assets/image_1753728346042.png"
             embedUrl={`${url}#video-showcase`}
             duration="PT3M45S"
             uploadDate="2024-12-01"
             publisher={{
               name: "Golf Carts Of Indiana",
-              logo: "/attached_assets/Monroe County Golf Carts (1)_1756141613254.png"
+              logo: "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png"
             }}
           /> */}
         </>

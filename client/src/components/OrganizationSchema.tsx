@@ -12,8 +12,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "Golf Carts Of Indiana",
       "description": "Premier golf cart dealership in Indiana specializing in electric golf carts, sales, service, rentals, and financing.",
       "url": "https://golfcartsofindiana.com",
-      "logo": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
-      "image": "https://golfcartsofindiana.com/attached_assets/Notre%20Dame%20Golf%20Carts_1763645528375.png",
+      "logo": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
+      "image": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20OF%20Indiana_1764172383192.png",
       "telephone": "1-844-844-6638",
       "email": "info@golfcartsofindiana.com",
       "address": {
