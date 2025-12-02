@@ -1,0 +1,105 @@
+# Security Policy - Golf Carts Of Indiana
+# security.txt - RFC 9116 Compliant
+# Last Updated: 2025-11-26
+
+Contact: security@golfcartsofindiana.com
+Contact: mailto:info@golfcartsofindiana.com
+Contact: tel:+1-844-844-6638
+Expires: 2026-11-26T23:59:59.000Z
+Encryption: https://golfcartsofindiana.com/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://golfcartsofindiana.com/.well-known/security.txt
+
+# Security Policy
+Policy: https://golfcartsofindiana.com/policies/security-policy
+
+# Acknowledgments
+Acknowledgments: https://golfcartsofindiana.com/security-acknowledgments
+
+# Hiring
+Hiring: https://golfcartsofindiana.com/careers
+
+===================================
+SECURITY REPORTING GUIDELINES
+===================================
+
+If you discover a security vulnerability on our website or systems, 
+please report it responsibly to security@golfcartsofindiana.com
+
+WHAT TO INCLUDE:
+- Description of the vulnerability
+- Steps to reproduce the issue
+- Potential impact assessment
+- Your contact information (optional for recognition)
+
+RESPONSE TIME:
+- Initial response: Within 48 hours
+- Status update: Within 7 days
+- Resolution timeline: Varies by severity
+
+RESPONSIBLE DISCLOSURE:
+- Please do not publicly disclose the vulnerability until we've had
+  a chance to address it
+- We appreciate researchers who practice responsible disclosure
+- Security hall of fame recognition for valid reports
+
+OUT OF SCOPE:
+- Issues in third-party applications
+- Social engineering attacks
+- Physical security issues
+- Denial of service attacks
+
+===================================
+SECURITY MEASURES
+===================================
+
+WEBSITE SECURITY:
+- HTTPS/TLS encryption on all pages
+- Secure payment processing (PCI DSS compliant)
+- Regular security updates and patches
+- Web application firewall protection
+- DDoS mitigation
+- Regular security audits
+
+DATA PROTECTION:
+- Customer data encryption at rest and in transit
+- Secure database configurations
+- Regular automated backups
+- Access control and authentication
+- Privacy policy compliance (GDPR, CCPA)
+- Secure session management
+
+NETWORK SECURITY:
+- Firewall protection
+- Intrusion detection systems
+- Regular vulnerability scans
+- Penetration testing
+- Network segmentation
+- Security monitoring and logging
+
+===================================
+COMPLIANCE
+===================================
+
+STANDARDS:
+- PCI DSS (Payment Card Industry Data Security Standard)
+- GDPR (General Data Protection Regulation)
+- CCPA (California Consumer Privacy Act)
+- WCAG 2.1 Level AA (Web Content Accessibility Guidelines)
+- SOC 2 Type II controls
+
+CERTIFICATIONS:
+- SSL/TLS Certificate (Let's Encrypt / DigiCert)
+- Business insurance and liability coverage
+- Professional certifications for technical staff
+
+===================================
+CONTACT INFORMATION
+===================================
+
+Security Team: security@golfcartsofindiana.com
+General Inquiries: info@golfcartsofindiana.com
+Phone: 1-844-844-6638 (Toll-Free)
+Address: 310 S Dixie Way, South Bend, IN 46637
+
+Business Hours: Monday-Saturday 9AM-5PM EST

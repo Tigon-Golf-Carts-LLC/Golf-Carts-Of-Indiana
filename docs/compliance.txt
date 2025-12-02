@@ -1,0 +1,344 @@
+# Compliance & Standards Documentation - Golf Carts Of Indiana
+# Regulatory, Industry, and Accessibility Compliance
+# Last Updated: November 26, 2025
+
+===================================
+GDPR COMPLIANCE (General Data Protection Regulation)
+===================================
+
+DATA PROTECTION PRINCIPLES:
+1. Lawfulness, fairness, and transparency
+2. Purpose limitation
+3. Data minimization
+4. Accuracy
+5. Storage limitation
+6. Integrity and confidentiality
+7. Accountability
+
+USER RIGHTS:
+- Right to access personal data
+- Right to rectification
+- Right to erasure ("right to be forgotten")
+- Right to restriction of processing
+- Right to data portability
+- Right to object
+- Rights related to automated decision-making
+
+IMPLEMENTATION:
+- Privacy policy clearly displayed
+- Cookie consent banner
+- Data processing agreements
+- Secure data storage and encryption
+- Regular data audits
+- Data breach notification procedures
+- DPO (Data Protection Officer) contact: privacy@golfcartsofindiana.com
+
+===================================
+WCAG 2.1 ACCESSIBILITY COMPLIANCE
+===================================
+
+LEVEL AA CONFORMANCE TARGETS:
+
+Perceivable:
+- Text alternatives for non-text content
+- Captions and alternatives for multimedia
+- Content adaptable to different presentations
+- Sufficient color contrast (4.5:1 minimum)
+- Text resizable to 200% without loss of functionality
+
+Operable:
+- All functionality keyboard accessible
+- Users can control timing
+- No content causes seizures
+- Navigation aids provided
+- Multiple ways to find pages
+
+Understandable:
+- Readable and understandable text
+- Pages operate predictably
+- Input assistance for forms
+- Error identification and suggestions
+
+Robust:
+- Compatible with assistive technologies
+- Valid HTML markup
+- Proper ARIA labels
+- Screen reader tested
+
+ASSISTIVE TECHNOLOGY SUPPORT:
+- Screen readers (JAWS, NVDA, VoiceOver)
+- Keyboard navigation
+- Voice recognition software
+- Screen magnification
+- Alternative input devices
+
+===================================
+CCPA COMPLIANCE (California Consumer Privacy Act)
+===================================
+
+CONSUMER RIGHTS:
+- Right to know what personal information is collected
+- Right to know if personal information is sold or disclosed
+- Right to opt-out of sale of personal information
+- Right to deletion of personal information
+- Right to non-discrimination
+
+IMPLEMENTATION:
+- "Do Not Sell My Personal Information" link
+- Privacy notice at or before collection
+- Verification procedures for consumer requests
+- 45-day response timeframe
+- Designated methods for submitting requests
+- Contact: privacy@golfcartsofindiana.com
+
+===================================
+AUTOMOTIVE INDUSTRY STANDARDS
+===================================
+
+LOW-SPEED VEHICLE (LSV) REGULATIONS:
+- FMVSS compliance for street-legal models
+- 25 mph maximum speed for LSVs
+- Required safety equipment:
+  * Headlights, tail lights, turn signals
+  * Seat belts
+  * Mirrors
+  * Parking brake
+  * Windshield (in some jurisdictions)
+
+INDIANA GOLF CART REGULATIONS:
+- Street-legal certification requirements
+- Local ordinance compliance (all 92 counties)
+- Insurance requirements
+- Registration with BMV
+- Age restrictions for operators
+- Municipality-specific rules
+
+BATTERY SAFETY STANDARDS:
+- Lithium-ion battery UN 38.3 certification
+- Proper ventilation requirements
+- Charging station specifications
+- Fire safety protocols
+- Battery disposal regulations
+- Recycling program compliance
+
+MANUFACTURER WARRANTIES:
+- DENAGO warranty coverage (4-5 years)
+- EVOLUTION warranty coverage (4-5 years)
+- Extended warranty options
+- Parts and labor coverage
+- Warranty transfer policies
+- Lemon law protection
+
+===================================
+CONSUMER PROTECTION LAWS
+===================================
+
+TRUTH IN ADVERTISING:
+- Accurate product descriptions
+- No misleading claims
+- Substantiated performance claims
+- Clear disclosure of terms and conditions
+- Honest pricing (no hidden fees)
+
+MAGNUSON-MOSS WARRANTY ACT:
+- Clear warranty terms
+- Full vs. limited warranty designation
+- Warranty coverage period
+- What is and isn't covered
+- How to obtain warranty service
+- Dispute resolution mechanisms
+
+FTC REGULATIONS:
+- Honest testimonials and reviews
+- Proper disclosure of sponsored content
+- Accurate comparative advertising
+- Compliance with mail/telephone order rules
+- Online shopping consumer protections
+
+===================================
+ENVIRONMENTAL COMPLIANCE
+===================================
+
+EPA REGULATIONS:
+- Zero emission vehicle benefits
+- No exhaust emissions
+- Noise pollution reduction
+- Energy efficiency standards
+
+BATTERY DISPOSAL:
+- Lithium-ion battery recycling programs
+- Proper disposal methods
+- Take-back programs
+- Environmental protection protocols
+
+GREEN BUSINESS PRACTICES:
+- Energy-efficient operations
+- Sustainable business practices
+- Eco-friendly packaging
+- Carbon footprint reduction
+
+===================================
+DATA SECURITY STANDARDS
+===================================
+
+PCI DSS COMPLIANCE (Payment Card Industry):
+- Secure payment processing
+- Encrypted credit card data
+- Regular security audits
+- Access control measures
+- Network security monitoring
+- Incident response plan
+
+SECURITY MEASURES:
+- SSL/TLS encryption (HTTPS everywhere)
+- Secure data storage
+- Regular security updates
+- Firewall protection
+- Intrusion detection
+- Regular vulnerability scans
+- Employee security training
+
+DATA BREACH PROTOCOLS:
+- Detection and containment
+- Assessment of breach scope
+- Notification to affected parties
+- Regulatory reporting
+- Remediation measures
+- Post-incident review
+
+===================================
+BUSINESS LICENSING & PERMITS
+===================================
+
+INDIANA STATE REQUIREMENTS:
+- Business license (current and active)
+- Sales tax permit
+- Dealer license for vehicle sales
+- Insurance requirements:
+  * General liability insurance
+  * Property insurance
+  * Workers' compensation
+  * Professional liability
+
+LOCAL PERMITS (Statewide Compliance):
+- Zoning compliance
+- Signage permits
+- Occupancy permits
+- Fire safety inspections
+- Health and safety compliance
+
+===================================
+EMPLOYMENT COMPLIANCE
+===================================
+
+LABOR LAWS:
+- Fair Labor Standards Act (FLSA)
+- Equal Employment Opportunity
+- ADA workplace compliance
+- OSHA safety standards
+- Workers' compensation coverage
+- Unemployment insurance
+
+EMPLOYEE RIGHTS:
+- Minimum wage compliance
+- Overtime pay regulations
+- Break time requirements
+- Anti-discrimination policies
+- Harassment prevention
+- Family and Medical Leave Act (FMLA)
+
+===================================
+INDUSTRY BEST PRACTICES
+===================================
+
+CUSTOMER SERVICE STANDARDS:
+- Transparent pricing
+- Clear communication
+- Professional conduct
+- Timely service delivery
+- Quality assurance
+- Customer satisfaction focus
+
+ETHICAL BUSINESS PRACTICES:
+- Honest advertising
+- Fair pricing
+- Quality products
+- Reliable service
+- Warranty honoring
+- Customer privacy protection
+
+PROFESSIONAL CERTIFICATIONS:
+- Factory-trained technicians
+- Manufacturer certifications
+- Industry association memberships
+- Ongoing training programs
+- Quality standards adherence
+
+===================================
+WEBSITE COMPLIANCE
+===================================
+
+TECHNICAL STANDARDS:
+- HTML5 validation
+- CSS3 compliance
+- JavaScript best practices
+- Mobile responsiveness
+- Cross-browser compatibility
+- Performance optimization
+
+LEGAL REQUIREMENTS:
+- Terms of Service
+- Privacy Policy
+- Cookie Policy
+- Accessibility Statement
+- Copyright notices
+- Trademark protection
+
+SEO AND ANALYTICS:
+- Google Analytics compliance
+- Tag Manager implementation
+- Cookie consent management
+- User privacy protection
+- Data retention policies
+
+===================================
+ONGOING COMPLIANCE MONITORING
+===================================
+
+REGULAR AUDITS:
+- Annual compliance reviews
+- Security assessments
+- Accessibility testing
+- Privacy policy updates
+- Legal consultation
+- Industry regulation monitoring
+
+STAFF TRAINING:
+- Compliance education
+- Privacy awareness
+- Security protocols
+- Customer service standards
+- Emergency procedures
+- Ethics training
+
+DOCUMENTATION:
+- Compliance certificates
+- Audit reports
+- Training records
+- Policy updates
+- Incident logs
+- Corrective actions
+
+===================================
+CONTACT INFORMATION
+===================================
+
+Compliance Officer: compliance@golfcartsofindiana.com
+Privacy Officer: privacy@golfcartsofindiana.com
+Security Officer: security@golfcartsofindiana.com
+General Inquiries: info@golfcartsofindiana.com
+Phone: 1-844-844-6638
+Address: 310 S Dixie Way, South Bend, IN 46637
+
+Last Updated: November 26, 2025
+Next Review Date: November 26, 2026

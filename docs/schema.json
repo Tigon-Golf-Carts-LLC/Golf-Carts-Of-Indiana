@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://golfcartsofindiana.com/#organization",
+      "name": "Golf Carts Of Indiana",
+      "alternateName": "TIGON Golf Carts Indiana",
+      "url": "https://golfcartsofindiana.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": [
+        "https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+        "https://golfcartsofindiana.com/attached_assets/GCI_Hero_Showroom_Interior_2025.png"
+      ],
+      "description": "Indiana's premier golf cart dealership serving all 92 counties statewide. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and professional service.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "310 S Dixie Way",
+        "addressLocality": "South Bend",
+        "addressRegion": "IN",
+        "postalCode": "46637",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.7360283",
+        "longitude": "-86.2511865"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-844-6638",
+          "contactType": "customer service",
+          "availableLanguage": "English",
+          "areaServed": "US-IN"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-844-844-6638",
+          "contactType": "sales",
+          "availableLanguage": "English",
+          "areaServed": "Indiana"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/TigonGolfCartsIndiana/",
+        "https://www.youtube.com/@GolfCartsOfIndiana",
+        "https://www.pinterest.com/golfcartsofindiana/",
+        "https://tigongolfcarts.com/indiana/"
+      ],
+      "areaServed": {
+        "@type": "State",
+        "name": "Indiana",
+        "description": "All 92 Indiana counties with 568+ municipalities statewide"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$5,995 - $17,995",
+      "paymentAccepted": "Cash, Credit Card, Financing",
+      "currenciesAccepted": "USD"
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://golfcartsofindiana.com/#localbusiness",
+      "name": "Golf Carts Of Indiana",
+      "image": "https://golfcartsofindiana.com/attached_assets/GCI_Hero_Showroom_Interior_2025.png",
+      "url": "https://golfcartsofindiana.com",
+      "telephone": "1-844-844-6638",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "310 S Dixie Way",
+        "addressLocality": "South Bend",
+        "addressRegion": "IN",
+        "postalCode": "46637",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.7360283",
+        "longitude": "-86.2511865"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$$"
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://golfcartsofindiana.com/#autodealer",
+      "name": "Golf Carts Of Indiana - DENAGO & EVOLUTION Dealer",
+      "description": "Authorized dealer for DENAGO and EVOLUTION electric golf carts with 37 models available serving all of Indiana",
+      "brand": ["DENAGO", "EVOLUTION"],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Vehicle",
+            "name": "DENAGO Electric Golf Carts",
+            "brand": "DENAGO",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "fuelType": "Electric"
+            }
+          },
+          "priceRange": "$8,495 - $15,000",
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Vehicle",
+            "name": "EVOLUTION Golf Carts",
+            "brand": "EVOLUTION",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "fuelType": "Electric"
+            }
+          },
+          "priceRange": "$5,995 - $17,995",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://golfcartsofindiana.com/#website",
+      "url": "https://golfcartsofindiana.com",
+      "name": "Golf Carts Of Indiana",
+      "description": "Indiana's premier golf cart dealership serving all 92 counties statewide",
+      "publisher": {
+        "@id": "https://golfcartsofindiana.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://golfcartsofindiana.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}

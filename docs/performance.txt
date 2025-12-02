@@ -1,0 +1,263 @@
+# Performance Optimization Guidelines - Golf Carts Of Indiana
+# Core Web Vitals and Mobile-First Performance Standards
+# Last Updated: November 26, 2025
+
+===================================
+CORE WEB VITALS TARGETS
+===================================
+
+Largest Contentful Paint (LCP): < 2.5 seconds
+- Measure: Time until largest content element renders
+- Target: Under 2.5s for 75th percentile
+- Optimization: Image optimization, lazy loading, CDN usage
+
+First Input Delay (FID): < 100 milliseconds
+- Measure: Time from user interaction to browser response
+- Target: Under 100ms for 75th percentile
+- Optimization: Minimize JavaScript, code splitting, defer non-critical JS
+
+Cumulative Layout Shift (CLS): < 0.1
+- Measure: Visual stability during page load
+- Target: Under 0.1 for 75th percentile
+- Optimization: Size attributes on images, reserve space for ads
+
+Interaction to Next Paint (INP): < 200 milliseconds
+- Measure: Page responsiveness to user interactions
+- Target: Under 200ms for 75th percentile
+- Optimization: Optimize event handlers, reduce long tasks
+
+===================================
+MOBILE-FIRST INDEXING COMPLIANCE
+===================================
+
+MOBILE OPTIMIZATION PRIORITIES:
+1. Responsive design - fluid layouts, flexible images
+2. Touch-friendly navigation - 44x44px minimum tap targets
+3. Fast mobile load times - under 3 seconds
+4. Mobile viewport configuration - proper meta viewport tag
+5. No intrusive interstitials - avoid popup overlays
+
+MOBILE PAGE SPEED TARGETS:
+- First Contentful Paint: < 1.8s
+- Speed Index: < 3.4s
+- Time to Interactive: < 3.8s
+- Total Blocking Time: < 200ms
+- Largest Contentful Paint: < 2.5s
+- Cumulative Layout Shift: < 0.1
+
+===================================
+IMAGE OPTIMIZATION
+===================================
+
+OPTIMIZATION TECHNIQUES:
+- Modern formats (WebP, AVIF)
+- Responsive images with srcset
+- Lazy loading (loading="lazy")
+- Image compression (80-85% quality)
+- Proper sizing (no oversized images)
+- CDN delivery
+
+IMAGE SIZE TARGETS:
+- Hero images: < 200KB
+- Product images: < 150KB
+- Thumbnails: < 50KB
+- Icons/logos: < 25KB
+
+===================================
+JAVASCRIPT OPTIMIZATION
+===================================
+
+CODE SPLITTING:
+- Route-based splitting
+- Component-level splitting
+- Vendor bundle separation
+- Dynamic imports for heavy modules
+
+DEFER AND ASYNC:
+- Defer non-critical scripts
+- Async for independent scripts
+- Inline critical CSS
+- Remove unused JavaScript
+
+MINIFICATION AND COMPRESSION:
+- Minify all JS/CSS files
+- Enable Gzip/Brotli compression
+- Tree shaking unused code
+- Remove console.log statements
+
+===================================
+CSS OPTIMIZATION
+===================================
+
+CRITICAL CSS:
+- Inline above-the-fold CSS
+- Defer non-critical stylesheets
+- Remove unused CSS rules
+- Minimize CSS file size
+
+CSS TECHNIQUES:
+- Use CSS Grid and Flexbox
+- Avoid complex selectors
+- Minimize specificity
+- Use CSS variables efficiently
+
+===================================
+CDN AND CACHING
+===================================
+
+CDN CONFIGURATION:
+- Serve static assets from CDN
+- Geographic content distribution
+- Edge caching enabled
+- Automatic image optimization
+
+CACHE HEADERS:
+- Static assets: max-age=31536000 (1 year)
+- HTML: max-age=0, must-revalidate
+- API responses: appropriate cache-control
+- Versioned assets: immutable flag
+
+BROWSER CACHING:
+Cache-Control: public, max-age=31536000, immutable (for versioned assets)
+Cache-Control: public, max-age=3600 (for frequently updated content)
+Cache-Control: no-cache, must-revalidate (for dynamic content)
+
+===================================
+DATABASE AND API OPTIMIZATION
+===================================
+
+DATABASE QUERIES:
+- Index frequently queried columns
+- Use connection pooling
+- Implement query caching
+- Optimize N+1 queries
+- Use pagination for large datasets
+
+API PERFORMANCE:
+- Implement response caching
+- Use compression (gzip)
+- Minimize payload size
+- Use HTTP/2 server push
+- Enable keep-alive connections
+
+===================================
+THIRD-PARTY SCRIPTS
+===================================
+
+OPTIMIZATION STRATEGY:
+- Load third-party scripts async
+- Self-host critical third-party resources
+- Use facade technique for heavy embeds
+- Implement resource hints (preconnect, dns-prefetch)
+
+RESOURCE HINTS:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
+<link rel="preload" href="/fonts/main.woff2" as="font" crossorigin>
+
+===================================
+AMP (ACCELERATED MOBILE PAGES)
+===================================
+
+AMP IMPLEMENTATION (if applicable):
+- Create AMP versions of key pages
+- Use AMP components for interactive elements
+- Inline critical CSS
+- Lazy load images and iframes
+- Validate with AMP validator
+
+AMP BENEFITS:
+- Lightning-fast mobile load times
+- Potential Google Search carousel inclusion
+- Improved mobile user experience
+- Better mobile SEO rankings
+
+===================================
+SERVER CONFIGURATION
+===================================
+
+HTTP/2 OPTIMIZATION:
+- Enable HTTP/2 protocol
+- Use server push for critical resources
+- Multiplexing connections
+- Header compression
+
+COMPRESSION:
+- Enable Gzip compression (minimum)
+- Prefer Brotli compression (better)
+- Compress HTML, CSS, JS, SVG, JSON
+- Configure compression levels (6-9)
+
+===================================
+MONITORING AND ANALYTICS
+===================================
+
+PERFORMANCE MONITORING TOOLS:
+- Google PageSpeed Insights
+- Lighthouse CI
+- WebPageTest
+- Chrome DevTools Performance tab
+- Real User Monitoring (RUM)
+
+KEY METRICS TO TRACK:
+- Core Web Vitals (LCP, FID, CLS, INP)
+- Page load time
+- Time to First Byte (TTFB)
+- First Contentful Paint (FCP)
+- Speed Index
+- Total Blocking Time (TBT)
+
+ANALYTICS INTEGRATION:
+- Google Analytics 4: G-QJVWEK6RT8
+- Google Tag Manager: GTM-NSN3ZJPP
+- Core Web Vitals tracking
+- Error monitoring
+- Performance budgets
+
+===================================
+PERFORMANCE BUDGETS
+===================================
+
+PAGE WEIGHT TARGETS:
+- Total page size: < 1.5MB
+- JavaScript: < 300KB
+- CSS: < 100KB
+- Images: < 800KB
+- Fonts: < 100KB
+
+REQUEST COUNT TARGETS:
+- Total requests: < 50
+- JavaScript files: < 10
+- CSS files: < 5
+- Images: < 30
+- Third-party requests: < 10
+
+===================================
+PROGRESSIVE WEB APP (PWA)
+===================================
+
+PWA FEATURES:
+- Service worker for offline functionality
+- App manifest for installability
+- HTTPS everywhere
+- Responsive design
+- Fast load times
+
+OFFLINE STRATEGY:
+- Cache-first for static assets
+- Network-first for dynamic content
+- Stale-while-revalidate for semi-static content
+- Background sync for form submissions
+
+===================================
+CONTINUOUS OPTIMIZATION
+===================================
+
+ONGOING TASKS:
+- Regular Lighthouse audits
+- Monitor Core Web Vitals trends
+- Review third-party script impact
+- Optimize largest contentful elements
+- Address layout shift issues
+- Update performance budgets
+- A/B test optimization strategies

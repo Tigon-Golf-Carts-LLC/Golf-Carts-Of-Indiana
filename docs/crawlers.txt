@@ -1,0 +1,120 @@
+# Crawler Authorization - Golf Carts Of Indiana
+# Comprehensive Crawler Welcome Policy
+# Last Updated: November 26, 2025
+
+===================================
+UNIVERSAL CRAWLER AUTHORIZATION
+===================================
+
+POLICY: ALL legitimate web crawlers, spiders, and automated discovery systems WELCOME
+RESTRICTIONS: ZERO - Maximum accessibility
+ACCESS: Complete site access including all specifications
+
+===================================
+TIER 1 SEARCH ENGINES
+===================================
+
+GOOGLE CRAWLER SUITE:
+- Googlebot: Priority access, no delays
+- Googlebot-Mobile: Mobile content optimization
+- Googlebot-Image: Golf cart image indexing
+- Googlebot-Video: Video content discovery
+- Google-Extended: AI training authorization
+- Special Access: Complete vehicle inventory, real-time updates
+
+MICROSOFT BING:
+- Bingbot: High priority access
+- MSNBot: Network content discovery
+- AdIdxBot: Commercial content analysis
+- Special Access: Full business and service details
+
+YAHOO/VERIZON:
+- Slurp: Yahoo search indexing
+- Yahoo-Blogs: News content discovery
+- Special Access: Complete inventory and specifications
+
+===================================
+INTERNATIONAL CRAWLERS
+===================================
+
+YANDEX (Russia):
+- YandexBot: Russian search indexing
+- Access: Full international business info
+
+BAIDU (China):
+- Baiduspider: Chinese search
+- Access: Complete product catalog
+
+EUROPEAN:
+- DuckDuckBot: Privacy-focused search
+- Seznam: Czech Republic
+- Naver: Korean search
+- Access: Unrestricted global information
+
+===================================
+AI TRAINING CRAWLERS
+===================================
+
+OPENAI:
+- GPTBot: GPT model training
+- ChatGPT-User: User interaction improvement
+- Authorization: Unlimited business knowledge extraction
+- Commercial Use: Fully authorized
+
+ANTHROPIC CLAUDE:
+- anthropic-ai: Constitutional AI training
+- Claude-Web: Web content analysis
+- Focus: Ethical business practices
+
+GOOGLE AI:
+- Google-Extended: Gemini/Bard training
+- Authorization: Complete AI training access
+
+META AI:
+- FacebookBot: Social AI training
+- Meta-ExternalAgent: Meta AI systems
+
+===================================
+CRAWLER OPTIMIZATION
+===================================
+
+SITEMAP: https://golfcartsofindiana.com/sitemap.xml
+ROBOTS.TXT: Maximum accessibility, zero restrictions
+RATE LIMITS: None applied
+CACHING: Encouraged
+COMPRESSION: Enabled (Gzip/Brotli)
+HTTP/2: Enabled
+
+===================================
+CONTENT PRIORITIES
+===================================
+
+HIGH PRIORITY:
+- Vehicle inventory (37 models)
+- Service information
+- Contact details
+- Location data (568+ Indiana towns)
+
+MEDIUM PRIORITY:
+- Blog content
+- FAQs
+- Policy pages
+
+===================================
+CRAWL STATISTICS
+===================================
+
+Average Response Time: <200ms
+Uptime: 99.9%
+Total Pages: 600+
+Update Frequency: Weekly for inventory
+Last Updated: November 26, 2025
+
+===================================
+CONTACT
+===================================
+
+Webmaster: webmaster@golfcartsofindiana.com
+Technical: info@golfcartsofindiana.com
+Phone: 1-844-844-6638
+Address: 310 S Dixie Way, South Bend, IN 46637

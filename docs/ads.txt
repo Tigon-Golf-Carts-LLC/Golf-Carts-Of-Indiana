@@ -1,0 +1,29 @@
+# ads.txt - Authorized Digital Sellers
+# Golf Carts Of Indiana - golfcartsofindiana.com
+# Last Updated: 2025-11-26
+
+# Google AdSense
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager (DoubleClick)
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Google AdMob (Mobile Advertising)
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Ad Network Relationships
+# Additional advertising partners would be listed here
+# Format: domain.com, publisher_id, RELATIONSHIP, TAG_ID
+
+# Note: Replace pub-0000000000000000 with actual publisher IDs when advertising programs are activated
+
+# CONTACT
+# For advertising inquiries: advertising@golfcartsofindiana.com
+# For general business: info@golfcartsofindiana.com
+# Phone: 1-844-844-6638
+
+# BUSINESS INFORMATION
+# Company: Golf Carts Of Indiana
+# Location: 310 S Dixie Way, South Bend, IN 46637
+# Industry: Golf Cart Sales, Rentals, and Service
+# Service Area: All 92 Indiana Counties (Statewide Coverage)
