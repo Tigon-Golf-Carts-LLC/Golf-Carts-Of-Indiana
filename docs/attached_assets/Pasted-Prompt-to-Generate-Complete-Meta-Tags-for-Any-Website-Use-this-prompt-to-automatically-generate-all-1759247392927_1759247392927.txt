@@ -1,0 +1,196 @@
+Prompt to Generate Complete Meta Tags for Any Website
+Use this prompt to automatically generate all meta tags with dynamic placeholders:
+
+Please analyze the this website and all of it’s pages and generate a complete set of meta tags using the template below. Fill in ALL the dynamic placeholders {USE...} with the appropriate information extracted from the website:
+Website URL: [INSERT WEBSITE URL HERE]
+
+Instructions:
+Extract all relevant information from the website
+Replace every {USE...} placeholder with actual content from the website
+Use the website's actual social media handles, verification codes, and contact information
+Generate realistic structured data based on the business type
+Use today's date for date fields in ISO 8601 format
+Return the complete meta tags ready to copy and paste into the <head> section
+
+META TAGS TEMPLATE:
+
+Prompt to Generate Complete Meta Tags for Any Website
+Use this prompt to automatically generate all meta tags with dynamic placeholders:
+
+Please analyze the following website and generate a complete set of meta tags using the template below. Fill in ALL the dynamic placeholders {USE...} with the appropriate information extracted from the website:
+Website URL: [INSERT WEBSITE URL HERE]
+
+Instructions:
+Extract all relevant information from the website
+Replace every {USE...} placeholder with actual content from the website
+Use the website's actual social media handles, verification codes, and contact information
+Generate realistic structured data based on the business type
+Use today's date for date fields in ISO 8601 format
+Return the complete meta tags ready to copy and paste into the <head> section
+
+META TAGS TEMPLATE:
+<!-- Basic Meta Tags -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="{USE DESCRIPTION OF PAGE OR WEBSITE}" />
+<meta name="keywords" content="{USE KEYWORDS OF PAGE OR WEBSITE}" />
+<meta name="author" content="{USE WEBSITE NAME}" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow" />
+<meta name="bingbot" content="index, follow" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta name="revisit-after" content="7 days" />
+<meta name="language" content="{USE LANGUAGE OF WEBSITE}" />
+<meta name="geo.region" content="{USE REGION CODE LIKE US-PA}" />
+<meta name="geo.placename" content="{USE LOCATION OF PAGE OR WEBSITE}" />
+<meta name="geo.position" content="{USE LAT AND LONG OF PAGE OR WEBSITE}" />
+<meta name="ICBM" content="{USE LAT AND LONG OF PAGE OR WEBSITE}" />
+
+<!-- Canonical & Alternate Links -->
+<link rel="canonical" href="{USE URL OF PAGE OR WEBSITE}" />
+<link rel="alternate" hreflang="{USE LANGUAGE CODE LIKE en-us}" href="{USE URL OF PAGE OR WEBSITE}" />
+<link rel="alternate" hreflang="x-default" href="{USE URL OF PAGE OR WEBSITE}" />
+
+<!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+<meta property="og:locale" content="{USE LOCALE LIKE en_US}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{USE TITLE OF PAGE OR WEBSITE}" />
+<meta property="og:description" content="{USE DESCRIPTION OF PAGE OR WEBSITE}" />
+<meta property="og:url" content="{USE URL OF PAGE OR WEBSITE}" />
+<meta property="og:site_name" content="{USE WEBSITE NAME}" />
+<meta property="og:image" content="{USE IMAGE URL OF PAGE IMAGE OR WEBSITE LOGO IMAGE}" />
+<meta property="og:image:width" content="{USE IMAGE WIDTH OR 1200}" />
+<meta property="og:image:height" content="{USE IMAGE HEIGHT OR 630}" />
+<meta property="og:image:type" content="{USE IMAGE TYPE LIKE image/jpeg OR image/png}" />
+<meta property="og:image:alt" content="{USE ALT TEXT FOR IMAGE}" />
+<meta property="og:image:secure_url" content="{USE IMAGE URL OF PAGE IMAGE OR WEBSITE LOGO IMAGE}" />
+<meta property="article:publisher" content="{USE FACEBOOK PAGE URL IF AVAILABLE}" />
+<meta property="article:modified_time" content="{USE TODAYS DATE IN ISO 8601 FORMAT}" />
+<meta property="article:published_time" content="{USE PUBLISHED DATE IN ISO 8601 FORMAT}" />
+<meta property="fb:app_id" content="{USE FACEBOOK APP ID IF AVAILABLE}" />
+<meta property="fb:pages" content="{USE FACEBOOK PAGE ID IF AVAILABLE}" />
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{USE TWITTER HANDLE WITH @}" />
+<meta name="twitter:creator" content="{USE TWITTER HANDLE WITH @}" />
+<meta name="twitter:title" content="{USE TITLE OF PAGE OR WEBSITE}" />
+<meta name="twitter:description" content="{USE DESCRIPTION OF PAGE OR WEBSITE}" />
+<meta name="twitter:image" content="{USE IMAGE URL OF PAGE IMAGE OR WEBSITE LOGO IMAGE}" />
+<meta name="twitter:image:alt" content="{USE ALT TEXT FOR IMAGE}" />
+<meta name="twitter:domain" content="{USE ROOT DOMAIN LIKE example.com}" />
+
+<!-- Mobile & App Meta Tags -->
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="{USE WEBSITE NAME}" />
+<meta name="application-name" content="{USE WEBSITE NAME}" />
+<meta name="theme-color" content="{USE PRIMARY BRAND COLOR HEX}" />
+<meta name="msapplication-TileColor" content="{USE PRIMARY BRAND COLOR HEX}" />
+<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+<meta name="msapplication-config" content="/browserconfig.xml" />
+
+<!-- Apple Touch Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="{USE PRIMARY BRAND COLOR HEX}" />
+
+<!-- Search Engine Verification -->
+<meta name="google-site-verification" content="{USE GOOGLE VERIFICATION CODE IF AVAILABLE}" />
+<meta name="msvalidate.01" content="{USE BING VERIFICATION CODE IF AVAILABLE}" />
+<meta name="yandex-verification" content="{USE YANDEX VERIFICATION CODE IF AVAILABLE}" />
+<meta name="p:domain_verify" content="{USE PINTEREST VERIFICATION CODE IF AVAILABLE}" />
+<meta name="alexaVerifyID" content="{USE ALEXA VERIFICATION CODE IF AVAILABLE}" />
+<meta name="norton-safeweb-site-verification" content="{USE NORTON VERIFICATION CODE IF AVAILABLE}" />
+
+<!-- Business/Local Business Schema -->
+<meta name="contact" content="{USE CONTACT EMAIL}" />
+<meta name="copyright" content="{USE COPYRIGHT TEXT LIKE © 2025 BUSINESS NAME}" />
+<meta name="reply-to" content="{USE CONTACT EMAIL}" />
+<meta name="owner" content="{USE BUSINESS NAME}" />
+<meta name="telephone" content="{USE PHONE NUMBER IN E.164 FORMAT}" />
+<meta name="address" content="{USE FULL ADDRESS}" />
+
+<!-- Social Media Profile Links -->
+<link rel="me" href="{USE MASTODON URL IF AVAILABLE}" />
+<link rel="me" href="{USE FACEBOOK URL IF AVAILABLE}" />
+<link rel="me" href="{USE TWITTER URL IF AVAILABLE}" />
+<link rel="me" href="{USE INSTAGRAM URL IF AVAILABLE}" />
+<link rel="me" href="{USE LINKEDIN URL IF AVAILABLE}" />
+<link rel="me" href="{USE YOUTUBE URL IF AVAILABLE}" />
+<link rel="me" href="{USE PINTEREST URL IF AVAILABLE}" />
+<link rel="me" href="{USE TIKTOK URL IF AVAILABLE}" />
+
+<!-- Preconnect for Performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
+<!-- RSS/Atom Feed -->
+<link rel="alternate" type="application/rss+xml" title="{USE WEBSITE NAME} RSS Feed" href="{USE RSS FEED URL IF AVAILABLE}" />
+<link rel="alternate" type="application/atom+xml" title="{USE WEBSITE NAME} Atom Feed" href="{USE ATOM FEED URL IF AVAILABLE}" />
+
+<!-- Additional SEO Meta Tags -->
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta name="format-detection" content="telephone=yes" />
+<meta name="HandheldFriendly" content="true" />
+<meta http-equiv="cleartype" content="on" />
+<meta http-equiv="imagetoolbar" content="no" />
+
+<!-- Pinterest Specific -->
+<meta name="pinterest-rich-pin" content="true" />
+<meta property="og:see_also" content="{USE PINTEREST URL IF AVAILABLE}" />
+
+<!-- LinkedIn Specific -->
+<meta property="og:linkedin:owner" content="{USE LINKEDIN COMPANY ID IF AVAILABLE}" />
+
+<!-- Instagram (uses Open Graph) -->
+<meta property="instagram:owner" content="{USE INSTAGRAM HANDLE WITH @}" />
+
+<!-- Generator (if using CMS) -->
+<meta name="generator" content="{USE CMS NAME AND VERSION LIKE WordPress 6.X}" />
+
+<!-- Structured Data (not meta, but important) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{USE BUSINESS TYPE LIKE LocalBusiness, Store, Restaurant, etc}",
+  "name": "{USE BUSINESS NAME}",
+  "image": "{USE MAIN IMAGE URL}",
+  "url": "{USE WEBSITE URL}",
+  "telephone": "{USE PHONE NUMBER}",
+  "email": "{USE EMAIL ADDRESS}",
+  "priceRange": "{USE PRICE RANGE LIKE $$ OR $$$}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{USE STREET ADDRESS}",
+    "addressLocality": "{USE CITY}",
+    "addressRegion": "{USE STATE/REGION}",
+    "postalCode": "{USE ZIP/POSTAL CODE}",
+    "addressCountry": "{USE COUNTRY CODE LIKE US}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {USE LATITUDE},
+    "longitude": {USE LONGITUDE}
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["{USE DAYS OPEN}"],
+    "opens": "{USE OPENING TIME}",
+    "closes": "{USE CLOSING TIME}"
+  }],
+  "sameAs": [
+    "{USE ALL SOCIAL MEDIA URLS AS ARRAY}"
+  ]
+}
+</script>
+
+
+Output Format: Please provide the completed meta tags with all placeholders filled in, ready to be copied directly into a website's <head> section. If any information is not available on the website, omit that meta tag entirely or note it as [NOT FOUND ON WEBSITE].
+

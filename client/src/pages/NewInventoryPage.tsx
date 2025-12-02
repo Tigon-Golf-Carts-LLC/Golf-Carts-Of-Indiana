@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -8,7 +7,8 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Search, Filter, Star, Phone, MapPin, Clock } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import type { Vehicle } from "@shared/schema";
+import { vehicles } from "@/data/vehicles";
+import type { Vehicle } from "@/data/vehicles";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function NewInventoryPage() {
@@ -17,20 +17,7 @@ export default function NewInventoryPage() {
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [priceFilter, setPriceFilter] = useState("all");
 
-  const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
-    queryKey: ["vehicles"],
-    queryFn: async () => {
-      const response = await fetch('/api/vehicles');
-      if (!response.ok) {
-        throw new Error(`Failed to fetch vehicles: ${response.status}`);
-      }
-      return response.json();
-    },
-    retry: 3,
-    refetchOnWindowFocus: false,
-  });
-
-  const filteredVehicles = vehicles?.filter(vehicle => {
+  const filteredVehicles = vehicles.filter(vehicle => {
     const matchesSearch = vehicle.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          vehicle.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesBrand = brandFilter === "all" || vehicle.brand.toLowerCase() === brandFilter.toLowerCase();
@@ -134,44 +121,20 @@ export default function NewInventoryPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center mb-8">
               <h2 className="text-2xl font-bold text-gray-900">
-                Available Golf Carts ({filteredVehicles?.length || 0})
+                Available Golf Carts ({filteredVehicles.length})
               </h2>
             </div>
 
-            {error && (
-              <div className="text-center py-8">
-                <p className="text-red-600">Error loading vehicles: {error.message}</p>
-              </div>
-            )}
-            
-            {isLoading ? (
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {[...Array(6)].map((_, i) => (
-                  <Card key={i} className="animate-pulse">
-                    <div className="bg-gray-200 h-48 rounded-t-lg"></div>
-                    <CardHeader>
-                      <div className="h-4 bg-gray-200 rounded w-3/4"></div>
-                      <div className="h-3 bg-gray-200 rounded w-full"></div>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="h-3 bg-gray-200 rounded w-full mb-2"></div>
-                      <div className="h-3 bg-gray-200 rounded w-2/3"></div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            ) : !filteredVehicles || filteredVehicles.length === 0 ? (
+            {filteredVehicles.length === 0 ? (
               <div className="text-center py-8">
                 <p className="text-gray-600">No vehicles match your current filters.</p>
-                {vehicles && vehicles.length > 0 && (
-                  <p className="text-sm text-gray-500 mt-2">
-                    Showing 0 of {vehicles.length} total vehicles
-                  </p>
-                )}
+                <p className="text-sm text-gray-500 mt-2">
+                  Showing 0 of {vehicles.length} total vehicles
+                </p>
               </div>
             ) : (
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredVehicles?.map((vehicle) => (
+                {filteredVehicles.map((vehicle) => (
                   <Card key={vehicle.id} className="overflow-hidden hover:shadow-lg transition-shadow bg-white border border-gray-200">
                     <div className="relative">
                       <img
@@ -214,7 +177,7 @@ export default function NewInventoryPage() {
               </div>
             )}
 
-            {filteredVehicles?.length === 0 && !isLoading && (
+            {filteredVehicles.length === 0 && (
               <div className="text-center py-12">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">No vehicles found</h3>
                 <p className="text-gray-600 mb-4">Try adjusting your search criteria or filters.</p>
