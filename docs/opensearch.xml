@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" 
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Golf Carts Of Indiana</ShortName>
+  <Description>Search Golf Carts Of Indiana for golf cart sales, rentals, and service across all 92 Indiana counties</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png</Image>
+  <Image width="64" height="64" type="image/png">https://golfcartsofindiana.com/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png</Image>
+  <Url type="text/html" 
+       template="https://golfcartsofindiana.com/search?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" 
+       template="https://golfcartsofindiana.com/api/suggestions?q={searchTerms}"/>
+  <moz:SearchForm>https://golfcartsofindiana.com/inventory</moz:SearchForm>
+  <Query role="example" searchTerms="DENAGO EV CITY" />
+  <Developer>Golf Carts Of Indiana Development Team</Developer>
+  <Contact>info@golfcartsofindiana.com</Contact>
+  <Tags>golf carts, electric vehicles, Indiana, statewide, DENAGO, EVOLUTION, Indianapolis, Fort Wayne, South Bend</Tags>
+  <LongName>Golf Carts Of Indiana - Statewide Service</LongName>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>en-US</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+</OpenSearchDescription>

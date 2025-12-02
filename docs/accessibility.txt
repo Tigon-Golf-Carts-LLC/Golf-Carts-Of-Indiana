@@ -1,0 +1,96 @@
+# Accessibility Statement - Golf Carts Of Indiana
+# WCAG 2.1 Level AA Compliance Commitment
+# Last Updated: November 2025
+
+===================================
+ACCESSIBILITY COMMITMENT
+===================================
+
+Golf Carts Of Indiana is committed to ensuring digital accessibility for people with disabilities. We continuously improve user experience for everyone and apply WCAG 2.1 Level AA standards.
+
+===================================
+CONFORMANCE STATUS
+===================================
+
+TARGET: WCAG 2.1 Level AA
+STATUS: Actively working towards full compliance
+STANDARDS: W3C Web Content Accessibility Guidelines
+
+===================================
+ACCESSIBILITY FEATURES
+===================================
+
+VISUAL ACCESSIBILITY:
+- High contrast color schemes (4.5:1 minimum ratio)
+- Alternative text for all images
+- Scalable text (up to 200%)
+- Consistent navigation structure
+- Proper heading hierarchy (H1-H6)
+
+KEYBOARD NAVIGATION:
+- Full keyboard support
+- Visible focus indicators
+- Logical tab order
+- Skip links to main content
+- No keyboard traps
+
+MOTOR/MOBILITY:
+- Large click targets (44x44px minimum)
+- Touch-friendly interface
+- Adequate spacing between elements
+- Voice control support
+
+HEARING ACCESSIBILITY:
+- Captions for video content
+- Visual indicators for alerts
+- No auto-playing audio
+
+COGNITIVE ACCESSIBILITY:
+- Plain language throughout
+- Consistent layouts
+- Clear headings
+- Simple forms with instructions
+- Helpful error messages
+
+===================================
+ASSISTIVE TECHNOLOGY SUPPORT
+===================================
+
+SCREEN READERS:
+- JAWS compatible
+- NVDA compatible
+- VoiceOver compatible
+- Proper ARIA labels
+- Semantic HTML
+
+===================================
+PRODUCT ACCESSIBILITY
+===================================
+
+GOLF CART MODIFICATIONS:
+- Hand controls available
+- Wheelchair accessible options
+- Easy-entry seating
+- Custom controls for various needs
+- Safety equipment for all users
+
+===================================
+CONTACT FOR ACCESSIBILITY
+===================================
+
+Accessibility Coordinator: accessibility@golfcartsofindiana.com
+General Inquiries: info@golfcartsofindiana.com
+Phone: 1-844-844-6638
+Address: 310 S Dixie Way, South Bend, IN 46637
+
+We welcome feedback on accessibility improvements.
+
+===================================
+ONGOING IMPROVEMENTS
+===================================
+
+- Regular accessibility audits
+- User testing with assistive technologies
+- Staff accessibility training
+- Continuous WCAG compliance monitoring
+- Third-party accessibility reviews

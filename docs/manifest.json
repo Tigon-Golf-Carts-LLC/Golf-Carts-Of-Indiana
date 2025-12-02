@@ -1,0 +1,99 @@
+{
+  "name": "Golf Carts Of Indiana",
+  "short_name": "GC Indiana",
+  "description": "Indiana's premier golf cart dealership serving all 92 counties statewide. Authorized DENAGO and EVOLUTION dealer offering sales, rentals, and service.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e2e55",
+  "theme_color": "#0e2e55",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["business", "automotive", "shopping", "lifestyle"],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "icons": [
+    {
+      "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/attached_assets/GCI_Hero_Showroom_Interior_2025.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Golf Carts Of Indiana Showroom"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "View Inventory",
+      "short_name": "Inventory",
+      "description": "Browse our complete golf cart inventory",
+      "url": "/inventory",
+      "icons": [
+        {
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Rent Golf Cart",
+      "short_name": "Rentals",
+      "description": "View rental options and pricing",
+      "url": "/rentals",
+      "icons": [
+        {
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our team",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "All Indiana Towns",
+      "short_name": "Towns",
+      "description": "Browse service areas across Indiana",
+      "url": "/towns",
+      "icons": [
+        {
+          "src": "/attached_assets/Golf%20Carts%20Of%20Indiana%20Logo%202025.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "serviceworker": {
+    "src": "/sw.js",
+    "scope": "/",
+    "use_cache": true
+  },
+  "gcm_sender_id": "103953800507"
+}

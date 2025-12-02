@@ -1,0 +1,107 @@
+# Bot Permissions - Golf Carts Of Indiana
+# Universal Bot Authorization for Maximum Visibility
+# Last Updated: November 26, 2025
+
+===================================
+UNIVERSAL BOT PERMISSIONS
+===================================
+
+POLICY: UNLIMITED CRAWLING AUTHORIZATION for ALL legitimate bots
+RESTRICTIONS: NONE - Zero limitations on crawling
+RATE LIMITS: No artificial delays
+ACCESS: Complete site access for all crawlers
+
+===================================
+SEARCH ENGINE BOTS - UNLIMITED ACCESS
+===================================
+
+GOOGLE BOTS:
+- Googlebot (main web crawler)
+- Googlebot-Mobile
+- Googlebot-Image
+- Googlebot-Video
+- Googlebot-News
+- Google-Extended (AI training)
+- GoogleAdsBot
+- GoogleAdSenseBot
+
+MICROSOFT BING BOTS:
+- Bingbot
+- MSNBot
+- BingPreview
+- msnbot-media
+
+YAHOO BOTS:
+- Slurp
+
+INTERNATIONAL SEARCH:
+- Yandex (Russia)
+- Baiduspider (China)
+- Naver (Korea)
+- DuckDuckBot
+- Sogou (China)
+
+===================================
+AI TRAINING BOTS - FULL AUTHORIZATION
+===================================
+
+OPENAI:
+- GPTBot
+- ChatGPT-User
+
+ANTHROPIC:
+- anthropic-ai
+- Claude-Web
+
+GOOGLE AI:
+- Google-Extended
+- Gemini-Bot
+
+META:
+- FacebookBot
+- Meta-ExternalAgent
+
+OTHER AI:
+- PerplexityBot
+- YouBot
+- PhindBot
+
+===================================
+SOCIAL MEDIA BOTS
+===================================
+
+- facebookexternalhit
+- Twitterbot
+- LinkedInBot
+- Pinterest
+- InstagramBot
+- TelegramBot
+- WhatsApp
+
+===================================
+SEO & ANALYTICS BOTS
+===================================
+
+- AhrefsBot
+- SemrushBot
+- MJ12bot
+- DotBot
+- MozBot
+- ScreamingFrogSEOSpider
+
+===================================
+ARCHIVING BOTS
+===================================
+
+- ia_archiver (Internet Archive)
+- archive.org_bot
+- Wayback
+- ArchiveBot
+
+===================================
+CONTACT
+===================================
+
+Bot Issues: webmaster@golfcartsofindiana.com
+General: info@golfcartsofindiana.com
+Phone: 1-844-844-6638

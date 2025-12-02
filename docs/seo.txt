@@ -1,0 +1,238 @@
+# SEO Optimization Data - Golf Carts Of Indiana
+# Complete Search Engine Accessibility & Keyword Strategy
+# Last Updated: November 26, 2025
+
+===================================
+PRIMARY SEO TARGETING
+===================================
+
+CORE BUSINESS KEYWORDS (High Volume):
+- golf carts Indiana
+- golf carts Indianapolis
+- golf carts Fort Wayne
+- electric golf carts Indiana
+- DENAGO golf carts Indiana
+- EVOLUTION golf carts Indiana
+- golf cart dealer Indiana
+- golf cart sales Indiana
+- golf cart rentals Indiana
+
+PRODUCT-SPECIFIC KEYWORDS (High Intent):
+- DENAGO EV CITY for sale Indiana
+- EVOLUTION D5 Ranger golf cart
+- street legal golf cart Indiana
+- off-road golf cart Indiana
+- 6 passenger golf cart Indiana
+- utility golf cart Indiana
+- golf cart financing Indiana
+- new golf carts for sale Indiana
+
+===================================
+GEOGRAPHIC SEO KEYWORDS
+===================================
+
+MAJOR CITY TERMS:
+- Indianapolis golf carts
+- Fort Wayne golf cart dealer
+- Evansville golf carts
+- South Bend golf cart sales
+- Carmel golf carts
+- Fishers golf cart dealer
+- Hammond golf carts
+- Bloomington golf cart sales
+
+REGIONAL TERMS:
+- Central Indiana golf carts
+- Northern Indiana golf carts
+- Southern Indiana golf carts
+- Northwest Indiana golf carts
+- Northeast Indiana golf carts
+
+COUNTY TERMS:
+- Marion County golf carts
+- Hamilton County golf cart dealer
+- Allen County golf carts
+- Lake County golf cart sales
+- St. Joseph County golf carts
+- all 92 Indiana counties covered
+
+===================================
+SERVICE-RELATED KEYWORDS
+===================================
+
+- golf cart repair Indiana
+- golf cart maintenance Indiana
+- golf cart battery replacement
+- golf cart parts Indiana
+- golf cart service center Indiana
+- golf cart delivery Indiana
+- golf cart storage Indiana
+
+===================================
+SEASONAL KEYWORDS
+===================================
+
+- spring golf cart service Indiana
+- summer golf cart rentals Indiana
+- fall golf cart maintenance
+- winter golf cart storage Indiana
+- holiday golf cart rentals
+
+===================================
+LONG-TAIL KEYWORDS
+===================================
+
+- where to buy golf carts in Indiana
+- best golf cart dealer Indiana statewide
+- affordable golf carts for sale Indiana
+- street legal golf carts for neighborhoods Indiana
+- golf cart rental delivery Indianapolis
+- used golf carts Indiana
+- custom golf carts Indiana
+
+===================================
+COMPETITOR KEYWORDS
+===================================
+
+- golf carts vs UTVs Indiana
+- DENAGO vs EVOLUTION comparison
+- electric golf cart vs gas Indiana
+- Club Car alternative Indiana
+- Yamaha golf cart alternative
+
+===================================
+STRUCTURED DATA KEYWORDS
+===================================
+
+Business Type: Golf Cart Dealer, Electric Vehicle Sales, Rental Service
+Service Area: All 92 Indiana Counties (Statewide)
+Products: 37 models (6 DENAGO, 31 EVOLUTION)
+Price Range: $5,995 - $17,995
+Services: Sales, Rentals, Service, Parts, Customization
+
+===================================
+META DESCRIPTION TEMPLATES
+===================================
+
+Homepage: "Golf Carts Of Indiana - Statewide DENAGO & EVOLUTION dealer. 37 models, sales, rentals, service. Serving all 92 Indiana counties. Call 1-844-844-6638"
+
+Inventory: "Browse 37 electric golf cart models from $5,995. DENAGO & EVOLUTION. Street legal, off-road, utility. Statewide delivery across Indiana."
+
+Rentals: "Golf cart rentals across Indiana. Daily, weekly, monthly rates. Full insurance, statewide delivery. Call 1-844-844-6638"
+
+Service: "Professional golf cart service in Indiana. Factory-trained technicians. Battery, tires, brakes, electrical. Statewide service available."
+
+===================================
+LOCAL SEO OPTIMIZATION
+===================================
+
+Google Business Profile: Golf Carts Of Indiana
+Category: Golf Cart Dealer, Electric Vehicle Dealer
+Location: 310 S Dixie Way, South Bend, IN 46637
+Phone: 1-844-844-6638
+Service Area: All 92 Indiana Counties
+Hours: Mon-Sat 9AM-5PM, Sun Closed
+
+NAP CONSISTENCY (Name, Address, Phone):
+- Consistent across all directories
+- Exact same format everywhere
+- No variations or abbreviations
+
+LOCAL CITATIONS:
+- Google Business Profile
+- Bing Places
+- Yahoo Local
+- Yelp
+- Yellow Pages
+- Chamber of Commerce
+- Industry directories
+
+===================================
+CONTENT OPTIMIZATION
+===================================
+
+H1 Tags: Include primary keyword + location
+H2 Tags: Include secondary keywords naturally
+H3-H6: Organize content hierarchy
+Title Tags: 55-60 characters, keyword-rich
+Meta Descriptions: 150-160 characters, compelling CTAs
+Image Alt Text: Descriptive, keyword-relevant
+URL Slugs: Short, keyword-focused, hyphenated
+
+===================================
+TECHNICAL SEO
+===================================
+
+Page Speed: Core Web Vitals optimized
+Mobile-First: Responsive design
+HTTPS: SSL certificate active
+Structured Data: Schema.org markup implemented
+XML Sitemap: Complete, up-to-date (600+ pages)
+Robots.txt: Optimized for crawling
+Canonical URLs: Proper implementation
+Internal Linking: Logical structure
+
+===================================
+LINK BUILDING STRATEGY
+===================================
+
+LOCAL LINKS:
+- Chamber of Commerce (all Indiana)
+- Local business associations
+- Community organizations
+- Municipal websites
+- Tourism boards
+
+INDUSTRY LINKS:
+- Manufacturer websites (DENAGO, EVOLUTION)
+- Golf course directories
+- Outdoor recreation sites
+- Electric vehicle resources
+
+CONTENT LINKS:
+- Blog posts and articles
+- How-to guides
+- Video content
+- Infographics
+- Press releases
+
+===================================
+KEYWORD DENSITY TARGETS
+===================================
+
+Primary Keywords: 1-2% density
+Secondary Keywords: 0.5-1% density
+LSI Keywords: Natural distribution
+Brand Names: 2-3% density
+Location Terms: 1.5-2% density
+
+===================================
+COMPETITOR ANALYSIS
+===================================
+
+Monitor: Indiana golf cart dealers, regional competitors
+Track: Keyword rankings, backlinks, content strategy
+Analyze: Pricing, services, customer reviews
+Improve: Unique value propositions, service quality
+
+===================================
+CONVERSION OPTIMIZATION
+===================================
+
+CTAs: Clear, action-oriented
+Forms: Simple, mobile-friendly
+Phone Numbers: Click-to-call enabled
+Chat: Live chat or chatbot support
+Reviews: Encourage and respond to reviews
+Trust Signals: Certifications, warranties, guarantees
+
+===================================
+ANALYTICS TRACKING
+===================================
+
+Google Analytics 4: G-QJVWEK6RT8
+Google Tag Manager: GTM-NSN3ZJPP
+Track: Traffic, conversions, behavior
+Monitor: Rankings, visibility, CTR
+Report: Monthly performance reviews
+Optimize: Based on data insights
