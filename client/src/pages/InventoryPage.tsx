@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
+import { useState, useMemo } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import VehicleCard from "@/components/VehicleCard";
 import VehicleFilters from "@/components/VehicleFilters";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Vehicle } from "@shared/schema";
+import { vehicles } from "@/data/vehicles";
+import type { Vehicle } from "@/data/vehicles";
 import SchemaMarkup, { 
   generateBreadcrumbSchema,
   generateOfferCatalogSchema
@@ -30,24 +30,15 @@ export default function InventoryPage() {
     heroBackgroundSeed: "inventory"
   });
 
-  const { data: vehicles, isLoading, error } = useQuery<Vehicle[]>({
-    queryKey: ["/api/vehicles", selectedBrand, selectedCategory],
-    queryFn: async () => {
-      const params = new URLSearchParams();
-      if (selectedBrand) params.append("brand", selectedBrand);
-      if (selectedCategory) params.append("category", selectedCategory);
-      
-      const response = await fetch(`/api/vehicles?${params}`);
-      if (!response.ok) {
-        throw new Error("Failed to fetch vehicles");
-      }
-      return response.json();
-    },
-  });
+  const filteredVehicles = useMemo(() => {
+    return vehicles.filter((vehicle) => {
+      if (selectedBrand && vehicle.brand !== selectedBrand) return false;
+      if (selectedCategory && vehicle.category !== selectedCategory) return false;
+      return true;
+    });
+  }, [selectedBrand, selectedCategory]);
 
-  if (error) {
-    return (
-      <div className="max-w-7xl mx-auto px-4 py-8">
+  const isLoading = false;
         <div className="text-center">
           <h1 className="text-3xl font-bold text-red-600 mb-4">Error Loading Vehicles</h1>
           <p className="text-gray-600">
@@ -165,7 +156,7 @@ export default function InventoryPage() {
             </div>
           ))}
         </div>
-      ) : vehicles && vehicles.length > 0 ? (
+      ) : filteredVehicles.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {vehicles.map((vehicle) => (
             <VehicleCard key={vehicle.id} vehicle={vehicle} />
