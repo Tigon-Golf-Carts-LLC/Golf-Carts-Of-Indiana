@@ -1,12 +1,11 @@
-import { useQuery } from "@tanstack/react-query";
 import { useParams, Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowLeft, Phone, MessageCircle } from "lucide-react";
-import { Vehicle } from "@shared/schema";
+import { vehicles } from "@/data/vehicles";
+import type { Vehicle } from "@/data/vehicles";
 import SchemaMarkup, { 
   generateProductSchema,
   generateBreadcrumbSchema
@@ -17,17 +16,9 @@ import { getLightBackgroundStyle } from "@/utils/backgroundImages";
 export default function VehicleDetailPage() {
   const { id } = useParams<{ id: string }>();
 
-  const { data: vehicle, isLoading, error } = useQuery<Vehicle>({
-    queryKey: ["/api/vehicles", id],
-    queryFn: async () => {
-      const response = await fetch(`/api/vehicles/${id}`);
-      if (!response.ok) {
-        throw new Error("Vehicle not found");
-      }
-      return response.json();
-    },
-    enabled: !!id,
-  });
+  const vehicle = vehicles.find(v => v.id === id);
+  const isLoading = false;
+  const error = !vehicle;
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {
