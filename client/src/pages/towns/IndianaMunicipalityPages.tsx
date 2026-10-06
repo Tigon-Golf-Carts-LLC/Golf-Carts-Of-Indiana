@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Navigation, Car, DollarSign, ArrowRight } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import SchemaMarkup from "@/components/SchemaMarkup";
-import { useQuery } from "@tanstack/react-query";
+import { vehicles } from "@/data/vehicles";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 interface IndianaMunicipalityPageProps {
@@ -15,19 +15,8 @@ interface IndianaMunicipalityPageProps {
 
 export function IndianaMunicipalityPage({ municipalitySlug }: IndianaMunicipalityPageProps) {
   const municipality = INDIANA_MUNICIPALITIES.find(m => m.slug === municipalitySlug);
-  
-  const { data: vehicles = [] } = useQuery({
-    queryKey: ['/api/vehicles'],
-    queryFn: async () => {
-      const res = await fetch('/api/vehicles');
-      if (!res.ok) throw new Error('Failed to fetch vehicles');
-      const data = await res.json();
-      return data.vehicles || [];
-    },
-    staleTime: 1000 * 60 * 5,
-  });
 
-  const featuredVehicles = (vehicles as any[]).slice(0, 3);
+  const featuredVehicles = vehicles.slice(0, 3);
   
   if (!municipality) {
     return <div>Municipality not found</div>;
