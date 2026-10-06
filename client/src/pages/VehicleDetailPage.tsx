@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useParams, Link } from "wouter";
 import { Helmet } from "react-helmet-async";
@@ -5,8 +6,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
-import { ArrowLeft, Phone, MessageCircle } from "lucide-react";
-import { Vehicle } from "@shared/schema";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { ArrowLeft, Phone, MessageCircle, Send } from "lucide-react";
+import { vehicles, type Vehicle } from "@/data/vehicles";
+import TigonLeadForm from "@/components/TigonLeadForm";
 import SchemaMarkup, { 
   generateProductSchema,
   generateBreadcrumbSchema
@@ -16,10 +19,14 @@ import { getLightBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function VehicleDetailPage() {
   const { id } = useParams<{ id: string }>();
+  const [leadOpen, setLeadOpen] = useState(false);
 
   const { data: vehicle, isLoading, error } = useQuery<Vehicle>({
     queryKey: ["/api/vehicles", id],
     queryFn: async () => {
+      // The site is served as static files, so look the cart up in the bundled inventory first.
+      const local = vehicles.find((v) => v.id === id);
+      if (local) return local;
       const response = await fetch(`/api/vehicles/${id}`);
       if (!response.ok) {
         throw new Error("Vehicle not found");
@@ -191,6 +198,11 @@ export default function VehicleDetailPage() {
                 Get Financing Quote
               </Button>
             </a>
+            <Button size="lg" variant="outline" onClick={() => setLeadOpen(true)}
+              className="w-full border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
+              <Send className="w-4 h-4 mr-2" />
+              Request Info on This Cart
+            </Button>
             {vehicle.externalUrl && (
               <a href={vehicle.externalUrl} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="w-full border-theme-primary text-theme-primary hover:bg-theme-primary hover:text-white">
@@ -256,6 +268,11 @@ export default function VehicleDetailPage() {
                 Contact Sales Team
               </Button>
             </a>
+            <Button size="lg" variant="outline" onClick={() => setLeadOpen(true)}
+              className="border-theme-orange text-theme-orange hover:bg-theme-orange hover:text-white">
+              <Send className="w-4 h-4 mr-2" />
+              Send Us a Message
+            </Button>
             <Link href="/inventory">
               <Button size="lg" variant="outline" className="border-navy text-navy hover:bg-navy hover:text-white">
                 View More Vehicles
@@ -274,6 +291,24 @@ export default function VehicleDetailPage() {
       </Card>
         </div>
       </div>
+
+      <Dialog open={leadOpen} onOpenChange={setLeadOpen}>
+        <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>Ask About the {vehicle.name}</DialogTitle>
+            <DialogDescription>
+              Send us your details and our sales team will contact you about availability, pricing,
+              test drives and financing. Prefer to talk? Call <a href="tel:1-844-844-6638" className="text-theme-orange font-semibold">1-844-844-6638</a>.
+            </DialogDescription>
+          </DialogHeader>
+          <TigonLeadForm
+            vehicle={{ brand: vehicle.brand, model: vehicle.name, sku: vehicle.id }}
+            defaultComments={`I'm interested in the ${vehicle.name}. Is it available?`}
+            submitLabel="Send Request"
+            successText="Thank you! We received your request and will contact you shortly."
+          />
+        </DialogContent>
+      </Dialog>
     </>
   );
 }

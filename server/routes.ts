@@ -1,4 +1,5 @@
-import { Router } from "express";
+import express, { Router } from "express";
+import crypto from "crypto";
 import { z } from "zod";
 import storage from "./storage";
 import { insertVehicleSchema, contactFormSchema } from "@shared/schema";
@@ -122,6 +123,42 @@ router.post("/api/contact", async (req, res) => {
 });
 
 // SEO Routes - Serve sitemap.xml and robots.txt from public folder
+// TIGON IOT lead relay (only used when the site runs on this Node server and the
+// client is built with VITE_TIGON_LEAD_ENDPOINT=/api/lead). Forwards the browser's
+// multipart body unchanged and signs it with this webhook's own secret:
+//   X-Tigon-Signature: sha256=<hex HMAC-SHA256 of the raw body>
+// TIGON_WEBHOOK_URL and TIGON_WEBHOOK_SECRET come from server environment variables only.
+router.post(
+  "/api/lead",
+  express.raw({ type: () => true, limit: "35mb" }),
+  async (req, res) => {
+    const url = process.env.TIGON_WEBHOOK_URL;
+    const secret = process.env.TIGON_WEBHOOK_SECRET;
+    if (!url || !secret) {
+      return res.status(500).json({ ok: false, error: "Lead form is not configured. Please call us at 1-844-844-6638." });
+    }
+    const body: Buffer = Buffer.isBuffer(req.body) ? req.body : Buffer.alloc(0);
+    const signature = "sha256=" + crypto.createHmac("sha256", secret).update(body).digest("hex");
+    try {
+      const upstream = await fetch(url, {
+        method: "POST",
+        headers: {
+          "Content-Type": req.get("content-type") || "application/octet-stream",
+          "X-Tigon-Signature": signature,
+          "X-Forwarded-For": req.ip || "",
+          "User-Agent": req.get("user-agent") || "",
+        },
+        body,
+      });
+      const text = await upstream.text();
+      res.status(upstream.status).type(upstream.headers.get("content-type") || "application/json").send(text);
+    } catch (error) {
+      console.error("TIGON lead relay failed:", error);
+      res.status(502).json({ ok: false, error: "Sorry, something went wrong. Please try again or call us." });
+    }
+  },
+);
+
 router.get('/sitemap.xml', (req, res) => {
   res.set('Content-Type', 'application/xml');
   res.sendFile('sitemap.xml', { root: 'client/public' });

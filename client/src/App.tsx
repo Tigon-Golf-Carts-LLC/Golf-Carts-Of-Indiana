@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import useScrollToTop from "@/hooks/useScrollToTop";
+import { captureFirstTouch } from "@/lib/tigonLead";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
@@ -63,6 +64,9 @@ const fetcher = async (url: string) => {
 };
 
 queryClient.setQueryDefaults(['get'], { queryFn: ({ queryKey }) => fetcher(queryKey[0] as string) });
+
+// Remember the landing page's utm_*/gclid/fbclid for 30 days (first-touch attribution for lead forms).
+if (typeof window !== "undefined") captureFirstTouch();
 
 export default function App() {
   useScrollToTop();
